@@ -1,0 +1,160 @@
+---
+title: "Worked Examples"
+---
+
+## Comprehensive Worked Examples
+
+This page provides detailed, step-by-step solutions to help students understand the problem-solving process.
+
+## Example Set 1: Distance and Midpoint
+
+### Problem 1: Distance Between Points
+
+Find the distance between points A(3, 7) and B(15, 12).
+
+**Solution:**
+
+Given: $A(3, 7)$ and $B(15, 12)$
+
+Using the distance formula:
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+
+Substitute the coordinates:
+$$d = \sqrt{(15 - 3)^2 + (12 - 7)^2}$$
+
+Simplify inside the square root:
+$$d = \sqrt{12^2 + 5^2}$$
+$$d = \sqrt{144 + 25}$$
+$$d = \sqrt{169}$$
+$$d = 13$$
+
+**Answer:** The distance is 13 units.
+
+### Problem 2: Finding a Missing Coordinate
+
+Point M is the midpoint of line segment AB, where A(-2, 5) and M(3, 4). Find the coordinates of point B.
+
+**Solution:**
+
+Given: $A(-2, 5)$, $M(3, 4)$, and B$(x_2, y_2)$ is unknown
+
+Using the midpoint formula:
+$$M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
+
+For the x-coordinate:
+$$3 = \frac{-2 + x_2}{2}$$
+$$6 = -2 + x_2$$
+$$x_2 = 8$$
+
+For the y-coordinate:
+$$4 = \frac{5 + y_2}{2}$$
+$$8 = 5 + y_2$$
+$$y_2 = 3$$
+
+**Answer:** Point B is at (8, 3).
+
+## Example Set 2: Lines and Gradients
+
+### Problem 3: Finding the Equation of a Line
+
+Find the equation of the line that passes through points P(2, 5) and Q(8, 17).
+
+**Solution:**
+
+Step 1: Calculate the gradient
+$$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{17 - 5}{8 - 2} = \frac{12}{6} = 2$$
+
+Step 2: Use point-slope form with point P(2, 5)
+$$y - y_1 = m(x - x_1)$$
+$$y - 5 = 2(x - 2)$$
+
+Step 3: Expand and simplify
+$$y - 5 = 2x - 4$$
+$$y = 2x + 1$$
+
+**Answer:** The equation is $y = 2x + 1$.
+
+**Verification:** Check both points satisfy the equation:
+- For P(2, 5): $5 = 2(2) + 1 = 5$ ✓
+- For Q(8, 17): $17 = 2(8) + 1 = 17$ ✓
+
+### Problem 4: Intersection of Lines
+
+Find the point of intersection of lines $L_1: y = 2x + 1$ and $L_2: y = -x + 7$.
+
+**Solution:**
+
+At the intersection point, both equations are satisfied, so:
+$$2x + 1 = -x + 7$$
+
+Solve for x:
+$$2x + x = 7 - 1$$
+$$3x = 6$$
+$$x = 2$$
+
+Substitute into $L_1$ to find y:
+$$y = 2(2) + 1 = 5$$
+
+**Answer:** The lines intersect at point (2, 5).
+
+**Verification:** Check with $L_2$: $y = -(2) + 7 = 5$ ✓
+
+## Example Set 3: Parallel and Perpendicular Lines
+
+### Problem 5: Perpendicular Line Through a Point
+
+Line $L$ has equation $y = 4x - 3$. Find the equation of the line perpendicular to $L$ that passes through the point (8, 5).
+
+**Solution:**
+
+Step 1: Identify the gradient of $L$
+$$m_L = 4$$
+
+Step 2: Find the gradient of the perpendicular line
+$$m_{\perp} = -\frac{1}{m_L} = -\frac{1}{4}$$
+
+Step 3: Use point-slope form with (8, 5)
+$$y - 5 = -\frac{1}{4}(x - 8)$$
+$$y - 5 = -\frac{1}{4}x + 2$$
+$$y = -\frac{1}{4}x + 7$$
+
+**Answer:** The equation is $y = -\frac{1}{4}x + 7$.
+
+**Check:** Verify the product of gradients equals -1:
+$$m_L \times m_{\perp} = 4 \times \left(-\frac{1}{4}\right) = -1$$ ✓
+
+### Problem 6: Geometric Problem
+
+Points A(2, 3), B(6, 1), and C(4, 5) form a triangle. Show that angle ABC is a right angle.
+
+**Solution:**
+
+To show angle ABC is a right angle, we need to prove that lines BA and BC are perpendicular.
+
+Step 1: Find the gradient of BA
+$$m_{BA} = \frac{3 - 1}{2 - 6} = \frac{2}{-4} = -\frac{1}{2}$$
+
+Step 2: Find the gradient of BC
+$$m_{BC} = \frac{5 - 1}{4 - 6} = \frac{4}{-2} = -2$$
+
+Step 3: Check if lines are perpendicular
+$$m_{BA} \times m_{BC} = -\frac{1}{2} \times (-2) = 1$$
+
+Since the product of the gradients is 1 (not -1), the lines are NOT perpendicular.
+
+**Answer:** Angle ABC is not a right angle, as the product of gradients is 1, not -1.
+
+## Tips for Success
+
+1. **Always show your working** - partial credit is often awarded
+2. **Check your answers** - substitute back into original equations
+3. **Draw diagrams** - visual representations help understanding
+4. **Use appropriate formulas** - know when to apply each formula
+5. **Be careful with signs** - negative numbers need special attention
+
+## Practice Strategy
+
+- Work through these examples without looking at the solutions
+- Compare your method with the shown solution
+- If you made errors, identify where and why
+- Try creating similar problems and solving them

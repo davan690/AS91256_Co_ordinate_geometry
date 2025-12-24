@@ -1,0 +1,33 @@
+---
+title: "Resources"
+---
+
+## Teaching Resources
+
+This section provides supplementary materials to support teaching and learning of co-ordinate geometry.
+
+### Available Resources
+
+- [Worksheets](worksheets.qmd): Printable practice exercises
+- [Worked Examples](examples.qmd): Step-by-step solutions to common problems
+
+## Quick Links
+
+### Online Tools
+
+- [Desmos Graphing Calculator](https://www.desmos.com/calculator): Free online graphing tool
+- [GeoGebra](https://www.geogebra.org/): Interactive geometry software
+
+### Additional Reading
+
+Students seeking extra practice or alternative explanations may benefit from:
+- Khan Academy: Coordinate Plane sections
+- Mathisfun: Coordinate Geometry pages
+
+## Downloadable Materials
+
+All worksheets and resources are provided in formats suitable for printing and classroom use.
+
+## Contributing
+
+If you have additional resources or improvements, please consider contributing to this project via GitHub.

@@ -1,0 +1,89 @@
+---
+title: "Worksheets"
+---
+
+## Practice Worksheets
+
+The following worksheets provide structured practice for each topic in the course.
+
+### Worksheet 1: Coordinate Basics
+
+**Topic:** Plotting points, distance, and midpoint
+
+**Exercises:**
+
+1. Plot the following points on a coordinate plane:
+   - A(4, 3), B(-2, 5), C(-3, -4), D(1, -2), E(0, 6)
+
+2. Calculate the distance between:
+   - A(1, 1) and B(4, 5)
+   - C(-2, 3) and D(3, -9)
+   - E(0, 0) and F(-5, 12)
+
+3. Find the midpoint of:
+   - Line segment from (2, 8) to (10, 4)
+   - Line segment from (-3, 7) to (5, -1)
+
+### Worksheet 2: Gradient and Equations
+
+**Topic:** Finding gradients and writing equations of lines
+
+**Exercises:**
+
+1. Find the gradient of the line through:
+   - P(1, 3) and Q(5, 11)
+   - R(-2, 4) and S(6, -4)
+   - T(0, -3) and U(4, 5)
+
+2. Write the equation of the line:
+   - With gradient 3 and y-intercept 5
+   - With gradient -2 passing through (4, 1)
+   - Through points (2, 3) and (6, 11)
+
+3. Convert to slope-intercept form ($y = mx + c$):
+   - $3x + y - 6 = 0$
+   - $2x - 4y + 8 = 0$
+   - $x + 2y - 10 = 0$
+
+### Worksheet 3: Parallel and Perpendicular Lines
+
+**Topic:** Working with parallel and perpendicular lines
+
+**Exercises:**
+
+1. Determine whether each pair of lines is parallel, perpendicular, or neither:
+   - $y = 4x + 1$ and $y = 4x - 3$
+   - $y = 2x + 5$ and $y = -\frac{1}{2}x + 2$
+   - $y = 3x - 1$ and $y = 2x + 4$
+
+2. Find the equation of:
+   - The line parallel to $y = 5x + 2$ through point (2, 3)
+   - The line perpendicular to $y = -3x + 1$ through point (6, 4)
+   - The line parallel to $2x + y - 4 = 0$ through point (-1, 5)
+
+3. Challenge problems:
+   - Line $L$ passes through A(1, 2) and B(7, 8). Find the equation of the line perpendicular to $L$ that passes through the midpoint of AB.
+   - Points P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has gradient $\frac{1}{2}$, find the gradient of QR.
+
+## Answer Key
+
+**Worksheet 1:**
+1. (Plot on graph paper)
+2. a) 5, b) 13, c) 13
+3. a) (6, 6), b) (1, 3)
+
+**Worksheet 2:**
+1. a) 2, b) -1, c) 2
+2. a) $y = 3x + 5$, b) $y = -2x + 9$, c) $y = 2x - 1$
+3. a) $y = -3x + 6$, b) $y = \frac{1}{2}x + 2$, c) $y = -\frac{1}{2}x + 5$
+
+**Worksheet 3:**
+1. a) Parallel, b) Perpendicular, c) Neither
+2. a) $y = 5x - 7$, b) $y = \frac{1}{3}x + 2$, c) $y = -2x + 3$
+3. a) $y = -x + 9$, b) $m_{QR} = -2$
+
+## Printing Tips
+
+- Print worksheets on A4 paper
+- Consider providing graph paper for plotting exercises
+- Answer keys can be printed separately for teacher use

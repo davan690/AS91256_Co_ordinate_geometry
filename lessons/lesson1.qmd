@@ -1,0 +1,86 @@
+---
+title: "Lesson 1: Introduction to Cartesian Coordinates"
+---
+
+## Learning Objectives
+
+By the end of this lesson, students will be able to:
+
+- Understand the structure of the Cartesian coordinate system
+- Plot points accurately on a coordinate plane
+- Calculate the distance between two points using the distance formula
+- Find the midpoint of a line segment
+
+## The Cartesian Coordinate System
+
+The Cartesian coordinate system uses two perpendicular number lines:
+- The **x-axis** (horizontal)
+- The **y-axis** (vertical)
+
+The point where they intersect is called the **origin**, denoted as (0, 0).
+
+## Plotting Points
+
+Each point in the plane is represented by an ordered pair (x, y):
+- The first number (x) tells us how far to move horizontally
+- The second number (y) tells us how far to move vertically
+
+### Example 1: Plotting Points
+
+Plot the following points:
+- A(2, 3)
+- B(-1, 4)
+- C(-3, -2)
+- D(4, -1)
+
+## Distance Formula
+
+The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:
+
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+
+### Example 2: Finding Distance
+
+Find the distance between points A(1, 2) and B(4, 6).
+
+**Solution:**
+$$d = \sqrt{(4-1)^2 + (6-2)^2}$$
+$$d = \sqrt{3^2 + 4^2}$$
+$$d = \sqrt{9 + 16}$$
+$$d = \sqrt{25} = 5$$
+
+## Midpoint Formula
+
+The midpoint M of a line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ is:
+
+$$M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
+
+### Example 3: Finding Midpoint
+
+Find the midpoint of the line segment joining A(2, 3) and B(8, 7).
+
+**Solution:**
+$$M = \left(\frac{2 + 8}{2}, \frac{3 + 7}{2}\right) = \left(\frac{10}{2}, \frac{10}{2}\right) = (5, 5)$$
+
+## Practice Exercises
+
+1. Plot the following points on a coordinate plane:
+   - P(3, -2)
+   - Q(-4, 1)
+   - R(0, 5)
+
+2. Find the distance between:
+   - C(0, 0) and D(3, 4)
+   - E(-1, 2) and F(5, 10)
+
+3. Find the midpoint of the line segment joining:
+   - G(1, 1) and H(7, 9)
+   - J(-2, 3) and K(4, -5)
+
+## Homework
+
+Complete the worksheet on coordinate geometry basics (see [Resources](../resources/worksheets.qmd)).
+
+---
+
+**Next Lesson:** [Lesson 2: Gradients and Linear Equations](lesson2.qmd)

@@ -1,0 +1,49 @@
+---
+title: "Welcome to AS91256 Co-ordinate Geometry"
+---
+
+## About This Course
+
+This website contains resources and content for teaching co-ordinate geometry at Year 11 level. The course is designed as a three-week programme of study leading to assessment under the NCEA Level 2 standard AS91256, worth two credits.
+
+## Course Overview
+
+Co-ordinate geometry (also known as analytic geometry) combines algebra and geometry using a coordinate system. Students will learn to:
+
+- Plot and identify points in the Cartesian plane
+- Calculate distances between points
+- Find midpoints of line segments
+- Determine gradients (slopes) of lines
+- Work with equations of lines
+- Solve problems involving parallel and perpendicular lines
+
+## Course Structure
+
+### Week 1: Fundamentals
+- Introduction to the Cartesian coordinate system
+- Plotting points and basic concepts
+- Distance formula and applications
+
+### Week 2: Lines and Gradients
+- Understanding gradient (slope)
+- Equations of lines
+- Parallel and perpendicular lines
+
+### Week 3: Problem Solving and Assessment Preparation
+- Real-world applications
+- Problem-solving strategies
+- Practice assessment tasks
+
+## Navigation
+
+Use the navigation bar above to explore:
+
+- **Lessons**: Detailed lesson plans and teaching materials
+- **Resources**: Worksheets, examples, and additional materials
+- **Assessment**: Information about the NCEA assessment standard and practice questions
+
+## Getting Started
+
+If you're a teacher, start with the [Lessons](lessons/index.qmd) section to access structured lesson plans.
+
+If you're a student, explore the [Resources](resources/index.qmd) section for worksheets and worked examples.
