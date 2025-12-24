@@ -140,15 +140,7 @@ $$m_{BC} = \frac{5 - 1}{4 - 6} = \frac{4}{-2} = -2$$
 Step 3: Check if lines are perpendicular
 $$m_{BA} \times m_{BC} = -\frac{1}{2} \times (-2) = 1$$
 
-Hmm, this gives 1, not -1. Let me recalculate...
-
-Actually, I made an error. Let me recalculate the gradients more carefully:
-$$m_{BA} = \frac{3 - 1}{2 - 6} = \frac{2}{-4} = -\frac{1}{2}$$
-$$m_{BC} = \frac{5 - 1}{4 - 6} = \frac{4}{-2} = -2$$
-
-Product: $(-\frac{1}{2}) \times (-2) = 1$
-
-This means the lines are NOT perpendicular (we need product = -1), so angle ABC is NOT a right angle.
+Since the product of the gradients is 1 (not -1), the lines are NOT perpendicular.
 
 **Answer:** Angle ABC is not a right angle, as the product of gradients is 1, not -1.
 

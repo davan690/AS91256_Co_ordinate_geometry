@@ -38,14 +38,7 @@ $$y - 7 = 3(x - 2)$$
 $$y - 7 = 3x - 6$$
 $$y = 3x + 1$$
 
-Wait, this is the same line! Let me recalculate:
-$$y - 7 = 3(x - 2)$$
-$$y = 3x - 6 + 7$$
-$$y = 3x + 1$$
-
-Actually, checking: when $x = 2$, $y = 3(2) + 1 = 7$ ✓
-
-The line is $y = 3x + 1$.
+**Verification:** When $x = 2$, $y = 3(2) + 1 = 7$ ✓
 
 ## Perpendicular Lines
 
