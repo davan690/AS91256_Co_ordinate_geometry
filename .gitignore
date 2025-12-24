@@ -53,3 +53,5 @@ rsconnect/
 /_site/
 /_book/
 /.quarto-cache/
+
+**/*.quarto_ipynb
