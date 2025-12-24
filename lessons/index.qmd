@@ -1,0 +1,44 @@
+---
+title: "Lessons"
+---
+
+## Course Lessons
+
+This section contains detailed lesson plans for the three-week AS91256 Co-ordinate Geometry course.
+
+### Weekly Structure
+
+Each lesson includes:
+- Learning objectives
+- Teaching notes
+- Worked examples
+- Practice exercises
+- Assessment opportunities
+
+### Available Lessons
+
+1. [Lesson 1: Introduction to Cartesian Coordinates](lesson1.qmd)
+   - Understanding the coordinate plane
+   - Plotting points
+   - Distance formula
+
+2. [Lesson 2: Gradients and Linear Equations](lesson2.qmd)
+   - Calculating gradient (slope)
+   - Equations of lines
+   - Point-slope and slope-intercept forms
+
+3. [Lesson 3: Parallel and Perpendicular Lines](lesson3.qmd)
+   - Properties of parallel lines
+   - Properties of perpendicular lines
+   - Problem-solving applications
+
+## Teaching Tips
+
+- Use graphing tools and visualizations to reinforce concepts
+- Connect mathematical concepts to real-world applications
+- Encourage students to check their work using multiple methods
+- Provide plenty of practice with increasing difficulty
+
+## Additional Support
+
+For additional resources and worksheets, visit the [Resources](../resources/index.qmd) section.

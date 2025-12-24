@@ -1,0 +1,169 @@
+---
+title: "Assessment"
+---
+
+## NCEA Level 2 - AS91256
+
+### Achievement Standard
+
+**AS91256:** Apply co-ordinate geometry methods in solving problems
+
+**Level:** 2  
+**Credits:** 2  
+**Assessment:** Internal
+
+## Achievement Criteria
+
+### Achievement
+
+- Apply co-ordinate geometry methods in solving problems
+
+### Achievement with Merit
+
+- Apply co-ordinate geometry methods, using relational thinking, in solving problems
+
+### Achievement with Excellence
+
+- Apply co-ordinate geometry methods, using extended abstract thinking, in solving problems
+
+## What This Means
+
+### Achievement Level
+Students can:
+- Use appropriate formulas correctly
+- Complete straightforward calculations
+- Solve simple co-ordinate geometry problems
+
+### Merit Level
+Students can:
+- Select and apply appropriate methods
+- Connect different geometric concepts
+- Solve problems requiring multiple steps
+- Explain their reasoning
+
+### Excellence Level
+Students can:
+- Solve complex, unfamiliar problems
+- Develop chains of logical reasoning
+- Make and test conjectures
+- Provide comprehensive solutions with full justification
+
+## Assessment Topics
+
+The assessment may cover:
+
+1. **Distance and Midpoint**
+   - Calculating distances between points
+   - Finding midpoints of line segments
+   - Using distance and midpoint in problems
+
+2. **Gradient**
+   - Calculating gradient from two points
+   - Interpreting gradient in context
+   - Using gradient to solve problems
+
+3. **Equations of Lines**
+   - Finding equations in various forms
+   - Converting between forms
+   - Using equations to solve problems
+
+4. **Parallel and Perpendicular Lines**
+   - Identifying relationships between lines
+   - Finding equations of parallel/perpendicular lines
+   - Applying these concepts to geometric problems
+
+5. **Problem Solving**
+   - Real-world applications
+   - Multi-step problems
+   - Geometric proofs using co-ordinate methods
+
+## Sample Problems
+
+### Achievement Level Problem
+
+Find the distance between points A(3, 4) and B(7, 7).
+
+### Merit Level Problem
+
+A line passes through points P(2, 5) and Q(8, k). If the line has gradient 2, find the value of k.
+
+### Excellence Level Problem
+
+Points A(1, 2), B(5, 4), and C(3, 6) are vertices of a triangle. 
+a) Show that triangle ABC is isosceles.
+b) Find the equation of the perpendicular bisector of side AB.
+c) Verify that this perpendicular bisector passes through point C.
+
+## Preparation Tips
+
+### For Achievement
+- Practice all basic formulas
+- Learn to substitute correctly
+- Check your arithmetic
+- Show all working
+
+### For Merit
+- Understand when to use each method
+- Practice multi-step problems
+- Explain your reasoning clearly
+- Check answers make sense
+
+### For Excellence
+- Attempt challenging problems
+- Develop problem-solving strategies
+- Write complete justifications
+- Look for connections between concepts
+
+## Practice Assessment
+
+A full practice assessment is available to help you prepare. Work through it under test conditions, then check your solutions.
+
+### Time Allowance
+
+The assessment is typically 1-1.5 hours.
+
+### Allowed Materials
+
+- Calculator (scientific or graphics)
+- Ruler
+- Pencil and eraser
+
+## Study Schedule
+
+### Week 1: Foundation
+- Review all formulas
+- Complete basic exercises
+- Check understanding of concepts
+
+### Week 2: Application
+- Work on multi-step problems
+- Practice explaining reasoning
+- Focus on weak areas
+
+### Week 3: Assessment Preparation
+- Complete practice assessments
+- Review common mistakes
+- Focus on time management
+
+## Common Mistakes to Avoid
+
+1. **Calculation errors** - double-check arithmetic
+2. **Sign errors** - be careful with negative coordinates
+3. **Formula confusion** - make sure you use the right formula
+4. **Incomplete solutions** - show all steps
+5. **Not checking** - verify your answers make sense
+
+## Resources
+
+- [Worked Examples](../resources/examples.qmd)
+- [Practice Worksheets](../resources/worksheets.qmd)
+- Past assessment examples (check with your teacher)
+
+## Questions?
+
+If you have questions about the assessment:
+- Ask your teacher
+- Review the [Lessons](../lessons/index.qmd) section
+- Practice with the resources provided
+
+Good luck with your assessment!

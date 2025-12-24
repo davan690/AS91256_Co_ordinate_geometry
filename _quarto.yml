@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "AS91256 Co-ordinate Geometry"
+  description: "Resources and content for teaching co-ordinate geometry at year 11. Three week course. Assessment is Level 2 NCEA. Two credits."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: lessons/index.qmd
+        text: Lessons
+      - href: resources/index.qmd
+        text: Resources
+      - href: assessment/index.qmd
+        text: Assessment
+    right:
+      - icon: github
+        href: https://github.com/davan690/AS91256_Co_ordinate_geometry
+  sidebar:
+    - id: lessons
+      title: "Lessons"
+      contents:
+        - lessons/index.qmd
+        - lessons/lesson1.qmd
+        - lessons/lesson2.qmd
+        - lessons/lesson3.qmd
+    - id: resources
+      title: "Resources"
+      contents:
+        - resources/index.qmd
+        - resources/worksheets.qmd
+        - resources/examples.qmd
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-fold: false
