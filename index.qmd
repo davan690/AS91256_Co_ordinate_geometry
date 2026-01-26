@@ -48,8 +48,8 @@ Co-ordinate geometry (also known as analytic geometry) combines algebra and geom
 Use the navigation bar above to explore:
 
 - **Lessons**: Detailed lesson plans and teaching materials
-- **Resources**: Worksheets, examples, and additional materials
-- **Assessment**: Information about the NCEA assessment standard and practice questions
+- **Resources**: Worksheets, examples, references, and additional materials
+- **Assessment**: Information about the NCEA assessment standard with official NZQA links
 
 ## Getting Started
 

@@ -7,14 +7,17 @@ Resources and content for teaching co-ordinate geometry at year 11. Three week c
 This is a Quarto website project that provides comprehensive teaching materials for AS91256 - Apply co-ordinate geometry methods in solving problems. The website includes:
 
 - **Lessons**: Three structured lesson plans covering the core concepts
+- 
 - **Resources**: Worksheets and worked examples for practice
+
 - **Assessment**: Information about the NCEA standard and preparation guidance
 
 ## 🌐 Viewing the Website
 
 The website is automatically built and deployed via GitHub Actions. Once set up, you can view it at:
 ```
-https://[your-username].github.io/AS91256_Co_ordinate_geometry/
+
+https://davan690.github.io/AS91256_Co_ordinate_geometry/
 ```
 
 ## 🛠️ Local Development

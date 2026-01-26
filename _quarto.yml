@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "AS91256 Co-ordinate Geometry"
@@ -32,6 +32,7 @@ website:
         - resources/index.qmd
         - resources/worksheets.qmd
         - resources/examples.qmd
+        - resources/references.qmd
 
 format:
   html:

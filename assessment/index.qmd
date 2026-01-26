@@ -12,6 +12,12 @@ title: "Assessment"
 **Credits:** 2  
 **Assessment:** Internal
 
+### Official NZQA Resources
+
+- **[View AS91256 on NZQA Website](https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256)** - Official achievement standard
+- **[Past Assessment Materials](https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&view=exams&level=02)** - Exemplars and assessment schedules
+- **[NCEA Mathematics Subject Page](https://www.nzqa.govt.nz/ncea/subjects/mathematics/)** - All mathematics standards and resources
+
 ## Achievement Criteria
 
 ### Achievement
@@ -157,6 +163,7 @@ The assessment is typically 1-1.5 hours.
 
 - [Worked Examples](../resources/examples.qmd)
 - [Practice Worksheets](../resources/worksheets.qmd)
+- [References & External Resources](../resources/references.qmd) - Official NZQA links and helpful websites
 - Past assessment examples (check with your teacher)
 
 ## Questions?

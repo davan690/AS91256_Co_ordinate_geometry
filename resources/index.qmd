@@ -10,6 +10,7 @@ This section provides supplementary materials to support teaching and learning o
 
 - [Worksheets](worksheets.qmd): Printable practice exercises
 - [Worked Examples](examples.qmd): Step-by-step solutions to common problems
+- [References & External Resources](references.qmd): Official NZQA links and helpful websites
 
 ## Quick Links
 
