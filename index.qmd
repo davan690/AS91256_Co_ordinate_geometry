@@ -6,6 +6,35 @@ title: "Welcome to AS91256 Co-ordinate Geometry"
 
 This website contains resources and content for teaching co-ordinate geometry at Year 11 level. The course is designed as a three-week programme of study leading to assessment under the NCEA Level 2 standard AS91256, worth two credits.
 
+## Course Expectations
+
+### What You'll Need
+
+- **Calculator**: Scientific or graphics calculator
+- **Notebook**: For taking notes and practice problems
+- **Ruler**: For drawing accurate graphs and diagrams
+- **Graph paper**: Recommended for homework and practice
+- **Commitment**: Attend all classes and complete homework regularly
+
+### Learning Expectations
+
+Students are expected to:
+
+- **Attend regularly**: All lessons build on previous concepts
+- **Participate actively**: Ask questions and engage in problem-solving
+- **Complete homework**: Practice is essential for mastery
+- **Seek help early**: Don't wait until assessment time if you're struggling
+- **Practice independently**: Work through worksheets and examples
+- **Show all working**: Demonstrate your problem-solving process
+
+### Assessment Timeline
+
+- **Week 1-2**: Learning and practicing core concepts
+- **Week 3, Day 3-4**: Practice assessment tasks and review
+- **Week 3, Day 5 (or following Monday)**: Final assessment
+- **Assessment Duration**: 1-1.5 hours
+- **Credits**: 2 NCEA Level 2 credits (Internal Assessment)
+
 ### Lesson Schedule
 
 | Week | Monday | Tuesday | Wednesday | Thursday | Friday |
@@ -32,16 +61,50 @@ Co-ordinate geometry (also known as analytic geometry) combines algebra and geom
 - Introduction to the Cartesian coordinate system
 - Plotting points and basic concepts
 - Distance formula and applications
+- Midpoint formula and practice
+
+**Homework**: Complete Worksheet 1 (Coordinate Basics)
 
 ### Week 2: Lines and Gradients
 - Understanding gradient (slope)
-- Equations of lines
+- Equations of lines in various forms
 - Parallel and perpendicular lines
+- Problem-solving with linear equations
+
+**Homework**: Complete Worksheet 2 (Gradient and Equations)
 
 ### Week 3: Problem Solving and Assessment Preparation
-- Real-world applications
-- Problem-solving strategies
-- Practice assessment tasks
+- Real-world applications of coordinate geometry
+- Complex problem-solving strategies
+- Practice assessment tasks (Achievement, Merit, Excellence levels)
+- Review and consolidation
+- Final assessment
+
+**Homework**: Complete Worksheet 3 and practice assessment tasks
+
+## Success Strategies
+
+::: {.callout-tip}
+## Tips for Success
+
+1. **Practice regularly**: Mathematics improves with consistent practice
+2. **Show all your working**: Marks are awarded for process, not just answers
+3. **Check your answers**: Use multiple methods to verify solutions
+4. **Draw diagrams**: Visualize problems on graph paper
+5. **Learn from mistakes**: Review incorrect answers to understand where you went wrong
+6. **Ask questions**: If you're unsure, ask your teacher or classmates
+7. **Use online resources**: Khan Academy, Desmos, and other tools available in [References](resources/references.qmd)
+:::
+
+## Achievement Standards
+
+**AS91256: Apply co-ordinate geometry methods in solving problems**
+
+- **Achievement**: Use formulas correctly and solve straightforward problems
+- **Merit**: Select appropriate methods and solve multi-step problems with reasoning
+- **Excellence**: Solve complex problems with chains of logical reasoning and full justification
+
+View full details on the [Assessment](assessment/index.qmd) page.
 
 ## Navigation
 
