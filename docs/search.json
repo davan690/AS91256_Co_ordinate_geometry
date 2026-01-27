@@ -1,0 +1,797 @@
+[
+  {
+    "objectID": "SECURITY_AUDIT.html",
+    "href": "SECURITY_AUDIT.html",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "✅ Repository Status: SAFE FOR PUBLIC RELEASE\nAll checks passed. No sensitive information, API keys, credentials, or personal data found in the repository.\n\n\n\n\n\n\n\n\nNo API keys found\nNo authentication tokens found\nNo OAuth tokens found\nNo GitHub personal access tokens found\n\n\n\n\n\nNo passwords found\nNo secret keys found\nNo private keys found\nNo AWS/Azure/GCP credentials found\n\n\n\n\n\nNo email addresses (except public GitHub references)\nNo phone numbers\nNo physical addresses\nNo personal identifiable information (PII)\n\n\n\n\n\nNo .env files with secrets\nNo config files with sensitive data\n.gitignore properly configured\nNo credentials in version control history\n\n\n\n\n\nNo hardcoded credentials in source files\nNo database connection strings\nNo third-party service credentials\nGitHub Actions workflows use proper security practices\n\n\n\n\n\n\n\n\n\n_quarto.yml - Configuration only, no secrets\n*.qmd files - Educational content only\n*.css files - Styling only\nREADME.md - Public information only\n.github/workflows/publish.yml - Standard GitHub Actions, no secrets\n\n\n\n\n\nLast 5 commits reviewed\nNo sensitive data in commit messages or diffs\nNo accidentally committed secrets\n\n\n\n\n\n\n\n.gitignore Configuration\n\nExcludes build directories (_site/, docs/)\nExcludes cache directories (.quarto/, *_cache/)\nExcludes OAuth tokens (.httr-oauth)\nExcludes R environment files (.Renviron)\n\nGitHub Actions Security\n\nUses standard id-token: write for GitHub Pages\nNo hardcoded secrets in workflows\nProper permission scoping (contents: read, pages: write)\n\nContent Safety\n\nAll content is educational\nLinks to official NZQA resources only\nNo embedded external scripts or tracking\n\n\n\n\n\n\nRun the automated security check script before: - Making the repository public - Accepting pull requests - Major content updates - Adding new collaborators\nCommand:\n.\\security-check.ps1\n\n\n\n\n\n\n\n\n\nPattern\nDescription\nResults\n\n\n\n\napi[_-]?key\nAPI keys\n✅ No matches\n\n\npassword\nPasswords\n✅ No matches (only in comments)\n\n\nsecret\nSecret keys\n✅ No matches\n\n\ntoken\nAccess tokens\n✅ No matches (only in .gitignore)\n\n\ncredential\nCredentials\n✅ No matches\n\n\n[a-zA-Z0-9]{20,}\nLong random strings\n✅ No suspicious matches\n\n\nsk_[a-z0-9]{32,}\nStripe secret keys\n✅ No matches\n\n\npk_[a-z0-9]{32,}\nPublic keys pattern\n✅ No matches\n\n\nghp_[a-zA-Z0-9]{36,}\nGitHub tokens\n✅ No matches\n\n\n@gmail.com\nEmail addresses\n✅ No matches\n\n\n\n\n\n\n\n\n\nCheck\nResults\n\n\n\n\n.env files\n✅ None found\n\n\nConfig files with secrets\n✅ None found\n\n\nUncommitted sensitive files\n✅ All clear\n\n\n\n\n\n\n\n\nIf you discover any security issues, please: 1. Do NOT create a public issue 2. Contact the repository owner directly 3. Report via GitHub Security Advisories (if repository is public)\n\n\n\n\nRecommended: Before major releases or when adding new content types\nLast Audited By: Automated security scan + manual review\nDate: January 27, 2026\nStatus: ✅ APPROVED FOR PUBLIC RELEASE"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#last-audit-january-27-2026",
+    "href": "SECURITY_AUDIT.html#last-audit-january-27-2026",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "✅ Repository Status: SAFE FOR PUBLIC RELEASE\nAll checks passed. No sensitive information, API keys, credentials, or personal data found in the repository."
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#audit-checklist",
+    "href": "SECURITY_AUDIT.html#audit-checklist",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "No API keys found\nNo authentication tokens found\nNo OAuth tokens found\nNo GitHub personal access tokens found\n\n\n\n\n\nNo passwords found\nNo secret keys found\nNo private keys found\nNo AWS/Azure/GCP credentials found\n\n\n\n\n\nNo email addresses (except public GitHub references)\nNo phone numbers\nNo physical addresses\nNo personal identifiable information (PII)\n\n\n\n\n\nNo .env files with secrets\nNo config files with sensitive data\n.gitignore properly configured\nNo credentials in version control history\n\n\n\n\n\nNo hardcoded credentials in source files\nNo database connection strings\nNo third-party service credentials\nGitHub Actions workflows use proper security practices"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#files-checked",
+    "href": "SECURITY_AUDIT.html#files-checked",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "_quarto.yml - Configuration only, no secrets\n*.qmd files - Educational content only\n*.css files - Styling only\nREADME.md - Public information only\n.github/workflows/publish.yml - Standard GitHub Actions, no secrets\n\n\n\n\n\nLast 5 commits reviewed\nNo sensitive data in commit messages or diffs\nNo accidentally committed secrets"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#security-best-practices-applied",
+    "href": "SECURITY_AUDIT.html#security-best-practices-applied",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": ".gitignore Configuration\n\nExcludes build directories (_site/, docs/)\nExcludes cache directories (.quarto/, *_cache/)\nExcludes OAuth tokens (.httr-oauth)\nExcludes R environment files (.Renviron)\n\nGitHub Actions Security\n\nUses standard id-token: write for GitHub Pages\nNo hardcoded secrets in workflows\nProper permission scoping (contents: read, pages: write)\n\nContent Safety\n\nAll content is educational\nLinks to official NZQA resources only\nNo embedded external scripts or tracking"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#recommendations-for-future-audits",
+    "href": "SECURITY_AUDIT.html#recommendations-for-future-audits",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "Run the automated security check script before: - Making the repository public - Accepting pull requests - Major content updates - Adding new collaborators\nCommand:\n.\\security-check.ps1"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#audit-results-by-category",
+    "href": "SECURITY_AUDIT.html#audit-results-by-category",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "Pattern\nDescription\nResults\n\n\n\n\napi[_-]?key\nAPI keys\n✅ No matches\n\n\npassword\nPasswords\n✅ No matches (only in comments)\n\n\nsecret\nSecret keys\n✅ No matches\n\n\ntoken\nAccess tokens\n✅ No matches (only in .gitignore)\n\n\ncredential\nCredentials\n✅ No matches\n\n\n[a-zA-Z0-9]{20,}\nLong random strings\n✅ No suspicious matches\n\n\nsk_[a-z0-9]{32,}\nStripe secret keys\n✅ No matches\n\n\npk_[a-z0-9]{32,}\nPublic keys pattern\n✅ No matches\n\n\nghp_[a-zA-Z0-9]{36,}\nGitHub tokens\n✅ No matches\n\n\n@gmail.com\nEmail addresses\n✅ No matches\n\n\n\n\n\n\n\n\n\nCheck\nResults\n\n\n\n\n.env files\n✅ None found\n\n\nConfig files with secrets\n✅ None found\n\n\nUncommitted sensitive files\n✅ All clear"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#contact",
+    "href": "SECURITY_AUDIT.html#contact",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "If you discover any security issues, please: 1. Do NOT create a public issue 2. Contact the repository owner directly 3. Report via GitHub Security Advisories (if repository is public)"
+  },
+  {
+    "objectID": "SECURITY_AUDIT.html#next-audit-due",
+    "href": "SECURITY_AUDIT.html#next-audit-due",
+    "title": "Security Audit Report",
+    "section": "",
+    "text": "Recommended: Before major releases or when adding new content types\nLast Audited By: Automated security scan + manual review\nDate: January 27, 2026\nStatus: ✅ APPROVED FOR PUBLIC RELEASE"
+  },
+  {
+    "objectID": "resources/references.html",
+    "href": "resources/references.html",
+    "title": "References & External Resources",
+    "section": "",
+    "text": "AS91256 on NZQA Website - Official achievement standard details\nSubject Resources for Mathematics and Statistics - NZQA Mathematics subject page\nAssessment Schedule Examples - Past assessment schedules and exemplars\nNCEA Level 2 Mathematics and Statistics Matrix - Overview of all Level 2 standards\n\n\n\n\n\nAssessment Resources - Teaching and assessment resources\nClarifications and Additional Information - Updated guidance for teachers\nExemplars of Student Work - Examples at Achievement, Merit, and Excellence levels",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#official-nzqa-ncea-documentation",
+    "href": "resources/references.html#official-nzqa-ncea-documentation",
+    "title": "References & External Resources",
+    "section": "",
+    "text": "AS91256 on NZQA Website - Official achievement standard details\nSubject Resources for Mathematics and Statistics - NZQA Mathematics subject page\nAssessment Schedule Examples - Past assessment schedules and exemplars\nNCEA Level 2 Mathematics and Statistics Matrix - Overview of all Level 2 standards\n\n\n\n\n\nAssessment Resources - Teaching and assessment resources\nClarifications and Additional Information - Updated guidance for teachers\nExemplars of Student Work - Examples at Achievement, Merit, and Excellence levels",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#online-learning-platforms",
+    "href": "resources/references.html#online-learning-platforms",
+    "title": "References & External Resources",
+    "section": "Online Learning Platforms",
+    "text": "Online Learning Platforms\n\nInteractive Tools & Graphing Calculators\n\nDesmos Graphing Calculator - Free, powerful online graphing calculator\n\nCreate graphs of lines and points\nVisualize coordinate geometry concepts\nSave and share work\n\nGeoGebra Classic - Interactive geometry and algebra software\n\nCoordinate geometry tools\nDynamic visualizations\nFree for educational use\n\nDesmos Classroom Activities - Ready-made interactive lessons\n\nCoordinate plane activities\nLinear equations explorations\nTeacher dashboard for monitoring student progress\n\n\n\n\nVideo Tutorials & Explanations\n\nKhan Academy\n\nCoordinate Plane - Introduction to coordinates\nDistance Formula - Video explanations\nSlope and Linear Equations - Comprehensive coverage\nParallel and Perpendicular Lines - Advanced concepts\n\n\n\nOther Video Resources\n\nCorbettmaths: Coordinate Geometry - UK-based, excellent explanations\nMathsBot Coordinate Geometry - Interactive tools and generators\nNZ Maths: Coordinate Geometry Activities - New Zealand curriculum-aligned resources",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#practice-problem-banks",
+    "href": "resources/references.html#practice-problem-banks",
+    "title": "References & External Resources",
+    "section": "Practice & Problem Banks",
+    "text": "Practice & Problem Banks\n\nOnline Practice Websites\n\nIXL Mathematics - Coordinate Geometry - Adaptive practice questions\n\nImmediate feedback\nSkill-based progression\nNote: Subscription required for full access\n\nMathsGenie GCSE - Free worksheets and videos\n\nUK GCSE level (similar to NCEA Level 2)\nDownloadable PDFs\nWorked solutions\n\nCorbett Maths Practice Questions - Topic-specific worksheets\n\nFree printable resources\nVideo solutions available\n\n\n\n\nProblem-Solving Resources\n\nNRICH Maths - Rich mathematical problems\n\nChallenging extension activities\nPromotes mathematical thinking\nSolutions and hints provided\n\nBrilliant.org - Coordinate Geometry - Interactive problem solving\n\nProgressive difficulty\nCommunity discussions\nNote: Premium content requires subscription",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#textbooks-written-resources",
+    "href": "resources/references.html#textbooks-written-resources",
+    "title": "References & External Resources",
+    "section": "Textbooks & Written Resources",
+    "text": "Textbooks & Written Resources\n\nNew Zealand Textbooks\n\nESA NCEA Level 2 Mathematics Workbooks - Available from ESA Publications\nSigma Mathematics Level 2 - Pearson NZ textbook series\nAchievement Series - Excellence-focused problems\n\n\n\nInternational Resources\n\nMath is Fun: Coordinate Geometry - Clear explanations with diagrams\nPurple Math: Coordinate Geometry - Comprehensive tutorials\nMath Open Reference: Coordinate Geometry - Interactive definitions and tools",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#apps-mobile-resources",
+    "href": "resources/references.html#apps-mobile-resources",
+    "title": "References & External Resources",
+    "section": "Apps & Mobile Resources",
+    "text": "Apps & Mobile Resources\n\nGeoGebra Apps (iOS/Android) - Mobile version of GeoGebra\nDesmos Scientific Calculator (iOS/Android) - Graphing on mobile\nPhotomath (iOS/Android) - Step-by-step solutions (use wisely for learning!)\nWolfram Alpha (iOS/Android/Web) - Computational knowledge engine",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#teacher-resources",
+    "href": "resources/references.html#teacher-resources",
+    "title": "References & External Resources",
+    "section": "Teacher Resources",
+    "text": "Teacher Resources\n\nLesson Planning & Professional Development\n\nNZ Maths Professional Learning - NZ curriculum-specific support\nYoucubed - Stanford-based math education research\n\nGrowth mindset resources\nEngaging task ideas\n\nNCTM Illuminations - US-based lesson plans and activities\n\nHigh-quality teaching resources\nInteractive tools\n\n\n\n\nAssessment Tools\n\nExamPro by AQA - Question bank (UK but applicable)\nDiagnostic Questions - Multiple choice questions with misconception analysis\nFormative - Create and assign digital formative assessments",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#study-guides-cheat-sheets",
+    "href": "resources/references.html#study-guides-cheat-sheets",
+    "title": "References & External Resources",
+    "section": "Study Guides & Cheat Sheets",
+    "text": "Study Guides & Cheat Sheets\n\nMath Vault: Coordinate Geometry Cheat Sheet - Quick reference formulas\nCoordinate Geometry Formula Sheet - All essential formulas in one place\nNCEA Mathematics Formula Sheets - Official NZQA provided formulas",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#university-extended-learning",
+    "href": "resources/references.html#university-extended-learning",
+    "title": "References & External Resources",
+    "section": "University & Extended Learning",
+    "text": "University & Extended Learning\nFor students interested in extending their knowledge:\n\nMIT OpenCourseWare - Single Variable Calculus - University-level mathematics\nPaul’s Online Math Notes - Comprehensive university prep\n3Blue1Brown YouTube - Beautiful visual mathematics explanations",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#study-tips-strategies",
+    "href": "resources/references.html#study-tips-strategies",
+    "title": "References & External Resources",
+    "section": "Study Tips & Strategies",
+    "text": "Study Tips & Strategies\n\nRecommended Study Approach\n\nMaster the basics first - Ensure you can plot points and calculate distances\nPractice regularly - 15-20 minutes daily is better than cramming\nCheck your work - Use multiple methods to verify answers\nDraw diagrams - Visualize every problem\nLearn from mistakes - Review incorrect answers carefully\n\n\n\nCommon Pitfalls to Avoid\n\nMixing up x and y coordinates\nForgetting the square root in distance formula\nSign errors when calculating gradient\nNot simplifying final answers\nRushing through multi-step problems",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/references.html#contact-support",
+    "href": "resources/references.html#contact-support",
+    "title": "References & External Resources",
+    "section": "Contact & Support",
+    "text": "Contact & Support\nIf you find broken links or have suggestions for additional resources, please: - Open an issue on the GitHub repository - Contact your teacher for specific support\n\nLast updated: January 2026",
+    "crumbs": [
+      "Resources",
+      "References & External Resources"
+    ]
+  },
+  {
+    "objectID": "resources/examples.html",
+    "href": "resources/examples.html",
+    "title": "Worked Examples",
+    "section": "",
+    "text": "This page provides detailed, step-by-step solutions to help students understand the problem-solving process.",
+    "crumbs": [
+      "Resources",
+      "Worked Examples"
+    ]
+  },
+  {
+    "objectID": "resources/examples.html#comprehensive-worked-examples",
+    "href": "resources/examples.html#comprehensive-worked-examples",
+    "title": "Worked Examples",
+    "section": "",
+    "text": "This page provides detailed, step-by-step solutions to help students understand the problem-solving process.",
+    "crumbs": [
+      "Resources",
+      "Worked Examples"
+    ]
+  },
+  {
+    "objectID": "resources/examples.html#example-set-1-distance-and-midpoint",
+    "href": "resources/examples.html#example-set-1-distance-and-midpoint",
+    "title": "Worked Examples",
+    "section": "Example Set 1: Distance and Midpoint",
+    "text": "Example Set 1: Distance and Midpoint\n\nProblem 1: Distance Between Points\nFind the distance between points A(3, 7) and B(15, 12).\nSolution:\nGiven: \\(A(3, 7)\\) and \\(B(15, 12)\\)\nUsing the distance formula: \\[d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\]\nSubstitute the coordinates: \\[d = \\sqrt{(15 - 3)^2 + (12 - 7)^2}\\]\nSimplify inside the square root: \\[d = \\sqrt{12^2 + 5^2}\\] \\[d = \\sqrt{144 + 25}\\] \\[d = \\sqrt{169}\\] \\[d = 13\\]\nAnswer: The distance is 13 units.\n\n\nProblem 2: Finding a Missing Coordinate\nPoint M is the midpoint of line segment AB, where A(-2, 5) and M(3, 4). Find the coordinates of point B.\nSolution:\nGiven: \\(A(-2, 5)\\), \\(M(3, 4)\\), and B\\((x_2, y_2)\\) is unknown\nUsing the midpoint formula: \\[M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\]\nFor the x-coordinate: \\[3 = \\frac{-2 + x_2}{2}\\] \\[6 = -2 + x_2\\] \\[x_2 = 8\\]\nFor the y-coordinate: \\[4 = \\frac{5 + y_2}{2}\\] \\[8 = 5 + y_2\\] \\[y_2 = 3\\]\nAnswer: Point B is at (8, 3).",
+    "crumbs": [
+      "Resources",
+      "Worked Examples"
+    ]
+  },
+  {
+    "objectID": "resources/examples.html#example-set-2-lines-and-gradients",
+    "href": "resources/examples.html#example-set-2-lines-and-gradients",
+    "title": "Worked Examples",
+    "section": "Example Set 2: Lines and Gradients",
+    "text": "Example Set 2: Lines and Gradients\n\nProblem 3: Finding the Equation of a Line\nFind the equation of the line that passes through points P(2, 5) and Q(8, 17).\nSolution:\nStep 1: Calculate the gradient \\[m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{17 - 5}{8 - 2} = \\frac{12}{6} = 2\\]\nStep 2: Use point-slope form with point P(2, 5) \\[y - y_1 = m(x - x_1)\\] \\[y - 5 = 2(x - 2)\\]\nStep 3: Expand and simplify \\[y - 5 = 2x - 4\\] \\[y = 2x + 1\\]\nAnswer: The equation is \\(y = 2x + 1\\).\nVerification: Check both points satisfy the equation: - For P(2, 5): \\(5 = 2(2) + 1 = 5\\) ✓ - For Q(8, 17): \\(17 = 2(8) + 1 = 17\\) ✓\n\n\nProblem 4: Intersection of Lines\nFind the point of intersection of lines \\(L_1: y = 2x + 1\\) and \\(L_2: y = -x + 7\\).\nSolution:\nAt the intersection point, both equations are satisfied, so: \\[2x + 1 = -x + 7\\]\nSolve for x: \\[2x + x = 7 - 1\\] \\[3x = 6\\] \\[x = 2\\]\nSubstitute into \\(L_1\\) to find y: \\[y = 2(2) + 1 = 5\\]\nAnswer: The lines intersect at point (2, 5).\nVerification: Check with \\(L_2\\): \\(y = -(2) + 7 = 5\\) ✓",
+    "crumbs": [
+      "Resources",
+      "Worked Examples"
+    ]
+  },
+  {
+    "objectID": "resources/examples.html#example-set-3-parallel-and-perpendicular-lines",
+    "href": "resources/examples.html#example-set-3-parallel-and-perpendicular-lines",
+    "title": "Worked Examples",
+    "section": "Example Set 3: Parallel and Perpendicular Lines",
+    "text": "Example Set 3: Parallel and Perpendicular Lines\n\nProblem 5: Perpendicular Line Through a Point\nLine \\(L\\) has equation \\(y = 4x - 3\\). Find the equation of the line perpendicular to \\(L\\) that passes through the point (8, 5).\nSolution:\nStep 1: Identify the gradient of \\(L\\) \\[m_L = 4\\]\nStep 2: Find the gradient of the perpendicular line \\[m_{\\perp} = -\\frac{1}{m_L} = -\\frac{1}{4}\\]\nStep 3: Use point-slope form with (8, 5) \\[y - 5 = -\\frac{1}{4}(x - 8)\\] \\[y - 5 = -\\frac{1}{4}x + 2\\] \\[y = -\\frac{1}{4}x + 7\\]\nAnswer: The equation is \\(y = -\\frac{1}{4}x + 7\\).\nCheck: Verify the product of gradients equals -1: \\[m_L \\times m_{\\perp} = 4 \\times \\left(-\\frac{1}{4}\\right) = -1\\] ✓\n\n\nProblem 6: Geometric Problem\nPoints A(2, 3), B(6, 1), and C(4, 5) form a triangle. Show that angle ABC is a right angle.\nSolution:\nTo show angle ABC is a right angle, we need to prove that lines BA and BC are perpendicular.\nStep 1: Find the gradient of BA \\[m_{BA} = \\frac{3 - 1}{2 - 6} = \\frac{2}{-4} = -\\frac{1}{2}\\]\nStep 2: Find the gradient of BC \\[m_{BC} = \\frac{5 - 1}{4 - 6} = \\frac{4}{-2} = -2\\]\nStep 3: Check if lines are perpendicular \\[m_{BA} \\times m_{BC} = -\\frac{1}{2} \\times (-2) = 1\\]\nSince the product of the gradients is 1 (not -1), the lines are NOT perpendicular.\nAnswer: Angle ABC is not a right angle, as the product of gradients is 1, not -1.",
+    "crumbs": [
+      "Resources",
+      "Worked Examples"
+    ]
+  },
+  {
+    "objectID": "resources/examples.html#tips-for-success",
+    "href": "resources/examples.html#tips-for-success",
+    "title": "Worked Examples",
+    "section": "Tips for Success",
+    "text": "Tips for Success\n\nAlways show your working - partial credit is often awarded\nCheck your answers - substitute back into original equations\nDraw diagrams - visual representations help understanding\nUse appropriate formulas - know when to apply each formula\nBe careful with signs - negative numbers need special attention",
+    "crumbs": [
+      "Resources",
+      "Worked Examples"
+    ]
+  },
+  {
+    "objectID": "resources/examples.html#practice-strategy",
+    "href": "resources/examples.html#practice-strategy",
+    "title": "Worked Examples",
+    "section": "Practice Strategy",
+    "text": "Practice Strategy\n\nWork through these examples without looking at the solutions\nCompare your method with the shown solution\nIf you made errors, identify where and why\nTry creating similar problems and solving them",
+    "crumbs": [
+      "Resources",
+      "Worked Examples"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson2.html",
+    "href": "lessons/lesson2.html",
+    "title": "Lesson 2: Gradients and Linear Equations",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nCalculate the gradient (slope) of a line between two points\nUnderstand the meaning of positive, negative, zero, and undefined gradients\nWrite equations of lines in various forms\nConvert between different forms of linear equations",
+    "crumbs": [
+      "Lessons",
+      "Lesson 2: Gradients and Linear Equations"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson2.html#learning-objectives",
+    "href": "lessons/lesson2.html#learning-objectives",
+    "title": "Lesson 2: Gradients and Linear Equations",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nCalculate the gradient (slope) of a line between two points\nUnderstand the meaning of positive, negative, zero, and undefined gradients\nWrite equations of lines in various forms\nConvert between different forms of linear equations",
+    "crumbs": [
+      "Lessons",
+      "Lesson 2: Gradients and Linear Equations"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson2.html#gradient-slope-of-a-line",
+    "href": "lessons/lesson2.html#gradient-slope-of-a-line",
+    "title": "Lesson 2: Gradients and Linear Equations",
+    "section": "Gradient (Slope) of a Line",
+    "text": "Gradient (Slope) of a Line\nThe gradient m of a line passing through points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is:\n\\[m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\text{rise}}{\\text{run}}\\]\n\nInterpreting Gradient\n\nPositive gradient: Line slopes upward from left to right\nNegative gradient: Line slopes downward from left to right\nZero gradient: Horizontal line\nUndefined gradient: Vertical line\n\n\n\nExample 1: Calculating Gradient\nFind the gradient of the line passing through A(1, 2) and B(5, 10).\nSolution: \\[m = \\frac{10 - 2}{5 - 1} = \\frac{8}{4} = 2\\]",
+    "crumbs": [
+      "Lessons",
+      "Lesson 2: Gradients and Linear Equations"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson2.html#equations-of-lines",
+    "href": "lessons/lesson2.html#equations-of-lines",
+    "title": "Lesson 2: Gradients and Linear Equations",
+    "section": "Equations of Lines",
+    "text": "Equations of Lines\n\nSlope-Intercept Form\n\\[y = mx + c\\] where m is the gradient and c is the y-intercept.\n\n\nPoint-Slope Form\n\\[y - y_1 = m(x - x_1)\\] where m is the gradient and \\((x_1, y_1)\\) is a point on the line.\n\n\nGeneral Form\n\\[ax + by + c = 0\\]\n\n\nExample 2: Writing Line Equations\nWrite the equation of the line with gradient 3 passing through the point (2, 5).\nSolution using point-slope form: \\[y - 5 = 3(x - 2)\\] \\[y - 5 = 3x - 6\\] \\[y = 3x - 1\\]\n\n\nExample 3: Finding Equation from Two Points\nFind the equation of the line passing through P(1, 3) and Q(4, 9).\nSolution:\nStep 1: Find the gradient \\[m = \\frac{9 - 3}{4 - 1} = \\frac{6}{3} = 2\\]\nStep 2: Use point-slope form with point P(1, 3) \\[y - 3 = 2(x - 1)\\] \\[y - 3 = 2x - 2\\] \\[y = 2x + 1\\]",
+    "crumbs": [
+      "Lessons",
+      "Lesson 2: Gradients and Linear Equations"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson2.html#practice-exercises",
+    "href": "lessons/lesson2.html#practice-exercises",
+    "title": "Lesson 2: Gradients and Linear Equations",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises\n\nFind the gradient of the line through:\n\nA(2, 3) and B(6, 11)\nC(-1, 5) and D(3, -3)\n\nWrite the equation of the line:\n\nWith gradient 4 and y-intercept -2\nThrough point (3, 7) with gradient -1\nThrough points (0, 2) and (5, 12)\n\nConvert the equation \\(2x + 3y - 6 = 0\\) to slope-intercept form.",
+    "crumbs": [
+      "Lessons",
+      "Lesson 2: Gradients and Linear Equations"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson2.html#real-world-application",
+    "href": "lessons/lesson2.html#real-world-application",
+    "title": "Lesson 2: Gradients and Linear Equations",
+    "section": "Real-World Application",
+    "text": "Real-World Application\nThe gradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed - In a cost-quantity graph, gradient represents unit price",
+    "crumbs": [
+      "Lessons",
+      "Lesson 2: Gradients and Linear Equations"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson2.html#homework",
+    "href": "lessons/lesson2.html#homework",
+    "title": "Lesson 2: Gradients and Linear Equations",
+    "section": "Homework",
+    "text": "Homework\nComplete exercises 2.1 to 2.5 in the workbook.\n\nPrevious Lesson: Lesson 1: Introduction to Cartesian Coordinates\nNext Lesson: Lesson 3: Parallel and Perpendicular Lines",
+    "crumbs": [
+      "Lessons",
+      "Lesson 2: Gradients and Linear Equations"
+    ]
+  },
+  {
+    "objectID": "lessons/index.html",
+    "href": "lessons/index.html",
+    "title": "Lessons",
+    "section": "",
+    "text": "This section contains detailed lesson plans for the three-week AS91256 Co-ordinate Geometry course.\n\n\nEach lesson includes: - Learning objectives - Teaching notes - Worked examples - Practice exercises - Assessment opportunities\n\n\n\n\nLesson 1: Introduction to Cartesian Coordinates\n\nUnderstanding the coordinate plane\nPlotting points\nDistance formula\n\nLesson 2: Gradients and Linear Equations\n\nCalculating gradient (slope)\nEquations of lines\nPoint-slope and slope-intercept forms\n\nLesson 3: Parallel and Perpendicular Lines\n\nProperties of parallel lines\nProperties of perpendicular lines\nProblem-solving applications",
+    "crumbs": [
+      "Lessons"
+    ]
+  },
+  {
+    "objectID": "lessons/index.html#course-lessons",
+    "href": "lessons/index.html#course-lessons",
+    "title": "Lessons",
+    "section": "",
+    "text": "This section contains detailed lesson plans for the three-week AS91256 Co-ordinate Geometry course.\n\n\nEach lesson includes: - Learning objectives - Teaching notes - Worked examples - Practice exercises - Assessment opportunities\n\n\n\n\nLesson 1: Introduction to Cartesian Coordinates\n\nUnderstanding the coordinate plane\nPlotting points\nDistance formula\n\nLesson 2: Gradients and Linear Equations\n\nCalculating gradient (slope)\nEquations of lines\nPoint-slope and slope-intercept forms\n\nLesson 3: Parallel and Perpendicular Lines\n\nProperties of parallel lines\nProperties of perpendicular lines\nProblem-solving applications",
+    "crumbs": [
+      "Lessons"
+    ]
+  },
+  {
+    "objectID": "lessons/index.html#teaching-tips",
+    "href": "lessons/index.html#teaching-tips",
+    "title": "Lessons",
+    "section": "Teaching Tips",
+    "text": "Teaching Tips\n\nUse graphing tools and visualizations to reinforce concepts\nConnect mathematical concepts to real-world applications\nEncourage students to check their work using multiple methods\nProvide plenty of practice with increasing difficulty",
+    "crumbs": [
+      "Lessons"
+    ]
+  },
+  {
+    "objectID": "lessons/index.html#additional-support",
+    "href": "lessons/index.html#additional-support",
+    "title": "Lessons",
+    "section": "Additional Support",
+    "text": "Additional Support\nFor additional resources and worksheets, visit the Resources section.",
+    "crumbs": [
+      "Lessons"
+    ]
+  },
+  {
+    "objectID": "assessment/index.html",
+    "href": "assessment/index.html",
+    "title": "Assessment",
+    "section": "",
+    "text": "AS91256: Apply co-ordinate geometry methods in solving problems\nLevel: 2\nCredits: 2\nAssessment: Internal\n\n\n\n\nView AS91256 on NZQA Website - Official achievement standard\nPast Assessment Materials - Exemplars and assessment schedules\nNCEA Mathematics Subject Page - All mathematics standards and resources"
+  },
+  {
+    "objectID": "assessment/index.html#ncea-level-2---as91256",
+    "href": "assessment/index.html#ncea-level-2---as91256",
+    "title": "Assessment",
+    "section": "",
+    "text": "AS91256: Apply co-ordinate geometry methods in solving problems\nLevel: 2\nCredits: 2\nAssessment: Internal\n\n\n\n\nView AS91256 on NZQA Website - Official achievement standard\nPast Assessment Materials - Exemplars and assessment schedules\nNCEA Mathematics Subject Page - All mathematics standards and resources"
+  },
+  {
+    "objectID": "assessment/index.html#achievement-criteria",
+    "href": "assessment/index.html#achievement-criteria",
+    "title": "Assessment",
+    "section": "Achievement Criteria",
+    "text": "Achievement Criteria\n\nAchievement\n\nApply co-ordinate geometry methods in solving problems\n\n\n\nAchievement with Merit\n\nApply co-ordinate geometry methods, using relational thinking, in solving problems\n\n\n\nAchievement with Excellence\n\nApply co-ordinate geometry methods, using extended abstract thinking, in solving problems"
+  },
+  {
+    "objectID": "assessment/index.html#what-this-means",
+    "href": "assessment/index.html#what-this-means",
+    "title": "Assessment",
+    "section": "What This Means",
+    "text": "What This Means\n\nAchievement Level\nStudents can: - Use appropriate formulas correctly - Complete straightforward calculations - Solve simple co-ordinate geometry problems\n\n\nMerit Level\nStudents can: - Select and apply appropriate methods - Connect different geometric concepts - Solve problems requiring multiple steps - Explain their reasoning\n\n\nExcellence Level\nStudents can: - Solve complex, unfamiliar problems - Develop chains of logical reasoning - Make and test conjectures - Provide comprehensive solutions with full justification"
+  },
+  {
+    "objectID": "assessment/index.html#assessment-topics",
+    "href": "assessment/index.html#assessment-topics",
+    "title": "Assessment",
+    "section": "Assessment Topics",
+    "text": "Assessment Topics\nThe assessment may cover:\n\nDistance and Midpoint\n\nCalculating distances between points\nFinding midpoints of line segments\nUsing distance and midpoint in problems\n\nGradient\n\nCalculating gradient from two points\nInterpreting gradient in context\nUsing gradient to solve problems\n\nEquations of Lines\n\nFinding equations in various forms\nConverting between forms\nUsing equations to solve problems\n\nParallel and Perpendicular Lines\n\nIdentifying relationships between lines\nFinding equations of parallel/perpendicular lines\nApplying these concepts to geometric problems\n\nProblem Solving\n\nReal-world applications\nMulti-step problems\nGeometric proofs using co-ordinate methods"
+  },
+  {
+    "objectID": "assessment/index.html#sample-problems",
+    "href": "assessment/index.html#sample-problems",
+    "title": "Assessment",
+    "section": "Sample Problems",
+    "text": "Sample Problems\n\nAchievement Level Problem\nFind the distance between points A(3, 4) and B(7, 7).\n\n\nMerit Level Problem\nA line passes through points P(2, 5) and Q(8, k). If the line has gradient 2, find the value of k.\n\n\nExcellence Level Problem\nPoints A(1, 2), B(5, 4), and C(3, 6) are vertices of a triangle. a) Show that triangle ABC is isosceles. b) Find the equation of the perpendicular bisector of side AB. c) Verify that this perpendicular bisector passes through point C."
+  },
+  {
+    "objectID": "assessment/index.html#preparation-tips",
+    "href": "assessment/index.html#preparation-tips",
+    "title": "Assessment",
+    "section": "Preparation Tips",
+    "text": "Preparation Tips\n\nFor Achievement\n\nPractice all basic formulas\nLearn to substitute correctly\nCheck your arithmetic\nShow all working\n\n\n\nFor Merit\n\nUnderstand when to use each method\nPractice multi-step problems\nExplain your reasoning clearly\nCheck answers make sense\n\n\n\nFor Excellence\n\nAttempt challenging problems\nDevelop problem-solving strategies\nWrite complete justifications\nLook for connections between concepts"
+  },
+  {
+    "objectID": "assessment/index.html#practice-assessment",
+    "href": "assessment/index.html#practice-assessment",
+    "title": "Assessment",
+    "section": "Practice Assessment",
+    "text": "Practice Assessment\nA full practice assessment is available to help you prepare. Work through it under test conditions, then check your solutions.\n\nTime Allowance\nThe assessment is typically 1-1.5 hours.\n\n\nAllowed Materials\n\nCalculator (scientific or graphics)\nRuler\nPencil and eraser"
+  },
+  {
+    "objectID": "assessment/index.html#study-schedule",
+    "href": "assessment/index.html#study-schedule",
+    "title": "Assessment",
+    "section": "Study Schedule",
+    "text": "Study Schedule\n\nWeek 1: Foundation\n\nReview all formulas\nComplete basic exercises\nCheck understanding of concepts\n\n\n\nWeek 2: Application\n\nWork on multi-step problems\nPractice explaining reasoning\nFocus on weak areas\n\n\n\nWeek 3: Assessment Preparation\n\nComplete practice assessments\nReview common mistakes\nFocus on time management"
+  },
+  {
+    "objectID": "assessment/index.html#common-mistakes-to-avoid",
+    "href": "assessment/index.html#common-mistakes-to-avoid",
+    "title": "Assessment",
+    "section": "Common Mistakes to Avoid",
+    "text": "Common Mistakes to Avoid\n\nCalculation errors - double-check arithmetic\nSign errors - be careful with negative coordinates\nFormula confusion - make sure you use the right formula\nIncomplete solutions - show all steps\nNot checking - verify your answers make sense"
+  },
+  {
+    "objectID": "assessment/index.html#resources",
+    "href": "assessment/index.html#resources",
+    "title": "Assessment",
+    "section": "Resources",
+    "text": "Resources\n\nWorked Examples\nPractice Worksheets\nReferences & External Resources - Official NZQA links and helpful websites\nPast assessment examples (check with your teacher)"
+  },
+  {
+    "objectID": "assessment/index.html#questions",
+    "href": "assessment/index.html#questions",
+    "title": "Assessment",
+    "section": "Questions?",
+    "text": "Questions?\nIf you have questions about the assessment: - Ask your teacher - Review the Lessons section - Practice with the resources provided\nGood luck with your assessment!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "",
+    "text": "This website contains resources and content for teaching co-ordinate geometry at Year 11 level. The course is designed as a three-week programme of study leading to assessment under the NCEA Level 2 standard AS91256, worth two credits."
+  },
+  {
+    "objectID": "index.html#about-this-course",
+    "href": "index.html#about-this-course",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "",
+    "text": "This website contains resources and content for teaching co-ordinate geometry at Year 11 level. The course is designed as a three-week programme of study leading to assessment under the NCEA Level 2 standard AS91256, worth two credits."
+  },
+  {
+    "objectID": "index.html#course-expectations",
+    "href": "index.html#course-expectations",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "Course Expectations",
+    "text": "Course Expectations\n\nWhat You’ll Need\n\nCalculator: Scientific or graphics calculator\nNotebook: For taking notes and practice problems\nRuler: For drawing accurate graphs and diagrams\nGraph paper: Recommended for homework and practice\nCommitment: Attend all classes and complete homework regularly\n\n\n\nLearning Expectations\nStudents are expected to:\n\nAttend regularly: All lessons build on previous concepts\nParticipate actively: Ask questions and engage in problem-solving\nComplete homework: Practice is essential for mastery\nSeek help early: Don’t wait until assessment time if you’re struggling\nPractice independently: Work through worksheets and examples\nShow all working: Demonstrate your problem-solving process\n\n\n\nAssessment Timeline\n\nWeek 1-2: Learning and practicing core concepts\nWeek 3, Day 3-4: Practice assessment tasks and review\nWeek 3, Day 5 (or following Monday): Final assessment\nAssessment Duration: 1-1.5 hours\nCredits: 2 NCEA Level 2 credits (Internal Assessment)\n\n\n\nLesson Schedule\n\n\n\n\n\n\n\n\n\n\n\nWeek\nMonday\nTuesday\nWednesday\nThursday\nFriday\n\n\n\n\nWeek 1\nIntroduction to Cartesian plane & plotting points\nDistance formula introduction\nDistance formula applications\nMidpoint formula\nDistance & midpoint practice\n\n\nWeek 2\nGradient introduction & calculation\nGradient applications\nEquations of lines (y = mx + c)\nParallel lines\nPerpendicular lines\n\n\nWeek 3\nReal-world applications\nProblem-solving strategies\nPractice assessment tasks\nReview & consolidation\nAssessment preparation"
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "Course Overview",
+    "text": "Course Overview\nCo-ordinate geometry (also known as analytic geometry) combines algebra and geometry using a coordinate system. Students will learn to:\n\nPlot and identify points in the Cartesian plane\nCalculate distances between points\nFind midpoints of line segments\nDetermine gradients (slopes) of lines\nWork with equations of lines\nSolve problems involving parallel and perpendicular lines"
+  },
+  {
+    "objectID": "index.html#course-structure",
+    "href": "index.html#course-structure",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "Course Structure",
+    "text": "Course Structure\n\nWeek 1: Fundamentals\n\nIntroduction to the Cartesian coordinate system\nPlotting points and basic concepts\nDistance formula and applications\nMidpoint formula and practice\n\nHomework: Complete Worksheet 1 (Coordinate Basics)\n\n\nWeek 2: Lines and Gradients\n\nUnderstanding gradient (slope)\nEquations of lines in various forms\nParallel and perpendicular lines\nProblem-solving with linear equations\n\nHomework: Complete Worksheet 2 (Gradient and Equations)\n\n\nWeek 3: Problem Solving and Assessment Preparation\n\nReal-world applications of coordinate geometry\nComplex problem-solving strategies\nPractice assessment tasks (Achievement, Merit, Excellence levels)\nReview and consolidation\nFinal assessment\n\nHomework: Complete Worksheet 3 and practice assessment tasks"
+  },
+  {
+    "objectID": "index.html#success-strategies",
+    "href": "index.html#success-strategies",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "Success Strategies",
+    "text": "Success Strategies\n\n\n\n\n\n\nTipTips for Success\n\n\n\n\nPractice regularly: Mathematics improves with consistent practice\nShow all your working: Marks are awarded for process, not just answers\nCheck your answers: Use multiple methods to verify solutions\nDraw diagrams: Visualize problems on graph paper\nLearn from mistakes: Review incorrect answers to understand where you went wrong\nAsk questions: If you’re unsure, ask your teacher or classmates\nUse online resources: Khan Academy, Desmos, and other tools available in References"
+  },
+  {
+    "objectID": "index.html#achievement-standards",
+    "href": "index.html#achievement-standards",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "Achievement Standards",
+    "text": "Achievement Standards\nAS91256: Apply co-ordinate geometry methods in solving problems\n\nAchievement: Use formulas correctly and solve straightforward problems\nMerit: Select appropriate methods and solve multi-step problems with reasoning\nExcellence: Solve complex problems with chains of logical reasoning and full justification\n\nView full details on the Assessment page."
+  },
+  {
+    "objectID": "index.html#navigation",
+    "href": "index.html#navigation",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "Navigation",
+    "text": "Navigation\nUse the navigation bar above to explore:\n\nLessons: Detailed lesson plans and teaching materials\nResources: Worksheets, examples, references, and additional materials\nAssessment: Information about the NCEA assessment standard with official NZQA links"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Welcome to AS91256 Co-ordinate Geometry",
+    "section": "Getting Started",
+    "text": "Getting Started\nIf you’re a teacher, start with the Lessons section to access structured lesson plans.\nIf you’re a student, explore the Resources section for worksheets and worked examples."
+  },
+  {
+    "objectID": "lessons/lesson1.html",
+    "href": "lessons/lesson1.html",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nUnderstand the structure of the Cartesian coordinate system\nPlot points accurately on a coordinate plane\nCalculate the distance between two points using the distance formula\nFind the midpoint of a line segment",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson1.html#learning-objectives",
+    "href": "lessons/lesson1.html#learning-objectives",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nUnderstand the structure of the Cartesian coordinate system\nPlot points accurately on a coordinate plane\nCalculate the distance between two points using the distance formula\nFind the midpoint of a line segment",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson1.html#the-cartesian-coordinate-system",
+    "href": "lessons/lesson1.html#the-cartesian-coordinate-system",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "The Cartesian Coordinate System",
+    "text": "The Cartesian Coordinate System\nThe Cartesian coordinate system uses two perpendicular number lines: - The x-axis (horizontal) - The y-axis (vertical)\nThe point where they intersect is called the origin, denoted as (0, 0).",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson1.html#plotting-points",
+    "href": "lessons/lesson1.html#plotting-points",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "Plotting Points",
+    "text": "Plotting Points\nEach point in the plane is represented by an ordered pair (x, y): - The first number (x) tells us how far to move horizontally - The second number (y) tells us how far to move vertically\n\nExample 1: Plotting Points\nPlot the following points: - A(2, 3) - B(-1, 4) - C(-3, -2) - D(4, -1)",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson1.html#distance-formula",
+    "href": "lessons/lesson1.html#distance-formula",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "Distance Formula",
+    "text": "Distance Formula\nThe distance between two points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is given by:\n\\[d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\]\n\nExample 2: Finding Distance\nFind the distance between points A(1, 2) and B(4, 6).\nSolution: \\[d = \\sqrt{(4-1)^2 + (6-2)^2}\\] \\[d = \\sqrt{3^2 + 4^2}\\] \\[d = \\sqrt{9 + 16}\\] \\[d = \\sqrt{25} = 5\\]",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson1.html#midpoint-formula",
+    "href": "lessons/lesson1.html#midpoint-formula",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "Midpoint Formula",
+    "text": "Midpoint Formula\nThe midpoint M of a line segment joining \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is:\n\\[M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\]\n\nExample 3: Finding Midpoint\nFind the midpoint of the line segment joining A(2, 3) and B(8, 7).\nSolution: \\[M = \\left(\\frac{2 + 8}{2}, \\frac{3 + 7}{2}\\right) = \\left(\\frac{10}{2}, \\frac{10}{2}\\right) = (5, 5)\\]",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson1.html#practice-exercises",
+    "href": "lessons/lesson1.html#practice-exercises",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises\n\nPlot the following points on a coordinate plane:\n\nP(3, -2)\nQ(-4, 1)\nR(0, 5)\n\nFind the distance between:\n\nC(0, 0) and D(3, 4)\nE(-1, 2) and F(5, 10)\n\nFind the midpoint of the line segment joining:\n\nG(1, 1) and H(7, 9)\nJ(-2, 3) and K(4, -5)",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson1.html#homework",
+    "href": "lessons/lesson1.html#homework",
+    "title": "Lesson 1: Introduction to Cartesian Coordinates",
+    "section": "Homework",
+    "text": "Homework\nComplete the worksheet on coordinate geometry basics (see Resources).\n\nNext Lesson: Lesson 2: Gradients and Linear Equations",
+    "crumbs": [
+      "Lessons",
+      "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html",
+    "href": "lessons/lesson3.html",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nIdentify parallel and perpendicular lines from their equations\nDetermine if lines are parallel or perpendicular using gradients\nFind equations of parallel and perpendicular lines\nSolve geometric problems involving parallel and perpendicular lines",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html#learning-objectives",
+    "href": "lessons/lesson3.html#learning-objectives",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nIdentify parallel and perpendicular lines from their equations\nDetermine if lines are parallel or perpendicular using gradients\nFind equations of parallel and perpendicular lines\nSolve geometric problems involving parallel and perpendicular lines",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html#parallel-lines",
+    "href": "lessons/lesson3.html#parallel-lines",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "Parallel Lines",
+    "text": "Parallel Lines\nTwo lines are parallel if they have the same gradient and never intersect.\n\n\n\n\n\n\nImportantKey Property of Parallel Lines\n\n\n\nIf two lines are parallel, then \\(m_1 = m_2\\)\n\n\n\nExample 1: Identifying Parallel Lines\nAre the lines \\(y = 2x + 3\\) and \\(y = 2x - 5\\) parallel?\nSolution: Both lines have gradient \\(m = 2\\), so they are parallel.\n\n\nExample 2: Finding Parallel Line Equation\nFind the equation of the line parallel to \\(y = 3x + 1\\) that passes through the point (2, 7).\nSolution: - Parallel lines have the same gradient: \\(m = 3\\) - Using point-slope form with (2, 7): \\[y - 7 = 3(x - 2)\\] \\[y - 7 = 3x - 6\\] \\[y = 3x + 1\\]\nVerification: When \\(x = 2\\), \\(y = 3(2) + 1 = 7\\) ✓",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html#perpendicular-lines",
+    "href": "lessons/lesson3.html#perpendicular-lines",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "Perpendicular Lines",
+    "text": "Perpendicular Lines\nTwo lines are perpendicular if they meet at a right angle (90°).\n\n\n\n\n\n\nImportantKey Property of Perpendicular Lines\n\n\n\nIf two lines are perpendicular, then \\(m_1 \\times m_2 = -1\\)\nOr equivalently: \\(m_2 = -\\frac{1}{m_1}\\)\n\n\n\nExample 3: Identifying Perpendicular Lines\nAre the lines \\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 3\\) perpendicular?\nSolution: \\[m_1 \\times m_2 = 2 \\times \\left(-\\frac{1}{2}\\right) = -1\\]\nYes, the lines are perpendicular.\n\n\nExample 4: Finding Perpendicular Line Equation\nFind the equation of the line perpendicular to \\(y = 4x - 2\\) that passes through the point (8, 3).\nSolution: - Original gradient: \\(m_1 = 4\\) - Perpendicular gradient: \\(m_2 = -\\frac{1}{4}\\) - Using point-slope form with (8, 3): \\[y - 3 = -\\frac{1}{4}(x - 8)\\] \\[y - 3 = -\\frac{1}{4}x + 2\\] \\[y = -\\frac{1}{4}x + 5\\]",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html#practice-exercises",
+    "href": "lessons/lesson3.html#practice-exercises",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises\n\nDetermine if these pairs of lines are parallel, perpendicular, or neither:\n\n\\(y = 3x + 2\\) and \\(y = 3x - 7\\)\n\\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 4\\)\n\\(y = 5x\\) and \\(y = -5x + 3\\)\n\nFind the equation of the line:\n\nParallel to \\(y = -2x + 3\\) through point (1, 5)\nPerpendicular to \\(y = \\frac{1}{3}x - 1\\) through point (6, 2)\n\nThe line \\(L_1\\) passes through points A(1, 2) and B(5, 10).\n\nFind the equation of \\(L_1\\)\nFind the equation of the line parallel to \\(L_1\\) through C(0, 0)\nFind the equation of the line perpendicular to \\(L_1\\) through D(3, 4)",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html#problem-solving-strategy",
+    "href": "lessons/lesson3.html#problem-solving-strategy",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "Problem-Solving Strategy",
+    "text": "Problem-Solving Strategy\nWhen working with parallel and perpendicular lines:\n\nIdentify or calculate the gradient of the given line\nDetermine the gradient of the required line (same for parallel, negative reciprocal for perpendicular)\nUse the point-slope form with the given point\nSimplify to the required form",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html#real-world-applications",
+    "href": "lessons/lesson3.html#real-world-applications",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "Real-World Applications",
+    "text": "Real-World Applications\n\nArchitecture: Ensuring walls are perpendicular to the floor\nNavigation: Plotting perpendicular courses\nEngineering: Designing parallel roads or railway tracks",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson3.html#homework",
+    "href": "lessons/lesson3.html#homework",
+    "title": "Lesson 3: Parallel and Perpendicular Lines",
+    "section": "Homework",
+    "text": "Homework\nComplete the parallel and perpendicular lines worksheet (see Resources).\n\nPrevious Lesson: Lesson 2: Gradients and Linear Equations",
+    "crumbs": [
+      "Lessons",
+      "Lesson 3: Parallel and Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This section provides supplementary materials to support teaching and learning of co-ordinate geometry.\n\n\n\nWorksheets: Printable practice exercises\nWorked Examples: Step-by-step solutions to common problems\nReferences & External Resources: Official NZQA links and helpful websites",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources/index.html#teaching-resources",
+    "href": "resources/index.html#teaching-resources",
+    "title": "Resources",
+    "section": "",
+    "text": "This section provides supplementary materials to support teaching and learning of co-ordinate geometry.\n\n\n\nWorksheets: Printable practice exercises\nWorked Examples: Step-by-step solutions to common problems\nReferences & External Resources: Official NZQA links and helpful websites",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources/index.html#quick-links",
+    "href": "resources/index.html#quick-links",
+    "title": "Resources",
+    "section": "Quick Links",
+    "text": "Quick Links\n\nOnline Tools\n\nDesmos Graphing Calculator: Free online graphing tool\nGeoGebra: Interactive geometry software\n\n\n\nAdditional Reading\nStudents seeking extra practice or alternative explanations may benefit from: - Khan Academy: Coordinate Plane sections - Mathisfun: Coordinate Geometry pages",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources/index.html#downloadable-materials",
+    "href": "resources/index.html#downloadable-materials",
+    "title": "Resources",
+    "section": "Downloadable Materials",
+    "text": "Downloadable Materials\nAll worksheets and resources are provided in formats suitable for printing and classroom use.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources/index.html#contributing",
+    "href": "resources/index.html#contributing",
+    "title": "Resources",
+    "section": "Contributing",
+    "text": "Contributing\nIf you have additional resources or improvements, please consider contributing to this project via GitHub.",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources/worksheets.html",
+    "href": "resources/worksheets.html",
+    "title": "Worksheets",
+    "section": "",
+    "text": "The following worksheets provide structured practice for each topic in the course.\n\n\nTopic: Plotting points, distance, and midpoint\nExercises:\n\nPlot the following points on a coordinate plane:\n\nA(4, 3), B(-2, 5), C(-3, -4), D(1, -2), E(0, 6)\n\nCalculate the distance between:\n\nA(1, 1) and B(4, 5)\nC(-2, 3) and D(3, -9)\nE(0, 0) and F(-5, 12)\n\nFind the midpoint of:\n\nLine segment from (2, 8) to (10, 4)\nLine segment from (-3, 7) to (5, -1)\n\n\n\n\n\nTopic: Finding gradients and writing equations of lines\nExercises:\n\nFind the gradient of the line through:\n\nP(1, 3) and Q(5, 11)\nR(-2, 4) and S(6, -4)\nT(0, -3) and U(4, 5)\n\nWrite the equation of the line:\n\nWith gradient 3 and y-intercept 5\nWith gradient -2 passing through (4, 1)\nThrough points (2, 3) and (6, 11)\n\nConvert to slope-intercept form (\\(y = mx + c\\)):\n\n\\(3x + y - 6 = 0\\)\n\\(2x - 4y + 8 = 0\\)\n\\(x + 2y - 10 = 0\\)\n\n\n\n\n\nTopic: Working with parallel and perpendicular lines\nExercises:\n\nDetermine whether each pair of lines is parallel, perpendicular, or neither:\n\n\\(y = 4x + 1\\) and \\(y = 4x - 3\\)\n\\(y = 2x + 5\\) and \\(y = -\\frac{1}{2}x + 2\\)\n\\(y = 3x - 1\\) and \\(y = 2x + 4\\)\n\nFind the equation of:\n\nThe line parallel to \\(y = 5x + 2\\) through point (2, 3)\nThe line perpendicular to \\(y = -3x + 1\\) through point (6, 4)\nThe line parallel to \\(2x + y - 4 = 0\\) through point (-1, 5)\n\nChallenge problems:\n\nLine \\(L\\) passes through A(1, 2) and B(7, 8). Find the equation of the line perpendicular to \\(L\\) that passes through the midpoint of AB.\nPoints P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has gradient \\(\\frac{1}{2}\\), find the gradient of QR.",
+    "crumbs": [
+      "Resources",
+      "Worksheets"
+    ]
+  },
+  {
+    "objectID": "resources/worksheets.html#practice-worksheets",
+    "href": "resources/worksheets.html#practice-worksheets",
+    "title": "Worksheets",
+    "section": "",
+    "text": "The following worksheets provide structured practice for each topic in the course.\n\n\nTopic: Plotting points, distance, and midpoint\nExercises:\n\nPlot the following points on a coordinate plane:\n\nA(4, 3), B(-2, 5), C(-3, -4), D(1, -2), E(0, 6)\n\nCalculate the distance between:\n\nA(1, 1) and B(4, 5)\nC(-2, 3) and D(3, -9)\nE(0, 0) and F(-5, 12)\n\nFind the midpoint of:\n\nLine segment from (2, 8) to (10, 4)\nLine segment from (-3, 7) to (5, -1)\n\n\n\n\n\nTopic: Finding gradients and writing equations of lines\nExercises:\n\nFind the gradient of the line through:\n\nP(1, 3) and Q(5, 11)\nR(-2, 4) and S(6, -4)\nT(0, -3) and U(4, 5)\n\nWrite the equation of the line:\n\nWith gradient 3 and y-intercept 5\nWith gradient -2 passing through (4, 1)\nThrough points (2, 3) and (6, 11)\n\nConvert to slope-intercept form (\\(y = mx + c\\)):\n\n\\(3x + y - 6 = 0\\)\n\\(2x - 4y + 8 = 0\\)\n\\(x + 2y - 10 = 0\\)\n\n\n\n\n\nTopic: Working with parallel and perpendicular lines\nExercises:\n\nDetermine whether each pair of lines is parallel, perpendicular, or neither:\n\n\\(y = 4x + 1\\) and \\(y = 4x - 3\\)\n\\(y = 2x + 5\\) and \\(y = -\\frac{1}{2}x + 2\\)\n\\(y = 3x - 1\\) and \\(y = 2x + 4\\)\n\nFind the equation of:\n\nThe line parallel to \\(y = 5x + 2\\) through point (2, 3)\nThe line perpendicular to \\(y = -3x + 1\\) through point (6, 4)\nThe line parallel to \\(2x + y - 4 = 0\\) through point (-1, 5)\n\nChallenge problems:\n\nLine \\(L\\) passes through A(1, 2) and B(7, 8). Find the equation of the line perpendicular to \\(L\\) that passes through the midpoint of AB.\nPoints P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has gradient \\(\\frac{1}{2}\\), find the gradient of QR.",
+    "crumbs": [
+      "Resources",
+      "Worksheets"
+    ]
+  },
+  {
+    "objectID": "resources/worksheets.html#answer-key",
+    "href": "resources/worksheets.html#answer-key",
+    "title": "Worksheets",
+    "section": "Answer Key",
+    "text": "Answer Key\nWorksheet 1: 1. (Plot on graph paper) 2. a) 5, b) 13, c) 13 3. a) (6, 6), b) (1, 3)\nWorksheet 2: 1. a) 2, b) -1, c) 2 2. a) \\(y = 3x + 5\\), b) \\(y = -2x + 9\\), c) \\(y = 2x - 1\\) 3. a) \\(y = -3x + 6\\), b) \\(y = \\frac{1}{2}x + 2\\), c) \\(y = -\\frac{1}{2}x + 5\\)\nWorksheet 3: 1. a) Parallel, b) Perpendicular, c) Neither 2. a) \\(y = 5x - 7\\), b) \\(y = \\frac{1}{3}x + 2\\), c) \\(y = -2x + 3\\) 3. a) \\(y = -x + 9\\), b) \\(m_{QR} = -2\\)",
+    "crumbs": [
+      "Resources",
+      "Worksheets"
+    ]
+  },
+  {
+    "objectID": "resources/worksheets.html#printing-tips",
+    "href": "resources/worksheets.html#printing-tips",
+    "title": "Worksheets",
+    "section": "Printing Tips",
+    "text": "Printing Tips\n\nPrint worksheets on A4 paper\nConsider providing graph paper for plotting exercises\nAnswer keys can be printed separately for teacher use",
+    "crumbs": [
+      "Resources",
+      "Worksheets"
+    ]
+  }
+]

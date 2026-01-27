@@ -47,65 +47,56 @@ https://davan690.github.io/AS91256_Co_ordinate_geometry/
    ```
    The rendered site will be in the `_site` directory.
 
-## 🚀 GitHub Actions Setup
+## 🚀 GitHub Pages Deployment
 
-The repository includes a GitHub Actions workflow that automatically builds and deploys the website to GitHub Pages.
+This repository hosts pre-built HTML files directly from the `docs/` folder - no build process needed on GitHub!
 
-### Initial Setup
+### Setup Instructions
 
-1. **Enable GitHub Pages**:
+1. **Build Locally**:
+   ```bash
+   quarto render
+   ```
+   This generates static HTML files in the `docs/` folder.
+
+2. **Commit and Push**:
+   ```bash
+   git add docs/
+   git commit -m "Update website content"
+   git push
+   ```
+
+3. **Configure GitHub Pages** (one-time setup):
    - Go to your repository on GitHub
    - Navigate to **Settings** → **Pages**
-   - Under "Build and deployment", select **Source**: **GitHub Actions** (NOT "Deploy from a branch")
-   
-2. **Verify Workflow File**:
-   - The workflow file is located at `.github/workflows/publish.yml`
-   - It automatically triggers on pushes to the `main` branch
+   - Under "Build and deployment":
+     - **Source**: Select "Deploy from a branch"
+     - **Branch**: Select "main" and folder "/docs"
+     - Click **Save**
 
-3. **Important Files**:
-   - `.nojekyll` - Disables Jekyll processing (site is pre-built by Quarto)
-   - The workflow builds to the `docs/` folder and deploys from there
+4. **View Your Site**:
+   - After a few moments, your site will be live at:
+   - https://davan690.github.io/AS91256_Co_ordinate_geometry/
 
-2. **Push to main branch**:
-   - The workflow automatically triggers on pushes to the `main` branch
-   - You can also manually trigger it from the "Actions" tab
+### Updating the Website
 
-### How GitHub Actions Works
+1. Make changes to `.qmd` files
+2. Run `quarto render` locally
+3. Commit the updated `docs/` folder
+4. Push to GitHub
+5. Site updates automatically!
 
-The workflow (`.github/workflows/publish.yml`) performs the following steps:
+### Benefits
 
-1. **Checkout**: Gets the repository code
-2. **Setup Quarto**: Installs Quarto on the runner
-3. **Setup R**: Installs R for RMarkdown support
-4. **Install Dependencies**: Installs necessary R packages
-5. **Render**: Builds the Quarto website
-6. **Upload**: Prepares the built site as an artifact
-7. **Deploy**: Publishes to GitHub Pages
+- ✅ No GitHub Actions build time
+- ✅ No cost for build minutes
+- ✅ Faster deployment (just commits)
+- ✅ See exact output before pushing
+- ✅ Simple and reliable
 
-### Manual Workflow Trigger
+### Note
 
-You can manually trigger the build:
-1. Go to the **Actions** tab in your GitHub repository
-2. Select the "Publish Quarto Website" workflow
-3. Click **Run workflow** → **Run workflow**
-
-### Monitoring Builds
-
-- View build status in the **Actions** tab
-- Green checkmark ✓ indicates successful build
-- Red X ✗ indicates build failure (click to see logs)
-
-### Common Issues
-
-**Build Fails**: 
-- Check the Actions logs for specific error messages
-- Ensure all `.qmd` files have valid YAML frontmatter
-- Verify there are no broken links in the content
-
-**Pages Not Updating**:
-- Wait a few minutes after the workflow completes
-- Clear your browser cache
-- Check that GitHub Pages is configured correctly
+The `.github/workflows/publish.yml` file is no longer needed and can be deleted or ignored.
 
 ## 📝 Content Structure
 
