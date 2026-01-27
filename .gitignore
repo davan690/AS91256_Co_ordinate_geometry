@@ -55,3 +55,6 @@ rsconnect/
 /.quarto-cache/
 
 **/*.quarto_ipynb
+
+#remove .env files
+.env
