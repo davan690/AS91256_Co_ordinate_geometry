@@ -56,7 +56,15 @@ The repository includes a GitHub Actions workflow that automatically builds and 
 1. **Enable GitHub Pages**:
    - Go to your repository on GitHub
    - Navigate to **Settings** → **Pages**
-   - Under "Build and deployment", select **Source**: "GitHub Actions"
+   - Under "Build and deployment", select **Source**: **GitHub Actions** (NOT "Deploy from a branch")
+   
+2. **Verify Workflow File**:
+   - The workflow file is located at `.github/workflows/publish.yml`
+   - It automatically triggers on pushes to the `main` branch
+
+3. **Important Files**:
+   - `.nojekyll` - Disables Jekyll processing (site is pre-built by Quarto)
+   - The workflow builds to the `docs/` folder and deploys from there
 
 2. **Push to main branch**:
    - The workflow automatically triggers on pushes to the `main` branch
