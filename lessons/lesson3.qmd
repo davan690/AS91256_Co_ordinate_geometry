@@ -1,112 +1,292 @@
 ---
-title: "Lesson 3: Parallel and Perpendicular Lines"
+title: "Lesson 3: The Distance Formula"
 ---
 
 ## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
-- Identify parallel and perpendicular lines from their equations
-- Determine if lines are parallel or perpendicular using gradients
-- Find equations of parallel and perpendicular lines
-- Solve geometric problems involving parallel and perpendicular lines
+- Understand the connection between the Pythagorean theorem and the distance formula
+- Apply the distance formula to calculate the distance between any two points
+- Simplify radical expressions in distance calculations
+- Solve real-world problems involving distance on coordinate planes
+- Find unknown coordinates when given distance information
 
-## Parallel Lines
+## Introduction
 
-Two lines are **parallel** if they have the same gradient and never intersect.
+One of the most important applications of coordinate geometry is finding the distance between two points. Whether you're calculating how far apart two cities are on a map, finding the straight-line distance a delivery drone needs to travel, or determining if two locations are within wireless signal range, the distance formula is essential.
 
-::: {.callout-important}
-## Key Property of Parallel Lines
-If two lines are parallel, then $m_1 = m_2$
-:::
+## The Pythagorean Theorem Review
 
-### Example 1: Identifying Parallel Lines
+Before we explore the distance formula, let's recall the Pythagorean theorem:
 
-Are the lines $y = 2x + 3$ and $y = 2x - 5$ parallel?
+For a right triangle with legs of length $a$ and $b$, and hypotenuse of length $c$:
 
-**Solution:**
-Both lines have gradient $m = 2$, so they are parallel.
+$$a^2 + b^2 = c^2$$
 
-### Example 2: Finding Parallel Line Equation
+**Example:** If a right triangle has legs of 3 and 4 units, find the hypotenuse.
 
-Find the equation of the line parallel to $y = 3x + 1$ that passes through the point (2, 7).
+$$c^2 = 3^2 + 4^2 = 9 + 16 = 25$$
+$$c = \sqrt{25} = 5$$
 
-**Solution:**
-- Parallel lines have the same gradient: $m = 3$
-- Using point-slope form with (2, 7):
-$$y - 7 = 3(x - 2)$$
-$$y - 7 = 3x - 6$$
-$$y = 3x + 1$$
+## Deriving the Distance Formula
 
-**Verification:** When $x = 2$, $y = 3(2) + 1 = 7$ ✓
+When we plot two points on a coordinate plane, we can create a right triangle:
 
-## Perpendicular Lines
+Consider points A$(x_1, y_1)$ and B$(x_2, y_2)$:
+- The horizontal leg has length $|x_2 - x_1|$
+- The vertical leg has length $|y_2 - y_1|$
+- The distance between A and B is the hypotenuse
 
-Two lines are **perpendicular** if they meet at a right angle (90°).
+Using the Pythagorean theorem:
+$$d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$$
 
-::: {.callout-important}
-## Key Property of Perpendicular Lines
-If two lines are perpendicular, then $m_1 \times m_2 = -1$
+Taking the square root of both sides:
 
-Or equivalently: $m_2 = -\frac{1}{m_1}$
-:::
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
-### Example 3: Identifying Perpendicular Lines
+This is the **distance formula**.
 
-Are the lines $y = 2x + 1$ and $y = -\frac{1}{2}x + 3$ perpendicular?
+## Using the Distance Formula
+
+### Example 1: Basic Distance Calculation
+
+Find the distance between points A(1, 2) and B(4, 6).
 
 **Solution:**
-$$m_1 \times m_2 = 2 \times \left(-\frac{1}{2}\right) = -1$$
+Identify the coordinates: $(x_1, y_1) = (1, 2)$ and $(x_2, y_2) = (4, 6)$
 
-Yes, the lines are perpendicular.
+$$d = \sqrt{(4-1)^2 + (6-2)^2}$$
+$$d = \sqrt{3^2 + 4^2}$$
+$$d = \sqrt{9 + 16}$$
+$$d = \sqrt{25} = 5$$
 
-### Example 4: Finding Perpendicular Line Equation
+The distance is exactly 5 units.
 
-Find the equation of the line perpendicular to $y = 4x - 2$ that passes through the point (8, 3).
+### Example 2: Distance with Negative Coordinates
+
+Find the distance between C(-2, 3) and D(4, -1).
 
 **Solution:**
-- Original gradient: $m_1 = 4$
-- Perpendicular gradient: $m_2 = -\frac{1}{4}$
-- Using point-slope form with (8, 3):
-$$y - 3 = -\frac{1}{4}(x - 8)$$
-$$y - 3 = -\frac{1}{4}x + 2$$
-$$y = -\frac{1}{4}x + 5$$
+$$d = \sqrt{(4-(-2))^2 + (-1-3)^2}$$
+$$d = \sqrt{(4+2)^2 + (-4)^2}$$
+$$d = \sqrt{6^2 + 16}$$
+$$d = \sqrt{36 + 16}$$
+$$d = \sqrt{52}$$
 
-## Practice Exercises
+To simplify: $\sqrt{52} = \sqrt{4 \times 13} = 2\sqrt{13}$
 
-1. Determine if these pairs of lines are parallel, perpendicular, or neither:
-   - $y = 3x + 2$ and $y = 3x - 7$
-   - $y = 2x + 1$ and $y = -\frac{1}{2}x + 4$
-   - $y = 5x$ and $y = -5x + 3$
+Approximately: $d \approx 7.21$ units
 
-2. Find the equation of the line:
-   - Parallel to $y = -2x + 3$ through point (1, 5)
-   - Perpendicular to $y = \frac{1}{3}x - 1$ through point (6, 2)
+### Example 3: Points on the Same Horizontal or Vertical Line
 
-3. The line $L_1$ passes through points A(1, 2) and B(5, 10).
-   - Find the equation of $L_1$
-   - Find the equation of the line parallel to $L_1$ through C(0, 0)
-   - Find the equation of the line perpendicular to $L_1$ through D(3, 4)
+Find the distance between E(2, 5) and F(2, 9).
 
-## Problem-Solving Strategy
+**Solution:**
+$$d = \sqrt{(2-2)^2 + (9-5)^2}$$
+$$d = \sqrt{0 + 4^2}$$
+$$d = \sqrt{16} = 4$$
 
-When working with parallel and perpendicular lines:
+**Note:** When points share the same x-coordinate (vertical line) or y-coordinate (horizontal line), the distance is simply the difference in the other coordinate.
 
-1. Identify or calculate the gradient of the given line
-2. Determine the gradient of the required line (same for parallel, negative reciprocal for perpendicular)
-3. Use the point-slope form with the given point
-4. Simplify to the required form
+### Example 4: Distance from the Origin
+
+Find the distance from the origin O(0, 0) to point P(6, 8).
+
+**Solution:**
+$$d = \sqrt{(6-0)^2 + (8-0)^2}$$
+$$d = \sqrt{36 + 64}$$
+$$d = \sqrt{100} = 10$$
+
+The distance from the origin to any point $(x, y)$ is $\sqrt{x^2 + y^2}$.
+
+## Simplifying Radicals
+
+When the distance is not a perfect square, we should simplify:
+
+### Example 5: Simplifying Radical Answers
+
+Find the distance between G(-1, 2) and H(5, 4), leaving your answer in simplest radical form.
+
+**Solution:**
+$$d = \sqrt{(5-(-1))^2 + (4-2)^2}$$
+$$d = \sqrt{6^2 + 2^2}$$
+$$d = \sqrt{36 + 4}$$
+$$d = \sqrt{40}$$
+
+Factor out perfect squares: $\sqrt{40} = \sqrt{4 \times 10} = 2\sqrt{10}$
+
+**Decimal approximation:** $d \approx 6.32$ units
 
 ## Real-World Applications
 
-- Architecture: Ensuring walls are perpendicular to the floor
-- Navigation: Plotting perpendicular courses
-- Engineering: Designing parallel roads or railway tracks
+### Example 6: Map Distances
+
+A park ranger at point P(2, 5) needs to reach a hiker in distress at point H(8, 13). Each coordinate unit represents 100 meters. How far must the ranger travel in a straight line?
+
+**Solution:**
+$$d = \sqrt{(8-2)^2 + (13-5)^2}$$
+$$d = \sqrt{6^2 + 8^2}$$
+$$d = \sqrt{36 + 64}$$
+$$d = \sqrt{100} = 10 \text{ units}$$
+
+Real distance = 10 × 100 = **1000 meters = 1 km**
+
+### Example 7: Cell Tower Coverage
+
+A cell tower is located at coordinates (3, 4) and has a signal range of 10 km. A house is located at (11, 10). Is the house within range? (Units are in kilometers)
+
+**Solution:**
+Distance from tower to house:
+$$d = \sqrt{(11-3)^2 + (10-4)^2}$$
+$$d = \sqrt{8^2 + 6^2}$$
+$$d = \sqrt{64 + 36}$$
+$$d = \sqrt{100} = 10 \text{ km}$$
+
+The house is **exactly** at the edge of the signal range (10 km).
+
+### Example 8: Comparing Distances
+
+A delivery company needs to determine which warehouse is closer to a customer.
+- Warehouse A is at (2, 3)
+- Warehouse B is at (-1, 7)
+- Customer is at (5, 6)
+
+Which warehouse should make the delivery?
+
+**Solution:**
+
+Distance from A to Customer:
+$$d_A = \sqrt{(5-2)^2 + (6-3)^2} = \sqrt{9 + 9} = \sqrt{18} = 3\sqrt{2} \approx 4.24$$
+
+Distance from B to Customer:
+$$d_B = \sqrt{(5-(-1))^2 + (6-7)^2} = \sqrt{36 + 1} = \sqrt{37} \approx 6.08$$
+
+**Warehouse A** is closer (4.24 units vs 6.08 units).
+
+## Working Backwards: Finding Unknown Coordinates
+
+### Example 9: Finding an Unknown x-coordinate
+
+Point A is at (3, 4) and point B is at (x, 10). The distance between them is 10 units. Find all possible values of x.
+
+**Solution:**
+$$10 = \sqrt{(x-3)^2 + (10-4)^2}$$
+$$10 = \sqrt{(x-3)^2 + 36}$$
+
+Square both sides:
+$$100 = (x-3)^2 + 36$$
+$$(x-3)^2 = 64$$
+$$x - 3 = \pm 8$$
+
+Therefore: $x = 3 + 8 = 11$ or $x = 3 - 8 = -5$
+
+**Answer:** B could be at (11, 10) or (-5, 10).
+
+### Example 10: Finding an Unknown y-coordinate
+
+Points P(2, y) and Q(6, 3) are 5 units apart. Find y.
+
+**Solution:**
+$$5 = \sqrt{(6-2)^2 + (3-y)^2}$$
+$$5 = \sqrt{16 + (3-y)^2}$$
+$$25 = 16 + (3-y)^2$$
+$$(3-y)^2 = 9$$
+$$3 - y = \pm 3$$
+
+Therefore: $y = 3 - 3 = 0$ or $y = 3 + 3 = 6$
+
+**Answer:** P could be at (2, 0) or (2, 6).
+
+## Connection to Lesson 2: Maps and Scale
+
+Remember from Lesson 2 that maps use scales. When using the distance formula with map coordinates, don't forget to convert to real distances:
+
+**Example 11:** On a map with scale 1:50,000, two landmarks are at grid coordinates (120, 80) and (180, 140). Each grid unit represents 1 meter. What is the real distance between the landmarks?
+
+**Solution:**
+Map distance (in grid units):
+$$d = \sqrt{(180-120)^2 + (140-80)^2}$$
+$$d = \sqrt{60^2 + 60^2}$$
+$$d = \sqrt{3600 + 3600}$$
+$$d = \sqrt{7200} = 60\sqrt{2} \approx 84.85 \text{ grid units}$$
+
+Since each unit = 1 meter, map distance = 84.85 m
+
+Real distance = 84.85 m × scale = 84.85 × 1 = 84.85 m (the scale tells us about map:real ratio, but here we're working with grid units that are already scaled)
+
+## Practice Exercises
+
+### Set 1: Basic Calculations
+
+1. Find the distance between:
+   a) A(0, 0) and B(5, 12)
+   b) C(2, 3) and D(8, 11)
+   c) E(-4, 1) and F(2, -7)
+   d) G(-3, -2) and H(-7, -5)
+
+2. Simplify your answers in simplest radical form:
+   a) Distance between (0, 0) and (3, 7)
+   b) Distance between (1, 2) and (6, 5)
+   c) Distance between (-2, 3) and (4, 8)
+
+### Set 2: Special Cases
+
+3. Find the distance between:
+   a) Two points on a horizontal line: (2, 5) and (9, 5)
+   b) Two points on a vertical line: (3, 1) and (3, 8)
+   c) Two points where one is the origin: (0, 0) and (-6, -8)
+
+### Set 3: Applications
+
+4. A drone flies from point A(10, 20) to point B(40, 50). Each unit represents 10 meters.
+   a) How far does the drone travel?
+   b) Express your answer in kilometers.
+
+5. Which point is closer to (5, 5)?
+   - Point A at (1, 2)
+   - Point B at (9, 9)
+
+6. A circular running track has its center at (0, 0) and a radius of 50 meters. A water station is at point (30, 40). Is the water station inside, on, or outside the track?
+
+### Set 4: Unknown Coordinates
+
+7. Point M is at (x, 6) and N is at (4, 2). If MN = 5, find all possible values of x.
+
+8. Points P(3, y) and Q(-1, 5) are $2\sqrt{5}$ units apart. Find y.
+
+9. A point on the x-axis is 13 units from point (5, 12). Find the coordinates of the point.
+
+### Set 5: Challenge Problems
+
+10. Three vertices of a square are at A(1, 1), B(4, 1), and C(4, 4). Find the coordinates of the fourth vertex D and verify your answer by showing all four sides have equal length.
+
+11. Prove that the triangle with vertices A(0, 0), B(4, 0), and C(2, 2√3) is equilateral by showing all three sides have the same length.
+
+12. A lighthouse at position (0, 0) has a light that can be seen up to 20 km away. A ship is traveling in a straight line from point (-15, 20) to point (25, 15). Will the ship be visible from the lighthouse at any point during its journey? (Hint: Find the closest point on the path to the lighthouse)
+
+## Additional Resources
+
+### Online Tools
+- Use graphing calculators or Desmos to visualize distances
+- GeoGebra has excellent tools for exploring coordinate geometry
+- Google Earth for real-world distance applications
+
+### Video Resources
+- Search for "distance formula derivation" to see animated proofs
+- "Pythagorean theorem applications" shows real-world uses
+
+### Extension Topics
+- **3D Distance Formula:** For three dimensions: $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}$
+- **Taxicab Distance:** In cities with grid layouts, you can't travel "as the crow flies"
+- **GPS and Great Circle Distance:** How GPS calculates distance on the curved Earth
 
 ## Homework
 
-Complete the parallel and perpendicular lines worksheet (see [Resources](../resources/worksheets.qmd)).
+Complete Practice Exercises Sets 1 and 2 completely, and at least 3 problems from Set 3.
+
+For additional practice, see the [Resources](../resources/worksheets.qmd) section.
 
 ---
 
-**Previous Lesson:** [Lesson 2: Gradients and Linear Equations](lesson2.qmd)
+**Next Lesson:** [Lesson 4: The Midpoint Formula](lesson4.qmd)

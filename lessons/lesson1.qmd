@@ -8,8 +8,7 @@ By the end of this lesson, students will be able to:
 
 - Understand the structure of the Cartesian coordinate system
 - Plot points accurately on a coordinate plane
-- Calculate the distance between two points using the distance formula
-- Find the midpoint of a line segment
+- Identify quadrants and understand positive/negative coordinates
 
 ## The Cartesian Coordinate System
 
@@ -33,34 +32,23 @@ Plot the following points:
 - C(-3, -2)
 - D(4, -1)
 
-## Distance Formula
+## Quadrants
 
-The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is given by:
+The coordinate plane is divided into four quadrants:
+- **Quadrant I:** x > 0, y > 0 (top right)
+- **Quadrant II:** x < 0, y > 0 (top left)
+- **Quadrant III:** x < 0, y < 0 (bottom left)
+- **Quadrant IV:** x > 0, y < 0 (bottom right)
 
-$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+### Example 2: Identifying Quadrants
 
-### Example 2: Finding Distance
+In which quadrant does each point lie?
+- P(3, 5) → Quadrant I (both positive)
+- Q(-2, 7) → Quadrant II (x negative, y positive)
+- R(-4, -3) → Quadrant III (both negative)
+- S(6, -2) → Quadrant IV (x positive, y negative)
 
-Find the distance between points A(1, 2) and B(4, 6).
-
-**Solution:**
-$$d = \sqrt{(4-1)^2 + (6-2)^2}$$
-$$d = \sqrt{3^2 + 4^2}$$
-$$d = \sqrt{9 + 16}$$
-$$d = \sqrt{25} = 5$$
-
-## Midpoint Formula
-
-The midpoint M of a line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ is:
-
-$$M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
-
-### Example 3: Finding Midpoint
-
-Find the midpoint of the line segment joining A(2, 3) and B(8, 7).
-
-**Solution:**
-$$M = \left(\frac{2 + 8}{2}, \frac{3 + 7}{2}\right) = \left(\frac{10}{2}, \frac{10}{2}\right) = (5, 5)$$
+Points on the axes are not in any quadrant.
 
 ## Practice Exercises
 
@@ -68,14 +56,19 @@ $$M = \left(\frac{2 + 8}{2}, \frac{3 + 7}{2}\right) = \left(\frac{10}{2}, \frac{
    - P(3, -2)
    - Q(-4, 1)
    - R(0, 5)
+   - S(-2, -3)
+   - T(4, 0)
 
-2. Find the distance between:
-   - C(0, 0) and D(3, 4)
-   - E(-1, 2) and F(5, 10)
+2. Identify the quadrant for each point:
+   - A(5, 7)
+   - B(-3, 2)
+   - C(-1, -6)
+   - D(4, -3)
 
-3. Find the midpoint of the line segment joining:
-   - G(1, 1) and H(7, 9)
-   - J(-2, 3) and K(4, -5)
+3. Name three points that lie:
+   - In Quadrant II
+   - On the x-axis
+   - On the y-axis
 
 ## Homework
 

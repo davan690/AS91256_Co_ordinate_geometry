@@ -793,5 +793,341 @@
       "Resources",
       "Worksheets"
     ]
+  },
+  {
+    "objectID": "drafts/textbook.html",
+    "href": "drafts/textbook.html",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "This textbook provides a comprehensive guide to coordinate geometry for AS91256. The content is organized into progressive lessons covering fundamental concepts through to advanced applications.\n\n\nThis course explores coordinate geometry through practical applications and real-world contexts. Students will develop skills in:\n\nUnderstanding and using the Cartesian coordinate system\nWorking with map scales, coordinates, and bearings\nCalculating distances and midpoints\nAnalyzing gradients and linear equations\nUnderstanding parallel and perpendicular lines\n\n\n\n\nEach lesson includes: - Clear learning objectives - Worked examples with step-by-step solutions - Practice exercises with varying difficulty - Real-world applications and contexts - Cultural connections and te reo MÄori vocabulary where relevant\n\n\n\n\nBy the end of this lesson, students will be able to:\n\nUnderstand the structure of the Cartesian coordinate system\nPlot points accurately on a coordinate plane\nIdentify quadrants and understand positive/negative coordinates\n\n\n\n\nThe Cartesian coordinate system uses two perpendicular number lines: - The x-axis (horizontal) - The y-axis (vertical)\nThe point where they intersect is called the origin, denoted as (0, 0).\n\n\n\nEach point in the plane is represented by an ordered pair (x, y): - The first number (x) tells us how far to move horizontally - The second number (y) tells us how far to move vertically\n\n\nPlot the following points: - A(2, 3) - B(-1, 4) - C(-3, -2) - D(4, -1)\n\n\n\n\nThe coordinate plane is divided into four quadrants: - Quadrant I: x &gt; 0, y &gt; 0 (top right) - Quadrant II: x &lt; 0, y &gt; 0 (top left) - Quadrant III: x &lt; 0, y &lt; 0 (bottom left) - Quadrant IV: x &gt; 0, y &lt; 0 (bottom right)\n\n\nIn which quadrant does each point lie? - P(3, 5) → Quadrant I (both positive) - Q(-2, 7) → Quadrant II (x negative, y positive) - R(-4, -3) → Quadrant III (both negative) - S(6, -2) → Quadrant IV (x positive, y negative)\nPoints on the axes are not in any quadrant.\n\n\n\n\n\nPlot the following points on a coordinate plane:\n\nP(3, -2)\nQ(-4, 1)\nR(0, 5)\nS(-2, -3)\nT(4, 0)\n\nIdentify the quadrant for each point:\n\nA(5, 7)\nB(-3, 2)\nC(-1, -6)\nD(4, -3)\n\nName three points that lie:\n\nIn Quadrant II\nOn the x-axis\nOn the y-axis\n\n\n\n\n\nComplete the worksheet on coordinate geometry basics (see Resources).\n\n\n\n\nGM4-7: Communicate and interpret locations and directions, using compass directions, distances, and grid references.\n\n\n\nBy the end of this lesson, students will be able to:\n\nUnderstand and apply map scales to convert between map distances and real distances\nUse Cartesian coordinates to locate specific points on a map\nApply polar coordinates using bearings and distances to navigate\nInterpret latitude and longitude coordinates\n\n\n\n\nThis lesson investigates three mathematical concepts in the context of maps:\n\n\nA map is a reduced version of a real landscape. Scale compares the size of lengths on a map to those in the real landscape.\nKey Concept: If a map has a scale of 1:50,000, this means that 1 cm on the map represents 50,000 cm (or 500 m) in real life.\n\n\nA map has a scale of 1:25,000.\n\nIf two towns are 3 cm apart on the map, how far apart are they in real life?\n\nSolution: - Map distance = 3 cm - Real distance = 3 × 25,000 = 75,000 cm = 750 m = 0.75 km\n\nIf two landmarks are 2 km apart in real life, how far apart would they be on the map?\n\nSolution: - Real distance = 2 km = 200,000 cm - Map distance = 200,000 ÷ 25,000 = 8 cm\n\n\n\n\nCartesian coordinates refer to the location of a specific point using a combination of horizontal distance and vertical distance.\nExample: The star below is located at (7, 4).\n\n\n\nA grid showing coordinates\n\n\n\n\n\nLongitude is the number of degrees ‘around the world’ from the Prime Meridian\nLatitude is measured in degrees north or south from the equator\n\n\n\n\nOn a map with a grid system: - Location A is at grid reference (345, 678) - Location B is at grid reference (348, 682)\nIf each grid unit represents 100 meters, how far apart are A and B?\nSolution: Using the distance formula: \\[d = \\sqrt{(348-345)^2 + (682-678)^2}\\] \\[d = \\sqrt{3^2 + 4^2}\\] \\[d = \\sqrt{9 + 16} = \\sqrt{25} = 5 \\text{ grid units}\\]\nReal distance = 5 × 100 = 500 meters\n\n\n\n\nPolar coordinates specify a location using the angle or bearing from a given point and the distance from that point.\nBearings are measured clockwise from North and are written as three-digit numbers: - North = 000° (or 360°) - East = 090° - South = 180° - West = 270°\n\n\nFrom point A, a landmark is located on a bearing of 045° at a distance of 3 km.\n\nIn which general direction is the landmark?\n\nSolution: 045° is halfway between North (000°) and East (090°), so it’s Northeast.\n\nIf you walk on a bearing of 045° for 3 km, how far East and North have you traveled?\n\nSolution: Using trigonometry: - East component = 3 × sin(45°) = 3 × 0.707 ≈ 2.12 km - North component = 3 × cos(45°) = 3 × 0.707 ≈ 2.12 km\n\n\n\n\n\n\n\nUsing a map of your local area:\n\nIdentify your school on the map\nMeasure the distance from your school to a local landmark\nUse the map scale to calculate the real distance\nRecord the grid reference or coordinates of both locations\n\n\n\n\nCreate a treasure map with: - A coordinate grid system - At least 5 landmarks marked with coordinates - Write instructions using coordinates to move from one landmark to another\n\n\n\nUsing a compass or compass app:\n\nStand at a starting point\nFollow these instructions:\n\nWalk 20 paces on bearing 090°\nWalk 15 paces on bearing 180°\nWalk 20 paces on bearing 270°\nWalk 15 paces on bearing 000°\n\nWhere should you end up? Why?\n\n\n\n\n\n\n\n\nEnglish\nTe Reo Māori\n\n\n\n\nLatitude\nAhopae\n\n\nLongitude\nAhopou\n\n\nMap\nMahere\n\n\nScale drawing\nTuhinga āwhata\n\n\nScale\nĀwhata\n\n\nCartesian coordinates\nTaunga tukutuku\n\n\nNorth\nRaki\n\n\nSouth\nRunga\n\n\nEast\nRāwhiti\n\n\nWest\nRātō\n\n\n\n\n\n\n\n\nTipuna (Ancestors) had clever ways to navigate in the absence of sophisticated GPS systems. Polynesian navigators used:\n\nOcean currents\nThe sun and stars\nThe migration of whales and birds\nWave patterns and swells\n\nThese traditional methods allowed Pacific peoples to travel vast distances across the ocean with remarkable accuracy.\n\n\n\n\n\n\n\nA map has a scale of 1:50,000. What real distance does 4.5 cm on the map represent?\nTwo cities are 150 km apart. How far apart would they be on a map with a scale of 1:1,000,000?\nOn a treasure map, the scale is 1 cm = 5 m. If the treasure is 7.5 cm from the starting point on the map, how far is it in real life?\n\n\n\n\n\nPlot the following locations on a coordinate grid:\n\nSchool: (2, 5)\nLibrary: (7, 5)\nPark: (2, 1)\nShop: (7, 1)\n\nUsing your plotted points from question 4, calculate the distance from:\n\nSchool to Library\nSchool to Park\nLibrary to Shop\n\n\n\n\n\n\nFrom your starting position:\n\nPoint A is on a bearing of 045° at 5 km\nPoint B is on a bearing of 135° at 5 km\nPoint C is on a bearing of 225° at 5 km\nPoint D is on a bearing of 315° at 5 km\n\nSketch these points. What shape do they form?\nYou walk 3 km on a bearing of 060°. How far North and how far East have you traveled?\nTo get from home to school, you walk 400 m East then 300 m North.\n\nWhat is the direct distance from home to school?\nWhat bearing would take you directly from home to school?\n\n\n\n\n\n\n\n\n\nMagic Carpet Journey: Plan a journey from your location to a Pacific Island nation. Provide:\n\nStarting and ending coordinates (latitude/longitude)\nBearing from start to finish\nDistance of the journey\n\nMultiple Navigation: Starting from point A, follow these instructions:\n\n5 km on bearing 030°\n3 km on bearing 120°\n4 km on bearing 210°\n\nCalculate your final position relative to point A using coordinates.\nMap Making Project: Create a detailed scale map of your school grounds including:\n\nA clear scale\nGrid reference system\nAll major buildings and landmarks\nCompass rose showing North\n\n\n\n\n\n\nConsider using: - Google Maps for exploring scale and real-world coordinates - Compass apps on mobile phones for practicing bearings - GPS tracking apps to see how movement in real life corresponds to movement on a map - Online mapping tools to create custom maps with coordinate grids\n\n\n\nStudents could demonstrate their understanding by:\n\nCreating a detailed treasure map with scale, coordinates, and bearing-based instructions\nPlanning and executing a navigation course using bearings and distances\nConverting between map distances and real distances using various scales\nUsing latitude and longitude to identify locations around New Zealand and the Pacific\n\n\n\n\nLetter to Parents and Whānau:\nThis week in maths, we are learning about maps. We’re exploring how maps use mathematics including: - Scale (to show big places on small maps) - Coordinates (to locate specific places) - Bearings (to give directions)\nYou can help by: - Looking at maps together at home (road maps, street directories, online maps) - Asking your child to explain how the scale works - Having them show you how to describe where things are using coordinates - Discussing how GPS and digital maps work\nIf you have any paper maps at home, ask your child to show you the important parts and demonstrate how to describe locations and give directions using the map.\n\n\n\n\nCompasses (for finding north, not for drawing circles) or phones with compass app\nProtractors\nRulers\nPencils and paper\nMaps of local area or access to online maps\nCalculator (for trigonometry in bearing calculations)\n\n\n\n\nBy completing this lesson, students will have developed skills in: - Mathematical thinking: Understanding scale relationships and coordinate systems - Problem solving: Converting between map and real distances - Communication: Using mathematical language to describe locations and directions - Cultural awareness: Appreciating traditional navigation methods of Pacific peoples - Practical application: Using mathematical concepts in real-world contexts\n\n\n\n\nWhy is it important to understand map scales?\nHow do coordinates help us communicate locations precisely?\nWhat are the advantages of using bearings instead of just saying “go northeast”?\nHow do digital maps like Google Maps use these mathematical concepts?\nWhat can we learn from traditional Polynesian navigation methods?\n\n\n\n\nBy the end of this lesson, students will be able to:\n\nApply the distance formula to calculate the distance between two points\nUse the Pythagorean theorem to understand where the distance formula comes from\nFind the midpoint of a line segment\nSolve real-world problems using distance and midpoint\n\n\n\n\nThe distance between two points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is given by:\n\\[d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\]\n\n\nThe distance formula comes from the Pythagorean theorem. When we connect two points on a coordinate plane, we create a right triangle where: - The horizontal leg has length \\(|x_2 - x_1|\\) - The vertical leg has length \\(|y_2 - y_1|\\) - The hypotenuse is the distance between the points\nBy the Pythagorean theorem: \\(d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2\\)\nTaking the square root gives us the distance formula.\n\n\n\nFind the distance between points A(1, 2) and B(4, 6).\nSolution: \\[d = \\sqrt{(4-1)^2 + (6-2)^2}\\] \\[d = \\sqrt{3^2 + 4^2}\\] \\[d = \\sqrt{9 + 16}\\] \\[d = \\sqrt{25} = 5\\]\n\n\n\nFind the distance between C(-2, 3) and D(4, -1).\nSolution: \\[d = \\sqrt{(4-(-2))^2 + (-1-3)^2}\\] \\[d = \\sqrt{(4+2)^2 + (-4)^2}\\] \\[d = \\sqrt{6^2 + (-4)^2}\\] \\[d = \\sqrt{36 + 16}\\] \\[d = \\sqrt{52} = \\sqrt{4 \\times 13} = 2\\sqrt{13} \\approx 7.21\\]\n\n\n\nA park ranger at point P(2, 5) needs to reach a hiker in distress at point H(8, 13). Each coordinate unit represents 100 meters. How far must the ranger travel (as the crow flies)?\nSolution: \\[d = \\sqrt{(8-2)^2 + (13-5)^2}\\] \\[d = \\sqrt{6^2 + 8^2}\\] \\[d = \\sqrt{36 + 64}\\] \\[d = \\sqrt{100} = 10 \\text{ units}\\]\nReal distance = 10 × 100 = 1000 meters = 1 km\n\n\n\n\nThe midpoint M of a line segment joining \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is:\n\\[M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\]\nThe midpoint is simply the average of the x-coordinates and the average of the y-coordinates.\n\n\nFind the midpoint of the line segment joining A(2, 3) and B(8, 7).\nSolution: \\[M = \\left(\\frac{2 + 8}{2}, \\frac{3 + 7}{2}\\right) = \\left(\\frac{10}{2}, \\frac{10}{2}\\right) = (5, 5)\\]\n\n\n\nFind the midpoint of the line segment joining P(-4, 6) and Q(2, -2).\nSolution: \\[M = \\left(\\frac{-4 + 2}{2}, \\frac{6 + (-2)}{2}\\right) = \\left(\\frac{-2}{2}, \\frac{4}{2}\\right) = (-1, 2)\\]\n\n\n\nA straight road connects town A at coordinates (10, 20) to town B at coordinates (50, 60). The council wants to place a rest stop at the midpoint. What are the coordinates of the rest stop?\nSolution: \\[M = \\left(\\frac{10 + 50}{2}, \\frac{20 + 60}{2}\\right) = \\left(\\frac{60}{2}, \\frac{80}{2}\\right) = (30, 40)\\]\n\n\n\n\nSometimes you know the distance or midpoint and need to find an unknown coordinate.\n\n\nPoint A is at (3, 4) and point B is at (x, 10). The distance between them is 10 units. Find the possible values of x.\nSolution: \\[10 = \\sqrt{(x-3)^2 + (10-4)^2}\\] \\[10 = \\sqrt{(x-3)^2 + 36}\\] \\[100 = (x-3)^2 + 36\\] \\[(x-3)^2 = 64\\] \\[x - 3 = \\pm 8\\] \\[x = 3 + 8 = 11 \\text{ or } x = 3 - 8 = -5\\]\nSo B could be at (11, 10) or (-5, 10).\n\n\n\nThe midpoint of line segment AB is M(5, 7). If point A is at (2, 3), find the coordinates of point B.\nSolution: Let B = \\((x, y)\\)\n\\[\\frac{2 + x}{2} = 5 \\text{ and } \\frac{3 + y}{2} = 7\\]\nFrom the first equation: \\[2 + x = 10\\] \\[x = 8\\]\nFrom the second equation: \\[3 + y = 14\\] \\[y = 11\\]\nTherefore, B = (8, 11)\n\n\n\n\nIn Lesson 2, you learned about maps and coordinates. The distance formula helps us calculate actual distances on maps when we know the coordinates and the scale. The midpoint formula helps us find locations halfway between two points - useful for planning routes or placing landmarks.\n\n\nOn a map with scale 1:25,000, two landmarks are at coordinates (100, 150) and (400, 450). Each grid unit represents 1 meter.\n\nHow far apart are they on the map (in grid units)?\n\nSolution: \\[d = \\sqrt{(400-100)^2 + (450-150)^2}\\] \\[d = \\sqrt{300^2 + 300^2}\\] \\[d = \\sqrt{90000 + 90000}\\] \\[d = \\sqrt{180000} = 300\\sqrt{2} \\approx 424.26 \\text{ grid units}\\]\n\nWhat is the real distance?\n\nSolution: Real distance = 424.26 meters\n\n\n\n\n\n\n\nFind the distance between:\n\nA(0, 0) and B(3, 4)\nC(1, 2) and D(7, 10)\nE(-3, 4) and F(5, -2)\nG(-2, -1) and H(-5, -7)\n\nWhich pair of points is furthest apart?\n\nP(0, 0) and Q(6, 8)\nR(1, 1) and S(9, 7)\nT(-2, 3) and U(4, 11)\n\n\n\n\n\n\nFind the midpoint of the line segment joining:\n\nA(2, 4) and B(8, 10)\nC(-3, 5) and D(7, -1)\nE(0, 0) and F(12, 16)\nG(-4, -6) and H(-2, -2)\n\n\n\n\n\n\nA delivery truck travels from warehouse W(10, 15) to store S(34, 39). Each unit represents 1 km.\n\nHow far does the truck travel (in a straight line)?\nIf the truck stops at the midpoint, what are the coordinates of the stop?\n\nThree cellular towers are located at A(0, 0), B(60, 0), and C(30, 40), where coordinates are in kilometers.\n\nHow far is tower C from tower A?\nHow far is tower C from tower B?\nWhat is the midpoint between towers A and B?\n\n\n\n\n\n\nPoint P is at (5, 3) and point Q is at (x, 11). If the distance PQ is 10, find all possible values of x.\nThe midpoint of segment AB is M(4, 6). If A is at (-2, 2), find the coordinates of B.\nPoint R is equidistant from A(2, 3) and B(8, 11). If R lies on the x-axis, find its coordinates. (Hint: Let R = (x, 0))\nProve that the diagonals of a rectangle bisect each other. Use the rectangle with vertices at (0, 0), (a, 0), (a, b), and (0, b).\nA treasure map shows three landmarks forming a triangle: Rock at R(0, 0), Tree at T(12, 0), and Cave at C(6, 8). The treasure is buried at the centroid (center) of the triangle. The centroid is located at the average of all three x-coordinates and the average of all three y-coordinates. Find the treasure’s location.\n\n\n\n\n\n\n\nGPS systems use distance calculations between coordinates to determine: - Shortest routes - Travel distances - Locations of points of interest\n\n\n\nVideo games and animations use distance formulas to: - Detect collisions between objects - Calculate field of view - Determine proximity for AI behavior\n\n\n\nDesigners use these formulas to: - Calculate diagonal measurements - Place objects at specific distances - Find center points of structures\n\n\n\n\nCreate Your Own City Map: 1. Design a city grid with at least 10 landmarks 2. Assign coordinates to each landmark 3. Calculate distances between key locations 4. Find midpoints for potential new facilities (like placing a fire station equidistant from two schools) 5. Present your map with all calculations\n\n\n\nComplete the worksheet on distance and midpoint formulas (see Resources).\nPractice problems: Complete all problems in Set 1 and Set 2, plus at least 3 from Set 3.\n\n\n\n\nBy the end of this lesson, students will be able to:\n\nCalculate the gradient (slope) of a line between two points\nUnderstand the meaning of positive, negative, zero, and undefined gradients\nWrite equations of lines in various forms\nConvert between different forms of linear equations\n\n\n\n\nThe gradient m of a line passing through points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is:\n\\[m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\text{rise}}{\\text{run}}\\]\n\n\n\nPositive gradient: Line slopes upward from left to right\nNegative gradient: Line slopes downward from left to right\nZero gradient: Horizontal line\nUndefined gradient: Vertical line\n\n\n\n\nFind the gradient of the line passing through A(1, 2) and B(5, 10).\nSolution: \\[m = \\frac{10 - 2}{5 - 1} = \\frac{8}{4} = 2\\]\n\n\n\n\n\n\n\\[y = mx + c\\] where m is the gradient and c is the y-intercept.\n\n\n\n\\[y - y_1 = m(x - x_1)\\] where m is the gradient and \\((x_1, y_1)\\) is a point on the line.\n\n\n\n\\[ax + by + c = 0\\]\n\n\n\nWrite the equation of the line with gradient 3 passing through the point (2, 5).\nSolution using point-slope form: \\[y - 5 = 3(x - 2)\\] \\[y - 5 = 3x - 6\\] \\[y = 3x - 1\\]\n\n\n\nFind the equation of the line passing through P(1, 3) and Q(4, 9).\nSolution:\nStep 1: Find the gradient \\[m = \\frac{9 - 3}{4 - 1} = \\frac{6}{3} = 2\\]\nStep 2: Use point-slope form with point P(1, 3) \\[y - 3 = 2(x - 1)\\] \\[y - 3 = 2x - 2\\] \\[y = 2x + 1\\]\n\n\n\n\n\nFind the gradient of the line through:\n\nA(2, 3) and B(6, 11)\nC(-1, 5) and D(3, -3)\n\nWrite the equation of the line:\n\nWith gradient 4 and y-intercept -2\nThrough point (3, 7) with gradient -1\nThrough points (0, 2) and (5, 12)\n\nConvert the equation \\(2x + 3y - 6 = 0\\) to slope-intercept form.\n\n\n\n\nThe gradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed - In a cost-quantity graph, gradient represents unit price\n\n\n\nComplete exercises 2.1 to 2.5 in the workbook.\n\nPrevious Lesson: Lesson 1: Introduction to Cartesian Coordinates\n\n\n\nBy the end of this lesson, students will be able to:\n\nIdentify parallel and perpendicular lines from their equations\nDetermine if lines are parallel or perpendicular using gradients\nFind equations of parallel and perpendicular lines\nSolve geometric problems involving parallel and perpendicular lines\n\n\n\n\nTwo lines are parallel if they have the same gradient and never intersect.\n\n\n\n\n\n\nImportantKey Property of Parallel Lines\n\n\n\nIf two lines are parallel, then \\(m_1 = m_2\\)\n\n\n\n\nAre the lines \\(y = 2x + 3\\) and \\(y = 2x - 5\\) parallel?\nSolution: Both lines have gradient \\(m = 2\\), so they are parallel.\n\n\n\nFind the equation of the line parallel to \\(y = 3x + 1\\) that passes through the point (2, 7).\nSolution: - Parallel lines have the same gradient: \\(m = 3\\) - Using point-slope form with (2, 7): \\[y - 7 = 3(x - 2)\\] \\[y - 7 = 3x - 6\\] \\[y = 3x + 1\\]\nVerification: When \\(x = 2\\), \\(y = 3(2) + 1 = 7\\) ✓\n\n\n\n\nTwo lines are perpendicular if they meet at a right angle (90°).\n\n\n\n\n\n\nImportantKey Property of Perpendicular Lines\n\n\n\nIf two lines are perpendicular, then \\(m_1 \\times m_2 = -1\\)\nOr equivalently: \\(m_2 = -\\frac{1}{m_1}\\)\n\n\n\n\nAre the lines \\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 3\\) perpendicular?\nSolution: \\[m_1 \\times m_2 = 2 \\times \\left(-\\frac{1}{2}\\right) = -1\\]\nYes, the lines are perpendicular.\n\n\n\nFind the equation of the line perpendicular to \\(y = 4x - 2\\) that passes through the point (8, 3).\nSolution: - Original gradient: \\(m_1 = 4\\) - Perpendicular gradient: \\(m_2 = -\\frac{1}{4}\\) - Using point-slope form with (8, 3): \\[y - 3 = -\\frac{1}{4}(x - 8)\\] \\[y - 3 = -\\frac{1}{4}x + 2\\] \\[y = -\\frac{1}{4}x + 5\\]\n\n\n\n\n\nDetermine if these pairs of lines are parallel, perpendicular, or neither:\n\n\\(y = 3x + 2\\) and \\(y = 3x - 7\\)\n\\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 4\\)\n\\(y = 5x\\) and \\(y = -5x + 3\\)\n\nFind the equation of the line:\n\nParallel to \\(y = -2x + 3\\) through point (1, 5)\nPerpendicular to \\(y = \\frac{1}{3}x - 1\\) through point (6, 2)\n\nThe line \\(L_1\\) passes through points A(1, 2) and B(5, 10).\n\nFind the equation of \\(L_1\\)\nFind the equation of the line parallel to \\(L_1\\) through C(0, 0)\nFind the equation of the line perpendicular to \\(L_1\\) through D(3, 4)\n\n\n\n\n\nWhen working with parallel and perpendicular lines:\n\nIdentify or calculate the gradient of the given line\nDetermine the gradient of the required line (same for parallel, negative reciprocal for perpendicular)\nUse the point-slope form with the given point\nSimplify to the required form\n\n\n\n\n\nArchitecture: Ensuring walls are perpendicular to the floor\nNavigation: Plotting perpendicular courses\nEngineering: Designing parallel roads or railway tracks\n\n\n\n\nComplete the parallel and perpendicular lines worksheet (see Resources)."
+  },
+  {
+    "objectID": "drafts/textbook.html#about-this-course",
+    "href": "drafts/textbook.html#about-this-course",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "This course explores coordinate geometry through practical applications and real-world contexts. Students will develop skills in:\n\nUnderstanding and using the Cartesian coordinate system\nWorking with map scales, coordinates, and bearings\nCalculating distances and midpoints\nAnalyzing gradients and linear equations\nUnderstanding parallel and perpendicular lines"
+  },
+  {
+    "objectID": "drafts/textbook.html#how-to-use-this-textbook",
+    "href": "drafts/textbook.html#how-to-use-this-textbook",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Each lesson includes: - Clear learning objectives - Worked examples with step-by-step solutions - Practice exercises with varying difficulty - Real-world applications and contexts - Cultural connections and te reo MÄori vocabulary where relevant"
+  },
+  {
+    "objectID": "drafts/textbook.html#learning-objectives",
+    "href": "drafts/textbook.html#learning-objectives",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nUnderstand the structure of the Cartesian coordinate system\nPlot points accurately on a coordinate plane\nIdentify quadrants and understand positive/negative coordinates"
+  },
+  {
+    "objectID": "drafts/textbook.html#the-cartesian-coordinate-system",
+    "href": "drafts/textbook.html#the-cartesian-coordinate-system",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "The Cartesian coordinate system uses two perpendicular number lines: - The x-axis (horizontal) - The y-axis (vertical)\nThe point where they intersect is called the origin, denoted as (0, 0)."
+  },
+  {
+    "objectID": "drafts/textbook.html#plotting-points",
+    "href": "drafts/textbook.html#plotting-points",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Each point in the plane is represented by an ordered pair (x, y): - The first number (x) tells us how far to move horizontally - The second number (y) tells us how far to move vertically\n\n\nPlot the following points: - A(2, 3) - B(-1, 4) - C(-3, -2) - D(4, -1)"
+  },
+  {
+    "objectID": "drafts/textbook.html#quadrants",
+    "href": "drafts/textbook.html#quadrants",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "The coordinate plane is divided into four quadrants: - Quadrant I: x &gt; 0, y &gt; 0 (top right) - Quadrant II: x &lt; 0, y &gt; 0 (top left) - Quadrant III: x &lt; 0, y &lt; 0 (bottom left) - Quadrant IV: x &gt; 0, y &lt; 0 (bottom right)\n\n\nIn which quadrant does each point lie? - P(3, 5) → Quadrant I (both positive) - Q(-2, 7) → Quadrant II (x negative, y positive) - R(-4, -3) → Quadrant III (both negative) - S(6, -2) → Quadrant IV (x positive, y negative)\nPoints on the axes are not in any quadrant."
+  },
+  {
+    "objectID": "drafts/textbook.html#practice-exercises",
+    "href": "drafts/textbook.html#practice-exercises",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Plot the following points on a coordinate plane:\n\nP(3, -2)\nQ(-4, 1)\nR(0, 5)\nS(-2, -3)\nT(4, 0)\n\nIdentify the quadrant for each point:\n\nA(5, 7)\nB(-3, 2)\nC(-1, -6)\nD(4, -3)\n\nName three points that lie:\n\nIn Quadrant II\nOn the x-axis\nOn the y-axis"
+  },
+  {
+    "objectID": "drafts/textbook.html#homework",
+    "href": "drafts/textbook.html#homework",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Complete the worksheet on coordinate geometry basics (see Resources)."
+  },
+  {
+    "objectID": "drafts/textbook.html#achievement-objectives",
+    "href": "drafts/textbook.html#achievement-objectives",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "GM4-7: Communicate and interpret locations and directions, using compass directions, distances, and grid references."
+  },
+  {
+    "objectID": "drafts/textbook.html#learning-objectives-1",
+    "href": "drafts/textbook.html#learning-objectives-1",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nUnderstand and apply map scales to convert between map distances and real distances\nUse Cartesian coordinates to locate specific points on a map\nApply polar coordinates using bearings and distances to navigate\nInterpret latitude and longitude coordinates"
+  },
+  {
+    "objectID": "drafts/textbook.html#description-of-mathematics",
+    "href": "drafts/textbook.html#description-of-mathematics",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "This lesson investigates three mathematical concepts in the context of maps:\n\n\nA map is a reduced version of a real landscape. Scale compares the size of lengths on a map to those in the real landscape.\nKey Concept: If a map has a scale of 1:50,000, this means that 1 cm on the map represents 50,000 cm (or 500 m) in real life.\n\n\nA map has a scale of 1:25,000.\n\nIf two towns are 3 cm apart on the map, how far apart are they in real life?\n\nSolution: - Map distance = 3 cm - Real distance = 3 × 25,000 = 75,000 cm = 750 m = 0.75 km\n\nIf two landmarks are 2 km apart in real life, how far apart would they be on the map?\n\nSolution: - Real distance = 2 km = 200,000 cm - Map distance = 200,000 ÷ 25,000 = 8 cm\n\n\n\n\nCartesian coordinates refer to the location of a specific point using a combination of horizontal distance and vertical distance.\nExample: The star below is located at (7, 4).\n\n\n\nA grid showing coordinates\n\n\n\n\n\nLongitude is the number of degrees ‘around the world’ from the Prime Meridian\nLatitude is measured in degrees north or south from the equator\n\n\n\n\nOn a map with a grid system: - Location A is at grid reference (345, 678) - Location B is at grid reference (348, 682)\nIf each grid unit represents 100 meters, how far apart are A and B?\nSolution: Using the distance formula: \\[d = \\sqrt{(348-345)^2 + (682-678)^2}\\] \\[d = \\sqrt{3^2 + 4^2}\\] \\[d = \\sqrt{9 + 16} = \\sqrt{25} = 5 \\text{ grid units}\\]\nReal distance = 5 × 100 = 500 meters\n\n\n\n\nPolar coordinates specify a location using the angle or bearing from a given point and the distance from that point.\nBearings are measured clockwise from North and are written as three-digit numbers: - North = 000° (or 360°) - East = 090° - South = 180° - West = 270°\n\n\nFrom point A, a landmark is located on a bearing of 045° at a distance of 3 km.\n\nIn which general direction is the landmark?\n\nSolution: 045° is halfway between North (000°) and East (090°), so it’s Northeast.\n\nIf you walk on a bearing of 045° for 3 km, how far East and North have you traveled?\n\nSolution: Using trigonometry: - East component = 3 × sin(45°) = 3 × 0.707 ≈ 2.12 km - North component = 3 × cos(45°) = 3 × 0.707 ≈ 2.12 km"
+  },
+  {
+    "objectID": "drafts/textbook.html#practical-activities",
+    "href": "drafts/textbook.html#practical-activities",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Using a map of your local area:\n\nIdentify your school on the map\nMeasure the distance from your school to a local landmark\nUse the map scale to calculate the real distance\nRecord the grid reference or coordinates of both locations\n\n\n\n\nCreate a treasure map with: - A coordinate grid system - At least 5 landmarks marked with coordinates - Write instructions using coordinates to move from one landmark to another\n\n\n\nUsing a compass or compass app:\n\nStand at a starting point\nFollow these instructions:\n\nWalk 20 paces on bearing 090°\nWalk 15 paces on bearing 180°\nWalk 20 paces on bearing 270°\nWalk 15 paces on bearing 000°\n\nWhere should you end up? Why?"
+  },
+  {
+    "objectID": "drafts/textbook.html#te-reo-māori-vocabulary",
+    "href": "drafts/textbook.html#te-reo-māori-vocabulary",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "English\nTe Reo Māori\n\n\n\n\nLatitude\nAhopae\n\n\nLongitude\nAhopou\n\n\nMap\nMahere\n\n\nScale drawing\nTuhinga āwhata\n\n\nScale\nĀwhata\n\n\nCartesian coordinates\nTaunga tukutuku\n\n\nNorth\nRaki\n\n\nSouth\nRunga\n\n\nEast\nRāwhiti\n\n\nWest\nRātō"
+  },
+  {
+    "objectID": "drafts/textbook.html#cultural-connections",
+    "href": "drafts/textbook.html#cultural-connections",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Tipuna (Ancestors) had clever ways to navigate in the absence of sophisticated GPS systems. Polynesian navigators used:\n\nOcean currents\nThe sun and stars\nThe migration of whales and birds\nWave patterns and swells\n\nThese traditional methods allowed Pacific peoples to travel vast distances across the ocean with remarkable accuracy."
+  },
+  {
+    "objectID": "drafts/textbook.html#practice-problems",
+    "href": "drafts/textbook.html#practice-problems",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "A map has a scale of 1:50,000. What real distance does 4.5 cm on the map represent?\nTwo cities are 150 km apart. How far apart would they be on a map with a scale of 1:1,000,000?\nOn a treasure map, the scale is 1 cm = 5 m. If the treasure is 7.5 cm from the starting point on the map, how far is it in real life?\n\n\n\n\n\nPlot the following locations on a coordinate grid:\n\nSchool: (2, 5)\nLibrary: (7, 5)\nPark: (2, 1)\nShop: (7, 1)\n\nUsing your plotted points from question 4, calculate the distance from:\n\nSchool to Library\nSchool to Park\nLibrary to Shop\n\n\n\n\n\n\nFrom your starting position:\n\nPoint A is on a bearing of 045° at 5 km\nPoint B is on a bearing of 135° at 5 km\nPoint C is on a bearing of 225° at 5 km\nPoint D is on a bearing of 315° at 5 km\n\nSketch these points. What shape do they form?\nYou walk 3 km on a bearing of 060°. How far North and how far East have you traveled?\nTo get from home to school, you walk 400 m East then 300 m North.\n\nWhat is the direct distance from home to school?\nWhat bearing would take you directly from home to school?"
+  },
+  {
+    "objectID": "drafts/textbook.html#extension-activities",
+    "href": "drafts/textbook.html#extension-activities",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Magic Carpet Journey: Plan a journey from your location to a Pacific Island nation. Provide:\n\nStarting and ending coordinates (latitude/longitude)\nBearing from start to finish\nDistance of the journey\n\nMultiple Navigation: Starting from point A, follow these instructions:\n\n5 km on bearing 030°\n3 km on bearing 120°\n4 km on bearing 210°\n\nCalculate your final position relative to point A using coordinates.\nMap Making Project: Create a detailed scale map of your school grounds including:\n\nA clear scale\nGrid reference system\nAll major buildings and landmarks\nCompass rose showing North"
+  },
+  {
+    "objectID": "drafts/textbook.html#digital-tools",
+    "href": "drafts/textbook.html#digital-tools",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Consider using: - Google Maps for exploring scale and real-world coordinates - Compass apps on mobile phones for practicing bearings - GPS tracking apps to see how movement in real life corresponds to movement on a map - Online mapping tools to create custom maps with coordinate grids"
+  },
+  {
+    "objectID": "drafts/textbook.html#assessment-ideas",
+    "href": "drafts/textbook.html#assessment-ideas",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Students could demonstrate their understanding by:\n\nCreating a detailed treasure map with scale, coordinates, and bearing-based instructions\nPlanning and executing a navigation course using bearings and distances\nConverting between map distances and real distances using various scales\nUsing latitude and longitude to identify locations around New Zealand and the Pacific"
+  },
+  {
+    "objectID": "drafts/textbook.html#home-learning-connection",
+    "href": "drafts/textbook.html#home-learning-connection",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Letter to Parents and Whānau:\nThis week in maths, we are learning about maps. We’re exploring how maps use mathematics including: - Scale (to show big places on small maps) - Coordinates (to locate specific places) - Bearings (to give directions)\nYou can help by: - Looking at maps together at home (road maps, street directories, online maps) - Asking your child to explain how the scale works - Having them show you how to describe where things are using coordinates - Discussing how GPS and digital maps work\nIf you have any paper maps at home, ask your child to show you the important parts and demonstrate how to describe locations and give directions using the map."
+  },
+  {
+    "objectID": "drafts/textbook.html#required-materials",
+    "href": "drafts/textbook.html#required-materials",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Compasses (for finding north, not for drawing circles) or phones with compass app\nProtractors\nRulers\nPencils and paper\nMaps of local area or access to online maps\nCalculator (for trigonometry in bearing calculations)"
+  },
+  {
+    "objectID": "drafts/textbook.html#learning-outcomes",
+    "href": "drafts/textbook.html#learning-outcomes",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "By completing this lesson, students will have developed skills in: - Mathematical thinking: Understanding scale relationships and coordinate systems - Problem solving: Converting between map and real distances - Communication: Using mathematical language to describe locations and directions - Cultural awareness: Appreciating traditional navigation methods of Pacific peoples - Practical application: Using mathematical concepts in real-world contexts"
+  },
+  {
+    "objectID": "drafts/textbook.html#reflection-questions",
+    "href": "drafts/textbook.html#reflection-questions",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Why is it important to understand map scales?\nHow do coordinates help us communicate locations precisely?\nWhat are the advantages of using bearings instead of just saying “go northeast”?\nHow do digital maps like Google Maps use these mathematical concepts?\nWhat can we learn from traditional Polynesian navigation methods?"
+  },
+  {
+    "objectID": "drafts/textbook.html#learning-objectives-2",
+    "href": "drafts/textbook.html#learning-objectives-2",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nApply the distance formula to calculate the distance between two points\nUse the Pythagorean theorem to understand where the distance formula comes from\nFind the midpoint of a line segment\nSolve real-world problems using distance and midpoint"
+  },
+  {
+    "objectID": "drafts/textbook.html#the-distance-formula",
+    "href": "drafts/textbook.html#the-distance-formula",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "The distance between two points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is given by:\n\\[d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\]\n\n\nThe distance formula comes from the Pythagorean theorem. When we connect two points on a coordinate plane, we create a right triangle where: - The horizontal leg has length \\(|x_2 - x_1|\\) - The vertical leg has length \\(|y_2 - y_1|\\) - The hypotenuse is the distance between the points\nBy the Pythagorean theorem: \\(d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2\\)\nTaking the square root gives us the distance formula.\n\n\n\nFind the distance between points A(1, 2) and B(4, 6).\nSolution: \\[d = \\sqrt{(4-1)^2 + (6-2)^2}\\] \\[d = \\sqrt{3^2 + 4^2}\\] \\[d = \\sqrt{9 + 16}\\] \\[d = \\sqrt{25} = 5\\]\n\n\n\nFind the distance between C(-2, 3) and D(4, -1).\nSolution: \\[d = \\sqrt{(4-(-2))^2 + (-1-3)^2}\\] \\[d = \\sqrt{(4+2)^2 + (-4)^2}\\] \\[d = \\sqrt{6^2 + (-4)^2}\\] \\[d = \\sqrt{36 + 16}\\] \\[d = \\sqrt{52} = \\sqrt{4 \\times 13} = 2\\sqrt{13} \\approx 7.21\\]\n\n\n\nA park ranger at point P(2, 5) needs to reach a hiker in distress at point H(8, 13). Each coordinate unit represents 100 meters. How far must the ranger travel (as the crow flies)?\nSolution: \\[d = \\sqrt{(8-2)^2 + (13-5)^2}\\] \\[d = \\sqrt{6^2 + 8^2}\\] \\[d = \\sqrt{36 + 64}\\] \\[d = \\sqrt{100} = 10 \\text{ units}\\]\nReal distance = 10 × 100 = 1000 meters = 1 km"
+  },
+  {
+    "objectID": "drafts/textbook.html#the-midpoint-formula",
+    "href": "drafts/textbook.html#the-midpoint-formula",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "The midpoint M of a line segment joining \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is:\n\\[M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\]\nThe midpoint is simply the average of the x-coordinates and the average of the y-coordinates.\n\n\nFind the midpoint of the line segment joining A(2, 3) and B(8, 7).\nSolution: \\[M = \\left(\\frac{2 + 8}{2}, \\frac{3 + 7}{2}\\right) = \\left(\\frac{10}{2}, \\frac{10}{2}\\right) = (5, 5)\\]\n\n\n\nFind the midpoint of the line segment joining P(-4, 6) and Q(2, -2).\nSolution: \\[M = \\left(\\frac{-4 + 2}{2}, \\frac{6 + (-2)}{2}\\right) = \\left(\\frac{-2}{2}, \\frac{4}{2}\\right) = (-1, 2)\\]\n\n\n\nA straight road connects town A at coordinates (10, 20) to town B at coordinates (50, 60). The council wants to place a rest stop at the midpoint. What are the coordinates of the rest stop?\nSolution: \\[M = \\left(\\frac{10 + 50}{2}, \\frac{20 + 60}{2}\\right) = \\left(\\frac{60}{2}, \\frac{80}{2}\\right) = (30, 40)\\]"
+  },
+  {
+    "objectID": "drafts/textbook.html#working-backwards",
+    "href": "drafts/textbook.html#working-backwards",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Sometimes you know the distance or midpoint and need to find an unknown coordinate.\n\n\nPoint A is at (3, 4) and point B is at (x, 10). The distance between them is 10 units. Find the possible values of x.\nSolution: \\[10 = \\sqrt{(x-3)^2 + (10-4)^2}\\] \\[10 = \\sqrt{(x-3)^2 + 36}\\] \\[100 = (x-3)^2 + 36\\] \\[(x-3)^2 = 64\\] \\[x - 3 = \\pm 8\\] \\[x = 3 + 8 = 11 \\text{ or } x = 3 - 8 = -5\\]\nSo B could be at (11, 10) or (-5, 10).\n\n\n\nThe midpoint of line segment AB is M(5, 7). If point A is at (2, 3), find the coordinates of point B.\nSolution: Let B = \\((x, y)\\)\n\\[\\frac{2 + x}{2} = 5 \\text{ and } \\frac{3 + y}{2} = 7\\]\nFrom the first equation: \\[2 + x = 10\\] \\[x = 8\\]\nFrom the second equation: \\[3 + y = 14\\] \\[y = 11\\]\nTherefore, B = (8, 11)"
+  },
+  {
+    "objectID": "drafts/textbook.html#connection-to-lesson-2",
+    "href": "drafts/textbook.html#connection-to-lesson-2",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "In Lesson 2, you learned about maps and coordinates. The distance formula helps us calculate actual distances on maps when we know the coordinates and the scale. The midpoint formula helps us find locations halfway between two points - useful for planning routes or placing landmarks.\n\n\nOn a map with scale 1:25,000, two landmarks are at coordinates (100, 150) and (400, 450). Each grid unit represents 1 meter.\n\nHow far apart are they on the map (in grid units)?\n\nSolution: \\[d = \\sqrt{(400-100)^2 + (450-150)^2}\\] \\[d = \\sqrt{300^2 + 300^2}\\] \\[d = \\sqrt{90000 + 90000}\\] \\[d = \\sqrt{180000} = 300\\sqrt{2} \\approx 424.26 \\text{ grid units}\\]\n\nWhat is the real distance?\n\nSolution: Real distance = 424.26 meters"
+  },
+  {
+    "objectID": "drafts/textbook.html#practice-exercises-1",
+    "href": "drafts/textbook.html#practice-exercises-1",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Find the distance between:\n\nA(0, 0) and B(3, 4)\nC(1, 2) and D(7, 10)\nE(-3, 4) and F(5, -2)\nG(-2, -1) and H(-5, -7)\n\nWhich pair of points is furthest apart?\n\nP(0, 0) and Q(6, 8)\nR(1, 1) and S(9, 7)\nT(-2, 3) and U(4, 11)\n\n\n\n\n\n\nFind the midpoint of the line segment joining:\n\nA(2, 4) and B(8, 10)\nC(-3, 5) and D(7, -1)\nE(0, 0) and F(12, 16)\nG(-4, -6) and H(-2, -2)\n\n\n\n\n\n\nA delivery truck travels from warehouse W(10, 15) to store S(34, 39). Each unit represents 1 km.\n\nHow far does the truck travel (in a straight line)?\nIf the truck stops at the midpoint, what are the coordinates of the stop?\n\nThree cellular towers are located at A(0, 0), B(60, 0), and C(30, 40), where coordinates are in kilometers.\n\nHow far is tower C from tower A?\nHow far is tower C from tower B?\nWhat is the midpoint between towers A and B?\n\n\n\n\n\n\nPoint P is at (5, 3) and point Q is at (x, 11). If the distance PQ is 10, find all possible values of x.\nThe midpoint of segment AB is M(4, 6). If A is at (-2, 2), find the coordinates of B.\nPoint R is equidistant from A(2, 3) and B(8, 11). If R lies on the x-axis, find its coordinates. (Hint: Let R = (x, 0))\nProve that the diagonals of a rectangle bisect each other. Use the rectangle with vertices at (0, 0), (a, 0), (a, b), and (0, b).\nA treasure map shows three landmarks forming a triangle: Rock at R(0, 0), Tree at T(12, 0), and Cave at C(6, 8). The treasure is buried at the centroid (center) of the triangle. The centroid is located at the average of all three x-coordinates and the average of all three y-coordinates. Find the treasure’s location."
+  },
+  {
+    "objectID": "drafts/textbook.html#real-world-applications",
+    "href": "drafts/textbook.html#real-world-applications",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "GPS systems use distance calculations between coordinates to determine: - Shortest routes - Travel distances - Locations of points of interest\n\n\n\nVideo games and animations use distance formulas to: - Detect collisions between objects - Calculate field of view - Determine proximity for AI behavior\n\n\n\nDesigners use these formulas to: - Calculate diagonal measurements - Place objects at specific distances - Find center points of structures"
+  },
+  {
+    "objectID": "drafts/textbook.html#extension-activity",
+    "href": "drafts/textbook.html#extension-activity",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Create Your Own City Map: 1. Design a city grid with at least 10 landmarks 2. Assign coordinates to each landmark 3. Calculate distances between key locations 4. Find midpoints for potential new facilities (like placing a fire station equidistant from two schools) 5. Present your map with all calculations"
+  },
+  {
+    "objectID": "drafts/textbook.html#homework-1",
+    "href": "drafts/textbook.html#homework-1",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Complete the worksheet on distance and midpoint formulas (see Resources).\nPractice problems: Complete all problems in Set 1 and Set 2, plus at least 3 from Set 3."
+  },
+  {
+    "objectID": "drafts/textbook.html#learning-objectives-3",
+    "href": "drafts/textbook.html#learning-objectives-3",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nCalculate the gradient (slope) of a line between two points\nUnderstand the meaning of positive, negative, zero, and undefined gradients\nWrite equations of lines in various forms\nConvert between different forms of linear equations"
+  },
+  {
+    "objectID": "drafts/textbook.html#gradient-slope-of-a-line",
+    "href": "drafts/textbook.html#gradient-slope-of-a-line",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "The gradient m of a line passing through points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is:\n\\[m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\text{rise}}{\\text{run}}\\]\n\n\n\nPositive gradient: Line slopes upward from left to right\nNegative gradient: Line slopes downward from left to right\nZero gradient: Horizontal line\nUndefined gradient: Vertical line\n\n\n\n\nFind the gradient of the line passing through A(1, 2) and B(5, 10).\nSolution: \\[m = \\frac{10 - 2}{5 - 1} = \\frac{8}{4} = 2\\]"
+  },
+  {
+    "objectID": "drafts/textbook.html#equations-of-lines",
+    "href": "drafts/textbook.html#equations-of-lines",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "\\[y = mx + c\\] where m is the gradient and c is the y-intercept.\n\n\n\n\\[y - y_1 = m(x - x_1)\\] where m is the gradient and \\((x_1, y_1)\\) is a point on the line.\n\n\n\n\\[ax + by + c = 0\\]\n\n\n\nWrite the equation of the line with gradient 3 passing through the point (2, 5).\nSolution using point-slope form: \\[y - 5 = 3(x - 2)\\] \\[y - 5 = 3x - 6\\] \\[y = 3x - 1\\]\n\n\n\nFind the equation of the line passing through P(1, 3) and Q(4, 9).\nSolution:\nStep 1: Find the gradient \\[m = \\frac{9 - 3}{4 - 1} = \\frac{6}{3} = 2\\]\nStep 2: Use point-slope form with point P(1, 3) \\[y - 3 = 2(x - 1)\\] \\[y - 3 = 2x - 2\\] \\[y = 2x + 1\\]"
+  },
+  {
+    "objectID": "drafts/textbook.html#practice-exercises-2",
+    "href": "drafts/textbook.html#practice-exercises-2",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Find the gradient of the line through:\n\nA(2, 3) and B(6, 11)\nC(-1, 5) and D(3, -3)\n\nWrite the equation of the line:\n\nWith gradient 4 and y-intercept -2\nThrough point (3, 7) with gradient -1\nThrough points (0, 2) and (5, 12)\n\nConvert the equation \\(2x + 3y - 6 = 0\\) to slope-intercept form."
+  },
+  {
+    "objectID": "drafts/textbook.html#real-world-application",
+    "href": "drafts/textbook.html#real-world-application",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "The gradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed - In a cost-quantity graph, gradient represents unit price"
+  },
+  {
+    "objectID": "drafts/textbook.html#homework-2",
+    "href": "drafts/textbook.html#homework-2",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Complete exercises 2.1 to 2.5 in the workbook.\n\nPrevious Lesson: Lesson 1: Introduction to Cartesian Coordinates"
+  },
+  {
+    "objectID": "drafts/textbook.html#learning-objectives-4",
+    "href": "drafts/textbook.html#learning-objectives-4",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nIdentify parallel and perpendicular lines from their equations\nDetermine if lines are parallel or perpendicular using gradients\nFind equations of parallel and perpendicular lines\nSolve geometric problems involving parallel and perpendicular lines"
+  },
+  {
+    "objectID": "drafts/textbook.html#parallel-lines",
+    "href": "drafts/textbook.html#parallel-lines",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Two lines are parallel if they have the same gradient and never intersect.\n\n\n\n\n\n\nImportantKey Property of Parallel Lines\n\n\n\nIf two lines are parallel, then \\(m_1 = m_2\\)\n\n\n\n\nAre the lines \\(y = 2x + 3\\) and \\(y = 2x - 5\\) parallel?\nSolution: Both lines have gradient \\(m = 2\\), so they are parallel.\n\n\n\nFind the equation of the line parallel to \\(y = 3x + 1\\) that passes through the point (2, 7).\nSolution: - Parallel lines have the same gradient: \\(m = 3\\) - Using point-slope form with (2, 7): \\[y - 7 = 3(x - 2)\\] \\[y - 7 = 3x - 6\\] \\[y = 3x + 1\\]\nVerification: When \\(x = 2\\), \\(y = 3(2) + 1 = 7\\) ✓"
+  },
+  {
+    "objectID": "drafts/textbook.html#perpendicular-lines",
+    "href": "drafts/textbook.html#perpendicular-lines",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Two lines are perpendicular if they meet at a right angle (90°).\n\n\n\n\n\n\nImportantKey Property of Perpendicular Lines\n\n\n\nIf two lines are perpendicular, then \\(m_1 \\times m_2 = -1\\)\nOr equivalently: \\(m_2 = -\\frac{1}{m_1}\\)\n\n\n\n\nAre the lines \\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 3\\) perpendicular?\nSolution: \\[m_1 \\times m_2 = 2 \\times \\left(-\\frac{1}{2}\\right) = -1\\]\nYes, the lines are perpendicular.\n\n\n\nFind the equation of the line perpendicular to \\(y = 4x - 2\\) that passes through the point (8, 3).\nSolution: - Original gradient: \\(m_1 = 4\\) - Perpendicular gradient: \\(m_2 = -\\frac{1}{4}\\) - Using point-slope form with (8, 3): \\[y - 3 = -\\frac{1}{4}(x - 8)\\] \\[y - 3 = -\\frac{1}{4}x + 2\\] \\[y = -\\frac{1}{4}x + 5\\]"
+  },
+  {
+    "objectID": "drafts/textbook.html#practice-exercises-3",
+    "href": "drafts/textbook.html#practice-exercises-3",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Determine if these pairs of lines are parallel, perpendicular, or neither:\n\n\\(y = 3x + 2\\) and \\(y = 3x - 7\\)\n\\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 4\\)\n\\(y = 5x\\) and \\(y = -5x + 3\\)\n\nFind the equation of the line:\n\nParallel to \\(y = -2x + 3\\) through point (1, 5)\nPerpendicular to \\(y = \\frac{1}{3}x - 1\\) through point (6, 2)\n\nThe line \\(L_1\\) passes through points A(1, 2) and B(5, 10).\n\nFind the equation of \\(L_1\\)\nFind the equation of the line parallel to \\(L_1\\) through C(0, 0)\nFind the equation of the line perpendicular to \\(L_1\\) through D(3, 4)"
+  },
+  {
+    "objectID": "drafts/textbook.html#problem-solving-strategy",
+    "href": "drafts/textbook.html#problem-solving-strategy",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "When working with parallel and perpendicular lines:\n\nIdentify or calculate the gradient of the given line\nDetermine the gradient of the required line (same for parallel, negative reciprocal for perpendicular)\nUse the point-slope form with the given point\nSimplify to the required form"
+  },
+  {
+    "objectID": "drafts/textbook.html#real-world-applications-1",
+    "href": "drafts/textbook.html#real-world-applications-1",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Architecture: Ensuring walls are perpendicular to the floor\nNavigation: Plotting perpendicular courses\nEngineering: Designing parallel roads or railway tracks"
+  },
+  {
+    "objectID": "drafts/textbook.html#homework-3",
+    "href": "drafts/textbook.html#homework-3",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "",
+    "text": "Complete the parallel and perpendicular lines worksheet (see Resources)."
+  },
+  {
+    "objectID": "drafts/textbook.html#additional-resources",
+    "href": "drafts/textbook.html#additional-resources",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "Additional Resources",
+    "text": "Additional Resources\nFor additional practice exercises, worked examples, and assessment materials, please refer to the online resources section of this course."
+  },
+  {
+    "objectID": "drafts/textbook.html#mathematical-formulae-reference",
+    "href": "drafts/textbook.html#mathematical-formulae-reference",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "Mathematical Formulae Reference",
+    "text": "Mathematical Formulae Reference\n\nDistance Formula\n\\[d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\]\n\n\nMidpoint Formula\n\\[M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\\]\n\n\nGradient (Slope) Formula\n\\[m = \\frac{y_2 - y_1}{x_2 - x_1}\\]\n\n\nPoint-Slope Form\n\\[y - y_1 = m(x - x_1)\\]\n\n\nSlope-Intercept Form\n\\[y = mx + c\\]\n\n\nParallel Lines\nTwo lines are parallel if they have the same gradient: \\(m_1 = m_2\\)\n\n\nPerpendicular Lines\nTwo lines are perpendicular if the product of their gradients equals -1: \\(m_1 \\times m_2 = -1\\)"
+  },
+  {
+    "objectID": "drafts/textbook.html#te-reo-mäori-mathematical-vocabulary",
+    "href": "drafts/textbook.html#te-reo-mäori-mathematical-vocabulary",
+    "title": "AS91256 Co-ordinate Geometry Textbook",
+    "section": "Te Reo MÄori Mathematical Vocabulary",
+    "text": "Te Reo MÄori Mathematical Vocabulary\n\n\n\nEnglish\nTe Reo MÄori\n\n\n\n\nLatitude\nAhopae\n\n\nLongitude\nAhopou\n\n\nMap\nMahere\n\n\nScale\nÄ€whata\n\n\nNorth\nRaki\n\n\nSouth\nRunga\n\n\nEast\nRÄwhiti\n\n\nWest\nRÄtÅ\n\n\nGradient\nTÄrewa\n\n\nDistance\nTawhiti\n\n\nPoint\nTÅ«nga\n\n\nLine\nRÄrangi\n\n\n\n\nThis textbook was compiled from course materials for AS91256 Co-ordinate Geometry."
   }
 ]

@@ -4,7 +4,7 @@ title: "Lessons"
 
 ## Course Lessons
 
-This section contains detailed lesson plans for the three-week AS91256 Co-ordinate Geometry course.
+This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to six comprehensive lessons covering all essential topics.
 
 ### Weekly Structure
 
@@ -20,14 +20,35 @@ Each lesson includes:
 1. [Lesson 1: Introduction to Cartesian Coordinates](lesson1.qmd)
    - Understanding the coordinate plane
    - Plotting points
-   - Distance formula
+   - Quadrants and coordinate basics
 
-2. [Lesson 2: Gradients and Linear Equations](lesson2.qmd)
+2. [Lesson 2: Map It - Scale, Coordinates, and Bearings](lesson2.qmd)
+   - Map scales and conversions
+   - Cartesian coordinates on maps
+   - Polar coordinates and bearings
+   - Latitude and longitude
+   - Traditional Polynesian navigation
+
+3. [Lesson 3: The Distance Formula](lesson3.qmd)
+   - Deriving the distance formula from Pythagorean theorem
+   - Calculating distance between any two points
+   - Simplifying radical expressions
+   - Real-world applications
+   - Finding unknown coordinates
+
+4. [Lesson 4: The Midpoint Formula](lesson4.qmd)
+   - Finding the midpoint of a line segment
+   - Understanding midpoint as average
+   - Finding unknown endpoints
+   - Geometric applications
+   - Real-world facility placement
+
+5. [Lesson 5: Gradients and Linear Equations](lesson5.qmd)
    - Calculating gradient (slope)
    - Equations of lines
    - Point-slope and slope-intercept forms
 
-3. [Lesson 3: Parallel and Perpendicular Lines](lesson3.qmd)
+6. [Lesson 6: Parallel and Perpendicular Lines](lesson6.qmd)
    - Properties of parallel lines
    - Properties of perpendicular lines
    - Problem-solving applications

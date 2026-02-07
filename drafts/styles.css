@@ -1,0 +1,39 @@
+/* Custom styles for AS91256 Co-ordinate Geometry website */
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+}
+
+/* Make code blocks more readable */
+pre {
+  background-color: #f8f9fa;
+  border-left: 3px solid var(--secondary-color);
+  padding: 1em;
+  border-radius: 0.25rem;
+}
+
+/* Style for mathematical content */
+.math {
+  font-size: 1.1em;
+}
+
+/* Highlight important notes */
+.callout-note {
+  border-left-color: var(--secondary-color);
+}
+
+.callout-important {
+  border-left-color: var(--accent-color);
+}
+
+/* Improve readability */
+body {
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
