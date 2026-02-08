@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesson 3: The Distance Formula – AS91256 Co-ordinate Geometry</title>
+<title>Lesson 4: The Midpoint Formula – AS91256 Co-ordinate Geometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -106,7 +106,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -290,7 +290,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../lessons/index.html" aria-current="page"> 
+    <a class="nav-link" href="../lessons/index.html"> 
 <span class="menu-text">Lessons</span></a>
   </li>  
   <li class="nav-item">
@@ -315,51 +315,10 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson3.html">Lesson 3: The Distance Formula</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lessons</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/lesson1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 1: Introduction to Cartesian Coordinates</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/lesson2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 2: Map It - Scale, Coordinates, and Bearings</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../lessons/lesson3.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lesson 3: The Distance Formula</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -368,45 +327,66 @@ window.Quarto = {
   <ul>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#the-pythagorean-theorem-review" id="toc-the-pythagorean-theorem-review" class="nav-link" data-scroll-target="#the-pythagorean-theorem-review">The Pythagorean Theorem Review</a></li>
-  <li><a href="#deriving-the-distance-formula" id="toc-deriving-the-distance-formula" class="nav-link" data-scroll-target="#deriving-the-distance-formula">Deriving the Distance Formula</a></li>
-  <li><a href="#using-the-distance-formula" id="toc-using-the-distance-formula" class="nav-link" data-scroll-target="#using-the-distance-formula">Using the Distance Formula</a>
+  <li><a href="#the-midpoint-formula" id="toc-the-midpoint-formula" class="nav-link" data-scroll-target="#the-midpoint-formula">The Midpoint Formula</a>
   <ul class="collapse">
-  <li><a href="#example-1-basic-distance-calculation" id="toc-example-1-basic-distance-calculation" class="nav-link" data-scroll-target="#example-1-basic-distance-calculation">Example 1: Basic Distance Calculation</a></li>
-  <li><a href="#example-2-distance-with-negative-coordinates" id="toc-example-2-distance-with-negative-coordinates" class="nav-link" data-scroll-target="#example-2-distance-with-negative-coordinates">Example 2: Distance with Negative Coordinates</a></li>
-  <li><a href="#example-3-points-on-the-same-horizontal-or-vertical-line" id="toc-example-3-points-on-the-same-horizontal-or-vertical-line" class="nav-link" data-scroll-target="#example-3-points-on-the-same-horizontal-or-vertical-line">Example 3: Points on the Same Horizontal or Vertical Line</a></li>
-  <li><a href="#example-4-distance-from-the-origin" id="toc-example-4-distance-from-the-origin" class="nav-link" data-scroll-target="#example-4-distance-from-the-origin">Example 4: Distance from the Origin</a></li>
+  <li><a href="#understanding-the-formula" id="toc-understanding-the-formula" class="nav-link" data-scroll-target="#understanding-the-formula">Understanding the Formula</a></li>
   </ul></li>
-  <li><a href="#simplifying-radicals" id="toc-simplifying-radicals" class="nav-link" data-scroll-target="#simplifying-radicals">Simplifying Radicals</a>
+  <li><a href="#basic-examples" id="toc-basic-examples" class="nav-link" data-scroll-target="#basic-examples">Basic Examples</a>
   <ul class="collapse">
-  <li><a href="#example-5-simplifying-radical-answers" id="toc-example-5-simplifying-radical-answers" class="nav-link" data-scroll-target="#example-5-simplifying-radical-answers">Example 5: Simplifying Radical Answers</a></li>
+  <li><a href="#example-1-simple-midpoint-calculation" id="toc-example-1-simple-midpoint-calculation" class="nav-link" data-scroll-target="#example-1-simple-midpoint-calculation">Example 1: Simple Midpoint Calculation</a></li>
+  <li><a href="#example-2-midpoint-with-negative-coordinates" id="toc-example-2-midpoint-with-negative-coordinates" class="nav-link" data-scroll-target="#example-2-midpoint-with-negative-coordinates">Example 2: Midpoint with Negative Coordinates</a></li>
+  <li><a href="#example-3-midpoint-with-the-origin" id="toc-example-3-midpoint-with-the-origin" class="nav-link" data-scroll-target="#example-3-midpoint-with-the-origin">Example 3: Midpoint with the Origin</a></li>
+  <li><a href="#example-4-midpoint-with-fractional-coordinates" id="toc-example-4-midpoint-with-fractional-coordinates" class="nav-link" data-scroll-target="#example-4-midpoint-with-fractional-coordinates">Example 4: Midpoint with Fractional Coordinates</a></li>
   </ul></li>
   <li><a href="#real-world-applications" id="toc-real-world-applications" class="nav-link" data-scroll-target="#real-world-applications">Real-World Applications</a>
   <ul class="collapse">
-  <li><a href="#example-6-map-distances" id="toc-example-6-map-distances" class="nav-link" data-scroll-target="#example-6-map-distances">Example 6: Map Distances</a></li>
-  <li><a href="#example-7-cell-tower-coverage" id="toc-example-7-cell-tower-coverage" class="nav-link" data-scroll-target="#example-7-cell-tower-coverage">Example 7: Cell Tower Coverage</a></li>
-  <li><a href="#example-8-comparing-distances" id="toc-example-8-comparing-distances" class="nav-link" data-scroll-target="#example-8-comparing-distances">Example 8: Comparing Distances</a></li>
+  <li><a href="#example-5-meeting-point" id="toc-example-5-meeting-point" class="nav-link" data-scroll-target="#example-5-meeting-point">Example 5: Meeting Point</a></li>
+  <li><a href="#example-6-facility-placement" id="toc-example-6-facility-placement" class="nav-link" data-scroll-target="#example-6-facility-placement">Example 6: Facility Placement</a></li>
+  <li><a href="#example-7-bridge-center-point" id="toc-example-7-bridge-center-point" class="nav-link" data-scroll-target="#example-7-bridge-center-point">Example 7: Bridge Center Point</a></li>
+  <li><a href="#example-8-emergency-services" id="toc-example-8-emergency-services" class="nav-link" data-scroll-target="#example-8-emergency-services">Example 8: Emergency Services</a></li>
   </ul></li>
-  <li><a href="#working-backwards-finding-unknown-coordinates" id="toc-working-backwards-finding-unknown-coordinates" class="nav-link" data-scroll-target="#working-backwards-finding-unknown-coordinates">Working Backwards: Finding Unknown Coordinates</a>
+  <li><a href="#working-backwards-finding-unknown-endpoints" id="toc-working-backwards-finding-unknown-endpoints" class="nav-link" data-scroll-target="#working-backwards-finding-unknown-endpoints">Working Backwards: Finding Unknown Endpoints</a>
   <ul class="collapse">
-  <li><a href="#example-9-finding-an-unknown-x-coordinate" id="toc-example-9-finding-an-unknown-x-coordinate" class="nav-link" data-scroll-target="#example-9-finding-an-unknown-x-coordinate">Example 9: Finding an Unknown x-coordinate</a></li>
-  <li><a href="#example-10-finding-an-unknown-y-coordinate" id="toc-example-10-finding-an-unknown-y-coordinate" class="nav-link" data-scroll-target="#example-10-finding-an-unknown-y-coordinate">Example 10: Finding an Unknown y-coordinate</a></li>
+  <li><a href="#example-9-finding-the-other-endpoint" id="toc-example-9-finding-the-other-endpoint" class="nav-link" data-scroll-target="#example-9-finding-the-other-endpoint">Example 9: Finding the Other Endpoint</a></li>
+  <li><a href="#example-10-finding-the-starting-point" id="toc-example-10-finding-the-starting-point" class="nav-link" data-scroll-target="#example-10-finding-the-starting-point">Example 10: Finding the Starting Point</a></li>
+  <li><a href="#example-11-symmetric-point" id="toc-example-11-symmetric-point" class="nav-link" data-scroll-target="#example-11-symmetric-point">Example 11: Symmetric Point</a></li>
   </ul></li>
-  <li><a href="#connection-to-lesson-2-maps-and-scale" id="toc-connection-to-lesson-2-maps-and-scale" class="nav-link" data-scroll-target="#connection-to-lesson-2-maps-and-scale">Connection to Lesson 2: Maps and Scale</a></li>
+  <li><a href="#multiple-midpoints" id="toc-multiple-midpoints" class="nav-link" data-scroll-target="#multiple-midpoints">Multiple Midpoints</a>
+  <ul class="collapse">
+  <li><a href="#example-12-trisecting-a-line-segment" id="toc-example-12-trisecting-a-line-segment" class="nav-link" data-scroll-target="#example-12-trisecting-a-line-segment">Example 12: Trisecting a Line Segment</a></li>
+  <li><a href="#example-13-median-of-a-triangle" id="toc-example-13-median-of-a-triangle" class="nav-link" data-scroll-target="#example-13-median-of-a-triangle">Example 13: Median of a Triangle</a></li>
+  </ul></li>
+  <li><a href="#geometric-properties-using-midpoints" id="toc-geometric-properties-using-midpoints" class="nav-link" data-scroll-target="#geometric-properties-using-midpoints">Geometric Properties Using Midpoints</a>
+  <ul class="collapse">
+  <li><a href="#example-14-proving-a-parallelogram" id="toc-example-14-proving-a-parallelogram" class="nav-link" data-scroll-target="#example-14-proving-a-parallelogram">Example 14: Proving a Parallelogram</a></li>
+  <li><a href="#example-15-finding-the-center-of-a-circle" id="toc-example-15-finding-the-center-of-a-circle" class="nav-link" data-scroll-target="#example-15-finding-the-center-of-a-circle">Example 15: Finding the Center of a Circle</a></li>
+  </ul></li>
+  <li><a href="#connection-to-other-lessons" id="toc-connection-to-other-lessons" class="nav-link" data-scroll-target="#connection-to-other-lessons">Connection to Other Lessons</a>
+  <ul class="collapse">
+  <li><a href="#link-to-distance-formula-lesson-3" id="toc-link-to-distance-formula-lesson-3" class="nav-link" data-scroll-target="#link-to-distance-formula-lesson-3">Link to Distance Formula (Lesson 3)</a></li>
+  <li><a href="#link-to-maps-lesson-2" id="toc-link-to-maps-lesson-2" class="nav-link" data-scroll-target="#link-to-maps-lesson-2">Link to Maps (Lesson 2)</a></li>
+  </ul></li>
   <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a>
   <ul class="collapse">
-  <li><a href="#set-1-basic-calculations" id="toc-set-1-basic-calculations" class="nav-link" data-scroll-target="#set-1-basic-calculations">Set 1: Basic Calculations</a></li>
-  <li><a href="#set-2-special-cases" id="toc-set-2-special-cases" class="nav-link" data-scroll-target="#set-2-special-cases">Set 2: Special Cases</a></li>
+  <li><a href="#set-1-basic-midpoint-calculations" id="toc-set-1-basic-midpoint-calculations" class="nav-link" data-scroll-target="#set-1-basic-midpoint-calculations">Set 1: Basic Midpoint Calculations</a></li>
+  <li><a href="#set-2-finding-unknown-endpoints" id="toc-set-2-finding-unknown-endpoints" class="nav-link" data-scroll-target="#set-2-finding-unknown-endpoints">Set 2: Finding Unknown Endpoints</a></li>
   <li><a href="#set-3-applications" id="toc-set-3-applications" class="nav-link" data-scroll-target="#set-3-applications">Set 3: Applications</a></li>
-  <li><a href="#set-4-unknown-coordinates" id="toc-set-4-unknown-coordinates" class="nav-link" data-scroll-target="#set-4-unknown-coordinates">Set 4: Unknown Coordinates</a></li>
+  <li><a href="#set-4-geometric-applications" id="toc-set-4-geometric-applications" class="nav-link" data-scroll-target="#set-4-geometric-applications">Set 4: Geometric Applications</a></li>
   <li><a href="#set-5-challenge-problems" id="toc-set-5-challenge-problems" class="nav-link" data-scroll-target="#set-5-challenge-problems">Set 5: Challenge Problems</a></li>
+  </ul></li>
+  <li><a href="#real-world-applications-1" id="toc-real-world-applications-1" class="nav-link" data-scroll-target="#real-world-applications-1">Real-World Applications</a>
+  <ul class="collapse">
+  <li><a href="#urban-planning" id="toc-urban-planning" class="nav-link" data-scroll-target="#urban-planning">Urban Planning</a></li>
+  <li><a href="#sports" id="toc-sports" class="nav-link" data-scroll-target="#sports">Sports</a></li>
+  <li><a href="#engineering" id="toc-engineering" class="nav-link" data-scroll-target="#engineering">Engineering</a></li>
+  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">Navigation</a></li>
   </ul></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a>
   <ul class="collapse">
-  <li><a href="#online-tools" id="toc-online-tools" class="nav-link" data-scroll-target="#online-tools">Online Tools</a></li>
-  <li><a href="#video-resources" id="toc-video-resources" class="nav-link" data-scroll-target="#video-resources">Video Resources</a></li>
+  <li><a href="#interactive-tools" id="toc-interactive-tools" class="nav-link" data-scroll-target="#interactive-tools">Interactive Tools</a></li>
   <li><a href="#extension-topics" id="toc-extension-topics" class="nav-link" data-scroll-target="#extension-topics">Extension Topics</a></li>
   </ul></li>
+  <li><a href="#key-formulas-summary" id="toc-key-formulas-summary" class="nav-link" data-scroll-target="#key-formulas-summary">Key Formulas Summary</a></li>
   <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   </ul>
 </nav>
@@ -417,7 +397,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 3: The Distance Formula</h1>
+<h1 class="title">Lesson 4: The Midpoint Formula</h1>
 </div>
 
 
@@ -438,220 +418,296 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this lesson, students will be able to:</p>
 <ul>
-<li>Understand the connection between the Pythagorean theorem and the distance formula</li>
-<li>Apply the distance formula to calculate the distance between any two points</li>
-<li>Simplify radical expressions in distance calculations</li>
-<li>Solve real-world problems involving distance on coordinate planes</li>
-<li>Find unknown coordinates when given distance information</li>
+<li>Apply the midpoint formula to find the center point of a line segment</li>
+<li>Understand midpoint as the average of coordinates</li>
+<li>Use midpoints to solve geometric problems</li>
+<li>Find unknown endpoints when given a midpoint</li>
+<li>Apply midpoint concepts to real-world situations</li>
 </ul>
 </section>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>One of the most important applications of coordinate geometry is finding the distance between two points. Whether you’re calculating how far apart two cities are on a map, finding the straight-line distance a delivery drone needs to travel, or determining if two locations are within wireless signal range, the distance formula is essential.</p>
+<p>The midpoint of a line segment is the point that divides it into two equal parts - exactly halfway between the two endpoints. This concept is crucial in many applications: finding the center of a bridge, determining meeting points, locating optimal facility placements, and solving geometric problems.</p>
 </section>
-<section id="the-pythagorean-theorem-review" class="level2">
-<h2 class="anchored" data-anchor-id="the-pythagorean-theorem-review">The Pythagorean Theorem Review</h2>
-<p>Before we explore the distance formula, let’s recall the Pythagorean theorem:</p>
-<p>For a right triangle with legs of length <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>, and hypotenuse of length <span class="math inline">\(c\)</span>:</p>
-<p><span class="math display">\[a^2 + b^2 = c^2\]</span></p>
-<p><strong>Example:</strong> If a right triangle has legs of 3 and 4 units, find the hypotenuse.</p>
-<p><span class="math display">\[c^2 = 3^2 + 4^2 = 9 + 16 = 25\]</span> <span class="math display">\[c = \sqrt{25} = 5\]</span></p>
-</section>
-<section id="deriving-the-distance-formula" class="level2">
-<h2 class="anchored" data-anchor-id="deriving-the-distance-formula">Deriving the Distance Formula</h2>
-<p>When we plot two points on a coordinate plane, we can create a right triangle:</p>
-<p>Consider points A<span class="math inline">\((x_1, y_1)\)</span> and B<span class="math inline">\((x_2, y_2)\)</span>: - The horizontal leg has length <span class="math inline">\(|x_2 - x_1|\)</span> - The vertical leg has length <span class="math inline">\(|y_2 - y_1|\)</span> - The distance between A and B is the hypotenuse</p>
-<p>Using the Pythagorean theorem: <span class="math display">\[d^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2\]</span></p>
-<p>Taking the square root of both sides:</p>
-<p><span class="math display">\[d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\]</span></p>
-<p>This is the <strong>distance formula</strong>.</p>
-</section>
-<section id="using-the-distance-formula" class="level2">
-<h2 class="anchored" data-anchor-id="using-the-distance-formula">Using the Distance Formula</h2>
-<section id="example-1-basic-distance-calculation" class="level3">
-<h3 class="anchored" data-anchor-id="example-1-basic-distance-calculation">Example 1: Basic Distance Calculation</h3>
-<p>Find the distance between points A(1, 2) and B(4, 6).</p>
-<p><strong>Solution:</strong> Identify the coordinates: <span class="math inline">\((x_1, y_1) = (1, 2)\)</span> and <span class="math inline">\((x_2, y_2) = (4, 6)\)</span></p>
-<p><span class="math display">\[d = \sqrt{(4-1)^2 + (6-2)^2}\]</span> <span class="math display">\[d = \sqrt{3^2 + 4^2}\]</span> <span class="math display">\[d = \sqrt{9 + 16}\]</span> <span class="math display">\[d = \sqrt{25} = 5\]</span></p>
-<p>The distance is exactly 5 units.</p>
-</section>
-<section id="example-2-distance-with-negative-coordinates" class="level3">
-<h3 class="anchored" data-anchor-id="example-2-distance-with-negative-coordinates">Example 2: Distance with Negative Coordinates</h3>
-<p>Find the distance between C(-2, 3) and D(4, -1).</p>
-<p><strong>Solution:</strong> <span class="math display">\[d = \sqrt{(4-(-2))^2 + (-1-3)^2}\]</span> <span class="math display">\[d = \sqrt{(4+2)^2 + (-4)^2}\]</span> <span class="math display">\[d = \sqrt{6^2 + 16}\]</span> <span class="math display">\[d = \sqrt{36 + 16}\]</span> <span class="math display">\[d = \sqrt{52}\]</span></p>
-<p>To simplify: <span class="math inline">\(\sqrt{52} = \sqrt{4 \times 13} = 2\sqrt{13}\)</span></p>
-<p>Approximately: <span class="math inline">\(d \approx 7.21\)</span> units</p>
-</section>
-<section id="example-3-points-on-the-same-horizontal-or-vertical-line" class="level3">
-<h3 class="anchored" data-anchor-id="example-3-points-on-the-same-horizontal-or-vertical-line">Example 3: Points on the Same Horizontal or Vertical Line</h3>
-<p>Find the distance between E(2, 5) and F(2, 9).</p>
-<p><strong>Solution:</strong> <span class="math display">\[d = \sqrt{(2-2)^2 + (9-5)^2}\]</span> <span class="math display">\[d = \sqrt{0 + 4^2}\]</span> <span class="math display">\[d = \sqrt{16} = 4\]</span></p>
-<p><strong>Note:</strong> When points share the same x-coordinate (vertical line) or y-coordinate (horizontal line), the distance is simply the difference in the other coordinate.</p>
-</section>
-<section id="example-4-distance-from-the-origin" class="level3">
-<h3 class="anchored" data-anchor-id="example-4-distance-from-the-origin">Example 4: Distance from the Origin</h3>
-<p>Find the distance from the origin O(0, 0) to point P(6, 8).</p>
-<p><strong>Solution:</strong> <span class="math display">\[d = \sqrt{(6-0)^2 + (8-0)^2}\]</span> <span class="math display">\[d = \sqrt{36 + 64}\]</span> <span class="math display">\[d = \sqrt{100} = 10\]</span></p>
-<p>The distance from the origin to any point <span class="math inline">\((x, y)\)</span> is <span class="math inline">\(\sqrt{x^2 + y^2}\)</span>.</p>
+<section id="the-midpoint-formula" class="level2">
+<h2 class="anchored" data-anchor-id="the-midpoint-formula">The Midpoint Formula</h2>
+<p>For a line segment with endpoints <span class="math inline">\((x_1, y_1)\)</span> and <span class="math inline">\((x_2, y_2)\)</span>, the midpoint M is:</p>
+<p><span class="math display">\[ M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right) \]</span></p>
+<section id="understanding-the-formula" class="level3">
+<h3 class="anchored" data-anchor-id="understanding-the-formula">Understanding the Formula</h3>
+<p>The midpoint formula simply takes the <strong>average</strong> of the x-coordinates and the <strong>average</strong> of the y-coordinates: - Midpoint x-coordinate: <span class="math inline">\(\frac{x_1 + x_2}{2}\)</span> - Midpoint y-coordinate: <span class="math inline">\(\frac{y_1 + y_2}{2}\)</span></p>
+<p>Think of it as finding the “balance point” between two locations.</p>
 </section>
 </section>
-<section id="simplifying-radicals" class="level2">
-<h2 class="anchored" data-anchor-id="simplifying-radicals">Simplifying Radicals</h2>
-<p>When the distance is not a perfect square, we should simplify:</p>
-<section id="example-5-simplifying-radical-answers" class="level3">
-<h3 class="anchored" data-anchor-id="example-5-simplifying-radical-answers">Example 5: Simplifying Radical Answers</h3>
-<p>Find the distance between G(-1, 2) and H(5, 4), leaving your answer in simplest radical form.</p>
-<p><strong>Solution:</strong> <span class="math display">\[d = \sqrt{(5-(-1))^2 + (4-2)^2}\]</span> <span class="math display">\[d = \sqrt{6^2 + 2^2}\]</span> <span class="math display">\[d = \sqrt{36 + 4}\]</span> <span class="math display">\[d = \sqrt{40}\]</span></p>
-<p>Factor out perfect squares: <span class="math inline">\(\sqrt{40} = \sqrt{4 \times 10} = 2\sqrt{10}\)</span></p>
-<p><strong>Decimal approximation:</strong> <span class="math inline">\(d \approx 6.32\)</span> units</p>
+<section id="basic-examples" class="level2">
+<h2 class="anchored" data-anchor-id="basic-examples">Basic Examples</h2>
+<section id="example-1-simple-midpoint-calculation" class="level3">
+<h3 class="anchored" data-anchor-id="example-1-simple-midpoint-calculation">Example 1: Simple Midpoint Calculation</h3>
+<p>Find the midpoint of the line segment joining A(2, 3) and B(8, 7).</p>
+<p><strong>Solution:</strong> <span class="math display">\[ M = \left(\frac{2 + 8}{2}, \frac{3 + 7}{2}\right) \]</span> <span class="math display">\[ M = \left(\frac{10}{2}, \frac{10}{2}\right) \]</span> <span class="math display">\[ M = (5, 5) \]</span></p>
+<p>The midpoint is at (5, 5).</p>
+</section>
+<section id="example-2-midpoint-with-negative-coordinates" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-midpoint-with-negative-coordinates">Example 2: Midpoint with Negative Coordinates</h3>
+<p>Find the midpoint of the line segment joining P(-4, 6) and Q(2, -2).</p>
+<p><strong>Solution:</strong> <span class="math display">\[ M = \left(\frac{-4 + 2}{2}, \frac{6 + (-2)}{2}\right) \]</span> <span class="math display">\[ M = \left(\frac{-2}{2}, \frac{4}{2}\right) \]</span> <span class="math display">\[ M = (-1, 2) \]</span></p>
+</section>
+<section id="example-3-midpoint-with-the-origin" class="level3">
+<h3 class="anchored" data-anchor-id="example-3-midpoint-with-the-origin">Example 3: Midpoint with the Origin</h3>
+<p>Find the midpoint of the line segment joining O(0, 0) and R(10, 6).</p>
+<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{0 + 10}{2}, \frac{0 + 6}{2}\right)\]</span> <span class="math display">\[M = (5, 3)\]</span></p>
+<p><strong>Note:</strong> The midpoint between the origin and any point <span class="math inline">\((a, b)\)</span> is <span class="math inline">\(\left(\frac{a}{2}, \frac{b}{2}\right)\)</span>.</p>
+</section>
+<section id="example-4-midpoint-with-fractional-coordinates" class="level3">
+<h3 class="anchored" data-anchor-id="example-4-midpoint-with-fractional-coordinates">Example 4: Midpoint with Fractional Coordinates</h3>
+<p>Find the midpoint of S(1.5, 2.5) and T(4.5, 6.5).</p>
+<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{1.5 + 4.5}{2}, \frac{2.5 + 6.5}{2}\right)\]</span> <span class="math display">\[M = \left(\frac{6}{2}, \frac{9}{2}\right)\]</span> <span class="math display">\[M = (3, 4.5)\]</span></p>
 </section>
 </section>
 <section id="real-world-applications" class="level2">
 <h2 class="anchored" data-anchor-id="real-world-applications">Real-World Applications</h2>
-<section id="example-6-map-distances" class="level3">
-<h3 class="anchored" data-anchor-id="example-6-map-distances">Example 6: Map Distances</h3>
-<p>A park ranger at point P(2, 5) needs to reach a hiker in distress at point H(8, 13). Each coordinate unit represents 100 meters. How far must the ranger travel in a straight line?</p>
-<p><strong>Solution:</strong> <span class="math display">\[d = \sqrt{(8-2)^2 + (13-5)^2}\]</span> <span class="math display">\[d = \sqrt{6^2 + 8^2}\]</span> <span class="math display">\[d = \sqrt{36 + 64}\]</span> <span class="math display">\[d = \sqrt{100} = 10 \text{ units}\]</span></p>
-<p>Real distance = 10 × 100 = <strong>1000 meters = 1 km</strong></p>
+<section id="example-5-meeting-point" class="level3">
+<h3 class="anchored" data-anchor-id="example-5-meeting-point">Example 5: Meeting Point</h3>
+<p>Two friends live at coordinates A(2, 8) and B(10, 4). They want to meet exactly halfway between their houses. Where should they meet?</p>
+<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{2 + 10}{2}, \frac{8 + 4}{2}\right) = (6, 6)\]</span></p>
+<p>They should meet at location (6, 6).</p>
 </section>
-<section id="example-7-cell-tower-coverage" class="level3">
-<h3 class="anchored" data-anchor-id="example-7-cell-tower-coverage">Example 7: Cell Tower Coverage</h3>
-<p>A cell tower is located at coordinates (3, 4) and has a signal range of 10 km. A house is located at (11, 10). Is the house within range? (Units are in kilometers)</p>
-<p><strong>Solution:</strong> Distance from tower to house: <span class="math display">\[d = \sqrt{(11-3)^2 + (10-4)^2}\]</span> <span class="math display">\[d = \sqrt{8^2 + 6^2}\]</span> <span class="math display">\[d = \sqrt{64 + 36}\]</span> <span class="math display">\[d = \sqrt{100} = 10 \text{ km}\]</span></p>
-<p>The house is <strong>exactly</strong> at the edge of the signal range (10 km).</p>
+<section id="example-6-facility-placement" class="level3">
+<h3 class="anchored" data-anchor-id="example-6-facility-placement">Example 6: Facility Placement</h3>
+<p>A straight road connects town A at coordinates (10, 20) to town B at coordinates (50, 60). The council wants to place a rest stop at the midpoint. What are the coordinates?</p>
+<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{10 + 50}{2}, \frac{20 + 60}{2}\right) = (30, 40)\]</span></p>
+<p>The rest stop should be built at (30, 40).</p>
 </section>
-<section id="example-8-comparing-distances" class="level3">
-<h3 class="anchored" data-anchor-id="example-8-comparing-distances">Example 8: Comparing Distances</h3>
-<p>A delivery company needs to determine which warehouse is closer to a customer. - Warehouse A is at (2, 3) - Warehouse B is at (-1, 7) - Customer is at (5, 6)</p>
-<p>Which warehouse should make the delivery?</p>
+<section id="example-7-bridge-center-point" class="level3">
+<h3 class="anchored" data-anchor-id="example-7-bridge-center-point">Example 7: Bridge Center Point</h3>
+<p>A bridge spans across a river from point P(-12, 5) to point Q(8, 15). Engineers need to place a support at the center of the bridge. What are its coordinates?</p>
+<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{-12 + 8}{2}, \frac{5 + 15}{2}\right)\]</span> <span class="math display">\[M = \left(\frac{-4}{2}, \frac{20}{2}\right)\]</span> <span class="math display">\[M = (-2, 10)\]</span></p>
+<p>The support should be at (-2, 10).</p>
+</section>
+<section id="example-8-emergency-services" class="level3">
+<h3 class="anchored" data-anchor-id="example-8-emergency-services">Example 8: Emergency Services</h3>
+<p>An ambulance station needs to be equidistant from two hospitals: - Hospital A: (5, 12) - Hospital B: (15, 8)</p>
+<p>Where should the station be located to be exactly halfway between them?</p>
+<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{5 + 15}{2}, \frac{12 + 8}{2}\right) = (10, 10)\]</span></p>
+<p>The station should be at (10, 10).</p>
+</section>
+</section>
+<section id="working-backwards-finding-unknown-endpoints" class="level2">
+<h2 class="anchored" data-anchor-id="working-backwards-finding-unknown-endpoints">Working Backwards: Finding Unknown Endpoints</h2>
+<p>Sometimes we know the midpoint and one endpoint, and need to find the other endpoint.</p>
+<section id="example-9-finding-the-other-endpoint" class="level3">
+<h3 class="anchored" data-anchor-id="example-9-finding-the-other-endpoint">Example 9: Finding the Other Endpoint</h3>
+<p>The midpoint of segment AB is M(5, 7). If point A is at (2, 3), find the coordinates of point B.</p>
 <p><strong>Solution:</strong></p>
-<p>Distance from A to Customer: <span class="math display">\[d_A = \sqrt{(5-2)^2 + (6-3)^2} = \sqrt{9 + 9} = \sqrt{18} = 3\sqrt{2} \approx 4.24\]</span></p>
-<p>Distance from B to Customer: <span class="math display">\[d_B = \sqrt{(5-(-1))^2 + (6-7)^2} = \sqrt{36 + 1} = \sqrt{37} \approx 6.08\]</span></p>
-<p><strong>Warehouse A</strong> is closer (4.24 units vs 6.08 units).</p>
+<p>Let B = <span class="math inline">\((x, y)\)</span></p>
+<p>Using the midpoint formula: <span class="math display">\[\frac{2 + x}{2} = 5 \text{ and } \frac{3 + y}{2} = 7\]</span></p>
+<p>Solve for x: <span class="math display">\[2 + x = 10\]</span> <span class="math display">\[x = 8\]</span></p>
+<p>Solve for y: <span class="math display">\[3 + y = 14\]</span> <span class="math display">\[y = 11\]</span></p>
+<p>Therefore, <strong>B = (8, 11)</strong></p>
+<p><strong>Check:</strong> Midpoint of (2, 3) and (8, 11) = <span class="math inline">\(\left(\frac{2+8}{2}, \frac{3+11}{2}\right) = (5, 7)\)</span> ✓</p>
+</section>
+<section id="example-10-finding-the-starting-point" class="level3">
+<h3 class="anchored" data-anchor-id="example-10-finding-the-starting-point">Example 10: Finding the Starting Point</h3>
+<p>A delivery driver ends their route at point E(20, 30). The midpoint of their route was at M(12, 18). Where did they start?</p>
+<p><strong>Solution:</strong></p>
+<p>Let the starting point be S<span class="math inline">\((x, y)\)</span></p>
+<p><span class="math display">\[\frac{x + 20}{2} = 12 \text{ and } \frac{y + 30}{2} = 18\]</span></p>
+<p>Solve for x: <span class="math display">\[x + 20 = 24\]</span> <span class="math display">\[x = 4\]</span></p>
+<p>Solve for y: <span class="math display">\[y + 30 = 36\]</span> <span class="math display">\[y = 6\]</span></p>
+<p>The driver started at <strong>(4, 6)</strong>.</p>
+</section>
+<section id="example-11-symmetric-point" class="level3">
+<h3 class="anchored" data-anchor-id="example-11-symmetric-point">Example 11: Symmetric Point</h3>
+<p>Point P(3, 5) is given. Find the point Q that is symmetric to P with respect to the origin (0, 0).</p>
+<p><strong>Solution:</strong></p>
+<p>If the origin is the midpoint between P and Q, then:</p>
+<p>Let Q = <span class="math inline">\((x, y)\)</span></p>
+<p><span class="math display">\[\frac{3 + x}{2} = 0 \text{ and } \frac{5 + y}{2} = 0\]</span></p>
+<p><span class="math display">\[x = -3 \text{ and } y = -5\]</span></p>
+<p>Point Q is at <strong>(-3, -5)</strong>.</p>
+<p><strong>This is reflection through the origin.</strong></p>
 </section>
 </section>
-<section id="working-backwards-finding-unknown-coordinates" class="level2">
-<h2 class="anchored" data-anchor-id="working-backwards-finding-unknown-coordinates">Working Backwards: Finding Unknown Coordinates</h2>
-<section id="example-9-finding-an-unknown-x-coordinate" class="level3">
-<h3 class="anchored" data-anchor-id="example-9-finding-an-unknown-x-coordinate">Example 9: Finding an Unknown x-coordinate</h3>
-<p>Point A is at (3, 4) and point B is at (x, 10). The distance between them is 10 units. Find all possible values of x.</p>
-<p><strong>Solution:</strong> <span class="math display">\[10 = \sqrt{(x-3)^2 + (10-4)^2}\]</span> <span class="math display">\[10 = \sqrt{(x-3)^2 + 36}\]</span></p>
-<p>Square both sides: <span class="math display">\[100 = (x-3)^2 + 36\]</span> <span class="math display">\[(x-3)^2 = 64\]</span> <span class="math display">\[x - 3 = \pm 8\]</span></p>
-<p>Therefore: <span class="math inline">\(x = 3 + 8 = 11\)</span> or <span class="math inline">\(x = 3 - 8 = -5\)</span></p>
-<p><strong>Answer:</strong> B could be at (11, 10) or (-5, 10).</p>
+<section id="multiple-midpoints" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-midpoints">Multiple Midpoints</h2>
+<section id="example-12-trisecting-a-line-segment" class="level3">
+<h3 class="anchored" data-anchor-id="example-12-trisecting-a-line-segment">Example 12: Trisecting a Line Segment</h3>
+<p>Points A(0, 0) and B(9, 6) are the endpoints of a segment. Find two points that divide the segment into three equal parts.</p>
+<p><strong>Solution:</strong></p>
+<p>First, find the midpoint M of AB: <span class="math display">\[M = \left(\frac{0+9}{2}, \frac{0+6}{2}\right) = (4.5, 3)\]</span></p>
+<p>Now find the midpoint of AM: <span class="math display">\[P = \left(\frac{0+4.5}{2}, \frac{0+3}{2}\right) = (2.25, 1.5)\]</span></p>
+<p>And the midpoint of MB: <span class="math display">\[Q = \left(\frac{4.5+9}{2}, \frac{3+6}{2}\right) = (6.75, 4.5)\]</span></p>
+<p>However, this doesn’t trisect. To trisect, we need: - First point at 1/3 of the way: <span class="math inline">\((x_1 + \frac{1}{3}(x_2-x_1), y_1 + \frac{1}{3}(y_2-y_1)) = (3, 2)\)</span> - Second point at 2/3 of the way: <span class="math inline">\((x_1 + \frac{2}{3}(x_2-x_1), y_1 + \frac{2}{3}(y_2-y_1)) = (6, 4)\)</span></p>
+<p>The two trisection points are <strong>(3, 2) and (6, 4)</strong>.</p>
 </section>
-<section id="example-10-finding-an-unknown-y-coordinate" class="level3">
-<h3 class="anchored" data-anchor-id="example-10-finding-an-unknown-y-coordinate">Example 10: Finding an Unknown y-coordinate</h3>
-<p>Points P(2, y) and Q(6, 3) are 5 units apart. Find y.</p>
-<p><strong>Solution:</strong> <span class="math display">\[5 = \sqrt{(6-2)^2 + (3-y)^2}\]</span> <span class="math display">\[5 = \sqrt{16 + (3-y)^2}\]</span> <span class="math display">\[25 = 16 + (3-y)^2\]</span> <span class="math display">\[(3-y)^2 = 9\]</span> <span class="math display">\[3 - y = \pm 3\]</span></p>
-<p>Therefore: <span class="math inline">\(y = 3 - 3 = 0\)</span> or <span class="math inline">\(y = 3 + 3 = 6\)</span></p>
-<p><strong>Answer:</strong> P could be at (2, 0) or (2, 6).</p>
+<section id="example-13-median-of-a-triangle" class="level3">
+<h3 class="anchored" data-anchor-id="example-13-median-of-a-triangle">Example 13: Median of a Triangle</h3>
+<p>A triangle has vertices at A(0, 0), B(6, 0), and C(3, 6). Find the median from vertex A to side BC.</p>
+<p><strong>Solution:</strong></p>
+<p>Step 1: Find the midpoint M of BC: <span class="math display">\[M = \left(\frac{6+3}{2}, \frac{0+6}{2}\right) = (4.5, 3)\]</span></p>
+<p>Step 2: The median is the line segment from A(0, 0) to M(4.5, 3).</p>
+<p>The median from A has endpoint at <strong>(4.5, 3)</strong>.</p>
 </section>
 </section>
-<section id="connection-to-lesson-2-maps-and-scale" class="level2">
-<h2 class="anchored" data-anchor-id="connection-to-lesson-2-maps-and-scale">Connection to Lesson 2: Maps and Scale</h2>
-<p>Remember from Lesson 2 that maps use scales. When using the distance formula with map coordinates, don’t forget to convert to real distances:</p>
-<p><strong>Example 11:</strong> On a map with scale 1:50,000, two landmarks are at grid coordinates (120, 80) and (180, 140). Each grid unit represents 1 meter. What is the real distance between the landmarks?</p>
-<p><strong>Solution:</strong> Map distance (in grid units): <span class="math display">\[d = \sqrt{(180-120)^2 + (140-80)^2}\]</span> <span class="math display">\[d = \sqrt{60^2 + 60^2}\]</span> <span class="math display">\[d = \sqrt{3600 + 3600}\]</span> <span class="math display">\[d = \sqrt{7200} = 60\sqrt{2} \approx 84.85 \text{ grid units}\]</span></p>
-<p>Since each unit = 1 meter, map distance = 84.85 m</p>
-<p>Real distance = 84.85 m × scale = 84.85 × 1 = 84.85 m (the scale tells us about map:real ratio, but here we’re working with grid units that are already scaled)</p>
+<section id="geometric-properties-using-midpoints" class="level2">
+<h2 class="anchored" data-anchor-id="geometric-properties-using-midpoints">Geometric Properties Using Midpoints</h2>
+<section id="example-14-proving-a-parallelogram" class="level3">
+<h3 class="anchored" data-anchor-id="example-14-proving-a-parallelogram">Example 14: Proving a Parallelogram</h3>
+<p>Show that quadrilateral ABCD with vertices A(1, 2), B(5, 3), C(6, 6), and D(2, 5) is a parallelogram by showing that the diagonals bisect each other.</p>
+<p><strong>Solution:</strong></p>
+<p>Find the midpoint of diagonal AC: <span class="math display">\[M_{AC} = \left(\frac{1+6}{2}, \frac{2+6}{2}\right) = (3.5, 4)\]</span></p>
+<p>Find the midpoint of diagonal BD: <span class="math display">\[M_{BD} = \left(\frac{5+2}{2}, \frac{3+5}{2}\right) = (3.5, 4)\]</span></p>
+<p>Since both diagonals have the same midpoint, they bisect each other, proving ABCD is a <strong>parallelogram</strong>.</p>
+</section>
+<section id="example-15-finding-the-center-of-a-circle" class="level3">
+<h3 class="anchored" data-anchor-id="example-15-finding-the-center-of-a-circle">Example 15: Finding the Center of a Circle</h3>
+<p>Three points on a circle are A(0, 4), B(4, 0), and C(0, -4). The center lies on the perpendicular bisector of any chord. Find an approximation of the center.</p>
+<p><strong>Solution:</strong></p>
+<p>Find midpoint of AB: <span class="math display">\[M_{AB} = \left(\frac{0+4}{2}, \frac{4+0}{2}\right) = (2, 2)\]</span></p>
+<p>The center is somewhere on the perpendicular bisector through (2, 2).</p>
+<p>Find midpoint of AC: <span class="math display">\[M_{AC} = \left(\frac{0+0}{2}, \frac{4+(-4)}{2}\right) = (0, 0)\]</span></p>
+<p>This suggests the center might be near the origin. By symmetry with points A and C, the center is at <strong>(0, 0)</strong> and the radius is 4.</p>
+</section>
+</section>
+<section id="connection-to-other-lessons" class="level2">
+<h2 class="anchored" data-anchor-id="connection-to-other-lessons">Connection to Other Lessons</h2>
+<section id="link-to-distance-formula-lesson-3" class="level3">
+<h3 class="anchored" data-anchor-id="link-to-distance-formula-lesson-3">Link to Distance Formula (Lesson 3)</h3>
+<p>The two endpoints are equidistant from the midpoint:</p>
+<p><strong>Example 16:</strong> Verify that M(4, 5) is equidistant from A(1, 2) and B(7, 8).</p>
+<p>Distance from M to A: <span class="math display">\[d_{MA} = \sqrt{(4-1)^2 + (5-2)^2} = \sqrt{9+9} = \sqrt{18} = 3\sqrt{2}\]</span></p>
+<p>Distance from M to B: <span class="math display">\[d_{MB} = \sqrt{(7-4)^2 + (8-5)^2} = \sqrt{9+9} = \sqrt{18} = 3\sqrt{2}\]</span></p>
+<p>Both distances equal <span class="math inline">\(3\sqrt{2}\)</span>, confirming M is the midpoint.</p>
+</section>
+<section id="link-to-maps-lesson-2" class="level3">
+<h3 class="anchored" data-anchor-id="link-to-maps-lesson-2">Link to Maps (Lesson 2)</h3>
+<p><strong>Example 17:</strong> On a map with scale 1:10,000, two landmarks are at (240, 180) and (360, 260). Each unit represents 10 meters. Where should a information sign be placed at the midpoint?</p>
+<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{240+360}{2}, \frac{180+260}{2}\right) = (300, 220)\]</span></p>
+<p>The sign should be at grid position <strong>(300, 220)</strong>.</p>
+</section>
 </section>
 <section id="practice-exercises" class="level2">
 <h2 class="anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
-<section id="set-1-basic-calculations" class="level3">
-<h3 class="anchored" data-anchor-id="set-1-basic-calculations">Set 1: Basic Calculations</h3>
+<section id="set-1-basic-midpoint-calculations" class="level3">
+<h3 class="anchored" data-anchor-id="set-1-basic-midpoint-calculations">Set 1: Basic Midpoint Calculations</h3>
 <ol type="1">
-<li>Find the distance between:
+<li>Find the midpoint of the line segment joining:
 <ol type="a">
-<li>A(0, 0) and B(5, 12)</li>
-<li>C(2, 3) and D(8, 11)</li>
-<li>E(-4, 1) and F(2, -7)</li>
-<li>G(-3, -2) and H(-7, -5)</li>
+<li>A(4, 6) and B(10, 12)</li>
+<li>C(-2, 5) and D(6, -3)</li>
+<li>E(0, 8) and F(8, 0)</li>
+<li>G(-5, -7) and H(-1, -3)</li>
 </ol></li>
-<li>Simplify your answers in simplest radical form:
+<li>Find the midpoint between:
 <ol type="a">
-<li>Distance between (0, 0) and (3, 7)</li>
-<li>Distance between (1, 2) and (6, 5)</li>
-<li>Distance between (-2, 3) and (4, 8)</li>
+<li>The origin and (12, 16)</li>
+<li>(3.5, 7.2) and (8.5, 4.8)</li>
+<li><span class="math inline">\((-\frac{1}{2}, 3)\)</span> and <span class="math inline">\((\frac{5}{2}, 7)\)</span></li>
 </ol></li>
 </ol>
 </section>
-<section id="set-2-special-cases" class="level3">
-<h3 class="anchored" data-anchor-id="set-2-special-cases">Set 2: Special Cases</h3>
+<section id="set-2-finding-unknown-endpoints" class="level3">
+<h3 class="anchored" data-anchor-id="set-2-finding-unknown-endpoints">Set 2: Finding Unknown Endpoints</h3>
 <ol start="3" type="1">
-<li>Find the distance between:
-<ol type="a">
-<li>Two points on a horizontal line: (2, 5) and (9, 5)</li>
-<li>Two points on a vertical line: (3, 1) and (3, 8)</li>
-<li>Two points where one is the origin: (0, 0) and (-6, -8)</li>
-</ol></li>
+<li><p>The midpoint of segment PQ is M(6, 4). If P is at (2, 1), find Q.</p></li>
+<li><p>The midpoint of segment RS is M(-3, 5). If S is at (1, 9), find R.</p></li>
+<li><p>Point A(5, 8) is one endpoint. The midpoint is M(3, 4). Find the other endpoint B.</p></li>
+<li><p>A segment has midpoint (0, 0) and one endpoint at (7, -3). Find the other endpoint.</p></li>
 </ol>
 </section>
 <section id="set-3-applications" class="level3">
 <h3 class="anchored" data-anchor-id="set-3-applications">Set 3: Applications</h3>
-<ol start="4" type="1">
-<li>A drone flies from point A(10, 20) to point B(40, 50). Each unit represents 10 meters.
-<ol type="a">
-<li>How far does the drone travel?</li>
-<li>Express your answer in kilometers.</li>
-</ol></li>
-<li>Which point is closer to (5, 5)?
-<ul>
-<li>Point A at (1, 2)</li>
-<li>Point B at (9, 9)</li>
-</ul></li>
-<li>A circular running track has its center at (0, 0) and a radius of 50 meters. A water station is at point (30, 40). Is the water station inside, on, or outside the track?</li>
+<ol start="7" type="1">
+<li><p>Two warehouses are located at A(12, 18) and B(28, 34). A distribution center will be built exactly halfway between them. What are its coordinates?</p></li>
+<li><p>A park bench should be placed at the midpoint between two trees at positions T₁(-8, 6) and T₂(4, 14). Where should the bench go?</p></li>
+<li><p>On a map, a school is at (15, 20) and a library is at (35, 40). Where should a crosswalk be placed on a straight path connecting them, exactly at the midpoint?</p></li>
 </ol>
 </section>
-<section id="set-4-unknown-coordinates" class="level3">
-<h3 class="anchored" data-anchor-id="set-4-unknown-coordinates">Set 4: Unknown Coordinates</h3>
-<ol start="7" type="1">
-<li><p>Point M is at (x, 6) and N is at (4, 2). If MN = 5, find all possible values of x.</p></li>
-<li><p>Points P(3, y) and Q(-1, 5) are <span class="math inline">\(2\sqrt{5}\)</span> units apart. Find y.</p></li>
-<li><p>A point on the x-axis is 13 units from point (5, 12). Find the coordinates of the point.</p></li>
+<section id="set-4-geometric-applications" class="level3">
+<h3 class="anchored" data-anchor-id="set-4-geometric-applications">Set 4: Geometric Applications</h3>
+<ol start="10" type="1">
+<li><p>A rectangle has opposite vertices at (2, 3) and (10, 11). Find the coordinates of the center of the rectangle.</p></li>
+<li><p>Triangle ABC has vertices A(0, 0), B(8, 0), and C(4, 6). Find:</p>
+<ol type="a">
+<li>The midpoint of side AB</li>
+<li>The midpoint of side BC</li>
+<li>The midpoint of side AC</li>
+</ol></li>
+<li><p>Show that the quadrilateral with vertices P(1, 1), Q(5, 2), R(6, 6), and S(2, 5) is a parallelogram by proving the diagonals bisect each other.</p></li>
 </ol>
 </section>
 <section id="set-5-challenge-problems" class="level3">
 <h3 class="anchored" data-anchor-id="set-5-challenge-problems">Set 5: Challenge Problems</h3>
-<ol start="10" type="1">
-<li><p>Three vertices of a square are at A(1, 1), B(4, 1), and C(4, 4). Find the coordinates of the fourth vertex D and verify your answer by showing all four sides have equal length.</p></li>
-<li><p>Prove that the triangle with vertices A(0, 0), B(4, 0), and C(2, 2√3) is equilateral by showing all three sides have the same length.</p></li>
-<li><p>A lighthouse at position (0, 0) has a light that can be seen up to 20 km away. A ship is traveling in a straight line from point (-15, 20) to point (25, 15). Will the ship be visible from the lighthouse at any point during its journey? (Hint: Find the closest point on the path to the lighthouse)</p></li>
+<ol start="13" type="1">
+<li><p>Points A, B, and C are collinear (on the same line) with B between A and C. If A is at (2, 3), B is at (5, 7), and B is the midpoint of AC, find C.</p></li>
+<li><p>The midpoint of XY is M(4, 6) and the midpoint of YZ is N(7, 9). If X is at (1, 3), find Z.</p></li>
+<li><p>Three vertices of a parallelogram are A(1, 2), B(5, 4), and C(7, 7). Find all possible locations for the fourth vertex D. (Hint: There are three possible parallelograms)</p></li>
+<li><p>A segment AB is divided into four equal parts by points P, Q, and R (in that order). If A is at (0, 0) and B is at (12, 8), find the coordinates of P, Q, and R.</p></li>
 </ol>
+</section>
+</section>
+<section id="real-world-applications-1" class="level2">
+<h2 class="anchored" data-anchor-id="real-world-applications-1">Real-World Applications</h2>
+<section id="urban-planning" class="level3">
+<h3 class="anchored" data-anchor-id="urban-planning">Urban Planning</h3>
+<p>City planners use midpoints to: - Determine optimal locations for public facilities - Place street lights evenly along roads - Design bus stops at convenient intervals</p>
+</section>
+<section id="sports" class="level3">
+<h3 class="anchored" data-anchor-id="sports">Sports</h3>
+<ul>
+<li>Finding the center circle of a sports field</li>
+<li>Placing mid-court lines in basketball</li>
+<li>Determining fair meeting points for tournaments</li>
+</ul>
+</section>
+<section id="engineering" class="level3">
+<h3 class="anchored" data-anchor-id="engineering">Engineering</h3>
+<ul>
+<li>Locating support beams at the center of bridges</li>
+<li>Finding balance points in structural design</li>
+<li>Calculating center of mass for symmetric objects</li>
+</ul>
+</section>
+<section id="navigation" class="level3">
+<h3 class="anchored" data-anchor-id="navigation">Navigation</h3>
+<ul>
+<li>Waypoints in flight paths</li>
+<li>Meeting coordinates for rescue operations</li>
+<li>Optimal refueling locations</li>
+</ul>
 </section>
 </section>
 <section id="additional-resources" class="level2">
 <h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
-<section id="online-tools" class="level3">
-<h3 class="anchored" data-anchor-id="online-tools">Online Tools</h3>
+<section id="interactive-tools" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-tools">Interactive Tools</h3>
 <ul>
-<li>Use graphing calculators or Desmos to visualize distances</li>
-<li>GeoGebra has excellent tools for exploring coordinate geometry</li>
-<li>Google Earth for real-world distance applications</li>
-</ul>
-</section>
-<section id="video-resources" class="level3">
-<h3 class="anchored" data-anchor-id="video-resources">Video Resources</h3>
-<ul>
-<li>Search for “distance formula derivation” to see animated proofs</li>
-<li>“Pythagorean theorem applications” shows real-world uses</li>
+<li>Desmos: Plot segments and automatically show midpoints</li>
+<li>GeoGebra: Explore midpoint properties dynamically</li>
+<li>Online midpoint calculators for checking work</li>
 </ul>
 </section>
 <section id="extension-topics" class="level3">
 <h3 class="anchored" data-anchor-id="extension-topics">Extension Topics</h3>
 <ul>
-<li><strong>3D Distance Formula:</strong> For three dimensions: <span class="math inline">\(d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}\)</span></li>
-<li><strong>Taxicab Distance:</strong> In cities with grid layouts, you can’t travel “as the crow flies”</li>
-<li><strong>GPS and Great Circle Distance:</strong> How GPS calculates distance on the curved Earth</li>
+<li><strong>Weighted Midpoints:</strong> When one endpoint is “heavier” than the other</li>
+<li><strong>Centroids:</strong> The “average” point of a triangle (uses midpoints)</li>
+<li><strong>Perpendicular Bisectors:</strong> Lines through midpoints perpendicular to segments</li>
 </ul>
 </section>
 </section>
+<section id="key-formulas-summary" class="level2">
+<h2 class="anchored" data-anchor-id="key-formulas-summary">Key Formulas Summary</h2>
+<p><strong>Midpoint Formula:</strong> <span class="math display">\[M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)\]</span></p>
+<p><strong>Finding Other Endpoint:</strong> If M<span class="math inline">\((m_x, m_y)\)</span> is the midpoint of AB and A<span class="math inline">\((x_1, y_1)\)</span> is known: <span class="math display">\[B = (2m_x - x_1, 2m_y - y_1)\]</span></p>
+<p><strong>Verification:</strong> Distance from A to M equals distance from M to B.</p>
+</section>
 <section id="homework" class="level2">
 <h2 class="anchored" data-anchor-id="homework">Homework</h2>
-<p>Complete Practice Exercises Sets 1 and 2 completely, and at least 3 problems from Set 3.</p>
-<p>For additional practice, see the <a href="../resources/worksheets.html">Resources</a> section.</p>
+<p>Complete Practice Exercises Sets 1 and 2, and at least 3 problems from Set 3.</p>
+<p>For additional worksheets and practice problems, visit the <a href="../resources/worksheets.html">Resources</a> section.</p>
 <hr>
-<p><strong>Next Lesson:</strong> <a href="../lessons/lesson4.html">Lesson 4: The Midpoint Formula</a></p>
+<p><strong>Next Lesson:</strong> <a href="../lessons/lesson5.html">Lesson 5: Gradients and Linear Equations</a></p>
 
 
 </section>

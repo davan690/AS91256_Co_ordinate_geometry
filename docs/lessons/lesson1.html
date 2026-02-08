@@ -347,13 +347,13 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 2: Gradients and Linear Equations</span></a>
+ <span class="menu-text">Lesson 2: Map It - Scale, Coordinates, and Bearings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 3: Parallel and Perpendicular Lines</span></a>
+ <span class="menu-text">Lesson 3: The Distance Formula</span></a>
   </div>
 </li>
     </ul>
@@ -371,16 +371,15 @@ window.Quarto = {
   <li><a href="#plotting-points" id="toc-plotting-points" class="nav-link" data-scroll-target="#plotting-points">Plotting Points</a>
   <ul class="collapse">
   <li><a href="#example-1-plotting-points" id="toc-example-1-plotting-points" class="nav-link" data-scroll-target="#example-1-plotting-points">Example 1: Plotting Points</a></li>
+  <li><a href="#example-2-mixed-point-types" id="toc-example-2-mixed-point-types" class="nav-link" data-scroll-target="#example-2-mixed-point-types">Example 2: Mixed Point Types</a></li>
   </ul></li>
-  <li><a href="#distance-formula" id="toc-distance-formula" class="nav-link" data-scroll-target="#distance-formula">Distance Formula</a>
+  <li><a href="#quadrants" id="toc-quadrants" class="nav-link" data-scroll-target="#quadrants">Quadrants</a>
   <ul class="collapse">
-  <li><a href="#example-2-finding-distance" id="toc-example-2-finding-distance" class="nav-link" data-scroll-target="#example-2-finding-distance">Example 2: Finding Distance</a></li>
-  </ul></li>
-  <li><a href="#midpoint-formula" id="toc-midpoint-formula" class="nav-link" data-scroll-target="#midpoint-formula">Midpoint Formula</a>
-  <ul class="collapse">
-  <li><a href="#example-3-finding-midpoint" id="toc-example-3-finding-midpoint" class="nav-link" data-scroll-target="#example-3-finding-midpoint">Example 3: Finding Midpoint</a></li>
+  <li><a href="#example-2-identifying-quadrants" id="toc-example-2-identifying-quadrants" class="nav-link" data-scroll-target="#example-2-identifying-quadrants">Example 2: Identifying Quadrants</a></li>
+  <li><a href="#example-3-quadrant-and-axis-check" id="toc-example-3-quadrant-and-axis-check" class="nav-link" data-scroll-target="#example-3-quadrant-and-axis-check">Example 3: Quadrant and Axis Check</a></li>
   </ul></li>
   <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
+  <li><a href="#exit-ticket" id="toc-exit-ticket" class="nav-link" data-scroll-target="#exit-ticket">Exit Ticket</a></li>
   <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   </ul>
 </nav>
@@ -414,14 +413,21 @@ window.Quarto = {
 <ul>
 <li>Understand the structure of the Cartesian coordinate system</li>
 <li>Plot points accurately on a coordinate plane</li>
-<li>Calculate the distance between two points using the distance formula</li>
-<li>Find the midpoint of a line segment</li>
+<li>Identify quadrants and understand positive/negative coordinates</li>
+<li>Recognize points that lie on axes</li>
+<li>Interpret coordinates from a diagram and a table</li>
 </ul>
 </section>
 <section id="the-cartesian-coordinate-system" class="level2">
 <h2 class="anchored" data-anchor-id="the-cartesian-coordinate-system">The Cartesian Coordinate System</h2>
 <p>The Cartesian coordinate system uses two perpendicular number lines: - The <strong>x-axis</strong> (horizontal) - The <strong>y-axis</strong> (vertical)</p>
 <p>The point where they intersect is called the <strong>origin</strong>, denoted as (0, 0).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/Simple_example.jpg" class="img-fluid figure-img"></p>
+<figcaption>Simple example of points on a Cartesian plane</figcaption>
+</figure>
+</div>
 </section>
 <section id="plotting-points" class="level2">
 <h2 class="anchored" data-anchor-id="plotting-points">Plotting Points</h2>
@@ -429,26 +435,46 @@ window.Quarto = {
 <section id="example-1-plotting-points" class="level3">
 <h3 class="anchored" data-anchor-id="example-1-plotting-points">Example 1: Plotting Points</h3>
 <p>Plot the following points: - A(2, 3) - B(-1, 4) - C(-3, -2) - D(4, -1)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/co-ordinates_bsic.jpg" class="img-fluid figure-img"></p>
+<figcaption>Coordinate basics on a grid</figcaption>
+</figure>
+</div>
+</section>
+<section id="example-2-mixed-point-types" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-mixed-point-types">Example 2: Mixed Point Types</h3>
+<p>Plot each point and label it clearly:</p>
+<ul>
+<li>E(0, 4)</li>
+<li>F(5, 0)</li>
+<li>G(-6, 0)</li>
+<li>H(0, -3)</li>
+<li>I(2, -5)</li>
+<li>J(-4, 3)</li>
+</ul>
+<p><strong>Note:</strong> Points with <span class="math inline">\(x = 0\)</span> lie on the <strong>y-axis</strong>. Points with <span class="math inline">\(y = 0\)</span> lie on the <strong>x-axis</strong>.</p>
 </section>
 </section>
-<section id="distance-formula" class="level2">
-<h2 class="anchored" data-anchor-id="distance-formula">Distance Formula</h2>
-<p>The distance between two points <span class="math inline">\((x_1, y_1)\)</span> and <span class="math inline">\((x_2, y_2)\)</span> is given by:</p>
-<p><span class="math display">\[d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\]</span></p>
-<section id="example-2-finding-distance" class="level3">
-<h3 class="anchored" data-anchor-id="example-2-finding-distance">Example 2: Finding Distance</h3>
-<p>Find the distance between points A(1, 2) and B(4, 6).</p>
-<p><strong>Solution:</strong> <span class="math display">\[d = \sqrt{(4-1)^2 + (6-2)^2}\]</span> <span class="math display">\[d = \sqrt{3^2 + 4^2}\]</span> <span class="math display">\[d = \sqrt{9 + 16}\]</span> <span class="math display">\[d = \sqrt{25} = 5\]</span></p>
+<section id="quadrants" class="level2">
+<h2 class="anchored" data-anchor-id="quadrants">Quadrants</h2>
+<p>The coordinate plane is divided into four quadrants: - <strong>Quadrant I:</strong> x &gt; 0, y &gt; 0 (top right) - <strong>Quadrant II:</strong> x &lt; 0, y &gt; 0 (top left) - <strong>Quadrant III:</strong> x &lt; 0, y &lt; 0 (bottom left) - <strong>Quadrant IV:</strong> x &gt; 0, y &lt; 0 (bottom right)</p>
+<section id="example-2-identifying-quadrants" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-identifying-quadrants">Example 2: Identifying Quadrants</h3>
+<p>In which quadrant does each point lie? - P(3, 5) → Quadrant I (both positive) - Q(-2, 7) → Quadrant II (x negative, y positive) - R(-4, -3) → Quadrant III (both negative) - S(6, -2) → Quadrant IV (x positive, y negative)</p>
+<p>Points on the axes are not in any quadrant.</p>
 </section>
-</section>
-<section id="midpoint-formula" class="level2">
-<h2 class="anchored" data-anchor-id="midpoint-formula">Midpoint Formula</h2>
-<p>The midpoint M of a line segment joining <span class="math inline">\((x_1, y_1)\)</span> and <span class="math inline">\((x_2, y_2)\)</span> is:</p>
-<p><span class="math display">\[M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)\]</span></p>
-<section id="example-3-finding-midpoint" class="level3">
-<h3 class="anchored" data-anchor-id="example-3-finding-midpoint">Example 3: Finding Midpoint</h3>
-<p>Find the midpoint of the line segment joining A(2, 3) and B(8, 7).</p>
-<p><strong>Solution:</strong> <span class="math display">\[M = \left(\frac{2 + 8}{2}, \frac{3 + 7}{2}\right) = \left(\frac{10}{2}, \frac{10}{2}\right) = (5, 5)\]</span></p>
+<section id="example-3-quadrant-and-axis-check" class="level3">
+<h3 class="anchored" data-anchor-id="example-3-quadrant-and-axis-check">Example 3: Quadrant and Axis Check</h3>
+<p>For each point, state the quadrant or axis:</p>
+<ul>
+<li>U(0, 7)</li>
+<li>V(-8, 0)</li>
+<li>W(-2, 5)</li>
+<li>X(6, -1)</li>
+<li>Y(3, 0)</li>
+<li>Z(0, -6)</li>
+</ul>
 </section>
 </section>
 <section id="practice-exercises" class="level2">
@@ -459,22 +485,148 @@ window.Quarto = {
 <li>P(3, -2)</li>
 <li>Q(-4, 1)</li>
 <li>R(0, 5)</li>
+<li>S(-2, -3)</li>
+<li>T(4, 0)</li>
+<li>U(-6, 2)</li>
+<li>V(5, -4)</li>
 </ul></li>
-<li>Find the distance between:
+<li>Identify the quadrant or axis for each point:
 <ul>
-<li>C(0, 0) and D(3, 4)</li>
-<li>E(-1, 2) and F(5, 10)</li>
+<li>A(5, 7)</li>
+<li>B(-3, 2)</li>
+<li>C(-1, -6)</li>
+<li>D(4, -3)</li>
+<li>E(0, -8)</li>
+<li>F(9, 0)</li>
 </ul></li>
-<li>Find the midpoint of the line segment joining:
+<li>Complete the table:</li>
+</ol>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Point</th>
+<th><span class="math inline">\(x\)</span> value</th>
+<th><span class="math inline">\(y\)</span> value</th>
+<th>Quadrant/Axis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>G(2, 6)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>H(-5, 4)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>I(0, -3)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>J(-7, 0)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>K(-2, -5)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol start="4" type="1">
+<li>Name three points that lie:
 <ul>
-<li>G(1, 1) and H(7, 9)</li>
-<li>J(-2, 3) and K(4, -5)</li>
+<li>In Quadrant II</li>
+<li>On the x-axis</li>
+<li>On the y-axis</li>
 </ul></li>
+<li>Create your own set of four points, one in each quadrant, and swap with a classmate to plot and check.</li>
+</ol>
+</section>
+<section id="exit-ticket" class="level2">
+<h2 class="anchored" data-anchor-id="exit-ticket">Exit Ticket</h2>
+<ol type="1">
+<li>Plot and label: A(4, -2), B(-3, -1), C(0, 6).</li>
+<li>State the quadrant or axis for each point above.</li>
+<li>Write one coordinate that lies in Quadrant III and one that lies on the y-axis.</li>
 </ol>
 </section>
 <section id="homework" class="level2">
 <h2 class="anchored" data-anchor-id="homework">Homework</h2>
 <p>Complete the worksheet on coordinate geometry basics (see <a href="../resources/worksheets.html">Resources</a>).</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Teacher Notes
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Practice 1:</strong> P(3, -2) Q(-4, 1) R(0, 5) S(-2, -3) T(4, 0) U(-6, 2) V(5, -4)</p>
+<p><strong>Practice 2:</strong> A QI, B QII, C QIII, D QIV, E y-axis, F x-axis</p>
+<p><strong>Practice 3:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Point</th>
+<th><span class="math inline">\(x\)</span> value</th>
+<th><span class="math inline">\(y\)</span> value</th>
+<th>Quadrant/Axis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>G(2, 6)</td>
+<td>2</td>
+<td>6</td>
+<td>QI</td>
+</tr>
+<tr class="even">
+<td>H(-5, 4)</td>
+<td>-5</td>
+<td>4</td>
+<td>QII</td>
+</tr>
+<tr class="odd">
+<td>I(0, -3)</td>
+<td>0</td>
+<td>-3</td>
+<td>y-axis</td>
+</tr>
+<tr class="even">
+<td>J(-7, 0)</td>
+<td>-7</td>
+<td>0</td>
+<td>x-axis</td>
+</tr>
+<tr class="odd">
+<td>K(-2, -5)</td>
+<td>-2</td>
+<td>-5</td>
+<td>QIII</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Practice 4:</strong> Any valid points.</p>
+<p><strong>Practice 5:</strong> Any valid set, one in each quadrant.</p>
+<p><strong>Exit Ticket (sample answers):</strong> 1. Plot as given. 2. A QIV, B QIII, C y-axis. 3. Example: (-2, -4) in QIII and (0, 5) on y-axis.</p>
+</div>
+</div>
+</div>
 <hr>
 <p><strong>Next Lesson:</strong> <a href="../lessons/lesson2.html">Lesson 2: Gradients and Linear Equations</a></p>
 

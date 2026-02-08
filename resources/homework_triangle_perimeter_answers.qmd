@@ -1,0 +1,22 @@
+---
+title: "Teacher Answer Key: Distance and Perimeter"
+format:
+  pdf:
+    geometry:
+      - a4paper
+      - margin=1in
+---
+
+## Answer Key
+
+Triangle points:
+- A(-2, 1)
+- B(5, 1)
+- C(1, 6)
+
+Expected answers (rounded to 1 d.p.):
+
+1. $AB = 7.0$
+2. $BC = 6.4$
+3. $CA = 6.4$
+4. Perimeter $= 19.8$

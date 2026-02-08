@@ -24,6 +24,15 @@ The following worksheets provide structured practice for each topic in the cours
    - Line segment from (2, 8) to (10, 4)
    - Line segment from (-3, 7) to (5, -1)
 
+### Homework: Distance and Perimeter (PDF)
+
+- Single-page A4 homework sheet: [Triangle Perimeter](homework_triangle_perimeter.pdf)
+- Teacher-only answer key: [Triangle Perimeter Answers](homework_triangle_perimeter_answers.pdf)
+- Consolidation option: [Triangle Perimeter (Easy)](homework_triangle_perimeter_easy.pdf)
+- Extension option: [Triangle Perimeter (Hard)](homework_triangle_perimeter_hard.pdf)
+- Teacher-only answers (Easy): [Triangle Perimeter Easy Answers](homework_triangle_perimeter_easy_answers.pdf)
+- Teacher-only answers (Hard): [Triangle Perimeter Hard Answers](homework_triangle_perimeter_hard_answers.pdf)
+
 ### Worksheet 2: Gradient and Equations
 
 **Topic:** Finding gradients and writing equations of lines

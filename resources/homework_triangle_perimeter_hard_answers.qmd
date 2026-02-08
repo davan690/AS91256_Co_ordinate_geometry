@@ -1,0 +1,22 @@
+---
+format:
+  pdf:
+    geometry:
+      - a4paper
+      - margin=1in
+---
+
+# Teacher Answer Key: Triangle Perimeter (Hard)
+
+Triangle points:
+- A(-4, 2)
+- B(3, 7)
+- C(6, -1)
+
+Expected answers (rounded to 1 d.p.):
+
+1. $AB = 8.6$
+2. $BC = 8.5$
+3. $CA = 10.4$
+4. Perimeter $= 27.5$
+5. Scale conversion: $27.5 \times 1.5 = 41.3$ m (to 1 d.p.)

@@ -9,6 +9,8 @@ By the end of this lesson, students will be able to:
 - Understand the structure of the Cartesian coordinate system
 - Plot points accurately on a coordinate plane
 - Identify quadrants and understand positive/negative coordinates
+- Recognize points that lie on axes
+- Interpret coordinates from a diagram and a table
 
 ## The Cartesian Coordinate System
 
@@ -17,6 +19,8 @@ The Cartesian coordinate system uses two perpendicular number lines:
 - The **y-axis** (vertical)
 
 The point where they intersect is called the **origin**, denoted as (0, 0).
+
+![Simple example of points on a Cartesian plane](../images/Simple_example.jpg)
 
 ## Plotting Points
 
@@ -31,6 +35,21 @@ Plot the following points:
 - B(-1, 4)
 - C(-3, -2)
 - D(4, -1)
+
+![Coordinate basics on a grid](../images/co-ordinates_bsic.jpg)
+
+### Example 2: Mixed Point Types
+
+Plot each point and label it clearly:
+
+- E(0, 4)
+- F(5, 0)
+- G(-6, 0)
+- H(0, -3)
+- I(2, -5)
+- J(-4, 3)
+
+**Note:** Points with $x = 0$ lie on the **y-axis**. Points with $y = 0$ lie on the **x-axis**.
 
 ## Quadrants
 
@@ -50,6 +69,17 @@ In which quadrant does each point lie?
 
 Points on the axes are not in any quadrant.
 
+### Example 3: Quadrant and Axis Check
+
+For each point, state the quadrant or axis:
+
+- U(0, 7)
+- V(-8, 0)
+- W(-2, 5)
+- X(6, -1)
+- Y(3, 0)
+- Z(0, -6)
+
 ## Practice Exercises
 
 1. Plot the following points on a coordinate plane:
@@ -58,21 +88,74 @@ Points on the axes are not in any quadrant.
    - R(0, 5)
    - S(-2, -3)
    - T(4, 0)
+   - U(-6, 2)
+   - V(5, -4)
 
-2. Identify the quadrant for each point:
+2. Identify the quadrant or axis for each point:
    - A(5, 7)
    - B(-3, 2)
    - C(-1, -6)
    - D(4, -3)
+   - E(0, -8)
+   - F(9, 0)
 
-3. Name three points that lie:
+3. Complete the table:
+
+| Point | $x$ value | $y$ value | Quadrant/Axis |
+|---|---|---|---|
+| G(2, 6) |  |  |  |
+| H(-5, 4) |  |  |  |
+| I(0, -3) |  |  |  |
+| J(-7, 0) |  |  |  |
+| K(-2, -5) |  |  |  |
+
+4. Name three points that lie:
    - In Quadrant II
    - On the x-axis
    - On the y-axis
 
+5. Create your own set of four points, one in each quadrant, and swap with a classmate to plot and check.
+
+## Exit Ticket
+
+1. Plot and label: A(4, -2), B(-3, -1), C(0, 6).
+2. State the quadrant or axis for each point above.
+3. Write one coordinate that lies in Quadrant III and one that lies on the y-axis.
+
 ## Homework
 
 Complete the worksheet on coordinate geometry basics (see [Resources](../resources/worksheets.qmd)).
+
+::: {.callout-note collapse="true"}
+## Teacher Notes
+
+**Practice 1:**
+P(3, -2) Q(-4, 1) R(0, 5) S(-2, -3) T(4, 0) U(-6, 2) V(5, -4)
+
+**Practice 2:**
+A QI, B QII, C QIII, D QIV, E y-axis, F x-axis
+
+**Practice 3:**
+
+| Point | $x$ value | $y$ value | Quadrant/Axis |
+|---|---|---|---|
+| G(2, 6) | 2 | 6 | QI |
+| H(-5, 4) | -5 | 4 | QII |
+| I(0, -3) | 0 | -3 | y-axis |
+| J(-7, 0) | -7 | 0 | x-axis |
+| K(-2, -5) | -2 | -5 | QIII |
+
+**Practice 4:**
+Any valid points.
+
+**Practice 5:**
+Any valid set, one in each quadrant.
+
+**Exit Ticket (sample answers):**
+1. Plot as given.
+2. A QIV, B QIII, C y-axis.
+3. Example: (-2, -4) in QIII and (0, 5) on y-axis.
+:::
 
 ---
 

@@ -51,6 +51,8 @@ Students are expected to:
 
 ## Course Overview
 
+::: {.overview-grid}
+::: {.overview-text}
 Co-ordinate geometry (also known as analytic geometry) combines algebra and geometry using a coordinate system. Students will learn to:
 
 - Plot and identify points in the Cartesian plane
@@ -59,6 +61,13 @@ Co-ordinate geometry (also known as analytic geometry) combines algebra and geom
 - Determine gradients (slopes) of lines
 - Work with equations of lines
 - Solve problems involving parallel and perpendicular lines
+
+[Download Student Tick-off Sheet (PDF)](resources/course_tickoff_sheet.pdf)
+:::
+::: {.overview-preview}
+![Student tick-off sheet preview](images/tickoff_preview.svg){.overview-image}
+:::
+:::
 
 ## Course Structure
 

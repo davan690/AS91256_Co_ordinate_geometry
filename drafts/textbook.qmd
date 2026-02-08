@@ -1154,7 +1154,8 @@ Complete exercises 2.1 to 2.5 in the workbook.
 
 ---
 
-**Previous Lesson:** [Lesson 1: Introduction to Cartesian Coordinates](lesson1.qmd)  
+**Lesson Links:**
+[Lesson 1: Introduction to Cartesian Coordinates](../lessons/lesson1.qmd) | [Lesson 2: Gradients and Linear Equations](../lessons/lesson2.qmd) | [Lesson 3: Distance and Midpoint](../lessons/lesson3.qmd) | [Lesson 4](../lessons/lesson4.qmd) | [Lesson 5](../lessons/lesson5.qmd) | [Lesson 6](../lessons/lesson6.qmd)
 
 
 \newpage

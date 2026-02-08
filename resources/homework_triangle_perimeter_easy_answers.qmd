@@ -1,0 +1,21 @@
+---
+format:
+  pdf:
+    geometry:
+      - a4paper
+      - margin=1in
+---
+
+# Teacher Answer Key: Triangle Perimeter (Easy)
+
+Triangle points:
+- A(0, 0)
+- B(6, 0)
+- C(0, 8)
+
+Expected answers (rounded to 1 d.p.):
+
+1. $AB = 6.0$
+2. $BC = 10.0$
+3. $CA = 8.0$
+4. Perimeter $= 24.0$

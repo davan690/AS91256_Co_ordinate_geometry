@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesson 2: Gradients and Linear Equations – AS91256 Co-ordinate Geometry</title>
+<title>Lesson 2: Map It - Scale, Coordinates, and Bearings – AS91256 Co-ordinate Geometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -320,7 +320,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson2.html">Lesson 2: Gradients and Linear Equations</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson2.html">Lesson 2: Map It - Scale, Coordinates, and Bearings</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -347,13 +347,13 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lesson 2: Gradients and Linear Equations</span></a>
+ <span class="menu-text">Lesson 2: Map It - Scale, Coordinates, and Bearings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 3: Parallel and Perpendicular Lines</span></a>
+ <span class="menu-text">Lesson 3: The Distance Formula</span></a>
   </div>
 </li>
     </ul>
@@ -366,23 +366,41 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#gradient-slope-of-a-line" id="toc-gradient-slope-of-a-line" class="nav-link" data-scroll-target="#gradient-slope-of-a-line">Gradient (Slope) of a Line</a>
+  <li><a href="#achievement-objectives" id="toc-achievement-objectives" class="nav-link active" data-scroll-target="#achievement-objectives">Achievement Objectives</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#description-of-mathematics" id="toc-description-of-mathematics" class="nav-link" data-scroll-target="#description-of-mathematics">Description of Mathematics</a>
   <ul class="collapse">
-  <li><a href="#interpreting-gradient" id="toc-interpreting-gradient" class="nav-link" data-scroll-target="#interpreting-gradient">Interpreting Gradient</a></li>
-  <li><a href="#example-1-calculating-gradient" id="toc-example-1-calculating-gradient" class="nav-link" data-scroll-target="#example-1-calculating-gradient">Example 1: Calculating Gradient</a></li>
+  <li><a href="#scale" id="toc-scale" class="nav-link" data-scroll-target="#scale">1. Scale</a></li>
+  <li><a href="#cartesian-rectangular-coordinates" id="toc-cartesian-rectangular-coordinates" class="nav-link" data-scroll-target="#cartesian-rectangular-coordinates">2. Cartesian (Rectangular) Coordinates</a></li>
+  <li><a href="#polar-coordinates-bearings" id="toc-polar-coordinates-bearings" class="nav-link" data-scroll-target="#polar-coordinates-bearings">3. Polar Coordinates (Bearings)</a></li>
   </ul></li>
-  <li><a href="#equations-of-lines" id="toc-equations-of-lines" class="nav-link" data-scroll-target="#equations-of-lines">Equations of Lines</a>
+  <li><a href="#practical-activities" id="toc-practical-activities" class="nav-link" data-scroll-target="#practical-activities">Practical Activities</a>
   <ul class="collapse">
-  <li><a href="#slope-intercept-form" id="toc-slope-intercept-form" class="nav-link" data-scroll-target="#slope-intercept-form">Slope-Intercept Form</a></li>
-  <li><a href="#point-slope-form" id="toc-point-slope-form" class="nav-link" data-scroll-target="#point-slope-form">Point-Slope Form</a></li>
-  <li><a href="#general-form" id="toc-general-form" class="nav-link" data-scroll-target="#general-form">General Form</a></li>
-  <li><a href="#example-2-writing-line-equations" id="toc-example-2-writing-line-equations" class="nav-link" data-scroll-target="#example-2-writing-line-equations">Example 2: Writing Line Equations</a></li>
-  <li><a href="#example-3-finding-equation-from-two-points" id="toc-example-3-finding-equation-from-two-points" class="nav-link" data-scroll-target="#example-3-finding-equation-from-two-points">Example 3: Finding Equation from Two Points</a></li>
+  <li><a href="#activity-1-local-area-mapping" id="toc-activity-1-local-area-mapping" class="nav-link" data-scroll-target="#activity-1-local-area-mapping">Activity 1: Local Area Mapping</a></li>
+  <li><a href="#activity-2-treasure-hunt-coordinates" id="toc-activity-2-treasure-hunt-coordinates" class="nav-link" data-scroll-target="#activity-2-treasure-hunt-coordinates">Activity 2: Treasure Hunt Coordinates</a></li>
+  <li><a href="#activity-3-navigation-challenge" id="toc-activity-3-navigation-challenge" class="nav-link" data-scroll-target="#activity-3-navigation-challenge">Activity 3: Navigation Challenge</a></li>
   </ul></li>
-  <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
-  <li><a href="#real-world-application" id="toc-real-world-application" class="nav-link" data-scroll-target="#real-world-application">Real-World Application</a></li>
-  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
+  <li><a href="#te-reo-māori-vocabulary" id="toc-te-reo-māori-vocabulary" class="nav-link" data-scroll-target="#te-reo-māori-vocabulary">Te Reo Māori Vocabulary</a></li>
+  <li><a href="#cultural-connections" id="toc-cultural-connections" class="nav-link" data-scroll-target="#cultural-connections">Cultural Connections</a>
+  <ul class="collapse">
+  <li><a href="#traditional-polynesian-navigation" id="toc-traditional-polynesian-navigation" class="nav-link" data-scroll-target="#traditional-polynesian-navigation">Traditional Polynesian Navigation</a></li>
+  </ul></li>
+  <li><a href="#practice-problems" id="toc-practice-problems" class="nav-link" data-scroll-target="#practice-problems">Practice Problems</a>
+  <ul class="collapse">
+  <li><a href="#problem-set-1-scale" id="toc-problem-set-1-scale" class="nav-link" data-scroll-target="#problem-set-1-scale">Problem Set 1: Scale</a></li>
+  <li><a href="#problem-set-2-coordinates" id="toc-problem-set-2-coordinates" class="nav-link" data-scroll-target="#problem-set-2-coordinates">Problem Set 2: Coordinates</a></li>
+  <li><a href="#problem-set-3-bearings" id="toc-problem-set-3-bearings" class="nav-link" data-scroll-target="#problem-set-3-bearings">Problem Set 3: Bearings</a></li>
+  </ul></li>
+  <li><a href="#extension-activities" id="toc-extension-activities" class="nav-link" data-scroll-target="#extension-activities">Extension Activities</a>
+  <ul class="collapse">
+  <li><a href="#for-advanced-learners" id="toc-for-advanced-learners" class="nav-link" data-scroll-target="#for-advanced-learners">For Advanced Learners</a></li>
+  </ul></li>
+  <li><a href="#digital-tools" id="toc-digital-tools" class="nav-link" data-scroll-target="#digital-tools">Digital Tools</a></li>
+  <li><a href="#assessment-ideas" id="toc-assessment-ideas" class="nav-link" data-scroll-target="#assessment-ideas">Assessment Ideas</a></li>
+  <li><a href="#home-learning-connection" id="toc-home-learning-connection" class="nav-link" data-scroll-target="#home-learning-connection">Home Learning Connection</a></li>
+  <li><a href="#required-materials" id="toc-required-materials" class="nav-link" data-scroll-target="#required-materials">Required Materials</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
   </ul>
 </nav>
     </div>
@@ -392,7 +410,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 2: Gradients and Linear Equations</h1>
+<h1 class="title">Lesson 2: Map It - Scale, Coordinates, and Bearings</h1>
 </div>
 
 
@@ -409,89 +427,298 @@ window.Quarto = {
 </header>
 
 
+<section id="achievement-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="achievement-objectives">Achievement Objectives</h2>
+<p>GM4-7: Communicate and interpret locations and directions, using compass directions, distances, and grid references.</p>
+</section>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this lesson, students will be able to:</p>
 <ul>
-<li>Calculate the gradient (slope) of a line between two points</li>
-<li>Understand the meaning of positive, negative, zero, and undefined gradients</li>
-<li>Write equations of lines in various forms</li>
-<li>Convert between different forms of linear equations</li>
+<li>Understand and apply map scales to convert between map distances and real distances</li>
+<li>Use Cartesian coordinates to locate specific points on a map</li>
+<li>Apply polar coordinates using bearings and distances to navigate</li>
+<li>Interpret latitude and longitude coordinates</li>
 </ul>
 </section>
-<section id="gradient-slope-of-a-line" class="level2">
-<h2 class="anchored" data-anchor-id="gradient-slope-of-a-line">Gradient (Slope) of a Line</h2>
-<p>The gradient m of a line passing through points <span class="math inline">\((x_1, y_1)\)</span> and <span class="math inline">\((x_2, y_2)\)</span> is:</p>
-<p><span class="math display">\[m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{\text{rise}}{\text{run}}\]</span></p>
-<section id="interpreting-gradient" class="level3">
-<h3 class="anchored" data-anchor-id="interpreting-gradient">Interpreting Gradient</h3>
+<section id="description-of-mathematics" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-mathematics">Description of Mathematics</h2>
+<p>This lesson investigates three mathematical concepts in the context of maps:</p>
+<section id="scale" class="level3">
+<h3 class="anchored" data-anchor-id="scale">1. Scale</h3>
+<p>A map is a reduced version of a real landscape. Scale compares the size of lengths on a map to those in the real landscape.</p>
+<p><strong>Key Concept:</strong> If a map has a scale of 1:50,000, this means that 1 cm on the map represents 50,000 cm (or 500 m) in real life.</p>
+<section id="example-1-working-with-scale" class="level4">
+<h4 class="anchored" data-anchor-id="example-1-working-with-scale">Example 1: Working with Scale</h4>
+<p>A map has a scale of 1:25,000.</p>
+<ol type="a">
+<li>If two towns are 3 cm apart on the map, how far apart are they in real life?</li>
+</ol>
+<p><strong>Solution:</strong> - Map distance = 3 cm - Real distance = 3 × 25,000 = 75,000 cm = 750 m = 0.75 km</p>
+<ol start="2" type="a">
+<li>If two landmarks are 2 km apart in real life, how far apart would they be on the map?</li>
+</ol>
+<p><strong>Solution:</strong> - Real distance = 2 km = 200,000 cm - Map distance = 200,000 ÷ 25,000 = 8 cm</p>
+</section>
+</section>
+<section id="cartesian-rectangular-coordinates" class="level3">
+<h3 class="anchored" data-anchor-id="cartesian-rectangular-coordinates">2. Cartesian (Rectangular) Coordinates</h3>
+<p>Cartesian coordinates refer to the location of a specific point using a combination of horizontal distance and vertical distance.</p>
+<p><strong>Example:</strong> The star below is located at (7, 4).</p>
+<p><em>[Imagine a coordinate grid with x-axis from 0 to 9 and y-axis from 0 to 6. A star is plotted at the point where x=7 and y=4.]</em></p>
+<section id="with-real-maps-latitude-and-longitude" class="level4">
+<h4 class="anchored" data-anchor-id="with-real-maps-latitude-and-longitude">With Real Maps: Latitude and Longitude</h4>
 <ul>
-<li><strong>Positive gradient</strong>: Line slopes upward from left to right</li>
-<li><strong>Negative gradient</strong>: Line slopes downward from left to right</li>
-<li><strong>Zero gradient</strong>: Horizontal line</li>
-<li><strong>Undefined gradient</strong>: Vertical line</li>
+<li><strong>Longitude</strong> is the number of degrees ‘around the world’ from the Prime Meridian</li>
+<li><strong>Latitude</strong> is measured in degrees north or south from the equator</li>
 </ul>
 </section>
-<section id="example-1-calculating-gradient" class="level3">
-<h3 class="anchored" data-anchor-id="example-1-calculating-gradient">Example 1: Calculating Gradient</h3>
-<p>Find the gradient of the line passing through A(1, 2) and B(5, 10).</p>
-<p><strong>Solution:</strong> <span class="math display">\[m = \frac{10 - 2}{5 - 1} = \frac{8}{4} = 2\]</span></p>
+<section id="example-2-using-grid-references" class="level4">
+<h4 class="anchored" data-anchor-id="example-2-using-grid-references">Example 2: Using Grid References</h4>
+<p>On a map with a grid system: - Location A is at grid reference (345, 678) - Location B is at grid reference (348, 682)</p>
+<p>If each grid unit represents 100 meters, how far apart are A and B?</p>
+<p><strong>Solution:</strong> Using the distance formula: <span class="math display">\[d = \sqrt{(348-345)^2 + (682-678)^2}\]</span> <span class="math display">\[d = \sqrt{3^2 + 4^2}\]</span> <span class="math display">\[d = \sqrt{9 + 16} = \sqrt{25} = 5 \text{ grid units}\]</span></p>
+<p>Real distance = 5 × 100 = 500 meters</p>
 </section>
 </section>
-<section id="equations-of-lines" class="level2">
-<h2 class="anchored" data-anchor-id="equations-of-lines">Equations of Lines</h2>
-<section id="slope-intercept-form" class="level3">
-<h3 class="anchored" data-anchor-id="slope-intercept-form">Slope-Intercept Form</h3>
-<p><span class="math display">\[y = mx + c\]</span> where m is the gradient and c is the y-intercept.</p>
-</section>
-<section id="point-slope-form" class="level3">
-<h3 class="anchored" data-anchor-id="point-slope-form">Point-Slope Form</h3>
-<p><span class="math display">\[y - y_1 = m(x - x_1)\]</span> where m is the gradient and <span class="math inline">\((x_1, y_1)\)</span> is a point on the line.</p>
-</section>
-<section id="general-form" class="level3">
-<h3 class="anchored" data-anchor-id="general-form">General Form</h3>
-<p><span class="math display">\[ax + by + c = 0\]</span></p>
-</section>
-<section id="example-2-writing-line-equations" class="level3">
-<h3 class="anchored" data-anchor-id="example-2-writing-line-equations">Example 2: Writing Line Equations</h3>
-<p>Write the equation of the line with gradient 3 passing through the point (2, 5).</p>
-<p><strong>Solution using point-slope form:</strong> <span class="math display">\[y - 5 = 3(x - 2)\]</span> <span class="math display">\[y - 5 = 3x - 6\]</span> <span class="math display">\[y = 3x - 1\]</span></p>
-</section>
-<section id="example-3-finding-equation-from-two-points" class="level3">
-<h3 class="anchored" data-anchor-id="example-3-finding-equation-from-two-points">Example 3: Finding Equation from Two Points</h3>
-<p>Find the equation of the line passing through P(1, 3) and Q(4, 9).</p>
-<p><strong>Solution:</strong></p>
-<p>Step 1: Find the gradient <span class="math display">\[m = \frac{9 - 3}{4 - 1} = \frac{6}{3} = 2\]</span></p>
-<p>Step 2: Use point-slope form with point P(1, 3) <span class="math display">\[y - 3 = 2(x - 1)\]</span> <span class="math display">\[y - 3 = 2x - 2\]</span> <span class="math display">\[y = 2x + 1\]</span></p>
+<section id="polar-coordinates-bearings" class="level3">
+<h3 class="anchored" data-anchor-id="polar-coordinates-bearings">3. Polar Coordinates (Bearings)</h3>
+<p>Polar coordinates specify a location using the angle or bearing from a given point and the distance from that point.</p>
+<p><strong>Bearings</strong> are measured clockwise from North and are written as three-digit numbers: - North = 000° (or 360°) - East = 090° - South = 180° - West = 270°</p>
+<section id="example-3-using-bearings" class="level4">
+<h4 class="anchored" data-anchor-id="example-3-using-bearings">Example 3: Using Bearings</h4>
+<p>From point A, a landmark is located on a bearing of 045° at a distance of 3 km.</p>
+<ol type="a">
+<li>In which general direction is the landmark?</li>
+</ol>
+<p><strong>Solution:</strong> 045° is halfway between North (000°) and East (090°), so it’s Northeast.</p>
+<ol start="2" type="a">
+<li>If you walk on a bearing of 045° for 3 km, how far East and North have you traveled?</li>
+</ol>
+<p><strong>Solution:</strong> Using trigonometry: - East component = 3 × sin(45°) = 3 × 0.707 ≈ 2.12 km - North component = 3 × cos(45°) = 3 × 0.707 ≈ 2.12 km</p>
 </section>
 </section>
-<section id="practice-exercises" class="level2">
-<h2 class="anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
+</section>
+<section id="practical-activities" class="level2">
+<h2 class="anchored" data-anchor-id="practical-activities">Practical Activities</h2>
+<section id="activity-1-local-area-mapping" class="level3">
+<h3 class="anchored" data-anchor-id="activity-1-local-area-mapping">Activity 1: Local Area Mapping</h3>
+<p>Using a map of your local area:</p>
 <ol type="1">
-<li>Find the gradient of the line through:
-<ul>
-<li>A(2, 3) and B(6, 11)</li>
-<li>C(-1, 5) and D(3, -3)</li>
-</ul></li>
-<li>Write the equation of the line:
-<ul>
-<li>With gradient 4 and y-intercept -2</li>
-<li>Through point (3, 7) with gradient -1</li>
-<li>Through points (0, 2) and (5, 12)</li>
-</ul></li>
-<li>Convert the equation <span class="math inline">\(2x + 3y - 6 = 0\)</span> to slope-intercept form.</li>
+<li>Identify your school on the map</li>
+<li>Measure the distance from your school to a local landmark</li>
+<li>Use the map scale to calculate the real distance</li>
+<li>Record the grid reference or coordinates of both locations</li>
 </ol>
 </section>
-<section id="real-world-application" class="level2">
-<h2 class="anchored" data-anchor-id="real-world-application">Real-World Application</h2>
-<p>The gradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed - In a cost-quantity graph, gradient represents unit price</p>
+<section id="activity-2-treasure-hunt-coordinates" class="level3">
+<h3 class="anchored" data-anchor-id="activity-2-treasure-hunt-coordinates">Activity 2: Treasure Hunt Coordinates</h3>
+<p>Create a treasure map with: - A coordinate grid system - At least 5 landmarks marked with coordinates - Write instructions using coordinates to move from one landmark to another</p>
 </section>
-<section id="homework" class="level2">
-<h2 class="anchored" data-anchor-id="homework">Homework</h2>
-<p>Complete exercises 2.1 to 2.5 in the workbook.</p>
-<hr>
-<p><strong>Previous Lesson:</strong> <a href="../lessons/lesson1.html">Lesson 1: Introduction to Cartesian Coordinates</a><br>
-<strong>Next Lesson:</strong> <a href="../lessons/lesson3.html">Lesson 3: Parallel and Perpendicular Lines</a></p>
+<section id="activity-3-navigation-challenge" class="level3">
+<h3 class="anchored" data-anchor-id="activity-3-navigation-challenge">Activity 3: Navigation Challenge</h3>
+<p>Using a compass or compass app:</p>
+<ol type="1">
+<li>Stand at a starting point</li>
+<li>Follow these instructions:
+<ul>
+<li>Walk 20 paces on bearing 090°</li>
+<li>Walk 15 paces on bearing 180°</li>
+<li>Walk 20 paces on bearing 270°</li>
+<li>Walk 15 paces on bearing 000°</li>
+</ul></li>
+<li>Where should you end up? Why?</li>
+</ol>
+</section>
+</section>
+<section id="te-reo-māori-vocabulary" class="level2">
+<h2 class="anchored" data-anchor-id="te-reo-māori-vocabulary">Te Reo Māori Vocabulary</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>English</th>
+<th>Te Reo Māori</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Latitude</td>
+<td>Ahopae</td>
+</tr>
+<tr class="even">
+<td>Longitude</td>
+<td>Ahopou</td>
+</tr>
+<tr class="odd">
+<td>Map</td>
+<td>Mahere</td>
+</tr>
+<tr class="even">
+<td>Scale drawing</td>
+<td>Tuhinga āwhata</td>
+</tr>
+<tr class="odd">
+<td>Scale</td>
+<td>Āwhata</td>
+</tr>
+<tr class="even">
+<td>Cartesian coordinates</td>
+<td>Taunga tukutuku</td>
+</tr>
+<tr class="odd">
+<td>North</td>
+<td>Raki</td>
+</tr>
+<tr class="even">
+<td>South</td>
+<td>Runga</td>
+</tr>
+<tr class="odd">
+<td>East</td>
+<td>Rāwhiti</td>
+</tr>
+<tr class="even">
+<td>West</td>
+<td>Rātō</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cultural-connections" class="level2">
+<h2 class="anchored" data-anchor-id="cultural-connections">Cultural Connections</h2>
+<section id="traditional-polynesian-navigation" class="level3">
+<h3 class="anchored" data-anchor-id="traditional-polynesian-navigation">Traditional Polynesian Navigation</h3>
+<p>Tipuna (Ancestors) had clever ways to navigate in the absence of sophisticated GPS systems. Polynesian navigators used:</p>
+<ul>
+<li>Ocean currents</li>
+<li>The sun and stars</li>
+<li>The migration of whales and birds</li>
+<li>Wave patterns and swells</li>
+</ul>
+<p>These traditional methods allowed Pacific peoples to travel vast distances across the ocean with remarkable accuracy.</p>
+</section>
+</section>
+<section id="practice-problems" class="level2">
+<h2 class="anchored" data-anchor-id="practice-problems">Practice Problems</h2>
+<section id="problem-set-1-scale" class="level3">
+<h3 class="anchored" data-anchor-id="problem-set-1-scale">Problem Set 1: Scale</h3>
+<ol type="1">
+<li><p>A map has a scale of 1:50,000. What real distance does 4.5 cm on the map represent?</p></li>
+<li><p>Two cities are 150 km apart. How far apart would they be on a map with a scale of 1:1,000,000?</p></li>
+<li><p>On a treasure map, the scale is 1 cm = 5 m. If the treasure is 7.5 cm from the starting point on the map, how far is it in real life?</p></li>
+</ol>
+</section>
+<section id="problem-set-2-coordinates" class="level3">
+<h3 class="anchored" data-anchor-id="problem-set-2-coordinates">Problem Set 2: Coordinates</h3>
+<ol start="4" type="1">
+<li>Plot the following locations on a coordinate grid:
+<ul>
+<li>School: (2, 5)</li>
+<li>Library: (7, 5)</li>
+<li>Park: (2, 1)</li>
+<li>Shop: (7, 1)</li>
+</ul></li>
+<li>Using your plotted points from question 4, calculate the distance from:
+<ol type="a">
+<li>School to Library</li>
+<li>School to Park</li>
+<li>Library to Shop</li>
+</ol></li>
+</ol>
+</section>
+<section id="problem-set-3-bearings" class="level3">
+<h3 class="anchored" data-anchor-id="problem-set-3-bearings">Problem Set 3: Bearings</h3>
+<ol start="6" type="1">
+<li><p>From your starting position:</p>
+<ul>
+<li>Point A is on a bearing of 045° at 5 km</li>
+<li>Point B is on a bearing of 135° at 5 km</li>
+<li>Point C is on a bearing of 225° at 5 km</li>
+<li>Point D is on a bearing of 315° at 5 km</li>
+</ul>
+<p>Sketch these points. What shape do they form?</p></li>
+<li><p>You walk 3 km on a bearing of 060°. How far North and how far East have you traveled?</p></li>
+<li><p>To get from home to school, you walk 400 m East then 300 m North.</p>
+<ol type="a">
+<li>What is the direct distance from home to school?</li>
+<li>What bearing would take you directly from home to school?</li>
+</ol></li>
+</ol>
+</section>
+</section>
+<section id="extension-activities" class="level2">
+<h2 class="anchored" data-anchor-id="extension-activities">Extension Activities</h2>
+<section id="for-advanced-learners" class="level3">
+<h3 class="anchored" data-anchor-id="for-advanced-learners">For Advanced Learners</h3>
+<ol type="1">
+<li><p><strong>Magic Carpet Journey:</strong> Plan a journey from your location to a Pacific Island nation. Provide:</p>
+<ul>
+<li>Starting and ending coordinates (latitude/longitude)</li>
+<li>Bearing from start to finish</li>
+<li>Distance of the journey</li>
+</ul></li>
+<li><p><strong>Multiple Navigation:</strong> Starting from point A, follow these instructions:</p>
+<ul>
+<li>5 km on bearing 030°</li>
+<li>3 km on bearing 120°</li>
+<li>4 km on bearing 210°</li>
+</ul>
+<p>Calculate your final position relative to point A using coordinates.</p></li>
+<li><p><strong>Map Making Project:</strong> Create a detailed scale map of your school grounds including:</p>
+<ul>
+<li>A clear scale</li>
+<li>Grid reference system</li>
+<li>All major buildings and landmarks</li>
+<li>Compass rose showing North</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="digital-tools" class="level2">
+<h2 class="anchored" data-anchor-id="digital-tools">Digital Tools</h2>
+<p>Consider using: - <strong>Google Maps</strong> for exploring scale and real-world coordinates - <strong>Compass apps</strong> on mobile phones for practicing bearings - <strong>GPS tracking apps</strong> to see how movement in real life corresponds to movement on a map - <strong>Online mapping tools</strong> to create custom maps with coordinate grids</p>
+</section>
+<section id="assessment-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="assessment-ideas">Assessment Ideas</h2>
+<p>Students could demonstrate their understanding by:</p>
+<ol type="1">
+<li>Creating a detailed treasure map with scale, coordinates, and bearing-based instructions</li>
+<li>Planning and executing a navigation course using bearings and distances</li>
+<li>Converting between map distances and real distances using various scales</li>
+<li>Using latitude and longitude to identify locations around New Zealand and the Pacific</li>
+</ol>
+</section>
+<section id="home-learning-connection" class="level2">
+<h2 class="anchored" data-anchor-id="home-learning-connection">Home Learning Connection</h2>
+<p><strong>Letter to Parents and Whānau:</strong></p>
+<p>This week in maths, we are learning about maps. We’re exploring how maps use mathematics including: - Scale (to show big places on small maps) - Coordinates (to locate specific places) - Bearings (to give directions)</p>
+<p>You can help by: - Looking at maps together at home (road maps, street directories, online maps) - Asking your child to explain how the scale works - Having them show you how to describe where things are using coordinates - Discussing how GPS and digital maps work</p>
+<p>If you have any paper maps at home, ask your child to show you the important parts and demonstrate how to describe locations and give directions using the map.</p>
+</section>
+<section id="required-materials" class="level2">
+<h2 class="anchored" data-anchor-id="required-materials">Required Materials</h2>
+<ul>
+<li>Compasses (for finding north, not for drawing circles) or phones with compass app</li>
+<li>Protractors</li>
+<li>Rulers</li>
+<li>Pencils and paper</li>
+<li>Maps of local area or access to online maps</li>
+<li>Calculator (for trigonometry in bearing calculations)</li>
+</ul>
+</section>
+<section id="learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<p>By completing this lesson, students will have developed skills in: - <strong>Mathematical thinking:</strong> Understanding scale relationships and coordinate systems - <strong>Problem solving:</strong> Converting between map and real distances - <strong>Communication:</strong> Using mathematical language to describe locations and directions - <strong>Cultural awareness:</strong> Appreciating traditional navigation methods of Pacific peoples - <strong>Practical application:</strong> Using mathematical concepts in real-world contexts</p>
+</section>
+<section id="reflection-questions" class="level2">
+<h2 class="anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
+<ol type="1">
+<li>Why is it important to understand map scales?</li>
+<li>How do coordinates help us communicate locations precisely?</li>
+<li>What are the advantages of using bearings instead of just saying “go northeast”?</li>
+<li>How do digital maps like Google Maps use these mathematical concepts?</li>
+<li>What can we learn from traditional Polynesian navigation methods?</li>
+</ol>
 
 
 </section>

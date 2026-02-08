@@ -1,0 +1,66 @@
+---
+format:
+   pdf:
+      geometry:
+         - a4paper
+         - margin=1in
+      include-in-header:
+         text: |
+            \usepackage{fancyhdr}
+            \pagestyle{fancy}
+            \fancyhf{}
+            \lhead{Homework: Distance and Perimeter}
+            \rhead{Name:\ \rule{4cm}{0.4pt}\quad Date:\ \rule{3cm}{0.4pt}}
+            \renewcommand{\headrulewidth}{0.4pt}
+            \setlength{\headsep}{8pt}
+---
+
+## Context
+
+```{=latex}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+\fbox{\parbox[t][3.2cm][t]{\linewidth}{\vspace{0pt}}}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.49\textwidth}
+A park designer has mapped three points on a Cartesian grid to mark the corners of a triangular garden:
+
+\begin{itemize}
+   \item A(-2, 1)
+   \item B(5, 1)
+   \item C(1, 6)
+\end{itemize}
+
+Use the distance formula to find each side length, then the total perimeter.
+
+\mbox{Distance formula: $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$}
+\end{minipage}
+```
+
+## Questions
+
+1. Find the length of $AB$. Show your working.
+
+   \vspace{1.8cm}
+
+   \vspace{1.5cm}
+
+2. Find the length of $BC$. Show your working.
+
+   \vspace{1.8cm}
+
+   \vspace{1.5cm}
+
+3. Find the length of $CA$. Show your working.
+
+   \vspace{1.8cm}
+
+   \vspace{1.5cm}
+
+4. Find the total perimeter of $\triangle ABC$.
+   Give your answer to 1 decimal place and include units.
+
+   **Extension:** The map uses a scale of 1 unit = 2 m. Convert your perimeter to metres.
+
+   \vspace{2.0cm}
+

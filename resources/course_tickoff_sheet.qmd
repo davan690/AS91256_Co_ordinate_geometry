@@ -1,0 +1,37 @@
+---
+title: "Student Tick-off Sheet"
+format:
+  pdf:
+    geometry:
+      - a4paper
+      - margin=1in
+---
+
+## Course Skills Checklist
+
+Tick each skill once you feel confident and can show working.
+
+```{=latex}
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|p{0.62\textwidth}|p{0.23\textwidth}|p{0.1\textwidth}|}
+\hline
+\textbf{Skill} & \textbf{Evidence/Notes} & \textbf{Tick} \\
+\hline
+Plot and identify points in the Cartesian plane & \rule{0pt}{1.2cm} & $\square$ \\
+\hline
+Calculate distances between points & \rule{0pt}{1.2cm} & $\square$ \\
+\hline
+Find midpoints of line segments & \rule{0pt}{1.2cm} & $\square$ \\
+\hline
+Determine gradients (slopes) of lines & \rule{0pt}{1.2cm} & $\square$ \\
+\hline
+Work with equations of lines & \rule{0pt}{1.2cm} & $\square$ \\
+\hline
+Solve problems involving parallel and perpendicular lines & \rule{0pt}{1.2cm} & $\square$ \\
+\hline
+\end{tabular}
+```
+
+Optional notes:
+
+\vspace{3cm}
