@@ -105,6 +105,7 @@ title: "References & External Resources"
 ### Lesson Planning & Professional Development
 
 - **[NZ Maths Professional Learning](https://nzmaths.co.nz/)** - NZ curriculum-specific support [@nzmaths_home]
+- **[Liz Sneddon - Mathematics Teaching Resources](https://sites.google.com/view/lizsneddon/)** - Teacher-made resources and examples [@sneddon_google_site]
 - **[Youcubed](https://www.youcubed.org/)** - Stanford-based math education research [@youcubed_home]
   - Growth mindset resources
   - Engaging task ideas

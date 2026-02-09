@@ -7,6 +7,11 @@ title: "Welcome to AS91256 Co-ordinate Geometry"
 This is a three-week intensive course preparing you for the NCEA Level 2 AS91256 assessment.
 :::
 
+::: {.callout-tip}
+## Student Workbook (Printable)
+[Download the Co-ordinate Geometry Workbook (PDF)](resources/co-ordinate-geometry-workbook.pdf)
+:::
+
 ## About This Course
 
 This website contains resources and content for teaching co-ordinate geometry at Year 11 level. The course is designed as a three-week programme of study leading to assessment under the NCEA Level 2 standard AS91256, worth two credits.

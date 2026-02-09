@@ -1,5 +1,6 @@
 ---
 title: "Resources"
+nocite: "@*"
 ---
 
 ## Teaching Resources
@@ -28,6 +29,8 @@ Students seeking extra practice or alternative explanations may benefit from:
 ## Downloadable Materials
 
 All worksheets and resources are provided in formats suitable for printing and classroom use.
+
+- Student Workbook (Printable): [Download the Co-ordinate Geometry Workbook (PDF)](co-ordinate-geometry-workbook.pdf)
 
 ## References
 
