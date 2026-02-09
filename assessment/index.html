@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Worked Examples – AS91256 Co-ordinate Geometry</title>
+<title>Assessment – AS91256 Co-ordinate Geometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -73,40 +93,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -294,11 +285,11 @@ window.Quarto = {
 <span class="menu-text">Lessons</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../resources/index.html" aria-current="page"> 
+    <a class="nav-link" href="../resources/index.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../assessment/index.html"> 
+    <a class="nav-link active" href="../assessment/index.html" aria-current="page"> 
 <span class="menu-text">Assessment</span></a>
   </li>  
 </ul>
@@ -315,75 +306,61 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../resources/examples.html">Worked Examples</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../resources/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Resources</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../resources/worksheets.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Worksheets</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../resources/examples.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Worked Examples</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../resources/references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References &amp; External Resources</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#comprehensive-worked-examples" id="toc-comprehensive-worked-examples" class="nav-link active" data-scroll-target="#comprehensive-worked-examples">Comprehensive Worked Examples</a></li>
-  <li><a href="#example-set-1-distance-and-midpoint" id="toc-example-set-1-distance-and-midpoint" class="nav-link" data-scroll-target="#example-set-1-distance-and-midpoint">Example Set 1: Distance and Midpoint</a>
+  <li><a href="#ncea-level-2---as91256" id="toc-ncea-level-2---as91256" class="nav-link active" data-scroll-target="#ncea-level-2---as91256">NCEA Level 2 - AS91256</a>
   <ul class="collapse">
-  <li><a href="#problem-1-distance-between-points" id="toc-problem-1-distance-between-points" class="nav-link" data-scroll-target="#problem-1-distance-between-points">Problem 1: Distance Between Points</a></li>
-  <li><a href="#problem-2-finding-a-missing-coordinate" id="toc-problem-2-finding-a-missing-coordinate" class="nav-link" data-scroll-target="#problem-2-finding-a-missing-coordinate">Problem 2: Finding a Missing Coordinate</a></li>
+  <li><a href="#achievement-standard" id="toc-achievement-standard" class="nav-link" data-scroll-target="#achievement-standard">Achievement Standard</a></li>
+  <li><a href="#official-nzqa-resources" id="toc-official-nzqa-resources" class="nav-link" data-scroll-target="#official-nzqa-resources">Official NZQA Resources</a></li>
   </ul></li>
-  <li><a href="#example-set-2-lines-and-gradients" id="toc-example-set-2-lines-and-gradients" class="nav-link" data-scroll-target="#example-set-2-lines-and-gradients">Example Set 2: Lines and Gradients</a>
+  <li><a href="#achievement-criteria" id="toc-achievement-criteria" class="nav-link" data-scroll-target="#achievement-criteria">Achievement Criteria</a>
   <ul class="collapse">
-  <li><a href="#problem-3-finding-the-equation-of-a-line" id="toc-problem-3-finding-the-equation-of-a-line" class="nav-link" data-scroll-target="#problem-3-finding-the-equation-of-a-line">Problem 3: Finding the Equation of a Line</a></li>
-  <li><a href="#problem-4-intersection-of-lines" id="toc-problem-4-intersection-of-lines" class="nav-link" data-scroll-target="#problem-4-intersection-of-lines">Problem 4: Intersection of Lines</a></li>
+  <li><a href="#achievement" id="toc-achievement" class="nav-link" data-scroll-target="#achievement">Achievement</a></li>
+  <li><a href="#achievement-with-merit" id="toc-achievement-with-merit" class="nav-link" data-scroll-target="#achievement-with-merit">Achievement with Merit</a></li>
+  <li><a href="#achievement-with-excellence" id="toc-achievement-with-excellence" class="nav-link" data-scroll-target="#achievement-with-excellence">Achievement with Excellence</a></li>
   </ul></li>
-  <li><a href="#example-set-3-parallel-and-perpendicular-lines" id="toc-example-set-3-parallel-and-perpendicular-lines" class="nav-link" data-scroll-target="#example-set-3-parallel-and-perpendicular-lines">Example Set 3: Parallel and Perpendicular Lines</a>
+  <li><a href="#what-this-means" id="toc-what-this-means" class="nav-link" data-scroll-target="#what-this-means">What This Means</a>
   <ul class="collapse">
-  <li><a href="#problem-5-perpendicular-line-through-a-point" id="toc-problem-5-perpendicular-line-through-a-point" class="nav-link" data-scroll-target="#problem-5-perpendicular-line-through-a-point">Problem 5: Perpendicular Line Through a Point</a></li>
-  <li><a href="#problem-6-geometric-problem" id="toc-problem-6-geometric-problem" class="nav-link" data-scroll-target="#problem-6-geometric-problem">Problem 6: Geometric Problem</a></li>
+  <li><a href="#achievement-level" id="toc-achievement-level" class="nav-link" data-scroll-target="#achievement-level">Achievement Level</a></li>
+  <li><a href="#merit-level" id="toc-merit-level" class="nav-link" data-scroll-target="#merit-level">Merit Level</a></li>
+  <li><a href="#excellence-level" id="toc-excellence-level" class="nav-link" data-scroll-target="#excellence-level">Excellence Level</a></li>
   </ul></li>
-  <li><a href="#tips-for-success" id="toc-tips-for-success" class="nav-link" data-scroll-target="#tips-for-success">Tips for Success</a></li>
-  <li><a href="#practice-strategy" id="toc-practice-strategy" class="nav-link" data-scroll-target="#practice-strategy">Practice Strategy</a></li>
+  <li><a href="#assessment-topics" id="toc-assessment-topics" class="nav-link" data-scroll-target="#assessment-topics">Assessment Topics</a></li>
+  <li><a href="#sample-problems" id="toc-sample-problems" class="nav-link" data-scroll-target="#sample-problems">Sample Problems</a>
+  <ul class="collapse">
+  <li><a href="#achievement-level-problem" id="toc-achievement-level-problem" class="nav-link" data-scroll-target="#achievement-level-problem">Achievement Level Problem</a></li>
+  <li><a href="#merit-level-problem" id="toc-merit-level-problem" class="nav-link" data-scroll-target="#merit-level-problem">Merit Level Problem</a></li>
+  <li><a href="#excellence-level-problem" id="toc-excellence-level-problem" class="nav-link" data-scroll-target="#excellence-level-problem">Excellence Level Problem</a></li>
+  </ul></li>
+  <li><a href="#preparation-tips" id="toc-preparation-tips" class="nav-link" data-scroll-target="#preparation-tips">Preparation Tips</a>
+  <ul class="collapse">
+  <li><a href="#for-achievement" id="toc-for-achievement" class="nav-link" data-scroll-target="#for-achievement">For Achievement</a></li>
+  <li><a href="#for-merit" id="toc-for-merit" class="nav-link" data-scroll-target="#for-merit">For Merit</a></li>
+  <li><a href="#for-excellence" id="toc-for-excellence" class="nav-link" data-scroll-target="#for-excellence">For Excellence</a></li>
+  </ul></li>
+  <li><a href="#practice-assessment" id="toc-practice-assessment" class="nav-link" data-scroll-target="#practice-assessment">Practice Assessment</a>
+  <ul class="collapse">
+  <li><a href="#time-allowance" id="toc-time-allowance" class="nav-link" data-scroll-target="#time-allowance">Time Allowance</a></li>
+  <li><a href="#allowed-materials" id="toc-allowed-materials" class="nav-link" data-scroll-target="#allowed-materials">Allowed Materials</a></li>
+  </ul></li>
+  <li><a href="#study-schedule" id="toc-study-schedule" class="nav-link" data-scroll-target="#study-schedule">Study Schedule</a>
+  <ul class="collapse">
+  <li><a href="#week-1-foundation" id="toc-week-1-foundation" class="nav-link" data-scroll-target="#week-1-foundation">Week 1: Foundation</a></li>
+  <li><a href="#week-2-application" id="toc-week-2-application" class="nav-link" data-scroll-target="#week-2-application">Week 2: Application</a></li>
+  <li><a href="#week-3-assessment-preparation" id="toc-week-3-assessment-preparation" class="nav-link" data-scroll-target="#week-3-assessment-preparation">Week 3: Assessment Preparation</a></li>
+  </ul></li>
+  <li><a href="#common-mistakes-to-avoid" id="toc-common-mistakes-to-avoid" class="nav-link" data-scroll-target="#common-mistakes-to-avoid">Common Mistakes to Avoid</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
@@ -393,7 +370,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Worked Examples</h1>
+<h1 class="title">Assessment</h1>
 </div>
 
 
@@ -410,98 +387,221 @@ window.Quarto = {
 </header>
 
 
-<section id="comprehensive-worked-examples" class="level2">
-<h2 class="anchored" data-anchor-id="comprehensive-worked-examples">Comprehensive Worked Examples</h2>
-<p>This page provides detailed, step-by-step solutions to help students understand the problem-solving process.</p>
+<section id="ncea-level-2---as91256" class="level2">
+<h2 class="anchored" data-anchor-id="ncea-level-2---as91256">NCEA Level 2 - AS91256</h2>
+<section id="achievement-standard" class="level3">
+<h3 class="anchored" data-anchor-id="achievement-standard">Achievement Standard</h3>
+<p><strong>AS91256:</strong> Apply co-ordinate geometry methods in solving problems</p>
+<p><strong>Level:</strong> 2<br>
+<strong>Credits:</strong> 2<br>
+<strong>Assessment:</strong> Internal</p>
 </section>
-<section id="example-set-1-distance-and-midpoint" class="level2">
-<h2 class="anchored" data-anchor-id="example-set-1-distance-and-midpoint">Example Set 1: Distance and Midpoint</h2>
-<section id="problem-1-distance-between-points" class="level3">
-<h3 class="anchored" data-anchor-id="problem-1-distance-between-points">Problem 1: Distance Between Points</h3>
-<p>Find the distance between points A(3, 7) and B(15, 12).</p>
-<p><strong>Solution:</strong></p>
-<p>Given: <span class="math inline">\(A(3, 7)\)</span> and <span class="math inline">\(B(15, 12)\)</span></p>
-<p>Using the distance formula: <span class="math display">\[d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\]</span></p>
-<p>Substitute the coordinates: <span class="math display">\[d = \sqrt{(15 - 3)^2 + (12 - 7)^2}\]</span></p>
-<p>Simplify inside the square root: <span class="math display">\[d = \sqrt{12^2 + 5^2}\]</span> <span class="math display">\[d = \sqrt{144 + 25}\]</span> <span class="math display">\[d = \sqrt{169}\]</span> <span class="math display">\[d = 13\]</span></p>
-<p><strong>Answer:</strong> The distance is 13 units.</p>
-</section>
-<section id="problem-2-finding-a-missing-coordinate" class="level3">
-<h3 class="anchored" data-anchor-id="problem-2-finding-a-missing-coordinate">Problem 2: Finding a Missing Coordinate</h3>
-<p>Point M is the midpoint of line segment AB, where A(-2, 5) and M(3, 4). Find the coordinates of point B.</p>
-<p><strong>Solution:</strong></p>
-<p>Given: <span class="math inline">\(A(-2, 5)\)</span>, <span class="math inline">\(M(3, 4)\)</span>, and B<span class="math inline">\((x_2, y_2)\)</span> is unknown</p>
-<p>Using the midpoint formula: <span class="math display">\[M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)\]</span></p>
-<p>For the x-coordinate: <span class="math display">\[3 = \frac{-2 + x_2}{2}\]</span> <span class="math display">\[6 = -2 + x_2\]</span> <span class="math display">\[x_2 = 8\]</span></p>
-<p>For the y-coordinate: <span class="math display">\[4 = \frac{5 + y_2}{2}\]</span> <span class="math display">\[8 = 5 + y_2\]</span> <span class="math display">\[y_2 = 3\]</span></p>
-<p><strong>Answer:</strong> Point B is at (8, 3).</p>
+<section id="official-nzqa-resources" class="level3">
+<h3 class="anchored" data-anchor-id="official-nzqa-resources">Official NZQA Resources</h3>
+<ul>
+<li><strong><a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256">View AS91256 on NZQA Website</a></strong> - Official achievement standard <span class="citation" data-cites="nzqa_as91256">(<a href="#ref-nzqa_as91256" role="doc-biblioref">New Zealand Qualifications Authority, n.d.-a</a>)</span></li>
+<li><strong><a href="https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&amp;view=exams&amp;level=02">Past Assessment Materials</a></strong> - Exemplars and assessment schedules <span class="citation" data-cites="nzqa_assessment_search">(<a href="#ref-nzqa_assessment_search" role="doc-biblioref">New Zealand Qualifications Authority, n.d.-c</a>)</span></li>
+<li><strong><a href="https://www.nzqa.govt.nz/ncea/subjects/mathematics/">NCEA Mathematics Subject Page</a></strong> - All mathematics standards and resources <span class="citation" data-cites="nzqa_math_subjects">(<a href="#ref-nzqa_math_subjects" role="doc-biblioref">New Zealand Qualifications Authority, n.d.-b</a>)</span></li>
+</ul>
 </section>
 </section>
-<section id="example-set-2-lines-and-gradients" class="level2">
-<h2 class="anchored" data-anchor-id="example-set-2-lines-and-gradients">Example Set 2: Lines and Gradients</h2>
-<section id="problem-3-finding-the-equation-of-a-line" class="level3">
-<h3 class="anchored" data-anchor-id="problem-3-finding-the-equation-of-a-line">Problem 3: Finding the Equation of a Line</h3>
-<p>Find the equation of the line that passes through points P(2, 5) and Q(8, 17).</p>
-<p><strong>Solution:</strong></p>
-<p>Step 1: Calculate the gradient <span class="math display">\[m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{17 - 5}{8 - 2} = \frac{12}{6} = 2\]</span></p>
-<p>Step 2: Use point-slope form with point P(2, 5) <span class="math display">\[y - y_1 = m(x - x_1)\]</span> <span class="math display">\[y - 5 = 2(x - 2)\]</span></p>
-<p>Step 3: Expand and simplify <span class="math display">\[y - 5 = 2x - 4\]</span> <span class="math display">\[y = 2x + 1\]</span></p>
-<p><strong>Answer:</strong> The equation is <span class="math inline">\(y = 2x + 1\)</span>.</p>
-<p><strong>Verification:</strong> Check both points satisfy the equation: - For P(2, 5): <span class="math inline">\(5 = 2(2) + 1 = 5\)</span> ✓ - For Q(8, 17): <span class="math inline">\(17 = 2(8) + 1 = 17\)</span> ✓</p>
+<section id="achievement-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="achievement-criteria">Achievement Criteria</h2>
+<section id="achievement" class="level3">
+<h3 class="anchored" data-anchor-id="achievement">Achievement</h3>
+<ul>
+<li>Apply co-ordinate geometry methods in solving problems</li>
+</ul>
 </section>
-<section id="problem-4-intersection-of-lines" class="level3">
-<h3 class="anchored" data-anchor-id="problem-4-intersection-of-lines">Problem 4: Intersection of Lines</h3>
-<p>Find the point of intersection of lines <span class="math inline">\(L_1: y = 2x + 1\)</span> and <span class="math inline">\(L_2: y = -x + 7\)</span>.</p>
-<p><strong>Solution:</strong></p>
-<p>At the intersection point, both equations are satisfied, so: <span class="math display">\[2x + 1 = -x + 7\]</span></p>
-<p>Solve for x: <span class="math display">\[2x + x = 7 - 1\]</span> <span class="math display">\[3x = 6\]</span> <span class="math display">\[x = 2\]</span></p>
-<p>Substitute into <span class="math inline">\(L_1\)</span> to find y: <span class="math display">\[y = 2(2) + 1 = 5\]</span></p>
-<p><strong>Answer:</strong> The lines intersect at point (2, 5).</p>
-<p><strong>Verification:</strong> Check with <span class="math inline">\(L_2\)</span>: <span class="math inline">\(y = -(2) + 7 = 5\)</span> ✓</p>
+<section id="achievement-with-merit" class="level3">
+<h3 class="anchored" data-anchor-id="achievement-with-merit">Achievement with Merit</h3>
+<ul>
+<li>Apply co-ordinate geometry methods, using relational thinking, in solving problems</li>
+</ul>
+</section>
+<section id="achievement-with-excellence" class="level3">
+<h3 class="anchored" data-anchor-id="achievement-with-excellence">Achievement with Excellence</h3>
+<ul>
+<li>Apply co-ordinate geometry methods, using extended abstract thinking, in solving problems</li>
+</ul>
 </section>
 </section>
-<section id="example-set-3-parallel-and-perpendicular-lines" class="level2">
-<h2 class="anchored" data-anchor-id="example-set-3-parallel-and-perpendicular-lines">Example Set 3: Parallel and Perpendicular Lines</h2>
-<section id="problem-5-perpendicular-line-through-a-point" class="level3">
-<h3 class="anchored" data-anchor-id="problem-5-perpendicular-line-through-a-point">Problem 5: Perpendicular Line Through a Point</h3>
-<p>Line <span class="math inline">\(L\)</span> has equation <span class="math inline">\(y = 4x - 3\)</span>. Find the equation of the line perpendicular to <span class="math inline">\(L\)</span> that passes through the point (8, 5).</p>
-<p><strong>Solution:</strong></p>
-<p>Step 1: Identify the gradient of <span class="math inline">\(L\)</span> <span class="math display">\[m_L = 4\]</span></p>
-<p>Step 2: Find the gradient of the perpendicular line <span class="math display">\[m_{\perp} = -\frac{1}{m_L} = -\frac{1}{4}\]</span></p>
-<p>Step 3: Use point-slope form with (8, 5) <span class="math display">\[y - 5 = -\frac{1}{4}(x - 8)\]</span> <span class="math display">\[y - 5 = -\frac{1}{4}x + 2\]</span> <span class="math display">\[y = -\frac{1}{4}x + 7\]</span></p>
-<p><strong>Answer:</strong> The equation is <span class="math inline">\(y = -\frac{1}{4}x + 7\)</span>.</p>
-<p><strong>Check:</strong> Verify the product of gradients equals -1: <span class="math display">\[m_L \times m_{\perp} = 4 \times \left(-\frac{1}{4}\right) = -1\]</span> ✓</p>
+<section id="what-this-means" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-means">What This Means</h2>
+<section id="achievement-level" class="level3">
+<h3 class="anchored" data-anchor-id="achievement-level">Achievement Level</h3>
+<p>Students can: - Use appropriate formulas correctly - Complete straightforward calculations - Solve simple co-ordinate geometry problems</p>
 </section>
-<section id="problem-6-geometric-problem" class="level3">
-<h3 class="anchored" data-anchor-id="problem-6-geometric-problem">Problem 6: Geometric Problem</h3>
-<p>Points A(2, 3), B(6, 1), and C(4, 5) form a triangle. Show that angle ABC is a right angle.</p>
-<p><strong>Solution:</strong></p>
-<p>To show angle ABC is a right angle, we need to prove that lines BA and BC are perpendicular.</p>
-<p>Step 1: Find the gradient of BA <span class="math display">\[m_{BA} = \frac{3 - 1}{2 - 6} = \frac{2}{-4} = -\frac{1}{2}\]</span></p>
-<p>Step 2: Find the gradient of BC <span class="math display">\[m_{BC} = \frac{5 - 1}{4 - 6} = \frac{4}{-2} = -2\]</span></p>
-<p>Step 3: Check if lines are perpendicular <span class="math display">\[m_{BA} \times m_{BC} = -\frac{1}{2} \times (-2) = 1\]</span></p>
-<p>Since the product of the gradients is 1 (not -1), the lines are NOT perpendicular.</p>
-<p><strong>Answer:</strong> Angle ABC is not a right angle, as the product of gradients is 1, not -1.</p>
+<section id="merit-level" class="level3">
+<h3 class="anchored" data-anchor-id="merit-level">Merit Level</h3>
+<p>Students can: - Select and apply appropriate methods - Connect different geometric concepts - Solve problems requiring multiple steps - Explain their reasoning</p>
+</section>
+<section id="excellence-level" class="level3">
+<h3 class="anchored" data-anchor-id="excellence-level">Excellence Level</h3>
+<p>Students can: - Solve complex, unfamiliar problems - Develop chains of logical reasoning - Make and test conjectures - Provide comprehensive solutions with full justification</p>
 </section>
 </section>
-<section id="tips-for-success" class="level2">
-<h2 class="anchored" data-anchor-id="tips-for-success">Tips for Success</h2>
+<section id="assessment-topics" class="level2">
+<h2 class="anchored" data-anchor-id="assessment-topics">Assessment Topics</h2>
+<p>The assessment may cover:</p>
 <ol type="1">
-<li><strong>Always show your working</strong> - partial credit is often awarded</li>
-<li><strong>Check your answers</strong> - substitute back into original equations</li>
-<li><strong>Draw diagrams</strong> - visual representations help understanding</li>
-<li><strong>Use appropriate formulas</strong> - know when to apply each formula</li>
-<li><strong>Be careful with signs</strong> - negative numbers need special attention</li>
+<li><strong>Distance and Midpoint</strong>
+<ul>
+<li>Calculating distances between points</li>
+<li>Finding midpoints of line segments</li>
+<li>Using distance and midpoint in problems</li>
+</ul></li>
+<li><strong>Gradient</strong>
+<ul>
+<li>Calculating gradient from two points</li>
+<li>Interpreting gradient in context</li>
+<li>Using gradient to solve problems</li>
+</ul></li>
+<li><strong>Equations of Lines</strong>
+<ul>
+<li>Finding equations in various forms</li>
+<li>Converting between forms</li>
+<li>Using equations to solve problems</li>
+</ul></li>
+<li><strong>Parallel and Perpendicular Lines</strong>
+<ul>
+<li>Identifying relationships between lines</li>
+<li>Finding equations of parallel/perpendicular lines</li>
+<li>Applying these concepts to geometric problems</li>
+</ul></li>
+<li><strong>Problem Solving</strong>
+<ul>
+<li>Real-world applications</li>
+<li>Multi-step problems</li>
+<li>Geometric proofs using co-ordinate methods</li>
+</ul></li>
 </ol>
 </section>
-<section id="practice-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="practice-strategy">Practice Strategy</h2>
+<section id="sample-problems" class="level2">
+<h2 class="anchored" data-anchor-id="sample-problems">Sample Problems</h2>
+<section id="achievement-level-problem" class="level3">
+<h3 class="anchored" data-anchor-id="achievement-level-problem">Achievement Level Problem</h3>
+<p>Find the distance between points A(3, 4) and B(7, 7).</p>
+</section>
+<section id="merit-level-problem" class="level3">
+<h3 class="anchored" data-anchor-id="merit-level-problem">Merit Level Problem</h3>
+<p>A line passes through points P(2, 5) and Q(8, k). If the line has gradient 2, find the value of k.</p>
+</section>
+<section id="excellence-level-problem" class="level3">
+<h3 class="anchored" data-anchor-id="excellence-level-problem">Excellence Level Problem</h3>
+<p>Points A(1, 2), B(5, 4), and C(3, 6) are vertices of a triangle. a) Show that triangle ABC is isosceles. b) Find the equation of the perpendicular bisector of side AB. c) Verify that this perpendicular bisector passes through point C.</p>
+</section>
+</section>
+<section id="preparation-tips" class="level2">
+<h2 class="anchored" data-anchor-id="preparation-tips">Preparation Tips</h2>
+<section id="for-achievement" class="level3">
+<h3 class="anchored" data-anchor-id="for-achievement">For Achievement</h3>
 <ul>
-<li>Work through these examples without looking at the solutions</li>
-<li>Compare your method with the shown solution</li>
-<li>If you made errors, identify where and why</li>
-<li>Try creating similar problems and solving them</li>
+<li>Practice all basic formulas</li>
+<li>Learn to substitute correctly</li>
+<li>Check your arithmetic</li>
+<li>Show all working</li>
 </ul>
+</section>
+<section id="for-merit" class="level3">
+<h3 class="anchored" data-anchor-id="for-merit">For Merit</h3>
+<ul>
+<li>Understand when to use each method</li>
+<li>Practice multi-step problems</li>
+<li>Explain your reasoning clearly</li>
+<li>Check answers make sense</li>
+</ul>
+</section>
+<section id="for-excellence" class="level3">
+<h3 class="anchored" data-anchor-id="for-excellence">For Excellence</h3>
+<ul>
+<li>Attempt challenging problems</li>
+<li>Develop problem-solving strategies</li>
+<li>Write complete justifications</li>
+<li>Look for connections between concepts</li>
+</ul>
+</section>
+</section>
+<section id="practice-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="practice-assessment">Practice Assessment</h2>
+<p>A full practice assessment is available to help you prepare. Work through it under test conditions, then check your solutions.</p>
+<section id="time-allowance" class="level3">
+<h3 class="anchored" data-anchor-id="time-allowance">Time Allowance</h3>
+<p>The assessment is typically 1-1.5 hours.</p>
+</section>
+<section id="allowed-materials" class="level3">
+<h3 class="anchored" data-anchor-id="allowed-materials">Allowed Materials</h3>
+<ul>
+<li>Calculator (scientific or graphics)</li>
+<li>Ruler</li>
+<li>Pencil and eraser</li>
+</ul>
+</section>
+</section>
+<section id="study-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="study-schedule">Study Schedule</h2>
+<section id="week-1-foundation" class="level3">
+<h3 class="anchored" data-anchor-id="week-1-foundation">Week 1: Foundation</h3>
+<ul>
+<li>Review all formulas</li>
+<li>Complete basic exercises</li>
+<li>Check understanding of concepts</li>
+</ul>
+</section>
+<section id="week-2-application" class="level3">
+<h3 class="anchored" data-anchor-id="week-2-application">Week 2: Application</h3>
+<ul>
+<li>Work on multi-step problems</li>
+<li>Practice explaining reasoning</li>
+<li>Focus on weak areas</li>
+</ul>
+</section>
+<section id="week-3-assessment-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="week-3-assessment-preparation">Week 3: Assessment Preparation</h3>
+<ul>
+<li>Complete practice assessments</li>
+<li>Review common mistakes</li>
+<li>Focus on time management</li>
+</ul>
+</section>
+</section>
+<section id="common-mistakes-to-avoid" class="level2">
+<h2 class="anchored" data-anchor-id="common-mistakes-to-avoid">Common Mistakes to Avoid</h2>
+<ol type="1">
+<li><strong>Calculation errors</strong> - double-check arithmetic</li>
+<li><strong>Sign errors</strong> - be careful with negative coordinates</li>
+<li><strong>Formula confusion</strong> - make sure you use the right formula</li>
+<li><strong>Incomplete solutions</strong> - show all steps</li>
+<li><strong>Not checking</strong> - verify your answers make sense</li>
+</ol>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="../resources/examples.html">Worked Examples</a></li>
+<li><a href="../resources/worksheets.html">Practice Worksheets</a></li>
+<li><a href="../resources/references.html">References &amp; External Resources</a> - Official NZQA links and helpful websites</li>
+<li>Past assessment examples (check with your teacher)</li>
+</ul>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions?</h2>
+<p>If you have questions about the assessment: - Ask your teacher - Review the <a href="../lessons/index.html">Lessons</a> section - Practice with the resources provided</p>
+<p>Good luck with your assessment!</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-nzqa_as91256" class="csl-entry" role="listitem">
+New Zealand Qualifications Authority. (n.d.-a). <em>AS91256: Apply co-ordinate geometry methods in solving problems</em>. Retrieved February 9, 2026, from <a href="https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256">https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256</a>
+</div>
+<div id="ref-nzqa_math_subjects" class="csl-entry" role="listitem">
+New Zealand Qualifications Authority. (n.d.-b). <em>Mathematics and statistics subject page</em>. Retrieved February 9, 2026, from <a href="https://www.nzqa.govt.nz/ncea/subjects/mathematics/">https://www.nzqa.govt.nz/ncea/subjects/mathematics/</a>
+</div>
+<div id="ref-nzqa_assessment_search" class="csl-entry" role="listitem">
+New Zealand Qualifications Authority. (n.d.-c). <em>NCEA assessment search: AS91256</em>. Retrieved February 9, 2026, from <a href="https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&amp;view=exams&amp;level=02">https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&amp;view=exams&amp;level=02</a>
+</div>
+</div>
 
 
 </section>

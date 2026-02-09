@@ -16,18 +16,32 @@ This section provides supplementary materials to support teaching and learning o
 
 ### Online Tools
 
-- [Desmos Graphing Calculator](https://www.desmos.com/calculator): Free online graphing tool
-- [GeoGebra](https://www.geogebra.org/): Interactive geometry software
+- [Desmos Graphing Calculator](https://www.desmos.com/calculator): Free online graphing tool [@desmos_calculator]
+- [GeoGebra](https://www.geogebra.org/): Interactive geometry software [@geogebra_home]
 
 ### Additional Reading
 
 Students seeking extra practice or alternative explanations may benefit from:
-- Khan Academy: Coordinate Plane sections
-- Mathisfun: Coordinate Geometry pages
+- [Khan Academy: Coordinate Plane](https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:coordinate-plane) [@khan_coordinate_plane]
+- [Math is Fun: Coordinate Geometry](https://www.mathsisfun.com/geometry/coordinate-geometry.html) [@mathisfun_coordinate]
 
 ## Downloadable Materials
 
 All worksheets and resources are provided in formats suitable for printing and classroom use.
+
+## References
+
+::: {#refs}
+:::
+
+### Homework PDFs
+
+- Triangle Perimeter (Standard): [Download](homework_triangle_perimeter.pdf)
+- Triangle Perimeter (Easy): [Download](homework_triangle_perimeter_easy.pdf)
+- Triangle Perimeter (Hard): [Download](homework_triangle_perimeter_hard.pdf)
+- Teacher Answers (Standard): [Download](homework_triangle_perimeter_answers.pdf)
+- Teacher Answers (Easy): [Download](homework_triangle_perimeter_easy_answers.pdf)
+- Teacher Answers (Hard): [Download](homework_triangle_perimeter_hard_answers.pdf)
 
 ## Contributing
 

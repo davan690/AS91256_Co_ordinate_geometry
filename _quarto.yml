@@ -4,6 +4,9 @@ project:
   resources:
     - .nojekyll
 
+bibliography: references.bib
+csl: https://www.zotero.org/styles/apa
+
 website:
   title: "AS91256 Co-ordinate Geometry"
   description: "Resources and content for teaching co-ordinate geometry at year 11. Three week course. Assessment is Level 2 NCEA. Two credits."

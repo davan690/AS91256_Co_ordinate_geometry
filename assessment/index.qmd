@@ -14,9 +14,9 @@ title: "Assessment"
 
 ### Official NZQA Resources
 
-- **[View AS91256 on NZQA Website](https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256)** - Official achievement standard
-- **[Past Assessment Materials](https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&view=exams&level=02)** - Exemplars and assessment schedules
-- **[NCEA Mathematics Subject Page](https://www.nzqa.govt.nz/ncea/subjects/mathematics/)** - All mathematics standards and resources
+- **[View AS91256 on NZQA Website](https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256)** - Official achievement standard [@nzqa_as91256]
+- **[Past Assessment Materials](https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&view=exams&level=02)** - Exemplars and assessment schedules [@nzqa_assessment_search]
+- **[NCEA Mathematics Subject Page](https://www.nzqa.govt.nz/ncea/subjects/mathematics/)** - All mathematics standards and resources [@nzqa_math_subjects]
 
 ## Achievement Criteria
 
@@ -174,3 +174,8 @@ If you have questions about the assessment:
 - Practice with the resources provided
 
 Good luck with your assessment!
+
+## References
+
+::: {#refs}
+:::

@@ -6,32 +6,32 @@ title: "References & External Resources"
 
 ### AS91256 Achievement Standard
 
-- **[AS91256 on NZQA Website](https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256)** - Official achievement standard details
-- **[Subject Resources for Mathematics and Statistics](https://www.nzqa.govt.nz/ncea/subjects/mathematics/)** - NZQA Mathematics subject page
-- **[Assessment Schedule Examples](https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&view=exams&level=02)** - Past assessment schedules and exemplars
-- **[NCEA Level 2 Mathematics and Statistics Matrix](https://www.nzqa.govt.nz/qualifications-standards/awards/new-zealand-scholarship/scholarship-subjects/mathematics-with-statistics/)** - Overview of all Level 2 standards
+- **[AS91256 on NZQA Website](https://www.nzqa.govt.nz/ncea/assessment/view-detailed.do?standardNumber=91256)** - Official achievement standard details [@nzqa_as91256]
+- **[Subject Resources for Mathematics and Statistics](https://www.nzqa.govt.nz/ncea/subjects/mathematics/)** - NZQA Mathematics subject page [@nzqa_math_subjects]
+- **[Assessment Schedule Examples](https://www.nzqa.govt.nz/ncea/assessment/search.do?query=91256&view=exams&level=02)** - Past assessment schedules and exemplars [@nzqa_assessment_search]
+- **[NCEA Level 2 Mathematics and Statistics Matrix](https://www.nzqa.govt.nz/qualifications-standards/awards/new-zealand-scholarship/scholarship-subjects/mathematics-with-statistics/)** - Overview of all Level 2 standards [@nzqa_math_stats_matrix]
 
 ### Teaching Resources from NZQA
 
-- **[Assessment Resources](https://www.nzqa.govt.nz/ncea/subjects/mathematics/levels/)** - Teaching and assessment resources
-- **[Clarifications and Additional Information](https://www.nzqa.govt.nz/ncea/subjects/mathematics/levels/)** - Updated guidance for teachers
-- **[Exemplars of Student Work](https://www.nzqa.govt.nz/ncea/subjects/mathematics/levels/)** - Examples at Achievement, Merit, and Excellence levels
+- **[Assessment Resources](https://www.nzqa.govt.nz/ncea/subjects/mathematics/levels/)** - Teaching and assessment resources [@nzqa_math_levels]
+- **[Clarifications and Additional Information](https://www.nzqa.govt.nz/ncea/subjects/mathematics/levels/)** - Updated guidance for teachers [@nzqa_math_levels]
+- **[Exemplars of Student Work](https://www.nzqa.govt.nz/ncea/subjects/mathematics/levels/)** - Examples at Achievement, Merit, and Excellence levels [@nzqa_math_levels]
 
 ## Online Learning Platforms
 
 ### Interactive Tools & Graphing Calculators
 
-- **[Desmos Graphing Calculator](https://www.desmos.com/calculator)** - Free, powerful online graphing calculator
+- **[Desmos Graphing Calculator](https://www.desmos.com/calculator)** - Free, powerful online graphing calculator [@desmos_calculator]
   - Create graphs of lines and points
   - Visualize coordinate geometry concepts
   - Save and share work
   
-- **[GeoGebra Classic](https://www.geogebra.org/classic)** - Interactive geometry and algebra software
+- **[GeoGebra Classic](https://www.geogebra.org/classic)** - Interactive geometry and algebra software [@geogebra_classic]
   - Coordinate geometry tools
   - Dynamic visualizations
   - Free for educational use
 
-- **[Desmos Classroom Activities](https://teacher.desmos.com/)** - Ready-made interactive lessons
+- **[Desmos Classroom Activities](https://teacher.desmos.com/)** - Ready-made interactive lessons [@desmos_classroom]
   - Coordinate plane activities
   - Linear equations explorations
   - Teacher dashboard for monitoring student progress
@@ -39,42 +39,42 @@ title: "References & External Resources"
 ### Video Tutorials & Explanations
 
 #### Khan Academy
-- **[Coordinate Plane](https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:coordinate-plane)** - Introduction to coordinates
-- **[Distance Formula](https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/v/distance-formula)** - Video explanations
-- **[Slope and Linear Equations](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs)** - Comprehensive coverage
-- **[Parallel and Perpendicular Lines](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations)** - Advanced concepts
+- **[Coordinate Plane](https://www.khanacademy.org/math/cc-sixth-grade-math/x0267d782:coordinate-plane)** - Introduction to coordinates [@khan_coordinate_plane]
+- **[Distance Formula](https://www.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-distance-and-midpoints/v/distance-formula)** - Video explanations [@khan_distance_formula]
+- **[Slope and Linear Equations](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:linear-equations-graphs)** - Comprehensive coverage [@khan_linear_equations]
+- **[Parallel and Perpendicular Lines](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:forms-of-linear-equations)** - Advanced concepts [@khan_parallel_perp]
 
 #### Other Video Resources
-- **[Corbettmaths: Coordinate Geometry](https://corbettmaths.com/contents/)** - UK-based, excellent explanations
-- **[MathsBot Coordinate Geometry](https://mathsbot.com/coordinateGeometry)** - Interactive tools and generators
-- **[NZ Maths: Coordinate Geometry Activities](https://nzmaths.co.nz/)** - New Zealand curriculum-aligned resources
+- **[Corbettmaths: Coordinate Geometry](https://corbettmaths.com/contents/)** - UK-based, excellent explanations [@corbettmaths_contents]
+- **[MathsBot Coordinate Geometry](https://mathsbot.com/coordinateGeometry)** - Interactive tools and generators [@mathsbot_coordinate]
+- **[NZ Maths: Coordinate Geometry Activities](https://nzmaths.co.nz/)** - New Zealand curriculum-aligned resources [@nzmaths_home]
 
 ## Practice & Problem Banks
 
 ### Online Practice Websites
 
-- **[IXL Mathematics - Coordinate Geometry](https://www.ixl.com/math/)** - Adaptive practice questions
+- **[IXL Mathematics - Coordinate Geometry](https://www.ixl.com/math/)** - Adaptive practice questions [@ixl_math]
   - Immediate feedback
   - Skill-based progression
   - Note: Subscription required for full access
 
-- **[MathsGenie GCSE](https://www.mathsgenie.co.uk/gcse.html)** - Free worksheets and videos
+- **[MathsGenie GCSE](https://www.mathsgenie.co.uk/gcse.html)** - Free worksheets and videos [@mathsgenie_gcse]
   - UK GCSE level (similar to NCEA Level 2)
   - Downloadable PDFs
   - Worked solutions
 
-- **[Corbett Maths Practice Questions](https://corbettmaths.com/contents/)** - Topic-specific worksheets
+- **[Corbett Maths Practice Questions](https://corbettmaths.com/contents/)** - Topic-specific worksheets [@corbettmaths_contents]
   - Free printable resources
   - Video solutions available
 
 ### Problem-Solving Resources
 
-- **[NRICH Maths](https://nrich.maths.org/secondary-geometric)** - Rich mathematical problems
+- **[NRICH Maths](https://nrich.maths.org/secondary-geometric)** - Rich mathematical problems [@nrich_secondary_geometric]
   - Challenging extension activities
   - Promotes mathematical thinking
   - Solutions and hints provided
 
-- **[Brilliant.org - Coordinate Geometry](https://brilliant.org/)** - Interactive problem solving
+- **[Brilliant.org - Coordinate Geometry](https://brilliant.org/)** - Interactive problem solving [@brilliant_home]
   - Progressive difficulty
   - Community discussions
   - Note: Premium content requires subscription
@@ -89,9 +89,9 @@ title: "References & External Resources"
 
 ### International Resources
 
-- **[Math is Fun: Coordinate Geometry](https://www.mathsisfun.com/geometry/coordinate-geometry.html)** - Clear explanations with diagrams
-- **[Purple Math: Coordinate Geometry](https://www.purplemath.com/modules/index.htm)** - Comprehensive tutorials
-- **[Math Open Reference: Coordinate Geometry](https://www.mathopenref.com/tocs/coordtoc.html)** - Interactive definitions and tools
+- **[Math is Fun: Coordinate Geometry](https://www.mathsisfun.com/geometry/coordinate-geometry.html)** - Clear explanations with diagrams [@mathisfun_coordinate]
+- **[Purple Math: Coordinate Geometry](https://www.purplemath.com/modules/index.htm)** - Comprehensive tutorials [@purplemath_modules]
+- **[Math Open Reference: Coordinate Geometry](https://www.mathopenref.com/tocs/coordtoc.html)** - Interactive definitions and tools [@mathopenref_coord]
 
 ## Apps & Mobile Resources
 
@@ -104,34 +104,34 @@ title: "References & External Resources"
 
 ### Lesson Planning & Professional Development
 
-- **[NZ Maths Professional Learning](https://nzmaths.co.nz/)** - NZ curriculum-specific support
-- **[Youcubed](https://www.youcubed.org/)** - Stanford-based math education research
+- **[NZ Maths Professional Learning](https://nzmaths.co.nz/)** - NZ curriculum-specific support [@nzmaths_home]
+- **[Youcubed](https://www.youcubed.org/)** - Stanford-based math education research [@youcubed_home]
   - Growth mindset resources
   - Engaging task ideas
   
-- **[NCTM Illuminations](https://illuminations.nctm.org/)** - US-based lesson plans and activities
+- **[NCTM Illuminations](https://illuminations.nctm.org/)** - US-based lesson plans and activities [@nctm_illuminations]
   - High-quality teaching resources
   - Interactive tools
 
 ### Assessment Tools
 
-- **[ExamPro by AQA](https://www.aqa.org.uk/)** - Question bank (UK but applicable)
-- **[Diagnostic Questions](https://diagnosticquestions.com/)** - Multiple choice questions with misconception analysis
-- **[Formative](https://www.formative.com/)** - Create and assign digital formative assessments
+- **[ExamPro by AQA](https://www.aqa.org.uk/)** - Question bank (UK but applicable) [@aqa_home]
+- **[Diagnostic Questions](https://diagnosticquestions.com/)** - Multiple choice questions with misconception analysis [@diagnosticquestions_home]
+- **[Formative](https://www.formative.com/)** - Create and assign digital formative assessments [@formative_home]
 
 ## Study Guides & Cheat Sheets
 
-- **[Math Vault: Coordinate Geometry Cheat Sheet](https://mathvault.ca/)** - Quick reference formulas
-- **[Coordinate Geometry Formula Sheet](https://www.mathsisfun.com/geometry/coordinate-geometry.html)** - All essential formulas in one place
-- **[NCEA Mathematics Formula Sheets](https://www.nzqa.govt.nz/)** - Official NZQA provided formulas
+- **[Math Vault: Coordinate Geometry Cheat Sheet](https://mathvault.ca/)** - Quick reference formulas [@mathvault_home]
+- **[Coordinate Geometry Formula Sheet](https://www.mathsisfun.com/geometry/coordinate-geometry.html)** - All essential formulas in one place [@mathisfun_coordinate]
+- **[NCEA Mathematics Formula Sheets](https://www.nzqa.govt.nz/)** - Official NZQA provided formulas [@nzqa_home]
 
 ## University & Extended Learning
 
 For students interested in extending their knowledge:
 
-- **[MIT OpenCourseWare - Single Variable Calculus](https://ocw.mit.edu/)** - University-level mathematics
-- **[Paul's Online Math Notes](https://tutorial.math.lamar.edu/)** - Comprehensive university prep
-- **[3Blue1Brown YouTube](https://www.youtube.com/@3blue1brown)** - Beautiful visual mathematics explanations
+- **[MIT OpenCourseWare - Single Variable Calculus](https://ocw.mit.edu/)** - University-level mathematics [@mit_ocw]
+- **[Paul's Online Math Notes](https://tutorial.math.lamar.edu/)** - Comprehensive university prep [@pauls_online_notes]
+- **[3Blue1Brown YouTube](https://www.youtube.com/@3blue1brown)** - Beautiful visual mathematics explanations [@blue1brown_youtube]
 
 ## Study Tips & Strategies
 
@@ -154,8 +154,13 @@ For students interested in extending their knowledge:
 ## Contact & Support
 
 If you find broken links or have suggestions for additional resources, please:
-- Open an issue on the [GitHub repository](https://github.com/davan690/AS91256_Co_ordinate_geometry)
+- Open an issue on the [GitHub repository](https://github.com/davan690/AS91256_Co_ordinate_geometry) [@github_repo]
 - Contact your teacher for specific support
+
+## References
+
+::: {#refs}
+:::
 
 ---
 
