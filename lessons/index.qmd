@@ -4,7 +4,7 @@ title: "Lessons"
 
 ## Course Lessons
 
-This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to six comprehensive lessons covering all essential topics.
+This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to seven comprehensive lessons covering all essential topics.
 
 ### Weekly Structure
 
@@ -52,6 +52,15 @@ Each lesson includes:
    - Properties of parallel lines
    - Properties of perpendicular lines
    - Problem-solving applications
+
+7. [Lesson 7: Practice and Revision](lesson7.qmd)
+   - Mixed coordinate and quadrant practice
+   - Distance, midpoint, and gradient review
+   - Parallel and perpendicular line skills
+
+## Appendix
+
+- [Answer Key Appendix](answer-key.qmd)
 
 ## Teaching Tips
 

@@ -116,6 +116,15 @@ For each point, state the quadrant or axis:
 
 5. Create your own set of four points, one in each quadrant, and swap with a classmate to plot and check.
 
+## Worksheet 1A: Plotting Points
+
+1. Plot the following points on a coordinate plane:
+   - A(4, 3)
+   - B(-2, 5)
+   - C(-3, -4)
+   - D(1, -2)
+   - E(0, 6)
+
 ## Exit Ticket
 
 1. Plot and label: A(4, -2), B(-3, -1), C(0, 6).
@@ -155,8 +164,11 @@ Any valid set, one in each quadrant.
 1. Plot as given.
 2. A QIV, B QIII, C y-axis.
 3. Example: (-2, -4) in QIII and (0, 5) on y-axis.
+
+**Worksheet 1A answers:**
+A QI, B QII, C QIII, D QIV, E y-axis.
 :::
 
 ---
 
-**Next Lesson:** [Lesson 2: Gradients and Linear Equations](lesson2.qmd)
+**Next Lesson:** [Lesson 2: Map It - Scale, Coordinates, and Bearings](lesson2.qmd)

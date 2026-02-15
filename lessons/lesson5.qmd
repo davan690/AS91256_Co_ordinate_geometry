@@ -1,5 +1,5 @@
 ---
-title: "Lesson 2: Gradients and Linear Equations"
+title: "Lesson 5: Gradients and Linear Equations"
 ---
 
 ## Learning Objectives
@@ -80,6 +80,23 @@ $$y = 2x + 1$$
 
 3. Convert the equation $2x + 3y - 6 = 0$ to slope-intercept form.
 
+## Worksheet 2: Gradient and Equations Practice
+
+1. Find the gradient of the line through:
+   - P(1, 3) and Q(5, 11)
+   - R(-2, 4) and S(6, -4)
+   - T(0, -3) and U(4, 5)
+
+2. Write the equation of the line:
+   - With gradient 3 and y-intercept 5
+   - With gradient -2 passing through (4, 1)
+   - Through points (2, 3) and (6, 11)
+
+3. Convert to slope-intercept form ($y = mx + c$):
+   - $3x + y - 6 = 0$
+   - $2x - 4y + 8 = 0$
+   - $x + 2y - 10 = 0$
+
 ## Real-World Application
 
 The gradient represents a rate of change. For example:
@@ -90,7 +107,15 @@ The gradient represents a rate of change. For example:
 
 Complete exercises 2.1 to 2.5 in the workbook.
 
+::: {.callout-note collapse="true"}
+## Worksheet 2 Answers
+
+1. $m = 2$, $m = -1$, $m = 2$
+2. $y = 3x + 5$, $y = -2x + 9$, $y = 2x - 1$
+3. $y = -3x + 6$, $y = \frac{1}{2}x + 2$, $y = -\frac{1}{2}x + 5$
+:::
+
 ---
 
-**Previous Lesson:** [Lesson 1: Introduction to Cartesian Coordinates](lesson1.qmd)  
-**Next Lesson:** [Lesson 3: Parallel and Perpendicular Lines](lesson3.qmd)
+**Previous Lesson:** [Lesson 4: The Midpoint Formula](lesson4.qmd)  
+**Next Lesson:** [Lesson 6: Parallel and Perpendicular Lines](lesson6.qmd)

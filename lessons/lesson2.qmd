@@ -273,3 +273,8 @@ By completing this lesson, students will have developed skills in:
 3. What are the advantages of using bearings instead of just saying "go northeast"?
 4. How do digital maps like Google Maps use these mathematical concepts?
 5. What can we learn from traditional Polynesian navigation methods?
+
+---
+
+**Previous Lesson:** [Lesson 1: Introduction to Cartesian Coordinates](lesson1.qmd)  
+**Next Lesson:** [Lesson 3: The Distance Formula](lesson3.qmd)

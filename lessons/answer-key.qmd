@@ -1,0 +1,70 @@
+---
+title: "Answer Key Appendix"
+---
+
+## Lesson 1: Introduction to Cartesian Coordinates
+
+### Practice Exercises (sample answers)
+
+1. Plot as given.
+2. A QI, B QII, C QIII, D QIV, E y-axis, F x-axis.
+3. G(2, 6) QI; H(-5, 4) QII; I(0, -3) y-axis; J(-7, 0) x-axis; K(-2, -5) QIII.
+4. Any valid points.
+5. Any valid set, one in each quadrant.
+
+### Exit Ticket (sample answers)
+
+1. Plot as given.
+2. A QIV, B QIII, C y-axis.
+3. Example: (-2, -4) in QIII and (0, 5) on y-axis.
+
+### Worksheet 1A
+
+A QI, B QII, C QIII, D QIV, E y-axis.
+
+## Lesson 3: The Distance Formula
+
+### Worksheet 1B
+
+1. AB = 5
+2. CD = 13
+3. EF = 13
+
+## Lesson 4: The Midpoint Formula
+
+### Worksheet 1C
+
+1. (6, 6)
+2. (1, 3)
+
+## Lesson 5: Gradients and Linear Equations
+
+### Worksheet 2
+
+1. $m = 2$, $m = -1$, $m = 2$
+2. $y = 3x + 5$, $y = -2x + 9$, $y = 2x - 1$
+3. $y = -3x + 6$, $y = \frac{1}{2}x + 2$, $y = -\frac{1}{2}x + 5$
+
+## Lesson 6: Parallel and Perpendicular Lines
+
+### Worksheet 3
+
+1. Parallel, perpendicular, neither
+2. $y = 5x - 7$, $y = \frac{1}{3}x + 2$, $y = -2x + 3$
+3. $y = -x + 9$, $m = -2$
+
+## Lesson 7: Practice and Revision
+
+### Answer Key
+
+**Set A:** A QIV, B QII, C y-axis, D x-axis, E QIII
+
+**Set B:** $3\sqrt{5}$, (-1, -1), 25
+
+**Set C:** $m = 1$, $y = -3x + 5$, $y = 2x - 2$, $y = 2x + 3$
+
+**Set D:** Parallel, perpendicular, $y = -2x + 2$, $y = -3x + 2$
+
+---
+
+**Previous Lesson:** [Lesson 7: Practice and Revision](lesson7.qmd)

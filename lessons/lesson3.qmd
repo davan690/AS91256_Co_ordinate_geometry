@@ -217,6 +217,13 @@ Real distance = 84.85 m × scale = 84.85 × 1 = 84.85 m (the scale tells us abou
 
 ## Practice Exercises
 
+## Worksheet 1B: Distance Practice
+
+1. Calculate the distance between:
+   - A(1, 1) and B(4, 5)
+   - C(-2, 3) and D(3, -9)
+   - E(0, 0) and F(-5, 12)
+
 ### Set 1: Basic Calculations
 
 1. Find the distance between:
@@ -287,6 +294,15 @@ Complete Practice Exercises Sets 1 and 2 completely, and at least 3 problems fro
 
 For additional practice, see the [Resources](../resources/worksheets.qmd) section.
 
+::: {.callout-note collapse="true"}
+## Worksheet 1B Answers
+
+1. AB = 5
+2. CD = 13
+3. EF = 13
+:::
+
 ---
 
+**Previous Lesson:** [Lesson 2: Map It - Scale, Coordinates, and Bearings](lesson2.qmd)  
 **Next Lesson:** [Lesson 4: The Midpoint Formula](lesson4.qmd)

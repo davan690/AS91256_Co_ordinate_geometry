@@ -1,0 +1,1328 @@
+
+=== Page 1 ===
+
+Co-ordinate Geometry Workbook
+AS91256
+Table of contents
+1 Lesson 1: Introduction to Cartesian Coordinates 5
+1.1 Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+1.2 The Cartesian Coordinate System . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+1.3 Plotting Points . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+1.3.1 Example 1: Plotting Points . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+1.3.2 Example 2: Mixed Point Types . . . . . . . . . . . . . . . . . . . . . . . . 8
+1.4 Quadrants . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+1.4.1 Example 2: Identifying Quadrants . . . . . . . . . . . . . . . . . . . . . . 9
+1.4.2 Example 3: Quadrant and Axis Check . . . . . . . . . . . . . . . . . . . . 9
+1.5 Practice Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+1.6 Exit Ticket . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+2 Lesson 2: Map It - Scale, Coordinates, and Bearings 11
+2.1 Achievement Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.2 Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.3 Description of Mathematics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.3.1 1. Scale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.3.2 2. Cartesian (Rectangular) Coordinates . . . . . . . . . . . . . . . . . . . 11
+2.3.3 3. Polar Coordinates (Bearings) . . . . . . . . . . . . . . . . . . . . . . . 12
+2.4 Practical Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+2.4.1 Activity 1: Local Area Mapping . . . . . . . . . . . . . . . . . . . . . . . 12
+2.4.2 Activity 2: Treasure Hunt Coordinates . . . . . . . . . . . . . . . . . . . . 13
+2.4.3 Activity 3: Navigation Challenge . . . . . . . . . . . . . . . . . . . . . . . 13
+2.5 Te Reo Maori Vocabulary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.6 Cultural Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+2.6.1 Traditional Polynesian Navigation . . . . . . . . . . . . . . . . . . . . . . 13
+2.7 Practice Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+2.7.1 Problem Set 1: Scale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+2.7.2 Problem Set 2: Coordinates . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+2.7.3 Problem Set 3: Bearings . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+2.8 Extension Activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+2.8.1 For Advanced Learners . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+2.9 Digital Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+2.10 Assessment Ideas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+2.11 Home Learning Connection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+2.12 Required Materials . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+2.13 Learning Outcomes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+1
+
+=== Page 2 ===
+
+2.14 Reflection Questions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+3 Lesson 3: The Distance Formula 17
+3.1 Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+3.2 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+3.3 The Pythagorean Theorem Review . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+3.4 Deriving the Distance Formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+3.5 Using the Distance Formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+3.5.1 Example 1: Basic Distance Calculation . . . . . . . . . . . . . . . . . . . 18
+3.5.2 Example 2: Distance with Negative Coordinates . . . . . . . . . . . . . . 18
+3.5.3 Example 3: Points on the Same Horizontal or Vertical Line . . . . . . . . 18
+3.5.4 Example 4: Distance from the Origin . . . . . . . . . . . . . . . . . . . . 19
+3.6 Simplifying Radicals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+3.6.1 Example 5: Simplifying Radical Answers . . . . . . . . . . . . . . . . . . 19
+3.7 Real-World Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+3.7.1 Example 6: Map Distances . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+3.7.2 Example 7: Cell Tower Coverage . . . . . . . . . . . . . . . . . . . . . . . 20
+3.7.3 Example 8: Comparing Distances . . . . . . . . . . . . . . . . . . . . . . . 20
+3.8 Working Backwards: Finding Unknown Coordinates . . . . . . . . . . . . . . . . 20
+3.8.1 Example 9: Finding an Unknown x-coordinate . . . . . . . . . . . . . . . 20
+3.8.2 Example 10: Finding an Unknown y-coordinate . . . . . . . . . . . . . . . 21
+3.9 Connection to Lesson 2: Maps and Scale . . . . . . . . . . . . . . . . . . . . . . . 21
+3.10 Practice Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+3.10.1 Set 1: Basic Calculations . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+3.10.2 Set 2: Special Cases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.10.3 Set 3: Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.10.4 Set 4: Unknown Coordinates . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.10.5 Set 5: Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.11 Additional Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.11.1 Online Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+3.11.2 Video Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3.11.3 Extension Topics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3.12 Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+4 Lesson 4: The Midpoint Formula 24
+4.1 Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+4.2 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+4.3 The Midpoint Formula . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+4.3.1 Understanding the Formula . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+4.4 Basic Examples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+4.4.1 Example 1: Simple Midpoint Calculation . . . . . . . . . . . . . . . . . . 24
+4.4.2 Example 2: Midpoint with Negative Coordinates . . . . . . . . . . . . . . 25
+4.4.3 Example 3: Midpoint with the Origin . . . . . . . . . . . . . . . . . . . . 25
+4.4.4 Example 4: Midpoint with Fractional Coordinates . . . . . . . . . . . . . 25
+4.5 Real-World Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+4.5.1 Example 5: Meeting Point . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+4.5.2 Example 6: Facility Placement . . . . . . . . . . . . . . . . . . . . . . . . 26
+4.5.3 Example 7: Bridge Center Point . . . . . . . . . . . . . . . . . . . . . . . 26
+4.5.4 Example 8: Emergency Services . . . . . . . . . . . . . . . . . . . . . . . 26
+4.6 Working Backwards: Finding Unknown Endpoints . . . . . . . . . . . . . . . . . 26
+4.6.1 Example 9: Finding the Other Endpoint . . . . . . . . . . . . . . . . . . . 27
+4.6.2 Example 10: Finding the Starting Point . . . . . . . . . . . . . . . . . . . 27
+2
+
+=== Page 3 ===
+
+4.6.3 Example 11: Symmetric Point . . . . . . . . . . . . . . . . . . . . . . . . 28
+4.7 Multiple Midpoints . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+4.7.1 Example 12: Trisecting a Line Segment . . . . . . . . . . . . . . . . . . . 28
+4.7.2 Example 13: Median of a Triangle . . . . . . . . . . . . . . . . . . . . . . 29
+4.8 Geometric Properties Using Midpoints . . . . . . . . . . . . . . . . . . . . . . . . 29
+4.8.1 Example 14: Proving a Parallelogram . . . . . . . . . . . . . . . . . . . . 29
+4.8.2 Example 15: Finding the Center of a Circle . . . . . . . . . . . . . . . . . 29
+4.9 Connection to Other Lessons . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+4.9.1 Link to Distance Formula (Lesson 3) . . . . . . . . . . . . . . . . . . . . . 30
+4.9.2 Link to Maps (Lesson 2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+4.10 Practice Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+4.10.1 Set 1: Basic Midpoint Calculations . . . . . . . . . . . . . . . . . . . . . . 30
+4.10.2 Set 2: Finding Unknown Endpoints . . . . . . . . . . . . . . . . . . . . . 30
+4.10.3 Set 3: Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+4.10.4 Set 4: Geometric Applications . . . . . . . . . . . . . . . . . . . . . . . . 31
+4.10.5 Set 5: Challenge Problems . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+4.11 Real-World Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+4.11.1 Urban Planning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+4.11.2 Sports . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+4.11.3 Engineering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.11.4 Navigation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.12 Additional Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.12.1 Interactive Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.12.2 Extension Topics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.13 Key Formulas Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+4.14 Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+5 Lesson 5: Gradients and Linear Equations 33
+5.1 Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+5.2 Gradient (Slope) of a Line . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+5.2.1 Interpreting Gradient . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+5.2.2 Example 1: Calculating Gradient . . . . . . . . . . . . . . . . . . . . . . . 33
+5.3 Equations of Lines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+5.3.1 Slope-Intercept Form . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+5.3.2 Point-Slope Form . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+5.3.3 General Form . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+5.3.4 Example 2: Writing Line Equations . . . . . . . . . . . . . . . . . . . . . 34
+5.3.5 Example 3: Finding Equation from Two Points . . . . . . . . . . . . . . . 34
+5.4 Practice Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+5.5 Real-World Application . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+5.6 Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+6 Lesson 6: Parallel and Perpendicular Lines 35
+6.1 Learning Objectives . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+6.2 Parallel Lines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+6.2.1 Example 1: Identifying Parallel Lines . . . . . . . . . . . . . . . . . . . . 35
+6.2.2 Example 2: Finding Parallel Line Equation . . . . . . . . . . . . . . . . . 35
+6.3 Perpendicular Lines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+6.3.1 Example 3: Identifying Perpendicular Lines . . . . . . . . . . . . . . . . . 36
+6.3.2 Example 4: Finding Perpendicular Line Equation . . . . . . . . . . . . . . 36
+6.4 Practice Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+6.5 Problem-Solving Strategy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+3
+
+=== Page 4 ===
+
+6.6 Real-World Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+6.7 Homework . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+7 Worksheets 38
+7.1 Worksheet 1: Coordinate Basics . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+7.2 Worksheet 2: Gradient and Equations . . . . . . . . . . . . . . . . . . . . . . . . 38
+7.3 Worksheet 3: Parallel and Perpendicular Lines . . . . . . . . . . . . . . . . . . . 38
+4
+
+=== Page 5 ===
+
+1 Lesson 1: Introduction to Cartesian Coordinates
+1.1 Learning Objectives
+By the end of this lesson, students will be able to:
+• Understand the structure of the Cartesian coordinate system
+• Plot points accurately on a coordinate plane
+• Identify quadrants and understand positive/negative coordinates
+• Recognize points that lie on axes
+• Interpret coordinates from a diagram and a table
+1.2 The Cartesian Coordinate System
+The Cartesian coordinate system uses two perpendicular number lines: - The x-axis (horizontal)
+- The y-axis (vertical)
+The point where they intersect is called the origin, denoted as (0, 0).
+5
+
+=== Page 6 ===
+
+Figure 1 : Simple example of points on a Cartesian plane
+6
+
+=== Page 7 ===
+
+1.3 Plotting Points
+Each point in the plane is represented by an ordered pair (x, y): - The first number (x) tells us
+how far to move horizontally - The second number (y) tells us how far to move vertically
+1.3.1 Example 1: Plotting Points
+Plot the following points: - A(2, 3) - B(-1, 4) - C(-3, -2) - D(4, -1)
+7
+
+=== Page 8 ===
+
+Figure 2 : Coordinate basics on a grid
+1.3.2 Example 2: Mixed Point Types
+Plot each point and label it clearly:
+8
+
+=== Page 9 ===
+
+• E(0, 4)
+• F(5, 0)
+• G(-6, 0)
+• H(0, -3)
+• I(2, -5)
+• J(-4, 3)
+Note: Points with 𝑥 = 0 lie on the y-axis. Points with 𝑦 = 0 lie on the x-axis.
+1.4 Quadrants
+The coordinate plane is divided into four quadrants: - Quadrant I: x > 0, y > 0 (top right) -
+Quadrant II: x < 0, y > 0 (top left) - Quadrant III: x < 0, y < 0 (bottom left) - Quadrant
+IV: x > 0, y < 0 (bottom right)
+1.4.1 Example 2: Identifying Quadrants
+In which quadrant does each point lie? - P(3, 5) -> Quadrant I (both positive) - Q(-2, 7) ->
+Quadrant II (x negative, y positive) - R(-4, -3) -> Quadrant III (both negative) - S(6, -2) ->
+Quadrant IV (x positive, y negative)
+Points on the axes are not in any quadrant.
+1.4.2 Example 3: Quadrant and Axis Check
+For each point, state the quadrant or axis:
+• U(0, 7)
+• V(-8, 0)
+• W(-2, 5)
+• X(6, -1)
+• Y(3, 0)
+• Z(0, -6)
+1.5 Practice Exercises
+1. Plot the following points on a coordinate plane:
+• P(3, -2)
+• Q(-4, 1)
+• R(0, 5)
+• S(-2, -3)
+• T(4, 0)
+• U(-6, 2)
+• V(5, -4)
+2. Identify the quadrant or axis for each point:
+• A(5, 7)
+• B(-3, 2)
+• C(-1, -6)
+9
+
+=== Page 10 ===
+
+• D(4, -3)
+• E(0, -8)
+• F(9, 0)
+3. Complete the table:
+Point 𝑥 value 𝑦 value Quadrant/Axis
+G(2, 6)
+H(-5, 4)
+I(0, -3)
+J(-7, 0)
+K(-2, -5)
+4. Name three points that lie:
+• In Quadrant II
+• On the x-axis
+• On the y-axis
+5. Create your own set of four points, one in each quadrant, and swap with a classmate to
+plot and check.
+1.6 Exit Ticket
+1. Plot and label: A(4, -2), B(-3, -1), C(0, 6).
+2. State the quadrant or axis for each point above.
+3. Write one coordinate that lies in Quadrant III and one that lies on the y-axis.
+10
+
+=== Page 11 ===
+
+2 Lesson 2: Map It - Scale, Coordinates, and Bearings
+2.1 Achievement Objectives
+GM4-7: Communicate and interpret locations and directions, using compass directions, dis-
+tances, and grid references.
+2.2 Learning Objectives
+By the end of this lesson, students will be able to:
+• Understand and apply map scales to convert between map distances and real distances
+• Use Cartesian coordinates to locate specific points on a map
+• Apply polar coordinates using bearings and distances to navigate
+• Interpret latitude and longitude coordinates
+2.3 Description of Mathematics
+This lesson investigates three mathematical concepts in the context of maps:
+2.3.1 1. Scale
+A map is a reduced version of a real landscape. Scale compares the size of lengths on a map to
+those in the real landscape.
+Key Concept: If a map has a scale of 1:50,000, this means that 1 cm on the map represents
+50,000 cm (or 500 m) in real life.
+2.3.1.1 Example 1: Working with Scale
+A map has a scale of 1:25,000.
+a) If two towns are 3 cm apart on the map, how far apart are they in real life?
+Solution: - Map distance = 3 cm - Real distance = 3 x 25,000 = 75,000 cm = 750 m = 0.75
+km
+b) If two landmarks are 2 km apart in real life, how far apart would they be on the map?
+Solution: - Real distance = 2 km = 200,000 cm - Map distance = 200,000 / 25,000 = 8 cm
+2.3.2 2. Cartesian (Rectangular) Coordinates
+Cartesian coordinates refer to the location of a specific point using a combination of horizontal
+distance and vertical distance.
+Example: The star below is located at (7, 4).
+[Imagine a coordinate grid with x-axis from 0 to 9 and y-axis from 0 to 6. A star is plotted at
+the point where x=7 and y=4.]
+11
+
+=== Page 12 ===
+
+2.3.2.1 With Real Maps: Latitude and Longitude
+• Longitude is the number of degrees ‘around the world’ from the Prime Meridian
+• Latitude is measured in degrees north or south from the equator
+2.3.2.2 Example 2: Using Grid References
+On a map with a grid system: - Location A is at grid reference (345, 678) - Location B is at
+grid reference (348, 682)
+If each grid unit represents 100 meters, how far apart are A and B?
+Solution: Using the distance formula:
+𝑑 = √(348 − 345)2 + (682 − 678)2
+𝑑 = √32 + 42
+𝑑 =
+√
+9 + 16 =
+√
+25 = 5 grid units
+Real distance = 5 x 100 = 500 meters
+2.3.3 3. Polar Coordinates (Bearings)
+Polar coordinates specify a location using the angle or bearing from a given point and the
+distance from that point.
+Bearings are measured clockwise from North and are written as three-digit numbers: - North
+= 000 degrees (or 360 degrees) - East = 090 degrees - South = 180 degrees - West = 270
+degrees
+2.3.3.1 Example 3: Using Bearings
+From point A, a landmark is located on a bearing of 045 degrees at a distance of 3 km.
+a) In which general direction is the landmark?
+Solution: 045 degrees is halfway between North (000) and East (090), so it’s Northeast.
+b) If you walk on a bearing of 045 degrees for 3 km, how far East and North have you
+traveled?
+Solution: Using trigonometry: - East component = 3 x sin(45 degrees) = 3 x 0.707 approx
+2.12 km - North component = 3 x cos(45 degrees) = 3 x 0.707 approx 2.12 km
+2.4 Practical Activities
+2.4.1 Activity 1: Local Area Mapping
+Using a map of your local area:
+1. Identify your school on the map
+2. Measure the distance from your school to a local landmark
+3. Use the map scale to calculate the real distance
+4. Record the grid reference or coordinates of both locations
+12
+
+=== Page 13 ===
+
+2.4.2 Activity 2: Treasure Hunt Coordinates
+Create a treasure map with: - A coordinate grid system - At least 5 landmarks marked with
+coordinates - Write instructions using coordinates to move from one landmark to another
+2.4.3 Activity 3: Navigation Challenge
+Using a compass or compass app:
+1. Stand at a starting point
+2. Follow these instructions:
+• Walk 20 paces on bearing 090 degrees
+• Walk 15 paces on bearing 180 degrees
+• Walk 20 paces on bearing 270 degrees
+• Walk 15 paces on bearing 000 degrees
+3. Where should you end up? Why?
+2.5 Te Reo Maori Vocabulary
+English Te Reo Maori
+Latitude Ahopae
+Longitude Ahopou
+Map Mahere
+Scale drawing Tuhinga awhata
+Scale Awhata
+Cartesian coordinates Taunga tukutuku
+North Raki
+South Runga
+East Rawhiti
+West Rato
+2.6 Cultural Connections
+2.6.1 Traditional Polynesian Navigation
+Tipuna (Ancestors) had clever ways to navigate in the absence of sophisticated GPS systems.
+Polynesian navigators used:
+• Ocean currents
+• The sun and stars
+• The migration of whales and birds
+• Wave patterns and swells
+These traditional methods allowed Pacific peoples to travel vast distances across the ocean with
+remarkable accuracy.
+13
+
+=== Page 14 ===
+
+2.7 Practice Problems
+2.7.1 Problem Set 1: Scale
+1. A map has a scale of 1:50,000. What real distance does 4.5 cm on the map represent?
+2. Two cities are 150 km apart. How far apart would they be on a map with a scale of
+1:1,000,000?
+3. On a treasure map, the scale is 1 cm = 5 m. If the treasure is 7.5 cm from the starting
+point on the map, how far is it in real life?
+2.7.2 Problem Set 2: Coordinates
+4. Plot the following locations on a coordinate grid:
+• School: (2, 5)
+• Library: (7, 5)
+• Park: (2, 1)
+• Shop: (7, 1)
+5. Using your plotted points from question 4, calculate the distance from:
+a) School to Library
+b) School to Park
+c) Library to Shop
+2.7.3 Problem Set 3: Bearings
+6. From your starting position:
+• Point A is on a bearing of 045 degrees at 5 km
+• Point B is on a bearing of 135 degrees at 5 km
+• Point C is on a bearing of 225 degrees at 5 km
+• Point D is on a bearing of 315 degrees at 5 km
+Sketch these points. What shape do they form?
+7. You walk 3 km on a bearing of 060 degrees. How far North and how far East have you
+traveled?
+8. To get from home to school, you walk 400 m East then 300 m North.
+a) What is the direct distance from home to school?
+b) What bearing would take you directly from home to school?
+14
+
+=== Page 15 ===
+
+2.8 Extension Activities
+2.8.1 For Advanced Learners
+1. Magic Carpet Journey: Plan a journey from your location to a Pacific Island nation.
+Provide:
+• Starting and ending coordinates (latitude/longitude)
+• Bearing from start to finish
+• Distance of the journey
+2. Multiple Navigation: Starting from point A, follow these instructions:
+• 5 km on bearing 030 degrees
+• 3 km on bearing 120 degrees
+• 4 km on bearing 210 degrees
+Calculate your final position relative to point A using coordinates.
+3. Map Making Project: Create a detailed scale map of your school grounds including:
+• A clear scale
+• Grid reference system
+• All major buildings and landmarks
+• Compass rose showing North
+2.9 Digital Tools
+Consider using: - Google Maps for exploring scale and real-world coordinates - Compass
+apps on mobile phones for practicing bearings - GPS tracking apps to see how movement in
+real life corresponds to movement on a map - Online mapping tools to create custom maps
+with coordinate grids
+2.10 Assessment Ideas
+Students could demonstrate their understanding by:
+1. Creating a detailed treasure map with scale, coordinates, and bearing-based instructions
+2. Planning and executing a navigation course using bearings and distances
+3. Converting between map distances and real distances using various scales
+4. Using latitude and longitude to identify locations around New Zealand and the Pacific
+2.11 Home Learning Connection
+Letter to Parents and Whanau:
+This week in maths, we are learning about maps. We’re exploring how maps use mathematics
+including: - Scale (to show big places on small maps) - Coordinates (to locate specific places) -
+Bearings (to give directions)
+You can help by: - Looking at maps together at home (road maps, street directories, online
+maps) - Asking your child to explain how the scale works - Having them show you how to
+describe where things are using coordinates - Discussing how GPS and digital maps work
+15
+
+=== Page 16 ===
+
+If you have any paper maps at home, ask your child to show you the important parts and
+demonstrate how to describe locations and give directions using the map.
+2.12 Required Materials
+• Compasses (for finding north, not for drawing circles) or phones with compass app
+• Protractors
+• Rulers
+• Pencils and paper
+• Maps of local area or access to online maps
+• Calculator (for trigonometry in bearing calculations)
+2.13 Learning Outcomes
+By completing this lesson, students will have developed skills in: - Mathematical thinking:
+Understanding scale relationships and coordinate systems - Problem solving: Converting
+between map and real distances - Communication: Using mathematical language to describe
+locations and directions - Cultural awareness: Appreciating traditional navigation methods of
+Pacific peoples - Practical application: Using mathematical concepts in real-world contexts
+2.14 Reflection Questions
+1. Why is it important to understand map scales?
+2. How do coordinates help us communicate locations precisely?
+3. What are the advantages of using bearings instead of just saying “go northeast”?
+4. How do digital maps like Google Maps use these mathematical concepts?
+5. What can we learn from traditional Polynesian navigation methods?
+16
+
+=== Page 17 ===
+
+3 Lesson 3: The Distance Formula
+3.1 Learning Objectives
+By the end of this lesson, students will be able to:
+• Understand the connection between the Pythagorean theorem and the distance formula
+• Apply the distance formula to calculate the distance between any two points
+• Simplify radical expressions in distance calculations
+• Solve real-world problems involving distance on coordinate planes
+• Find unknown coordinates when given distance information
+3.2 Introduction
+One of the most important applications of coordinate geometry is finding the distance between
+two points. Whether you’re calculating how far apart two cities are on a map, finding the
+straight-line distance a delivery drone needs to travel, or determining if two locations are within
+wireless signal range, the distance formula is essential.
+3.3 The Pythagorean Theorem Review
+Before we explore the distance formula, let’s recall the Pythagorean theorem:
+For a right triangle with legs of length 𝑎 and 𝑏, and hypotenuse of length 𝑐:
+𝑎2 + 𝑏2 = 𝑐 2
+Example: If a right triangle has legs of 3 and 4 units, find the hypotenuse.
+𝑐2 = 3 2 + 42 = 9 + 16 = 25
+𝑐 =
+√
+25 = 5
+3.4 Deriving the Distance Formula
+When we plot two points on a coordinate plane, we can create a right triangle:
+Consider points A (𝑥1, 𝑦1)and B(𝑥2, 𝑦2): - The horizontal leg has length |𝑥2 − 𝑥1| - The vertical
+leg has length |𝑦2 − 𝑦1| - The distance between A and B is the hypotenuse
+Using the Pythagorean theorem:
+𝑑2 = (𝑥2 − 𝑥1)2 + (𝑦2 − 𝑦1)2
+Taking the square root of both sides:
+𝑑 = √(𝑥2 − 𝑥1)2 + (𝑦2 − 𝑦1)2
+This is the distance formula .
+17
+
+=== Page 18 ===
+
+3.5 Using the Distance Formula
+3.5.1 Example 1: Basic Distance Calculation
+Find the distance between points A(1, 2) and B(4, 6).
+Solution: Identify the coordinates: (𝑥1, 𝑦1) = (1, 2)and (𝑥2, 𝑦2) = (4, 6)
+𝑑 = √(4 − 1)2 + (6 − 2)2
+𝑑 = √32 + 42
+𝑑 =
+√
+9 + 16
+𝑑 =
+√
+25 = 5
+The distance is exactly 5 units.
+3.5.2 Example 2: Distance with Negative Coordinates
+Find the distance between C(-2, 3) and D(4, -1).
+Solution:
+𝑑 = √(4 − (−2))2 + (−1 − 3)2
+𝑑 = √(4 + 2)2 + (−4)2
+𝑑 = √62 + 16
+𝑑 =
+√
+36 + 16
+𝑑 =
+√
+52
+To simplify:
+√
+52 =
+√
+4 × 13 = 2
+√
+13
+Approximately: 𝑑 ≈ 7.21 units
+3.5.3 Example 3: Points on the Same Horizontal or Vertical Line
+Find the distance between E(2, 5) and F(2, 9).
+Solution:
+𝑑 = √(2 − 2)2 + (9 − 5)2
+𝑑 = √0 + 42
+𝑑 =
+√
+16 = 4
+Note: When points share the same x-coordinate (vertical line) or y-coordinate (horizontal line),
+the distance is simply the difference in the other coordinate.
+18
+
+=== Page 19 ===
+
+3.5.4 Example 4: Distance from the Origin
+Find the distance from the origin O(0, 0) to point P(6, 8).
+Solution:
+𝑑 = √(6 − 0)2 + (8 − 0)2
+𝑑 =
+√
+36 + 64
+𝑑 =
+√
+100 = 10
+The distance from the origin to any point (𝑥, 𝑦)is √𝑥2 + 𝑦2.
+3.6 Simplifying Radicals
+When the distance is not a perfect square, we should simplify:
+3.6.1 Example 5: Simplifying Radical Answers
+Find the distance between G(-1, 2) and H(5, 4), leaving your answer in simplest radical form.
+Solution:
+𝑑 = √(5 − (−1))2 + (4 − 2)2
+𝑑 = √62 + 22
+𝑑 =
+√
+36 + 4
+𝑑 =
+√
+40
+Factor out perfect squares:
+√
+40 =
+√
+4 × 10 = 2
+√
+10
+Decimal approximation: 𝑑 ≈ 6.32 units
+3.7 Real-World Applications
+3.7.1 Example 6: Map Distances
+A park ranger at point P(2, 5) needs to reach a hiker in distress at point H(8, 13). Each
+coordinate unit represents 100 meters. How far must the ranger travel in a straight line?
+Solution:
+𝑑 = √(8 − 2)2 + (13 − 5)2
+𝑑 = √62 + 82
+𝑑 =
+√
+36 + 64
+𝑑 =
+√
+100 = 10 units
+Real distance = 10 x 100 = 1000 meters = 1 km
+19
+
+=== Page 20 ===
+
+3.7.2 Example 7: Cell Tower Coverage
+A cell tower is located at coordinates (3, 4) and has a signal range of 10 km. A house is located
+at (11, 10). Is the house within range? (Units are in kilometers)
+Solution: Distance from tower to house:
+𝑑 = √(11 − 3)2 + (10 − 4)2
+𝑑 = √82 + 62
+𝑑 =
+√
+64 + 36
+𝑑 =
+√
+100 = 10 km
+The house is exactly at the edge of the signal range (10 km).
+3.7.3 Example 8: Comparing Distances
+A delivery company needs to determine which warehouse is closer to a customer. - Warehouse
+A is at (2, 3) - Warehouse B is at (-1, 7) - Customer is at (5, 6)
+Which warehouse should make the delivery?
+Solution:
+Distance from A to Customer:
+𝑑𝐴 = √(5 − 2)2 + (6 − 3)2 =
+√
+9 + 9 =
+√
+18 = 3
+√
+2 ≈ 4.24
+Distance from B to Customer:
+𝑑𝐵 = √(5 − (−1))2 + (6 − 7)2 =
+√
+36 + 1 =
+√
+37 ≈ 6.08
+W arehouse A is closer (4.24 units vs 6.08 units).
+3.8 Working Backwards: Finding Unknown Coordinates
+3.8.1 Example 9: Finding an Unknown x-coordinate
+Point A is at (3, 4) and point B is at (x, 10). The distance between them is 10 units. Find all
+possible values of x.
+Solution:
+10 = √(𝑥 − 3)2 + (10 − 4)2
+10 = √(𝑥 − 3)2 + 36
+Square both sides:
+100 = (𝑥 − 3)2 + 36
+(𝑥 − 3)2 = 64
+𝑥 − 3 = ±8
+Therefore: 𝑥 = 3 + 8 = 11 or 𝑥 = 3 − 8 = −5
+Answer: B could be at (11, 10) or (-5, 10).
+20
+
+=== Page 21 ===
+
+3.8.2 Example 10: Finding an Unknown y-coordinate
+Points P(2, y) and Q(6, 3) are 5 units apart. Find y.
+Solution:
+5 = √(6 − 2)2 + (3 − 𝑦)2
+5 = √16 + (3 − 𝑦)2
+25 = 16 + (3 − 𝑦)2
+(3 − 𝑦)2 = 9
+3 − 𝑦 = ±3
+Therefore: 𝑦 = 3 − 3 = 0 or 𝑦 = 3 + 3 = 6
+Answer: P could be at (2, 0) or (2, 6).
+3.9 Connection to Lesson 2: Maps and Scale
+Remember from Lesson 2 that maps use scales. When using the distance formula with map
+coordinates, don’t forget to convert to real distances:
+Example 11: On a map with scale 1:50,000, two landmarks are at grid coordinates (120, 80)
+and (180, 140). Each grid unit represents 1 meter. What is the real distance between the
+landmarks?
+Solution: Map distance (in grid units):
+𝑑 = √(180 − 120)2 + (140 − 80)2
+𝑑 = √602 + 602
+𝑑 =
+√
+3600 + 3600
+𝑑 =
+√
+7200 = 60
+√
+2 ≈ 84.85 grid units
+Since each unit = 1 meter, map distance = 84.85 m
+Real distance = 84.85 m x scale = 84.85 x 1 = 84.85 m (the scale tells us about map:real ratio,
+but here we’re working with grid units that are already scaled)
+3.10 Practice Exercises
+3.10.1 Set 1: Basic Calculations
+1. Find the distance between:
+a) A(0, 0) and B(5, 12)
+b) C(2, 3) and D(8, 11)
+c) E(-4, 1) and F(2, -7)
+d) G(-3, -2) and H(-7, -5)
+2. Simplify your answers in simplest radical form:
+a) Distance between (0, 0) and (3, 7)
+b) Distance between (1, 2) and (6, 5)
+c) Distance between (-2, 3) and (4, 8)
+21
+
+=== Page 22 ===
+
+3.10.2 Set 2: Special Cases
+3. Find the distance between:
+a) Two points on a horizontal line: (2, 5) and (9, 5)
+b) Two points on a vertical line: (3, 1) and (3, 8)
+c) Two points where one is the origin: (0, 0) and (-6, -8)
+3.10.3 Set 3: Applications
+4. A drone flies from point A(10, 20) to point B(40, 50). Each unit represents 10 meters.
+a) How far does the drone travel?
+b) Express your answer in kilometers.
+5. Which point is closer to (5, 5)?
+• Point A at (1, 2)
+• Point B at (9, 9)
+6. A circular running track has its center at (0, 0) and a radius of 50 meters. A water station
+is at point (30, 40). Is the water station inside, on, or outside the track?
+3.10.4 Set 4: Unknown Coordinates
+7. Point M is at (x, 6) and N is at (4, 2). If MN = 5, find all possible values of x.
+8. Points P(3, y) and Q(-1, 5) are 2
+√
+5 units apart. Find y.
+9. A point on the x-axis is 13 units from point (5, 12). Find the coordinates of the point.
+3.10.5 Set 5: Challenge Problems
+10. Three vertices of a square are at A(1, 1), B(4, 1), and C(4, 4). Find the coordinates of
+the fourth vertex D and verify your answer by showing all four sides have equal length.
+11. Prove that the triangle with vertices A(0, 0), B(4, 0), and C(2, 2
+√
+3) is equilateral by
+showing all three sides have the same length.
+12. A lighthouse at position (0, 0) has a light that can be seen up to 20 km away. A ship is
+traveling in a straight line from point (-15, 20) to point (25, 15). Will the ship be visible
+from the lighthouse at any point during its journey? (Hint: Find the closest point on the
+path to the lighthouse)
+3.11 Additional Resources
+3.11.1 Online Tools
+• Use graphing calculators or Desmos to visualize distances
+• GeoGebra has excellent tools for exploring coordinate geometry
+• Google Earth for real-world distance applications
+22
+
+=== Page 23 ===
+
+3.11.2 Video Resources
+• Search for “distance formula derivation” to see animated proofs
+• “Pythagorean theorem applications” shows real-world uses
+3.11.3 Extension Topics
+• 3D Distance F ormula: For three dimensions: 𝑑 = √(𝑥2 − 𝑥1)2 + (𝑦2 − 𝑦1)2 + (𝑧2 − 𝑧1)2
+• T axicab Distance: In cities with grid layouts, you can’t travel “as the crow flies”
+• GPS and Great Circle Distance: How GPS calculates distance on the curved Earth
+3.12 Homework
+Complete Practice Exercises Sets 1 and 2 completely, and at least 3 problems from Set 3.
+23
+
+=== Page 24 ===
+
+4 Lesson 4: The Midpoint Formula
+4.1 Learning Objectives
+By the end of this lesson, students will be able to:
+• Apply the midpoint formula to find the center point of a line segment
+• Understand midpoint as the average of coordinates
+• Use midpoints to solve geometric problems
+• Find unknown endpoints when given a midpoint
+• Apply midpoint concepts to real-world situations
+4.2 Introduction
+The midpoint of a line segment is the point that divides it into two equal parts - exactly halfway
+between the two endpoints. This concept is crucial in many applications: finding the center of a
+bridge, determining meeting points, locating optimal facility placements, and solving geometric
+problems.
+4.3 The Midpoint Formula
+For a line segment with endpoints (𝑥1, 𝑦1)and (𝑥2, 𝑦2), the midpoint M is:
+𝑀 = ( 𝑥1 + 𝑥2
+2 , 𝑦1 + 𝑦2
+2 )
+4.3.1 Understanding the Formula
+The midpoint formula simply takes the average of the x-coordinates and the average of the
+y-coordinates: - Midpoint x-coordinate: 𝑥1+𝑥2
+2 - Midpoint y-coordinate: 𝑦1+𝑦2
+2
+Think of it as finding the “balance point” between two locations.
+4.4 Basic Examples
+4.4.1 Example 1: Simple Midpoint Calculation
+Find the midpoint of the line segment joining A(2, 3) and B(8, 7).
+Solution:
+𝑀 = ( 2 + 8
+2 , 3 + 7
+2 )
+𝑀 = ( 10
+2 , 10
+2 )
+𝑀 = (5, 5)
+The midpoint is at (5, 5).
+24
+
+=== Page 25 ===
+
+4.4.2 Example 2: Midpoint with Negative Coordinates
+Find the midpoint of the line segment joining P(-4, 6) and Q(2, -2).
+Solution:
+𝑀 = ( −4 + 2
+2 , 6 + (−2)
+2 )
+𝑀 = ( −2
+2 , 4
+2 )
+𝑀 = (−1, 2)
+4.4.3 Example 3: Midpoint with the Origin
+Find the midpoint of the line segment joining O(0, 0) and R(10, 6).
+Solution:
+𝑀 = ( 0 + 10
+2 , 0 + 6
+2 )
+𝑀 = (5, 3)
+Note: The midpoint between the origin and any point (𝑎, 𝑏)is (𝑎
+2 , 𝑏
+2 ).
+4.4.4 Example 4: Midpoint with Fractional Coordinates
+Find the midpoint of S(1.5, 2.5) and T(4.5, 6.5).
+Solution:
+𝑀 = ( 1.5 + 4.5
+2 , 2.5 + 6.5
+2 )
+𝑀 = ( 6
+2 , 9
+2 )
+𝑀 = (3, 4.5)
+4.5 Real-World Applications
+4.5.1 Example 5: Meeting Point
+Two friends live at coordinates A(2, 8) and B(10, 4). They want to meet exactly halfway
+between their houses. Where should they meet?
+Solution:
+𝑀 = ( 2 + 10
+2 , 8 + 4
+2 ) = (6, 6)
+They should meet at location (6, 6).
+25
+
+=== Page 26 ===
+
+4.5.2 Example 6: Facility Placement
+A straight road connects town A at coordinates (10, 20) to town B at coordinates (50, 60). The
+council wants to place a rest stop at the midpoint. What are the coordinates?
+Solution:
+𝑀 = ( 10 + 50
+2 , 20 + 60
+2 ) = (30, 40)
+The rest stop should be built at (30, 40).
+4.5.3 Example 7: Bridge Center Point
+A bridge spans across a river from point P(-12, 5) to point Q(8, 15). Engineers need to place a
+support at the center of the bridge. What are its coordinates?
+Solution:
+𝑀 = ( −12 + 8
+2 , 5 + 15
+2 )
+𝑀 = ( −4
+2 , 20
+2 )
+𝑀 = (−2, 10)
+The support should be at (-2, 10).
+4.5.4 Example 8: Emergency Services
+An ambulance station needs to be equidistant from two hospitals: - Hospital A: (5, 12) - Hospital
+B: (15, 8)
+Where should the station be located to be exactly halfway between them?
+Solution:
+𝑀 = ( 5 + 15
+2 , 12 + 8
+2 ) = (10, 10)
+The station should be at (10, 10).
+4.6 Working Backwards: Finding Unknown Endpoints
+Sometimes we know the midpoint and one endpoint, and need to find the other endpoint.
+26
+
+=== Page 27 ===
+
+4.6.1 Example 9: Finding the Other Endpoint
+The midpoint of segment AB is M(5, 7). If point A is at (2, 3), find the coordinates of point
+B.
+Solution:
+Let B = (𝑥, 𝑦)
+Using the midpoint formula:
+2 + 𝑥
+2 = 5 and 3 + 𝑦
+2 = 7
+Solve for x:
+2 + 𝑥 = 10
+𝑥 = 8
+Solve for y:
+3 + 𝑦 = 14
+𝑦 = 11
+Therefore, B = (8, 11)
+Check: Midpoint of (2, 3) and (8, 11) = (2+8
+2 , 3+11
+2 ) = (5, 7)
+4.6.2 Example 10: Finding the Starting Point
+A delivery driver ends their route at point E(20, 30). The midpoint of their route was at M(12,
+18). Where did they start?
+Solution:
+Let the starting point be S (𝑥, 𝑦)
+𝑥 + 20
+2 = 12 and 𝑦 + 30
+2 = 18
+Solve for x:
+𝑥 + 20 = 24
+𝑥 = 4
+Solve for y:
+𝑦 + 30 = 36
+𝑦 = 6
+The driver started at (4, 6) .
+27
+
+=== Page 28 ===
+
+4.6.3 Example 11: Symmetric Point
+Point P(3, 5) is given. Find the point Q that is symmetric to P with respect to the origin (0,
+0).
+Solution:
+If the origin is the midpoint between P and Q, then:
+Let Q = (𝑥, 𝑦)
+3 + 𝑥
+2 = 0 and 5 + 𝑦
+2 = 0
+𝑥 = −3 and 𝑦 = −5
+Point Q is at (-3, -5) .
+This is reflection through the origin.
+4.7 Multiple Midpoints
+4.7.1 Example 12: Trisecting a Line Segment
+Points A(0, 0) and B(9, 6) are the endpoints of a segment. Find two points that divide the
+segment into three equal parts.
+Solution:
+First, find the midpoint M of AB:
+𝑀 = ( 0 + 9
+2 , 0 + 6
+2 ) = (4.5, 3)
+Now find the midpoint of AM:
+𝑃 = ( 0 + 4.5
+2 , 0 + 3
+2 ) = (2.25, 1.5)
+And the midpoint of MB:
+𝑄 = ( 4.5 + 9
+2 , 3 + 6
+2 ) = (6.75, 4.5)
+However, this doesn’t trisect. To trisect, we need: - First point at 1/3 of the way: (𝑥1 + 1
+3 (𝑥2 −
+𝑥1), 𝑦1 + 1
+3 (𝑦2 −𝑦 1)) = (3, 2)- Second point at 2/3 of the way: (𝑥1 + 2
+3 (𝑥2 −𝑥 1), 𝑦1 + 2
+3 (𝑦2 −𝑦 1)) =
+(6, 4)
+The two trisection points are (3, 2) and (6, 4) .
+28
+
+=== Page 29 ===
+
+4.7.2 Example 13: Median of a Triangle
+A triangle has vertices at A(0, 0), B(6, 0), and C(3, 6). Find the median from vertex A to side
+BC.
+Solution:
+Step 1: Find the midpoint M of BC:
+𝑀 = ( 6 + 3
+2 , 0 + 6
+2 ) = (4.5, 3)
+Step 2: The median is the line segment from A(0, 0) to M(4.5, 3).
+The median from A has endpoint at (4.5, 3) .
+4.8 Geometric Properties Using Midpoints
+4.8.1 Example 14: Proving a Parallelogram
+Show that quadrilateral ABCD with vertices A(1, 2), B(5, 3), C(6, 6), and D(2, 5) is a paral-
+lelogram by showing that the diagonals bisect each other.
+Solution:
+Find the midpoint of diagonal AC:
+𝑀𝐴𝐶 = ( 1 + 6
+2 , 2 + 6
+2 ) = (3.5, 4)
+Find the midpoint of diagonal BD:
+𝑀𝐵𝐷 = ( 5 + 2
+2 , 3 + 5
+2 ) = (3.5, 4)
+Since both diagonals have the same midpoint, they bisect each other, proving ABCD is a
+parallelogram.
+4.8.2 Example 15: Finding the Center of a Circle
+Three points on a circle are A(0, 4), B(4, 0), and C(0, -4). The center lies on the perpendicular
+bisector of any chord. Find an approximation of the center.
+Solution:
+Find midpoint of AB:
+𝑀𝐴𝐵 = ( 0 + 4
+2 , 4 + 0
+2 ) = (2, 2)
+The center is somewhere on the perpendicular bisector through (2, 2).
+Find midpoint of AC:
+𝑀𝐴𝐶 = ( 0 + 0
+2 , 4 + (−4)
+2 ) = (0, 0)
+This suggests the center might be near the origin. By symmetry with points A and C, the
+center is at (0, 0) and the radius is 4.
+29
+
+=== Page 30 ===
+
+4.9 Connection to Other Lessons
+4.9.1 Link to Distance Formula (Lesson 3)
+The two endpoints are equidistant from the midpoint:
+Example 16: Verify that M(4, 5) is equidistant from A(1, 2) and B(7, 8).
+Distance from M to A:
+𝑑𝑀𝐴 = √(4 − 1)2 + (5 − 2)2 =
+√
+9 + 9 =
+√
+18 = 3
+√
+2
+Distance from M to B:
+𝑑𝑀𝐵 = √(7 − 4)2 + (8 − 5)2 =
+√
+9 + 9 =
+√
+18 = 3
+√
+2
+Both distances equal 3
+√
+2, confirming M is the midpoint.
+4.9.2 Link to Maps (Lesson 2)
+Example 17: On a map with scale 1:10,000, two landmarks are at (240, 180) and (360, 260).
+Each unit represents 10 meters. Where should a information sign be placed at the midpoint?
+Solution:
+𝑀 = ( 240 + 360
+2 , 180 + 260
+2 ) = (300, 220)
+The sign should be at grid position (300, 220) .
+4.10 Practice Exercises
+4.10.1 Set 1: Basic Midpoint Calculations
+1. Find the midpoint of the line segment joining:
+a) A(4, 6) and B(10, 12)
+b) C(-2, 5) and D(6, -3)
+c) E(0, 8) and F(8, 0)
+d) G(-5, -7) and H(-1, -3)
+2. Find the midpoint between:
+a) The origin and (12, 16)
+b) (3.5, 7.2) and (8.5, 4.8)
+c) (−1
+2 , 3)and (5
+2 , 7)
+4.10.2 Set 2: Finding Unknown Endpoints
+3. The midpoint of segment PQ is M(6, 4). If P is at (2, 1), find Q.
+4. The midpoint of segment RS is M(-3, 5). If S is at (1, 9), find R.
+5. Point A(5, 8) is one endpoint. The midpoint is M(3, 4). Find the other endpoint B.
+6. A segment has midpoint (0, 0) and one endpoint at (7, -3). Find the other endpoint.
+30
+
+=== Page 31 ===
+
+4.10.3 Set 3: Applications
+7. Two warehouses are located at A(12, 18) and B(28, 34). A distribution center will be
+built exactly halfway between them. What are its coordinates?
+8. A park bench should be placed at the midpoint between two trees at positions T1(-8, 6)
+and T2(4, 14). Where should the bench go?
+9. On a map, a school is at (15, 20) and a library is at (35, 40). Where should a crosswalk
+be placed on a straight path connecting them, exactly at the midpoint?
+4.10.4 Set 4: Geometric Applications
+10. A rectangle has opposite vertices at (2, 3) and (10, 11). Find the coordinates of the center
+of the rectangle.
+11. Triangle ABC has vertices A(0, 0), B(8, 0), and C(4, 6). Find:
+a) The midpoint of side AB
+b) The midpoint of side BC
+c) The midpoint of side AC
+12. Show that the quadrilateral with vertices P(1, 1), Q(5, 2), R(6, 6), and S(2, 5) is a
+parallelogram by proving the diagonals bisect each other.
+4.10.5 Set 5: Challenge Problems
+13. Points A, B, and C are collinear (on the same line) with B between A and C. If A is at
+(2, 3), B is at (5, 7), and B is the midpoint of AC, find C.
+14. The midpoint of XY is M(4, 6) and the midpoint of YZ is N(7, 9). If X is at (1, 3), find
+Z.
+15. Three vertices of a parallelogram are A(1, 2), B(5, 4), and C(7, 7). Find all possible
+locations for the fourth vertex D. (Hint: There are three possible parallelograms)
+16. A segment AB is divided into four equal parts by points P, Q, and R (in that order). If
+A is at (0, 0) and B is at (12, 8), find the coordinates of P, Q, and R.
+4.11 Real-World Applications
+4.11.1 Urban Planning
+City planners use midpoints to: - Determine optimal locations for public facilities - Place street
+lights evenly along roads - Design bus stops at convenient intervals
+4.11.2 Sports
+• Finding the center circle of a sports field
+• Placing mid-court lines in basketball
+• Determining fair meeting points for tournaments
+31
+
+=== Page 32 ===
+
+4.11.3 Engineering
+• Locating support beams at the center of bridges
+• Finding balance points in structural design
+• Calculating center of mass for symmetric objects
+4.11.4 Navigation
+• Waypoints in flight paths
+• Meeting coordinates for rescue operations
+• Optimal refueling locations
+4.12 Additional Resources
+4.12.1 Interactive Tools
+• Desmos: Plot segments and automatically show midpoints
+• GeoGebra: Explore midpoint properties dynamically
+• Online midpoint calculators for checking work
+4.12.2 Extension Topics
+• W eighted Midpoints: When one endpoint is “heavier” than the other
+• Centroids: The “average” point of a triangle (uses midpoints)
+• Perpendicular Bisectors: Lines through midpoints perpendicular to segments
+4.13 Key Formulas Summary
+Midpoint F ormula:
+𝑀 = ( 𝑥1 + 𝑥2
+2 , 𝑦1 + 𝑦2
+2 )
+Finding Other Endpoint: If M (𝑚𝑥, 𝑚𝑦)is the midpoint of AB and A (𝑥1, 𝑦1)is known:
+𝐵 = (2𝑚𝑥 − 𝑥1, 2𝑚𝑦 − 𝑦1)
+V erification: Distance from A to M equals distance from M to B.
+4.14 Homework
+Complete Practice Exercises Sets 1 and 2, and at least 3 problems from Set 3.
+32
+
+=== Page 33 ===
+
+5 Lesson 5: Gradients and Linear Equations
+5.1 Learning Objectives
+By the end of this lesson, students will be able to:
+• Calculate the gradient (slope) of a line between two points
+• Understand the meaning of positive, negative, zero, and undefined gradients
+• Write equations of lines in various forms
+• Convert between different forms of linear equations
+5.2 Gradient (Slope) of a Line
+The gradient m of a line passing through points (𝑥1, 𝑦1)and (𝑥2, 𝑦2)is:
+𝑚 = 𝑦2 − 𝑦1
+𝑥2 − 𝑥1
+= rise
+run
+5.2.1 Interpreting Gradient
+• Positive gradient: Line slopes upward from left to right
+• Negative gradient : Line slopes downward from left to right
+• Zero gradient : Horizontal line
+• Undefined gradient : Vertical line
+5.2.2 Example 1: Calculating Gradient
+Find the gradient of the line passing through A(1, 2) and B(5, 10).
+Solution:
+𝑚 = 10 − 2
+5 − 1 = 8
+4 = 2
+5.3 Equations of Lines
+5.3.1 Slope-Intercept Form
+𝑦 = 𝑚𝑥 + 𝑐
+where m is the gradient and c is the y-intercept.
+5.3.2 Point-Slope Form
+𝑦 − 𝑦 1 = 𝑚(𝑥 − 𝑥1)
+where m is the gradient and (𝑥1, 𝑦1)is a point on the line.
+5.3.3 General Form
+𝑎𝑥 + 𝑏𝑦 + 𝑐 = 0
+33
+
+=== Page 34 ===
+
+5.3.4 Example 2: Writing Line Equations
+Write the equation of the line with gradient 3 passing through the point (2, 5).
+Solution using point-slope form:
+𝑦 − 5 = 3(𝑥 − 2)
+𝑦 − 5 = 3𝑥 − 6
+𝑦 = 3𝑥 − 1
+5.3.5 Example 3: Finding Equation from Two Points
+Find the equation of the line passing through P(1, 3) and Q(4, 9).
+Solution:
+Step 1: Find the gradient
+𝑚 = 9 − 3
+4 − 1 = 6
+3 = 2
+Step 2: Use point-slope form with point P(1, 3)
+𝑦 − 3 = 2(𝑥 − 1)
+𝑦 − 3 = 2𝑥 − 2
+𝑦 = 2𝑥 + 1
+5.4 Practice Exercises
+1. Find the gradient of the line through:
+• A(2, 3) and B(6, 11)
+• C(-1, 5) and D(3, -3)
+2. Write the equation of the line:
+• With gradient 4 and y-intercept -2
+• Through point (3, 7) with gradient -1
+• Through points (0, 2) and (5, 12)
+3. Convert the equation 2𝑥 + 3𝑦 − 6 = 0 to slope-intercept form.
+5.5 Real-World Application
+The gradient represents a rate of change. For example: - In a distance-time graph, gradient
+represents speed - In a cost-quantity graph, gradient represents unit price
+5.6 Homework
+Complete exercises 2.1 to 2.5 in the workbook.
+34
+
+=== Page 35 ===
+
+6 Lesson 6: Parallel and Perpendicular Lines
+6.1 Learning Objectives
+By the end of this lesson, students will be able to:
+• Identify parallel and perpendicular lines from their equations
+• Determine if lines are parallel or perpendicular using gradients
+• Find equations of parallel and perpendicular lines
+• Solve geometric problems involving parallel and perpendicular lines
+6.2 Parallel Lines
+Two lines are parallel if they have the same gradient and never intersect.
+ExclamationKey Property of Parallel Lines
+If two lines are parallel, then 𝑚1 = 𝑚 2
+6.2.1 Example 1: Identifying Parallel Lines
+Are the lines 𝑦 = 2𝑥 + 3 and 𝑦 = 2𝑥 − 5 parallel?
+Solution: Both lines have gradient 𝑚 = 2 , so they are parallel.
+6.2.2 Example 2: Finding Parallel Line Equation
+Find the equation of the line parallel to 𝑦 = 3𝑥 + 1 that passes through the point (2, 7).
+Solution: - Parallel lines have the same gradient: 𝑚 = 3 - Using point-slope form with (2,
+7):
+𝑦 − 7 = 3(𝑥 − 2)
+𝑦 − 7 = 3𝑥 − 6
+𝑦 = 3𝑥 + 1
+V erification: When 𝑥 = 2 , 𝑦 = 3(2) + 1 = 7
+6.3 Perpendicular Lines
+Two lines are perpendicular if they meet at a right angle (90 degrees).
+ExclamationKey Property of Perpendicular Lines
+If two lines are perpendicular, then 𝑚1 × 𝑚2 = −1
+Or equivalently: 𝑚2 = − 1
+𝑚1
+35
+
+=== Page 36 ===
+
+6.3.1 Example 3: Identifying Perpendicular Lines
+Are the lines 𝑦 = 2𝑥 + 1 and 𝑦 = − 1
+2 𝑥 + 3 perpendicular?
+Solution:
+𝑚1 × 𝑚2 = 2 × (− 1
+2 ) = −1
+Yes, the lines are perpendicular.
+6.3.2 Example 4: Finding Perpendicular Line Equation
+Find the equation of the line perpendicular to 𝑦 = 4𝑥 − 2 that passes through the point (8,
+3).
+Solution: - Original gradient: 𝑚1 = 4 - Perpendicular gradient: 𝑚2 = − 1
+4 - Using point-slope
+form with (8, 3):
+𝑦 − 3 = − 1
+4 (𝑥 − 8)
+𝑦 − 3 = − 1
+4 𝑥 + 2
+𝑦 = − 1
+4 𝑥 + 5
+6.4 Practice Exercises
+1. Determine if these pairs of lines are parallel, perpendicular, or neither:
+• 𝑦 = 3𝑥 + 2 and 𝑦 = 3𝑥 − 7
+• 𝑦 = 2𝑥 + 1 and 𝑦 = − 1
+2 𝑥 + 4
+• 𝑦 = 5𝑥 and 𝑦 = −5𝑥 + 3
+2. Find the equation of the line:
+• Parallel to 𝑦 = −2𝑥 + 3 through point (1, 5)
+• Perpendicular to 𝑦 = 1
+3 𝑥 − 1 through point (6, 2)
+3. The line 𝐿1 passes through points A(1, 2) and B(5, 10).
+• Find the equation of 𝐿1
+• Find the equation of the line parallel to 𝐿1 through C(0, 0)
+• Find the equation of the line perpendicular to 𝐿1 through D(3, 4)
+6.5 Problem-Solving Strategy
+When working with parallel and perpendicular lines:
+1. Identify or calculate the gradient of the given line
+2. Determine the gradient of the required line (same for parallel, negative reciprocal for
+perpendicular)
+3. Use the point-slope form with the given point
+4. Simplify to the required form
+36
+
+=== Page 37 ===
+
+6.6 Real-World Applications
+• Architecture: Ensuring walls are perpendicular to the floor
+• Navigation: Plotting perpendicular courses
+• Engineering: Designing parallel roads or railway tracks
+6.7 Homework
+Complete the parallel and perpendicular lines worksheet.
+37
+
+=== Page 38 ===
+
+7 Worksheets
+7.1 Worksheet 1: Coordinate Basics
+T opic: Plotting points, distance, and midpoint
+Exercises:
+1. Plot the following points on a coordinate plane:
+• A(4, 3), B(-2, 5), C(-3, -4), D(1, -2), E(0, 6)
+2. Calculate the distance between:
+• A(1, 1) and B(4, 5)
+• C(-2, 3) and D(3, -9)
+• E(0, 0) and F(-5, 12)
+3. Find the midpoint of:
+• Line segment from (2, 8) to (10, 4)
+• Line segment from (-3, 7) to (5, -1)
+7.2 Worksheet 2: Gradient and Equations
+T opic: Finding gradients and writing equations of lines
+Exercises:
+1. Find the gradient of the line through:
+• P(1, 3) and Q(5, 11)
+• R(-2, 4) and S(6, -4)
+• T(0, -3) and U(4, 5)
+2. Write the equation of the line:
+• With gradient 3 and y-intercept 5
+• With gradient -2 passing through (4, 1)
+• Through points (2, 3) and (6, 11)
+3. Convert to slope-intercept form ( 𝑦 = 𝑚𝑥 + 𝑐 ):
+• 3𝑥 + 𝑦 − 6 = 0
+• 2𝑥 − 4𝑦 + 8 = 0
+• 𝑥 + 2𝑦 − 10 = 0
+7.3 Worksheet 3: Parallel and Perpendicular Lines
+T opic: Working with parallel and perpendicular lines
+Exercises:
+1. Determine whether each pair of lines is parallel, perpendicular, or neither:
+• 𝑦 = 4𝑥 + 1 and 𝑦 = 4𝑥 − 3
+• 𝑦 = 2𝑥 + 5 and 𝑦 = − 1
+2 𝑥 + 2
+38
+
+=== Page 39 ===
+
+• 𝑦 = 3𝑥 − 1 and 𝑦 = 2𝑥 + 4
+2. Find the equation of:
+• The line parallel to 𝑦 = 5𝑥 + 2 through point (2, 3)
+• The line perpendicular to 𝑦 = −3𝑥 + 1 through point (6, 4)
+• The line parallel to 2𝑥 + 𝑦 − 4 = 0 through point (-1, 5)
+3. Challenge problems:
+• Line 𝐿 passes through A(1, 2) and B(7, 8). Find the equation of the line perpendic-
+ular to 𝐿 that passes through the midpoint of AB.
+• Points P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has
+gradient 1
+2 , find the gradient of QR.
+39
