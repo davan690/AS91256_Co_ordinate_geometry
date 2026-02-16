@@ -6,14 +6,17 @@ title: "Lessons"
 
 This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to seven comprehensive lessons covering all essential topics.
 
-### Weekly Structure
+### Lesson Structure
 
-Each lesson includes:
+::: {.callout-note}
+## Lesson Structure
+
 - Learning objectives
 - Teaching notes
 - Worked examples
 - Practice exercises
 - Assessment opportunities
+:::
 
 ### Available Lessons
 
