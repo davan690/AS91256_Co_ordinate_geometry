@@ -14,7 +14,7 @@ This is a three-week intensive course preparing you for the NCEA Level 2 AS91256
 
 ## About This Course
 
-This website contains resources and content for teaching co-ordinate geometry at Year 11 level. The course is designed as a three-week programme of study leading to assessment under the NCEA Level 2 standard AS91256, worth two credits.
+This website contains resources and content for teaching co-ordinate geometry at Year 11 level. The course is designed as a six-week programme of study leading to assessment under the NCEA Level 2 standard AS91256, worth two credits.
 
 ## Course Expectations
 
@@ -39,9 +39,10 @@ Students are expected to:
 
 ### Assessment Timeline
 
-- **Week 1-2**: Learning and practicing core concepts
-- **Week 3, Day 3-4**: Practice assessment tasks and review
-- **Week 3, Day 5 (or following Monday)**: Final assessment
+- **Weeks 1-4**: Learn and apply core concepts through lessons and guided practice
+- **Week 5**: Targeted application and mixed-problem practice
+- **Week 6 (Lessons 1-3)**: Dedicated practice sessions
+- **Week 6 (Lessons 4-5)**: Assessment sessions
 - **Assessment Duration**: 1-1.5 hours
 - **Credits**: 2 NCEA Level 2 credits (Internal Assessment)
 
@@ -49,9 +50,12 @@ Students are expected to:
 
 | Week | Monday | Tuesday | Wednesday | Thursday | Friday |
 |------|--------|---------|-----------|----------|--------|
-| **Week 1** | Introduction to Cartesian plane & plotting points | Distance formula introduction | Distance formula applications | Midpoint formula | Distance & midpoint practice |
-| **Week 2** | Gradient introduction & calculation | Gradient applications | Equations of lines (y = mx + c) | Parallel lines | Perpendicular lines |
-| **Week 3** | Real-world applications | Problem-solving strategies | Practice assessment tasks | Review & consolidation | Assessment preparation |
+| **Week 1** | [Lesson 1: Cartesian Coordinates](lessons/lesson1.qmd) | [Lesson 2: Map It](lessons/lesson2.qmd) | [Lesson 3: Distance Formula](lessons/lesson3.qmd) | Application: distance in context | Practice: coordinates + distance |
+| **Week 2** | [Lesson 4: Midpoint](lessons/lesson4.qmd) | [Lesson 5: Gradient Basics](lessons/lesson5.qmd) | [Lesson 6: Gradient Formula](lessons/lesson6.qmd) | Practice: gradient skills | Application: gradient in context |
+| **Week 3** | [Lesson 7: Linear Equations + Intersections](lessons/lesson7.qmd) | [Lesson 8: Parallel Lines](lessons/lesson8.qmd) | [Lesson 9: Perpendicular Lines](lessons/lesson9.qmd) | Practice: lines and gradients | Application: multi-step line problems |
+| **Week 4** | [Lesson 10: Gradient + Point](lessons/lesson10.qmd) | Practice: equations and intersections | Application: parallel/perpendicular | Mixed practice (all prior) | Catch-up / extension |
+| **Week 5** | [Lesson 11: Practice and Revision](lessons/lesson11.qmd) | Practice: targeted weaknesses | Practice: NZQA-style questions | Practice: timed skills | Review: key formulas |
+| **Week 6** | Practice Session 1 ([Lesson 11](lessons/lesson11.qmd)) | Practice Session 2 ([Lesson 11](lessons/lesson11.qmd)) | Practice Session 3 ([Lesson 11](lessons/lesson11.qmd)) | Assessment Session 1 ([Assessment](assessment/index.qmd)) | Assessment Session 2 ([Assessment](assessment/index.qmd)) |
 
 
 ## Course Overview
@@ -76,30 +80,36 @@ Co-ordinate geometry (also known as analytic geometry) combines algebra and geom
 
 ## Course Structure
 
-### Week 1: Fundamentals
-- Introduction to the Cartesian coordinate system
-- Plotting points and basic concepts
-- Distance formula and applications
-- Midpoint formula and practice
+### Week 1: Foundations
+- [Lesson 1](lessons/lesson1.qmd): Cartesian coordinates and plotting
+- [Lesson 2](lessons/lesson2.qmd): Maps, scale, bearings
+- [Lesson 3](lessons/lesson3.qmd): Distance formula
+- Application and short practice tasks
 
-**Homework**: Complete Worksheet 1 (Coordinate Basics)
+### Week 2: Midpoint and Gradients
+- [Lesson 4](lessons/lesson4.qmd): Midpoint formula
+- [Lesson 5](lessons/lesson5.qmd): Gradient basics (rise/run)
+- [Lesson 6](lessons/lesson6.qmd): Gradient using the formula
+- Practice and real-world gradient interpretation
 
-### Week 2: Lines and Gradients
-- Understanding gradient (slope)
-- Equations of lines in various forms
-- Parallel and perpendicular lines
-- Problem-solving with linear equations
+### Week 3: Lines and Relationships
+- [Lesson 7](lessons/lesson7.qmd): Linear equations and intersections
+- [Lesson 8](lessons/lesson8.qmd): Parallel lines
+- [Lesson 9](lessons/lesson9.qmd): Perpendicular lines
+- Application with mixed line problems
 
-**Homework**: Complete Worksheet 2 (Gradient and Equations)
+### Week 4: Consolidation of Line Equations
+- [Lesson 10](lessons/lesson10.qmd): Equation from gradient and a point
+- Practice with intersections, parallel and perpendicular lines
+- Mixed-problem sessions to connect methods
 
-### Week 3: Problem Solving and Assessment Preparation
-- Real-world applications of coordinate geometry
-- Complex problem-solving strategies
-- Practice assessment tasks (Achievement, Merit, Excellence levels)
-- Review and consolidation
-- Final assessment
+### Week 5: Practice Focus
+- [Lesson 11](lessons/lesson11.qmd): Practice and revision
+- Targeted practice blocks and NZQA-style questions
 
-**Homework**: Complete Worksheet 3 and practice assessment tasks
+### Week 6: Practice and Assessment
+- **Three practice lessons** using [Lesson 11](lessons/lesson11.qmd)
+- **Two assessment lessons** (see [Assessment](assessment/index.qmd))
 
 ## Success Strategies
 
