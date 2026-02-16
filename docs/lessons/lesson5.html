@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesson 5: Gradients and Linear Equations – AS91256 Co-ordinate Geometry</title>
+<title>Lesson 5: Gradient Basics (Rise/Run) – AS91256 Co-ordinate Geometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -320,7 +320,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson5.html">Lesson 5: Gradients and Linear Equations</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson5.html">Lesson 5: Gradient Basics (Rise/Run)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -365,19 +365,43 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson5.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lesson 5: Gradients and Linear Equations</span></a>
+ <span class="menu-text">Lesson 5: Gradient Basics (Rise/Run)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 6: Parallel and Perpendicular Lines</span></a>
+ <span class="menu-text">Lesson 6: Gradient Using the Formula</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 7: Practice and Revision</span></a>
+ <span class="menu-text">Lesson 7: Linear Equations and Intersections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 8: Parallel Lines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 9: Perpendicular Lines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 10: Equation of a Line from Gradient and a Point</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 11: Practice and Revision</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -397,21 +421,14 @@ window.Quarto = {
    
   <ul>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#gradient-slope-of-a-line" id="toc-gradient-slope-of-a-line" class="nav-link" data-scroll-target="#gradient-slope-of-a-line">Gradient (Slope) of a Line</a>
+  <li><a href="#what-is-gradient" id="toc-what-is-gradient" class="nav-link" data-scroll-target="#what-is-gradient">What Is Gradient?</a>
   <ul class="collapse">
   <li><a href="#interpreting-gradient" id="toc-interpreting-gradient" class="nav-link" data-scroll-target="#interpreting-gradient">Interpreting Gradient</a></li>
-  <li><a href="#example-1-calculating-gradient" id="toc-example-1-calculating-gradient" class="nav-link" data-scroll-target="#example-1-calculating-gradient">Example 1: Calculating Gradient</a></li>
-  </ul></li>
-  <li><a href="#equations-of-lines" id="toc-equations-of-lines" class="nav-link" data-scroll-target="#equations-of-lines">Equations of Lines</a>
-  <ul class="collapse">
-  <li><a href="#slope-intercept-form" id="toc-slope-intercept-form" class="nav-link" data-scroll-target="#slope-intercept-form">Slope-Intercept Form</a></li>
-  <li><a href="#point-slope-form" id="toc-point-slope-form" class="nav-link" data-scroll-target="#point-slope-form">Point-Slope Form</a></li>
-  <li><a href="#general-form" id="toc-general-form" class="nav-link" data-scroll-target="#general-form">General Form</a></li>
-  <li><a href="#example-2-writing-line-equations" id="toc-example-2-writing-line-equations" class="nav-link" data-scroll-target="#example-2-writing-line-equations">Example 2: Writing Line Equations</a></li>
-  <li><a href="#example-3-finding-equation-from-two-points" id="toc-example-3-finding-equation-from-two-points" class="nav-link" data-scroll-target="#example-3-finding-equation-from-two-points">Example 3: Finding Equation from Two Points</a></li>
+  <li><a href="#example-1-riserun-on-a-grid" id="toc-example-1-riserun-on-a-grid" class="nav-link" data-scroll-target="#example-1-riserun-on-a-grid">Example 1: Rise/Run on a Grid</a></li>
+  <li><a href="#example-2-negative-gradient" id="toc-example-2-negative-gradient" class="nav-link" data-scroll-target="#example-2-negative-gradient">Example 2: Negative Gradient</a></li>
+  <li><a href="#example-3-zero-and-undefined-gradient" id="toc-example-3-zero-and-undefined-gradient" class="nav-link" data-scroll-target="#example-3-zero-and-undefined-gradient">Example 3: Zero and Undefined Gradient</a></li>
   </ul></li>
   <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
-  <li><a href="#worksheet-2-gradient-and-equations-practice" id="toc-worksheet-2-gradient-and-equations-practice" class="nav-link" data-scroll-target="#worksheet-2-gradient-and-equations-practice">Worksheet 2: Gradient and Equations Practice</a></li>
   <li><a href="#real-world-application" id="toc-real-world-application" class="nav-link" data-scroll-target="#real-world-application">Real-World Application</a></li>
   <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   </ul>
@@ -423,7 +440,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 5: Gradients and Linear Equations</h1>
+<h1 class="title">Lesson 5: Gradient Basics (Rise/Run)</h1>
 </div>
 
 
@@ -444,16 +461,15 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this lesson, students will be able to:</p>
 <ul>
-<li>Calculate the gradient (slope) of a line between two points</li>
-<li>Understand the meaning of positive, negative, zero, and undefined gradients</li>
-<li>Write equations of lines in various forms</li>
-<li>Convert between different forms of linear equations</li>
+<li>Describe gradient as a rate of change using rise and run</li>
+<li>Identify positive, negative, zero, and undefined gradients</li>
+<li>Estimate gradient from a graph using grid squares</li>
 </ul>
 </section>
-<section id="gradient-slope-of-a-line" class="level2">
-<h2 class="anchored" data-anchor-id="gradient-slope-of-a-line">Gradient (Slope) of a Line</h2>
-<p>The gradient m of a line passing through points <span class="math inline">\((x_1, y_1)\)</span> and <span class="math inline">\((x_2, y_2)\)</span> is:</p>
-<p><span class="math display">\[m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{\text{rise}}{\text{run}}\]</span></p>
+<section id="what-is-gradient" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-gradient">What Is Gradient?</h2>
+<p>Gradient describes how steep a line is. It compares the vertical change (<strong>rise</strong>) to the horizontal change (<strong>run</strong>).</p>
+<p><span class="math display">\[\text{gradient} = \frac{\text{rise}}{\text{run}}\]</span></p>
 <section id="interpreting-gradient" class="level3">
 <h3 class="anchored" data-anchor-id="interpreting-gradient">Interpreting Gradient</h3>
 <ul>
@@ -463,109 +479,72 @@ window.Quarto = {
 <li><strong>Undefined gradient</strong>: Vertical line</li>
 </ul>
 </section>
-<section id="example-1-calculating-gradient" class="level3">
-<h3 class="anchored" data-anchor-id="example-1-calculating-gradient">Example 1: Calculating Gradient</h3>
-<p>Find the gradient of the line passing through A(1, 2) and B(5, 10).</p>
-<p><strong>Solution:</strong> <span class="math display">\[m = \frac{10 - 2}{5 - 1} = \frac{8}{4} = 2\]</span></p>
+<section id="example-1-riserun-on-a-grid" class="level3">
+<h3 class="anchored" data-anchor-id="example-1-riserun-on-a-grid">Example 1: Rise/Run on a Grid</h3>
+<p>A line goes up 3 squares and right 6 squares.</p>
+<p><strong>Solution:</strong> <span class="math display">\[m = \frac{3}{6} = \frac{1}{2}\]</span></p>
 </section>
+<section id="example-2-negative-gradient" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-negative-gradient">Example 2: Negative Gradient</h3>
+<p>A line goes down 4 squares and right 2 squares.</p>
+<p><strong>Solution:</strong> <span class="math display">\[m = \frac{-4}{2} = -2\]</span></p>
 </section>
-<section id="equations-of-lines" class="level2">
-<h2 class="anchored" data-anchor-id="equations-of-lines">Equations of Lines</h2>
-<section id="slope-intercept-form" class="level3">
-<h3 class="anchored" data-anchor-id="slope-intercept-form">Slope-Intercept Form</h3>
-<p><span class="math display">\[y = mx + c\]</span> where m is the gradient and c is the y-intercept.</p>
-</section>
-<section id="point-slope-form" class="level3">
-<h3 class="anchored" data-anchor-id="point-slope-form">Point-Slope Form</h3>
-<p><span class="math display">\[y - y_1 = m(x - x_1)\]</span> where m is the gradient and <span class="math inline">\((x_1, y_1)\)</span> is a point on the line.</p>
-</section>
-<section id="general-form" class="level3">
-<h3 class="anchored" data-anchor-id="general-form">General Form</h3>
-<p><span class="math display">\[ax + by + c = 0\]</span></p>
-</section>
-<section id="example-2-writing-line-equations" class="level3">
-<h3 class="anchored" data-anchor-id="example-2-writing-line-equations">Example 2: Writing Line Equations</h3>
-<p>Write the equation of the line with gradient 3 passing through the point (2, 5).</p>
-<p><strong>Solution using point-slope form:</strong> <span class="math display">\[y - 5 = 3(x - 2)\]</span> <span class="math display">\[y - 5 = 3x - 6\]</span> <span class="math display">\[y = 3x - 1\]</span></p>
-</section>
-<section id="example-3-finding-equation-from-two-points" class="level3">
-<h3 class="anchored" data-anchor-id="example-3-finding-equation-from-two-points">Example 3: Finding Equation from Two Points</h3>
-<p>Find the equation of the line passing through P(1, 3) and Q(4, 9).</p>
-<p><strong>Solution:</strong></p>
-<p>Step 1: Find the gradient <span class="math display">\[m = \frac{9 - 3}{4 - 1} = \frac{6}{3} = 2\]</span></p>
-<p>Step 2: Use point-slope form with point P(1, 3) <span class="math display">\[y - 3 = 2(x - 1)\]</span> <span class="math display">\[y - 3 = 2x - 2\]</span> <span class="math display">\[y = 2x + 1\]</span></p>
+<section id="example-3-zero-and-undefined-gradient" class="level3">
+<h3 class="anchored" data-anchor-id="example-3-zero-and-undefined-gradient">Example 3: Zero and Undefined Gradient</h3>
+<ul>
+<li>A horizontal line has <span class="math inline">\(m = 0\)</span>.</li>
+<li>A vertical line has an undefined gradient.</li>
+</ul>
 </section>
 </section>
 <section id="practice-exercises" class="level2">
 <h2 class="anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
 <ol type="1">
-<li>Find the gradient of the line through:
+<li>Use rise/run to find the gradient:
 <ul>
-<li>A(2, 3) and B(6, 11)</li>
-<li>C(-1, 5) and D(3, -3)</li>
+<li>Up 2, right 5</li>
+<li>Down 6, right 3</li>
+<li>Up 0, right 4</li>
 </ul></li>
-<li>Write the equation of the line:
+<li>State whether the gradient is positive, negative, zero, or undefined:
 <ul>
-<li>With gradient 4 and y-intercept -2</li>
-<li>Through point (3, 7) with gradient -1</li>
-<li>Through points (0, 2) and (5, 12)</li>
+<li>A line sloping down left to right</li>
+<li>A horizontal line</li>
+<li>A vertical line</li>
 </ul></li>
-<li>Convert the equation <span class="math inline">\(2x + 3y - 6 = 0\)</span> to slope-intercept form.</li>
-</ol>
-</section>
-<section id="worksheet-2-gradient-and-equations-practice" class="level2">
-<h2 class="anchored" data-anchor-id="worksheet-2-gradient-and-equations-practice">Worksheet 2: Gradient and Equations Practice</h2>
-<ol type="1">
-<li>Find the gradient of the line through:
-<ul>
-<li>P(1, 3) and Q(5, 11)</li>
-<li>R(-2, 4) and S(6, -4)</li>
-<li>T(0, -3) and U(4, 5)</li>
-</ul></li>
-<li>Write the equation of the line:
-<ul>
-<li>With gradient 3 and y-intercept 5</li>
-<li>With gradient -2 passing through (4, 1)</li>
-<li>Through points (2, 3) and (6, 11)</li>
-</ul></li>
-<li>Convert to slope-intercept form (<span class="math inline">\(y = mx + c\)</span>):
-<ul>
-<li><span class="math inline">\(3x + y - 6 = 0\)</span></li>
-<li><span class="math inline">\(2x - 4y + 8 = 0\)</span></li>
-<li><span class="math inline">\(x + 2y - 10 = 0\)</span></li>
-</ul></li>
+<li>A line rises 8 and runs 2. What is the gradient?</li>
 </ol>
 </section>
 <section id="real-world-application" class="level2">
 <h2 class="anchored" data-anchor-id="real-world-application">Real-World Application</h2>
-<p>The gradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed - In a cost-quantity graph, gradient represents unit price</p>
+<p>Gradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed. - In a cost-quantity graph, gradient represents unit price.</p>
 </section>
 <section id="homework" class="level2">
 <h2 class="anchored" data-anchor-id="homework">Homework</h2>
-<p>Complete exercises 2.1 to 2.5 in the workbook.</p>
+<p>Complete the gradient practice set.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Worksheet 2 Answers
+<span class="screen-reader-only">Note</span>Practice Answers
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ol type="1">
-<li><span class="math inline">\(m = 2\)</span>, <span class="math inline">\(m = -1\)</span>, <span class="math inline">\(m = 2\)</span></li>
-<li><span class="math inline">\(y = 3x + 5\)</span>, <span class="math inline">\(y = -2x + 9\)</span>, <span class="math inline">\(y = 2x - 1\)</span></li>
-<li><span class="math inline">\(y = -3x + 6\)</span>, <span class="math inline">\(y = \frac{1}{2}x + 2\)</span>, <span class="math inline">\(y = -\frac{1}{2}x + 5\)</span></li>
+<li><span class="math inline">\(\frac{2}{5}\)</span>, <span class="math inline">\(-2\)</span>, <span class="math inline">\(0\)</span></li>
+<li>Negative, zero, undefined</li>
+<li>4</li>
 </ol>
 </div>
 </div>
 </div>
 <hr>
 <p><strong>Previous Lesson:</strong> <a href="../lessons/lesson4.html">Lesson 4: The Midpoint Formula</a><br>
-<strong>Next Lesson:</strong> <a href="../lessons/lesson6.html">Lesson 6: Parallel and Perpendicular Lines</a></p>
+<strong>Next Lesson:</strong> <a href="../lessons/lesson6.html">Lesson 6: Gradient Using the Formula</a></p>
 
 
 </section>

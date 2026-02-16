@@ -1,0 +1,56 @@
+---
+title: "Lesson 11: Practice and Revision"
+---
+
+## Overview
+
+Use these mixed practice sets to consolidate learning across all coordinate geometry topics. These can be used for in-class revision or homework.
+
+## Practice Set A: Coordinates and Quadrants
+
+1. State the quadrant or axis for each point:
+   - A(3, -5)
+   - B(-4, 2)
+   - C(0, -7)
+   - D(6, 0)
+   - E(-2, -3)
+
+## Practice Set B: Distance and Midpoint
+
+1. Find the distance between (-1, 4) and (5, 1).
+2. Find the midpoint of (-6, 2) and (4, -4).
+3. Find the distance from the origin to (7, -24).
+
+## Practice Set C: Gradients and Line Equations
+
+1. Find the gradient of the line through (-2, 1) and (4, 7).
+2. Write the equation of the line with gradient -3 passing through (2, -1).
+3. Find the equation of the line through (0, -2) and (3, 4).
+4. Convert $4x - 2y + 6 = 0$ to slope-intercept form.
+
+## Practice Set D: Parallel and Perpendicular Lines
+
+1. Determine whether each pair of lines is parallel, perpendicular, or neither:
+   - $y = -2x + 1$ and $y = -2x - 4$
+   - $y = \frac{1}{4}x + 3$ and $y = -4x + 2$
+
+2. Find the equation of:
+   - The line perpendicular to $y = \frac{1}{2}x - 5$ through (0, 2)
+   - The line parallel to $3x + y - 9 = 0$ through (1, -1)
+
+::: {.callout-note collapse="true"}
+## Answer Key
+
+**Set A:** A QIV, B QII, C y-axis, D x-axis, E QIII
+
+**Set B:** $3\sqrt{5}$, (-1, -1), 25
+
+**Set C:** $m = 1$, $y = -3x + 5$, $y = 2x - 2$, $y = 2x + 3$
+
+**Set D:** Parallel, perpendicular, $y = -2x + 2$, $y = -3x + 2$
+:::
+
+---
+
+**Previous Lesson:** [Lesson 10: Equation of a Line from Gradient and a Point](lesson10.qmd)  
+**Next Lesson:** [Answer Key Appendix](answer-key.qmd)

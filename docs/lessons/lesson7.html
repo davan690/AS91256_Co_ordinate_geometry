@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesson 7: Practice and Revision – AS91256 Co-ordinate Geometry</title>
+<title>Lesson 7: Linear Equations and Intersections – AS91256 Co-ordinate Geometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -320,7 +320,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson7.html">Lesson 7: Practice and Revision</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson7.html">Lesson 7: Linear Equations and Intersections</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -365,19 +365,43 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 5: Gradients and Linear Equations</span></a>
+ <span class="menu-text">Lesson 5: Gradient Basics (Rise/Run)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 6: Parallel and Perpendicular Lines</span></a>
+ <span class="menu-text">Lesson 6: Gradient Using the Formula</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson7.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lesson 7: Practice and Revision</span></a>
+ <span class="menu-text">Lesson 7: Linear Equations and Intersections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 8: Parallel Lines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 9: Perpendicular Lines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 10: Equation of a Line from Gradient and a Point</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 11: Practice and Revision</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -396,11 +420,22 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#practice-set-a-coordinates-and-quadrants" id="toc-practice-set-a-coordinates-and-quadrants" class="nav-link" data-scroll-target="#practice-set-a-coordinates-and-quadrants">Practice Set A: Coordinates and Quadrants</a></li>
-  <li><a href="#practice-set-b-distance-and-midpoint" id="toc-practice-set-b-distance-and-midpoint" class="nav-link" data-scroll-target="#practice-set-b-distance-and-midpoint">Practice Set B: Distance and Midpoint</a></li>
-  <li><a href="#practice-set-c-gradients-and-line-equations" id="toc-practice-set-c-gradients-and-line-equations" class="nav-link" data-scroll-target="#practice-set-c-gradients-and-line-equations">Practice Set C: Gradients and Line Equations</a></li>
-  <li><a href="#practice-set-d-parallel-and-perpendicular-lines" id="toc-practice-set-d-parallel-and-perpendicular-lines" class="nav-link" data-scroll-target="#practice-set-d-parallel-and-perpendicular-lines">Practice Set D: Parallel and Perpendicular Lines</a></li>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
+  <li><a href="#equations-of-lines" id="toc-equations-of-lines" class="nav-link" data-scroll-target="#equations-of-lines">Equations of Lines</a>
+  <ul class="collapse">
+  <li><a href="#slope-intercept-form" id="toc-slope-intercept-form" class="nav-link" data-scroll-target="#slope-intercept-form">Slope-Intercept Form</a></li>
+  <li><a href="#point-slope-form" id="toc-point-slope-form" class="nav-link" data-scroll-target="#point-slope-form">Point-Slope Form</a></li>
+  <li><a href="#general-form" id="toc-general-form" class="nav-link" data-scroll-target="#general-form">General Form</a></li>
+  <li><a href="#example-1-equation-from-gradient-and-point" id="toc-example-1-equation-from-gradient-and-point" class="nav-link" data-scroll-target="#example-1-equation-from-gradient-and-point">Example 1: Equation from Gradient and Point</a></li>
+  <li><a href="#example-2-equation-from-two-points" id="toc-example-2-equation-from-two-points" class="nav-link" data-scroll-target="#example-2-equation-from-two-points">Example 2: Equation from Two Points</a></li>
+  </ul></li>
+  <li><a href="#intersection-of-two-lines" id="toc-intersection-of-two-lines" class="nav-link" data-scroll-target="#intersection-of-two-lines">Intersection of Two Lines</a>
+  <ul class="collapse">
+  <li><a href="#example-3-intersection-by-substitution" id="toc-example-3-intersection-by-substitution" class="nav-link" data-scroll-target="#example-3-intersection-by-substitution">Example 3: Intersection by Substitution</a></li>
+  <li><a href="#example-4-intersection-with-general-form" id="toc-example-4-intersection-with-general-form" class="nav-link" data-scroll-target="#example-4-intersection-with-general-form">Example 4: Intersection with General Form</a></li>
+  </ul></li>
+  <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
+  <li><a href="#worksheet-2b-linear-equations-and-intersections" id="toc-worksheet-2b-linear-equations-and-intersections" class="nav-link" data-scroll-target="#worksheet-2b-linear-equations-and-intersections">Worksheet 2B: Linear Equations and Intersections</a></li>
   </ul>
 </nav>
     </div>
@@ -410,7 +445,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 7: Practice and Revision</h1>
+<h1 class="title">Lesson 7: Linear Equations and Intersections</h1>
 </div>
 
 
@@ -427,52 +462,97 @@ window.Quarto = {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Use these mixed practice sets to consolidate learning across all coordinate geometry topics. These can be used for in-class revision or homework.</p>
-</section>
-<section id="practice-set-a-coordinates-and-quadrants" class="level2">
-<h2 class="anchored" data-anchor-id="practice-set-a-coordinates-and-quadrants">Practice Set A: Coordinates and Quadrants</h2>
-<ol type="1">
-<li>State the quadrant or axis for each point:
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
+<p>By the end of this lesson, students will be able to:</p>
 <ul>
-<li>A(3, -5)</li>
-<li>B(-4, 2)</li>
-<li>C(0, -7)</li>
-<li>D(6, 0)</li>
-<li>E(-2, -3)</li>
+<li>Write equations of lines in slope-intercept and point-slope forms</li>
+<li>Convert between equation forms</li>
+<li>Find the intersection point of two lines</li>
+</ul>
+</section>
+<section id="equations-of-lines" class="level2">
+<h2 class="anchored" data-anchor-id="equations-of-lines">Equations of Lines</h2>
+<section id="slope-intercept-form" class="level3">
+<h3 class="anchored" data-anchor-id="slope-intercept-form">Slope-Intercept Form</h3>
+<p><span class="math display">\[y = mx + c\]</span></p>
+</section>
+<section id="point-slope-form" class="level3">
+<h3 class="anchored" data-anchor-id="point-slope-form">Point-Slope Form</h3>
+<p><span class="math display">\[y - y_1 = m(x - x_1)\]</span></p>
+</section>
+<section id="general-form" class="level3">
+<h3 class="anchored" data-anchor-id="general-form">General Form</h3>
+<p><span class="math display">\[ax + by + c = 0\]</span></p>
+</section>
+<section id="example-1-equation-from-gradient-and-point" class="level3">
+<h3 class="anchored" data-anchor-id="example-1-equation-from-gradient-and-point">Example 1: Equation from Gradient and Point</h3>
+<p>Write the equation of the line with gradient 3 passing through (2, 5).</p>
+<p><strong>Solution:</strong> <span class="math display">\[y - 5 = 3(x - 2)\]</span> <span class="math display">\[y - 5 = 3x - 6\]</span> <span class="math display">\[y = 3x - 1\]</span></p>
+</section>
+<section id="example-2-equation-from-two-points" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-equation-from-two-points">Example 2: Equation from Two Points</h3>
+<p>Find the equation of the line through P(1, 3) and Q(4, 9).</p>
+<p><strong>Solution:</strong> <span class="math display">\[m = \frac{9 - 3}{4 - 1} = 2\]</span> <span class="math display">\[y - 3 = 2(x - 1)\]</span> <span class="math display">\[y = 2x + 1\]</span></p>
+</section>
+</section>
+<section id="intersection-of-two-lines" class="level2">
+<h2 class="anchored" data-anchor-id="intersection-of-two-lines">Intersection of Two Lines</h2>
+<p>The intersection point solves both equations at the same time.</p>
+<section id="example-3-intersection-by-substitution" class="level3">
+<h3 class="anchored" data-anchor-id="example-3-intersection-by-substitution">Example 3: Intersection by Substitution</h3>
+<p>Find the intersection of:</p>
+<p><span class="math display">\[y = 2x + 1\]</span> <span class="math display">\[y = -x + 7\]</span></p>
+<p><strong>Solution:</strong> Set them equal: <span class="math display">\[2x + 1 = -x + 7\]</span> <span class="math display">\[3x = 6\]</span> <span class="math display">\[x = 2\]</span> Substitute back: <span class="math display">\[y = 2(2) + 1 = 5\]</span></p>
+<p>Intersection is <span class="math inline">\((2, 5)\)</span>.</p>
+</section>
+<section id="example-4-intersection-with-general-form" class="level3">
+<h3 class="anchored" data-anchor-id="example-4-intersection-with-general-form">Example 4: Intersection with General Form</h3>
+<p>Find the intersection of:</p>
+<p><span class="math display">\[2x + y - 8 = 0\]</span> <span class="math display">\[x - y + 1 = 0\]</span></p>
+<p><strong>Solution:</strong> From the second equation: <span class="math inline">\(y = x + 1\)</span>. Substitute into the first: <span class="math display">\[2x + (x + 1) - 8 = 0\]</span> <span class="math display">\[3x - 7 = 0\]</span> <span class="math display">\[x = \frac{7}{3}\]</span> Then <span class="math inline">\(y = \frac{7}{3} + 1 = \frac{10}{3}\)</span>.</p>
+<p>Intersection is <span class="math inline">\(\left(\frac{7}{3}, \frac{10}{3}\right)\)</span>.</p>
+</section>
+</section>
+<section id="practice-exercises" class="level2">
+<h2 class="anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
+<ol type="1">
+<li>Write the equation of the line:
+<ul>
+<li>With gradient -2 and y-intercept 5</li>
+<li>Through point (3, 7) with gradient -1</li>
+<li>Through points (0, 2) and (5, 12)</li>
+</ul></li>
+<li>Convert to slope-intercept form:
+<ul>
+<li><span class="math inline">\(3x + y - 6 = 0\)</span></li>
+<li><span class="math inline">\(2x - 4y + 8 = 0\)</span></li>
+</ul></li>
+<li>Find the intersection point of each pair:
+<ul>
+<li><span class="math inline">\(y = x + 3\)</span> and <span class="math inline">\(y = -2x + 9\)</span></li>
+<li><span class="math inline">\(y = 4x - 5\)</span> and <span class="math inline">\(2x + y = 7\)</span></li>
 </ul></li>
 </ol>
 </section>
-<section id="practice-set-b-distance-and-midpoint" class="level2">
-<h2 class="anchored" data-anchor-id="practice-set-b-distance-and-midpoint">Practice Set B: Distance and Midpoint</h2>
+<section id="worksheet-2b-linear-equations-and-intersections" class="level2">
+<h2 class="anchored" data-anchor-id="worksheet-2b-linear-equations-and-intersections">Worksheet 2B: Linear Equations and Intersections</h2>
 <ol type="1">
-<li>Find the distance between (-1, 4) and (5, 1).</li>
-<li>Find the midpoint of (-6, 2) and (4, -4).</li>
-<li>Find the distance from the origin to (7, -24).</li>
-</ol>
-</section>
-<section id="practice-set-c-gradients-and-line-equations" class="level2">
-<h2 class="anchored" data-anchor-id="practice-set-c-gradients-and-line-equations">Practice Set C: Gradients and Line Equations</h2>
-<ol type="1">
-<li>Find the gradient of the line through (-2, 1) and (4, 7).</li>
-<li>Write the equation of the line with gradient -3 passing through (2, -1).</li>
-<li>Find the equation of the line through (0, -2) and (3, 4).</li>
-<li>Convert <span class="math inline">\(4x - 2y + 6 = 0\)</span> to slope-intercept form.</li>
-</ol>
-</section>
-<section id="practice-set-d-parallel-and-perpendicular-lines" class="level2">
-<h2 class="anchored" data-anchor-id="practice-set-d-parallel-and-perpendicular-lines">Practice Set D: Parallel and Perpendicular Lines</h2>
-<ol type="1">
-<li>Determine whether each pair of lines is parallel, perpendicular, or neither:
+<li>Write the equation of the line:
 <ul>
-<li><span class="math inline">\(y = -2x + 1\)</span> and <span class="math inline">\(y = -2x - 4\)</span></li>
-<li><span class="math inline">\(y = \frac{1}{4}x + 3\)</span> and <span class="math inline">\(y = -4x + 2\)</span></li>
+<li>With gradient 3 and y-intercept 5</li>
+<li>With gradient -2 passing through (4, 1)</li>
+<li>Through points (2, 3) and (6, 11)</li>
 </ul></li>
-<li>Find the equation of:
+<li>Convert to slope-intercept form (<span class="math inline">\(y = mx + c\)</span>):
 <ul>
-<li>The line perpendicular to <span class="math inline">\(y = \frac{1}{2}x - 5\)</span> through (0, 2)</li>
-<li>The line parallel to <span class="math inline">\(3x + y - 9 = 0\)</span> through (1, -1)</li>
+<li><span class="math inline">\(x + 2y - 10 = 0\)</span></li>
+<li><span class="math inline">\(4x - 2y + 6 = 0\)</span></li>
+</ul></li>
+<li>Find the intersection point:
+<ul>
+<li><span class="math inline">\(y = 2x - 1\)</span> and <span class="math inline">\(y = -x + 8\)</span></li>
+<li><span class="math inline">\(3x + y = 12\)</span> and <span class="math inline">\(x - y = 4\)</span></li>
 </ul></li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -481,22 +561,23 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Answer Key
+<span class="screen-reader-only">Note</span>Worksheet 2B Answers
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Set A:</strong> A QIV, B QII, C y-axis, D x-axis, E QIII</p>
-<p><strong>Set B:</strong> <span class="math inline">\(3\sqrt{5}\)</span>, (-1, -1), 25</p>
-<p><strong>Set C:</strong> <span class="math inline">\(m = 1\)</span>, <span class="math inline">\(y = -3x + 5\)</span>, <span class="math inline">\(y = 2x - 2\)</span>, <span class="math inline">\(y = 2x + 3\)</span></p>
-<p><strong>Set D:</strong> Parallel, perpendicular, <span class="math inline">\(y = -2x + 2\)</span>, <span class="math inline">\(y = -3x + 2\)</span></p>
+<ol type="1">
+<li><span class="math inline">\(y = 3x + 5\)</span>, <span class="math inline">\(y = -2x + 9\)</span>, <span class="math inline">\(y = 2x - 1\)</span></li>
+<li><span class="math inline">\(y = -\frac{1}{2}x + 5\)</span>, <span class="math inline">\(y = 2x + 3\)</span></li>
+<li>(3, 5), (4, 0)</li>
+</ol>
 </div>
 </div>
 </div>
 <hr>
-<p><strong>Previous Lesson:</strong> <a href="../lessons/lesson6.html">Lesson 6: Parallel and Perpendicular Lines</a><br>
-<strong>Next Lesson:</strong> <a href="../lessons/answer-key.html">Answer Key Appendix</a></p>
+<p><strong>Previous Lesson:</strong> <a href="../lessons/lesson6.html">Lesson 6: Gradient Using the Formula</a><br>
+<strong>Next Lesson:</strong> <a href="../lessons/lesson8.html">Lesson 8: Parallel Lines</a></p>
 
 
 </section>

@@ -37,23 +37,54 @@ A QI, B QII, C QIII, D QIV, E y-axis.
 1. (6, 6)
 2. (1, 3)
 
-## Lesson 5: Gradients and Linear Equations
+## Lesson 5: Gradient Basics (Rise/Run)
 
-### Worksheet 2
+### Practice Answers
 
-1. $m = 2$, $m = -1$, $m = 2$
-2. $y = 3x + 5$, $y = -2x + 9$, $y = 2x - 1$
-3. $y = -3x + 6$, $y = \frac{1}{2}x + 2$, $y = -\frac{1}{2}x + 5$
+1. $\frac{2}{5}$, $-2$, $0$
+2. Negative, zero, undefined
+3. 4
 
-## Lesson 6: Parallel and Perpendicular Lines
+## Lesson 6: Gradient Using the Formula
 
-### Worksheet 3
+### Practice Answers
 
-1. Parallel, perpendicular, neither
-2. $y = 5x - 7$, $y = \frac{1}{3}x + 2$, $y = -2x + 3$
+1. $2$, $-1$, $0$
+2. Undefined, zero
+3. Example: (0, 4) or (4, -2)
+
+## Lesson 7: Linear Equations and Intersections
+
+### Worksheet 2B
+
+1. $y = 3x + 5$, $y = -2x + 9$, $y = 2x - 1$
+2. $y = -\frac{1}{2}x + 5$, $y = 2x + 3$
+3. (3, 5), (4, 0)
+
+## Lesson 8: Parallel Lines
+
+### Worksheet 3A
+
+1. Parallel, not parallel
+2. $y = 5x - 7$, $y = -2x + 3$
+
+## Lesson 9: Perpendicular Lines
+
+### Worksheet 3B
+
+1. Perpendicular, not perpendicular
+2. $y = \frac{1}{3}x + 2$, $y = -\frac{1}{5}x + \frac{13}{5}$
 3. $y = -x + 9$, $m = -2$
 
-## Lesson 7: Practice and Revision
+## Lesson 10: Equation of a Line from Gradient and a Point
+
+### Worksheet 2C
+
+1. $y = 2x - 5$, $y = -\frac{1}{2}x + 7$
+2. $y = 5x + 12$, $y = -3x + 10$
+3. Yes, yes
+
+## Lesson 11: Practice and Revision
 
 ### Answer Key
 
@@ -67,4 +98,4 @@ A QI, B QII, C QIII, D QIV, E y-axis.
 
 ---
 
-**Previous Lesson:** [Lesson 7: Practice and Revision](lesson7.qmd)
+**Previous Lesson:** [Lesson 11: Practice and Revision](lesson11.qmd)

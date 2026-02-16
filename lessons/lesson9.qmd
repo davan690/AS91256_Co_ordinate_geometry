@@ -1,0 +1,100 @@
+---
+title: "Lesson 9: Perpendicular Lines"
+---
+
+## Learning Objectives
+
+By the end of this lesson, students will be able to:
+
+- Identify perpendicular lines from their equations
+- Determine if lines are perpendicular using gradients
+- Find equations of perpendicular lines
+
+## Perpendicular Lines
+
+Two lines are **perpendicular** if they meet at a right angle (90°).
+
+::: {.callout-important}
+## Key Property of Perpendicular Lines
+If two lines are perpendicular, then $m_1 \times m_2 = -1$
+
+Or equivalently: $m_2 = -\frac{1}{m_1}$
+:::
+
+### Example 1: Identifying Perpendicular Lines
+
+Are the lines $y = 2x + 1$ and $y = -\frac{1}{2}x + 3$ perpendicular?
+
+**Solution:**
+$$m_1 \times m_2 = 2 \times \left(-\frac{1}{2}\right) = -1$$
+
+Yes, the lines are perpendicular.
+
+### Example 2: Finding a Perpendicular Line Equation
+
+Find the equation of the line perpendicular to $y = 4x - 2$ that passes through the point (8, 3).
+
+**Solution:**
+- Original gradient: $m_1 = 4$
+- Perpendicular gradient: $m_2 = -\frac{1}{4}$
+- Using point-slope form with (8, 3):
+$$y - 3 = -\frac{1}{4}(x - 8)$$
+$$y - 3 = -\frac{1}{4}x + 2$$
+$$y = -\frac{1}{4}x + 5$$
+
+## Practice Exercises
+
+1. Determine if these pairs of lines are perpendicular or not:
+   - $y = 3x + 2$ and $y = -\frac{1}{3}x + 7$
+   - $y = 2x + 1$ and $y = -\frac{1}{2}x + 4$
+   - $y = 5x$ and $y = -5x + 3$
+
+2. Find the equation of the line perpendicular to $y = \frac{1}{3}x - 1$ through point (6, 2).
+
+3. The line $L_1$ passes through points A(1, 2) and B(5, 10). Find the equation of the line perpendicular to $L_1$ through D(3, 4).
+
+## Worksheet 3B: Perpendicular Lines Practice
+
+1. Determine whether each pair of lines is perpendicular or not:
+   - $y = 2x + 5$ and $y = -\frac{1}{2}x + 2$
+   - $y = 3x - 1$ and $y = 2x + 4$
+
+2. Find the equation of:
+   - The line perpendicular to $y = -3x + 1$ through point (6, 4)
+   - The line perpendicular to $y = 5x + 2$ through point (2, 3)
+
+3. Challenge problems:
+   - Line L passes through A(1, 2) and B(7, 8). Find the equation of the line perpendicular to L that passes through the midpoint of AB.
+   - Points P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has gradient $\frac{1}{2}$, find the gradient of QR.
+
+## Problem-Solving Strategy
+
+When working with perpendicular lines:
+
+1. Identify or calculate the gradient of the given line
+2. Find the negative reciprocal gradient
+3. Use the point-slope form with the given point
+4. Simplify to the required form
+
+## Real-World Applications
+
+- Architecture: Ensuring walls meet at right angles
+- Navigation: Plotting perpendicular courses
+- Engineering: Designing right-angle joins
+
+## Homework
+
+Complete the perpendicular lines practice set.
+
+::: {.callout-note collapse="true"}
+## Worksheet 3B Answers
+
+1. Perpendicular, not perpendicular
+2. $y = \frac{1}{3}x + 2$, $y = -\frac{1}{5}x + \frac{13}{5}$
+3. $y = -x + 9$, $m = -2$
+:::
+
+---
+
+**Previous Lesson:** [Lesson 8: Parallel Lines](lesson8.qmd)  
+**Next Lesson:** [Lesson 10: Equation of a Line from Gradient and a Point](lesson10.qmd)

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lesson 6: Parallel and Perpendicular Lines – AS91256 Co-ordinate Geometry</title>
+<title>Lesson 6: Gradient Using the Formula – AS91256 Co-ordinate Geometry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -320,7 +320,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson6.html">Lesson 6: Parallel and Perpendicular Lines</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lessons/lesson6.html">Lesson 6: Gradient Using the Formula</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -365,19 +365,43 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 5: Gradients and Linear Equations</span></a>
+ <span class="menu-text">Lesson 5: Gradient Basics (Rise/Run)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson6.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lesson 6: Parallel and Perpendicular Lines</span></a>
+ <span class="menu-text">Lesson 6: Gradient Using the Formula</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lessons/lesson7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lesson 7: Practice and Revision</span></a>
+ <span class="menu-text">Lesson 7: Linear Equations and Intersections</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 8: Parallel Lines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 9: Perpendicular Lines</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 10: Equation of a Line from Gradient and a Point</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lessons/lesson11.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lesson 11: Practice and Revision</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -397,20 +421,14 @@ window.Quarto = {
    
   <ul>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
-  <li><a href="#parallel-lines" id="toc-parallel-lines" class="nav-link" data-scroll-target="#parallel-lines">Parallel Lines</a>
+  <li><a href="#the-gradient-formula" id="toc-the-gradient-formula" class="nav-link" data-scroll-target="#the-gradient-formula">The Gradient Formula</a>
   <ul class="collapse">
-  <li><a href="#example-1-identifying-parallel-lines" id="toc-example-1-identifying-parallel-lines" class="nav-link" data-scroll-target="#example-1-identifying-parallel-lines">Example 1: Identifying Parallel Lines</a></li>
-  <li><a href="#example-2-finding-parallel-line-equation" id="toc-example-2-finding-parallel-line-equation" class="nav-link" data-scroll-target="#example-2-finding-parallel-line-equation">Example 2: Finding Parallel Line Equation</a></li>
-  </ul></li>
-  <li><a href="#perpendicular-lines" id="toc-perpendicular-lines" class="nav-link" data-scroll-target="#perpendicular-lines">Perpendicular Lines</a>
-  <ul class="collapse">
-  <li><a href="#example-3-identifying-perpendicular-lines" id="toc-example-3-identifying-perpendicular-lines" class="nav-link" data-scroll-target="#example-3-identifying-perpendicular-lines">Example 3: Identifying Perpendicular Lines</a></li>
-  <li><a href="#example-4-finding-perpendicular-line-equation" id="toc-example-4-finding-perpendicular-line-equation" class="nav-link" data-scroll-target="#example-4-finding-perpendicular-line-equation">Example 4: Finding Perpendicular Line Equation</a></li>
+  <li><a href="#example-1-gradient-from-two-points" id="toc-example-1-gradient-from-two-points" class="nav-link" data-scroll-target="#example-1-gradient-from-two-points">Example 1: Gradient from Two Points</a></li>
+  <li><a href="#example-2-negative-gradient" id="toc-example-2-negative-gradient" class="nav-link" data-scroll-target="#example-2-negative-gradient">Example 2: Negative Gradient</a></li>
+  <li><a href="#example-3-zero-or-undefined" id="toc-example-3-zero-or-undefined" class="nav-link" data-scroll-target="#example-3-zero-or-undefined">Example 3: Zero or Undefined</a></li>
   </ul></li>
   <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises">Practice Exercises</a></li>
-  <li><a href="#worksheet-3-parallel-and-perpendicular-lines-practice" id="toc-worksheet-3-parallel-and-perpendicular-lines-practice" class="nav-link" data-scroll-target="#worksheet-3-parallel-and-perpendicular-lines-practice">Worksheet 3: Parallel and Perpendicular Lines Practice</a></li>
-  <li><a href="#problem-solving-strategy" id="toc-problem-solving-strategy" class="nav-link" data-scroll-target="#problem-solving-strategy">Problem-Solving Strategy</a></li>
-  <li><a href="#real-world-applications" id="toc-real-world-applications" class="nav-link" data-scroll-target="#real-world-applications">Real-World Applications</a></li>
+  <li><a href="#real-world-application" id="toc-real-world-application" class="nav-link" data-scroll-target="#real-world-application">Real-World Application</a></li>
   <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
   </ul>
 </nav>
@@ -421,7 +439,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Lesson 6: Parallel and Perpendicular Lines</h1>
+<h1 class="title">Lesson 6: Gradient Using the Formula</h1>
 </div>
 
 
@@ -442,157 +460,81 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
 <p>By the end of this lesson, students will be able to:</p>
 <ul>
-<li>Identify parallel and perpendicular lines from their equations</li>
-<li>Determine if lines are parallel or perpendicular using gradients</li>
-<li>Find equations of parallel and perpendicular lines</li>
-<li>Solve geometric problems involving parallel and perpendicular lines</li>
+<li>Calculate the gradient of a line between two points using the formula</li>
+<li>Interpret the meaning of positive, negative, zero, and undefined gradients</li>
+<li>Check gradient calculations for reasonableness</li>
 </ul>
 </section>
-<section id="parallel-lines" class="level2">
-<h2 class="anchored" data-anchor-id="parallel-lines">Parallel Lines</h2>
-<p>Two lines are <strong>parallel</strong> if they have the same gradient and never intersect.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Key Property of Parallel Lines
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If two lines are parallel, then <span class="math inline">\(m_1 = m_2\)</span></p>
-</div>
-</div>
-<section id="example-1-identifying-parallel-lines" class="level3">
-<h3 class="anchored" data-anchor-id="example-1-identifying-parallel-lines">Example 1: Identifying Parallel Lines</h3>
-<p>Are the lines <span class="math inline">\(y = 2x + 3\)</span> and <span class="math inline">\(y = 2x - 5\)</span> parallel?</p>
-<p><strong>Solution:</strong> Both lines have gradient <span class="math inline">\(m = 2\)</span>, so they are parallel.</p>
+<section id="the-gradient-formula" class="level2">
+<h2 class="anchored" data-anchor-id="the-gradient-formula">The Gradient Formula</h2>
+<p>For two points <span class="math inline">\((x_1, y_1)\)</span> and <span class="math inline">\((x_2, y_2)\)</span>:</p>
+<p><span class="math display">\[m = \frac{y_2 - y_1}{x_2 - x_1}\]</span></p>
+<p>This compares the vertical change to the horizontal change.</p>
+<section id="example-1-gradient-from-two-points" class="level3">
+<h3 class="anchored" data-anchor-id="example-1-gradient-from-two-points">Example 1: Gradient from Two Points</h3>
+<p>Find the gradient of the line through A(1, 2) and B(5, 10).</p>
+<p><strong>Solution:</strong> <span class="math display">\[m = \frac{10 - 2}{5 - 1} = \frac{8}{4} = 2\]</span></p>
 </section>
-<section id="example-2-finding-parallel-line-equation" class="level3">
-<h3 class="anchored" data-anchor-id="example-2-finding-parallel-line-equation">Example 2: Finding Parallel Line Equation</h3>
-<p>Find the equation of the line parallel to <span class="math inline">\(y = 3x + 1\)</span> that passes through the point (2, 7).</p>
-<p><strong>Solution:</strong> - Parallel lines have the same gradient: <span class="math inline">\(m = 3\)</span> - Using point-slope form with (2, 7): <span class="math display">\[y - 7 = 3(x - 2)\]</span> <span class="math display">\[y - 7 = 3x - 6\]</span> <span class="math display">\[y = 3x + 1\]</span></p>
-<p><strong>Verification:</strong> When <span class="math inline">\(x = 2\)</span>, <span class="math inline">\(y = 3(2) + 1 = 7\)</span> ✓</p>
+<section id="example-2-negative-gradient" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-negative-gradient">Example 2: Negative Gradient</h3>
+<p>Find the gradient of the line through C(-1, 5) and D(3, -3).</p>
+<p><strong>Solution:</strong> <span class="math display">\[m = \frac{-3 - 5}{3 - (-1)} = \frac{-8}{4} = -2\]</span></p>
 </section>
-</section>
-<section id="perpendicular-lines" class="level2">
-<h2 class="anchored" data-anchor-id="perpendicular-lines">Perpendicular Lines</h2>
-<p>Two lines are <strong>perpendicular</strong> if they meet at a right angle (90°).</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>Key Property of Perpendicular Lines
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If two lines are perpendicular, then <span class="math inline">\(m_1 \times m_2 = -1\)</span></p>
-<p>Or equivalently: <span class="math inline">\(m_2 = -\frac{1}{m_1}\)</span></p>
-</div>
-</div>
-<section id="example-3-identifying-perpendicular-lines" class="level3">
-<h3 class="anchored" data-anchor-id="example-3-identifying-perpendicular-lines">Example 3: Identifying Perpendicular Lines</h3>
-<p>Are the lines <span class="math inline">\(y = 2x + 1\)</span> and <span class="math inline">\(y = -\frac{1}{2}x + 3\)</span> perpendicular?</p>
-<p><strong>Solution:</strong> <span class="math display">\[m_1 \times m_2 = 2 \times \left(-\frac{1}{2}\right) = -1\]</span></p>
-<p>Yes, the lines are perpendicular.</p>
-</section>
-<section id="example-4-finding-perpendicular-line-equation" class="level3">
-<h3 class="anchored" data-anchor-id="example-4-finding-perpendicular-line-equation">Example 4: Finding Perpendicular Line Equation</h3>
-<p>Find the equation of the line perpendicular to <span class="math inline">\(y = 4x - 2\)</span> that passes through the point (8, 3).</p>
-<p><strong>Solution:</strong> - Original gradient: <span class="math inline">\(m_1 = 4\)</span> - Perpendicular gradient: <span class="math inline">\(m_2 = -\frac{1}{4}\)</span> - Using point-slope form with (8, 3): <span class="math display">\[y - 3 = -\frac{1}{4}(x - 8)\]</span> <span class="math display">\[y - 3 = -\frac{1}{4}x + 2\]</span> <span class="math display">\[y = -\frac{1}{4}x + 5\]</span></p>
+<section id="example-3-zero-or-undefined" class="level3">
+<h3 class="anchored" data-anchor-id="example-3-zero-or-undefined">Example 3: Zero or Undefined</h3>
+<ul>
+<li>If <span class="math inline">\(y_1 = y_2\)</span>, then <span class="math inline">\(m = 0\)</span> (horizontal line).</li>
+<li>If <span class="math inline">\(x_1 = x_2\)</span>, the gradient is undefined (vertical line).</li>
+</ul>
 </section>
 </section>
 <section id="practice-exercises" class="level2">
 <h2 class="anchored" data-anchor-id="practice-exercises">Practice Exercises</h2>
 <ol type="1">
-<li>Determine if these pairs of lines are parallel, perpendicular, or neither:
+<li>Find the gradient of the line through:
 <ul>
-<li><span class="math inline">\(y = 3x + 2\)</span> and <span class="math inline">\(y = 3x - 7\)</span></li>
-<li><span class="math inline">\(y = 2x + 1\)</span> and <span class="math inline">\(y = -\frac{1}{2}x + 4\)</span></li>
-<li><span class="math inline">\(y = 5x\)</span> and <span class="math inline">\(y = -5x + 3\)</span></li>
+<li>E(2, 3) and F(6, 11)</li>
+<li>G(-4, 1) and H(2, -5)</li>
+<li>I(0, 4) and J(5, 4)</li>
 </ul></li>
-<li>Find the equation of the line:
+<li>Decide if the gradient is positive, negative, zero, or undefined:
 <ul>
-<li>Parallel to <span class="math inline">\(y = -2x + 3\)</span> through point (1, 5)</li>
-<li>Perpendicular to <span class="math inline">\(y = \frac{1}{3}x - 1\)</span> through point (6, 2)</li>
+<li>K(3, -1) and L(3, 6)</li>
+<li>M(-2, 4) and N(4, 4)</li>
 </ul></li>
-<li>The line <span class="math inline">\(L_1\)</span> passes through points A(1, 2) and B(5, 10).
-<ul>
-<li>Find the equation of <span class="math inline">\(L_1\)</span></li>
-<li>Find the equation of the line parallel to <span class="math inline">\(L_1\)</span> through C(0, 0)</li>
-<li>Find the equation of the line perpendicular to <span class="math inline">\(L_1\)</span> through D(3, 4)</li>
-</ul></li>
+<li>A line has gradient <span class="math inline">\(-\frac{3}{2}\)</span> and passes through (2, 1). Choose another point on the line.</li>
 </ol>
 </section>
-<section id="worksheet-3-parallel-and-perpendicular-lines-practice" class="level2">
-<h2 class="anchored" data-anchor-id="worksheet-3-parallel-and-perpendicular-lines-practice">Worksheet 3: Parallel and Perpendicular Lines Practice</h2>
-<ol type="1">
-<li>Determine whether each pair of lines is parallel, perpendicular, or neither:
-<ul>
-<li><span class="math inline">\(y = 4x + 1\)</span> and <span class="math inline">\(y = 4x - 3\)</span></li>
-<li><span class="math inline">\(y = 2x + 5\)</span> and <span class="math inline">\(y = -\frac{1}{2}x + 2\)</span></li>
-<li><span class="math inline">\(y = 3x - 1\)</span> and <span class="math inline">\(y = 2x + 4\)</span></li>
-</ul></li>
-<li>Find the equation of:
-<ul>
-<li>The line parallel to <span class="math inline">\(y = 5x + 2\)</span> through point (2, 3)</li>
-<li>The line perpendicular to <span class="math inline">\(y = -3x + 1\)</span> through point (6, 4)</li>
-<li>The line parallel to <span class="math inline">\(2x + y - 4 = 0\)</span> through point (-1, 5)</li>
-</ul></li>
-<li>Challenge problems:
-<ul>
-<li>Line L passes through A(1, 2) and B(7, 8). Find the equation of the line perpendicular to L that passes through the midpoint of AB.</li>
-<li>Points P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has gradient <span class="math inline">\(\frac{1}{2}\)</span>, find the gradient of QR.</li>
-</ul></li>
-</ol>
-</section>
-<section id="problem-solving-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="problem-solving-strategy">Problem-Solving Strategy</h2>
-<p>When working with parallel and perpendicular lines:</p>
-<ol type="1">
-<li>Identify or calculate the gradient of the given line</li>
-<li>Determine the gradient of the required line (same for parallel, negative reciprocal for perpendicular)</li>
-<li>Use the point-slope form with the given point</li>
-<li>Simplify to the required form</li>
-</ol>
-</section>
-<section id="real-world-applications" class="level2">
-<h2 class="anchored" data-anchor-id="real-world-applications">Real-World Applications</h2>
-<ul>
-<li>Architecture: Ensuring walls are perpendicular to the floor</li>
-<li>Navigation: Plotting perpendicular courses</li>
-<li>Engineering: Designing parallel roads or railway tracks</li>
-</ul>
+<section id="real-world-application" class="level2">
+<h2 class="anchored" data-anchor-id="real-world-application">Real-World Application</h2>
+<p>Gradient represents a rate of change. For example, a road that rises 1 meter for every 5 meters run has gradient <span class="math inline">\(\frac{1}{5}\)</span>.</p>
 </section>
 <section id="homework" class="level2">
 <h2 class="anchored" data-anchor-id="homework">Homework</h2>
-<p>Complete the parallel and perpendicular lines worksheet (see <a href="../resources/worksheets.html">Resources</a>).</p>
+<p>Complete the gradient formula practice set.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Worksheet 3 Answers
+<span class="screen-reader-only">Note</span>Practice Answers
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ol type="1">
-<li>Parallel, perpendicular, neither</li>
-<li><span class="math inline">\(y = 5x - 7\)</span>, <span class="math inline">\(y = \frac{1}{3}x + 2\)</span>, <span class="math inline">\(y = -2x + 3\)</span></li>
-<li><span class="math inline">\(y = -x + 9\)</span>, <span class="math inline">\(m = -2\)</span></li>
+<li><span class="math inline">\(2\)</span>, <span class="math inline">\(-1\)</span>, <span class="math inline">\(0\)</span></li>
+<li>Undefined, zero</li>
+<li>Example: (0, 4) or (4, -2)</li>
 </ol>
 </div>
 </div>
 </div>
 <hr>
-<p><strong>Previous Lesson:</strong> <a href="../lessons/lesson5.html">Lesson 5: Gradients and Linear Equations</a><br>
-<strong>Next Lesson:</strong> <a href="../lessons/lesson7.html">Lesson 7: Practice and Revision</a></p>
+<p><strong>Previous Lesson:</strong> <a href="../lessons/lesson5.html">Lesson 5: Gradient Basics (Rise/Run)</a><br>
+<strong>Next Lesson:</strong> <a href="../lessons/lesson7.html">Lesson 7: Linear Equations and Intersections</a></p>
 
 
 </section>

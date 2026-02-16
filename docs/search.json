@@ -272,102 +272,157 @@
     ]
   },
   {
-    "objectID": "lessons/lesson6.html",
-    "href": "lessons/lesson6.html",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
+    "objectID": "lessons/lesson8.html",
+    "href": "lessons/lesson8.html",
+    "title": "Lesson 8: Parallel Lines",
     "section": "",
-    "text": "By the end of this lesson, students will be able to:\n\nIdentify parallel and perpendicular lines from their equations\nDetermine if lines are parallel or perpendicular using gradients\nFind equations of parallel and perpendicular lines\nSolve geometric problems involving parallel and perpendicular lines",
+    "text": "By the end of this lesson, students will be able to:\n\nIdentify parallel lines from their equations\nDetermine if lines are parallel using gradients\nFind equations of parallel lines",
     "crumbs": [
       "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson8.html#learning-objectives",
+    "href": "lessons/lesson8.html#learning-objectives",
+    "title": "Lesson 8: Parallel Lines",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nIdentify parallel lines from their equations\nDetermine if lines are parallel using gradients\nFind equations of parallel lines",
+    "crumbs": [
+      "Lessons",
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson8.html#parallel-lines",
+    "href": "lessons/lesson8.html#parallel-lines",
+    "title": "Lesson 8: Parallel Lines",
+    "section": "Parallel Lines",
+    "text": "Parallel Lines\nTwo lines are parallel if they have the same gradient and never intersect.\n\n\n\n\n\n\nImportantKey Property of Parallel Lines\n\n\n\nIf two lines are parallel, then \\(m_1 = m_2\\)\n\n\n\nExample 1: Identifying Parallel Lines\nAre the lines \\(y = 2x + 3\\) and \\(y = 2x - 5\\) parallel?\nSolution: Both lines have gradient \\(m = 2\\), so they are parallel.\n\n\nExample 2: Finding Parallel Line Equation\nFind the equation of the line parallel to \\(y = 3x + 1\\) that passes through the point (2, 7).\nSolution: - Parallel lines have the same gradient: \\(m = 3\\) - Using point-slope form with (2, 7): \\[y - 7 = 3(x - 2)\\] \\[y - 7 = 3x - 6\\] \\[y = 3x + 1\\]\nVerification: When \\(x = 2\\), \\(y = 3(2) + 1 = 7\\) ✓",
+    "crumbs": [
+      "Lessons",
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson8.html#practice-exercises",
+    "href": "lessons/lesson8.html#practice-exercises",
+    "title": "Lesson 8: Parallel Lines",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises\n\nDetermine if these pairs of lines are parallel or not:\n\n\\(y = 3x + 2\\) and \\(y = 3x - 7\\)\n\\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 4\\)\n\\(y = 5x\\) and \\(y = -5x + 3\\)\n\nFind the equation of the line parallel to \\(y = -2x + 3\\) through point (1, 5).\nThe line \\(L_1\\) passes through points A(1, 2) and B(5, 10). Find the equation of the line parallel to \\(L_1\\) through C(0, 0).",
+    "crumbs": [
+      "Lessons",
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson8.html#worksheet-3a-parallel-lines-practice",
+    "href": "lessons/lesson8.html#worksheet-3a-parallel-lines-practice",
+    "title": "Lesson 8: Parallel Lines",
+    "section": "Worksheet 3A: Parallel Lines Practice",
+    "text": "Worksheet 3A: Parallel Lines Practice\n\nDetermine whether each pair of lines is parallel or not:\n\n\\(y = 4x + 1\\) and \\(y = 4x - 3\\)\n\\(y = 2x + 5\\) and \\(y = -\\frac{1}{2}x + 2\\)\n\nFind the equation of:\n\nThe line parallel to \\(y = 5x + 2\\) through point (2, 3)\nThe line parallel to \\(2x + y - 4 = 0\\) through point (-1, 5)",
+    "crumbs": [
+      "Lessons",
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson8.html#problem-solving-strategy",
+    "href": "lessons/lesson8.html#problem-solving-strategy",
+    "title": "Lesson 8: Parallel Lines",
+    "section": "Problem-Solving Strategy",
+    "text": "Problem-Solving Strategy\nWhen working with parallel lines:\n\nIdentify or calculate the gradient of the given line\nUse the same gradient for the parallel line\nUse the point-slope form with the given point\nSimplify to the required form",
+    "crumbs": [
+      "Lessons",
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson8.html#real-world-applications",
+    "href": "lessons/lesson8.html#real-world-applications",
+    "title": "Lesson 8: Parallel Lines",
+    "section": "Real-World Applications",
+    "text": "Real-World Applications\n\nEngineering: Designing parallel roads or railway tracks\nArchitecture: Laying out evenly spaced features",
+    "crumbs": [
+      "Lessons",
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson8.html#homework",
+    "href": "lessons/lesson8.html#homework",
+    "title": "Lesson 8: Parallel Lines",
+    "section": "Homework",
+    "text": "Homework\nComplete the parallel lines practice set.\n\n\n\n\n\n\nNoteWorksheet 3A Answers\n\n\n\n\n\n\nParallel, not parallel\n\\(y = 5x - 7\\), \\(y = -2x + 3\\)\n\n\n\n\n\nPrevious Lesson: Lesson 7: Linear Equations and Intersections\nNext Lesson: Lesson 9: Perpendicular Lines",
+    "crumbs": [
+      "Lessons",
+      "Lesson 8: Parallel Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson6.html",
+    "href": "lessons/lesson6.html",
+    "title": "Lesson 6: Gradient Using the Formula",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nCalculate the gradient of a line between two points using the formula\nInterpret the meaning of positive, negative, zero, and undefined gradients\nCheck gradient calculations for reasonableness",
+    "crumbs": [
+      "Lessons",
+      "Lesson 6: Gradient Using the Formula"
     ]
   },
   {
     "objectID": "lessons/lesson6.html#learning-objectives",
     "href": "lessons/lesson6.html#learning-objectives",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
+    "title": "Lesson 6: Gradient Using the Formula",
     "section": "",
-    "text": "By the end of this lesson, students will be able to:\n\nIdentify parallel and perpendicular lines from their equations\nDetermine if lines are parallel or perpendicular using gradients\nFind equations of parallel and perpendicular lines\nSolve geometric problems involving parallel and perpendicular lines",
+    "text": "By the end of this lesson, students will be able to:\n\nCalculate the gradient of a line between two points using the formula\nInterpret the meaning of positive, negative, zero, and undefined gradients\nCheck gradient calculations for reasonableness",
     "crumbs": [
       "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
+      "Lesson 6: Gradient Using the Formula"
     ]
   },
   {
-    "objectID": "lessons/lesson6.html#parallel-lines",
-    "href": "lessons/lesson6.html#parallel-lines",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
-    "section": "Parallel Lines",
-    "text": "Parallel Lines\nTwo lines are parallel if they have the same gradient and never intersect.\n\n\n\n\n\n\nImportantKey Property of Parallel Lines\n\n\n\nIf two lines are parallel, then \\(m_1 = m_2\\)\n\n\n\nExample 1: Identifying Parallel Lines\nAre the lines \\(y = 2x + 3\\) and \\(y = 2x - 5\\) parallel?\nSolution: Both lines have gradient \\(m = 2\\), so they are parallel.\n\n\nExample 2: Finding Parallel Line Equation\nFind the equation of the line parallel to \\(y = 3x + 1\\) that passes through the point (2, 7).\nSolution: - Parallel lines have the same gradient: \\(m = 3\\) - Using point-slope form with (2, 7): \\[y - 7 = 3(x - 2)\\] \\[y - 7 = 3x - 6\\] \\[y = 3x + 1\\]\nVerification: When \\(x = 2\\), \\(y = 3(2) + 1 = 7\\) ✓",
+    "objectID": "lessons/lesson6.html#the-gradient-formula",
+    "href": "lessons/lesson6.html#the-gradient-formula",
+    "title": "Lesson 6: Gradient Using the Formula",
+    "section": "The Gradient Formula",
+    "text": "The Gradient Formula\nFor two points \\((x_1, y_1)\\) and \\((x_2, y_2)\\):\n\\[m = \\frac{y_2 - y_1}{x_2 - x_1}\\]\nThis compares the vertical change to the horizontal change.\n\nExample 1: Gradient from Two Points\nFind the gradient of the line through A(1, 2) and B(5, 10).\nSolution: \\[m = \\frac{10 - 2}{5 - 1} = \\frac{8}{4} = 2\\]\n\n\nExample 2: Negative Gradient\nFind the gradient of the line through C(-1, 5) and D(3, -3).\nSolution: \\[m = \\frac{-3 - 5}{3 - (-1)} = \\frac{-8}{4} = -2\\]\n\n\nExample 3: Zero or Undefined\n\nIf \\(y_1 = y_2\\), then \\(m = 0\\) (horizontal line).\nIf \\(x_1 = x_2\\), the gradient is undefined (vertical line).",
     "crumbs": [
       "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
-    ]
-  },
-  {
-    "objectID": "lessons/lesson6.html#perpendicular-lines",
-    "href": "lessons/lesson6.html#perpendicular-lines",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
-    "section": "Perpendicular Lines",
-    "text": "Perpendicular Lines\nTwo lines are perpendicular if they meet at a right angle (90°).\n\n\n\n\n\n\nImportantKey Property of Perpendicular Lines\n\n\n\nIf two lines are perpendicular, then \\(m_1 \\times m_2 = -1\\)\nOr equivalently: \\(m_2 = -\\frac{1}{m_1}\\)\n\n\n\nExample 3: Identifying Perpendicular Lines\nAre the lines \\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 3\\) perpendicular?\nSolution: \\[m_1 \\times m_2 = 2 \\times \\left(-\\frac{1}{2}\\right) = -1\\]\nYes, the lines are perpendicular.\n\n\nExample 4: Finding Perpendicular Line Equation\nFind the equation of the line perpendicular to \\(y = 4x - 2\\) that passes through the point (8, 3).\nSolution: - Original gradient: \\(m_1 = 4\\) - Perpendicular gradient: \\(m_2 = -\\frac{1}{4}\\) - Using point-slope form with (8, 3): \\[y - 3 = -\\frac{1}{4}(x - 8)\\] \\[y - 3 = -\\frac{1}{4}x + 2\\] \\[y = -\\frac{1}{4}x + 5\\]",
-    "crumbs": [
-      "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
+      "Lesson 6: Gradient Using the Formula"
     ]
   },
   {
     "objectID": "lessons/lesson6.html#practice-exercises",
     "href": "lessons/lesson6.html#practice-exercises",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
+    "title": "Lesson 6: Gradient Using the Formula",
     "section": "Practice Exercises",
-    "text": "Practice Exercises\n\nDetermine if these pairs of lines are parallel, perpendicular, or neither:\n\n\\(y = 3x + 2\\) and \\(y = 3x - 7\\)\n\\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 4\\)\n\\(y = 5x\\) and \\(y = -5x + 3\\)\n\nFind the equation of the line:\n\nParallel to \\(y = -2x + 3\\) through point (1, 5)\nPerpendicular to \\(y = \\frac{1}{3}x - 1\\) through point (6, 2)\n\nThe line \\(L_1\\) passes through points A(1, 2) and B(5, 10).\n\nFind the equation of \\(L_1\\)\nFind the equation of the line parallel to \\(L_1\\) through C(0, 0)\nFind the equation of the line perpendicular to \\(L_1\\) through D(3, 4)",
+    "text": "Practice Exercises\n\nFind the gradient of the line through:\n\nE(2, 3) and F(6, 11)\nG(-4, 1) and H(2, -5)\nI(0, 4) and J(5, 4)\n\nDecide if the gradient is positive, negative, zero, or undefined:\n\nK(3, -1) and L(3, 6)\nM(-2, 4) and N(4, 4)\n\nA line has gradient \\(-\\frac{3}{2}\\) and passes through (2, 1). Choose another point on the line.",
     "crumbs": [
       "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
+      "Lesson 6: Gradient Using the Formula"
     ]
   },
   {
-    "objectID": "lessons/lesson6.html#worksheet-3-parallel-and-perpendicular-lines-practice",
-    "href": "lessons/lesson6.html#worksheet-3-parallel-and-perpendicular-lines-practice",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
-    "section": "Worksheet 3: Parallel and Perpendicular Lines Practice",
-    "text": "Worksheet 3: Parallel and Perpendicular Lines Practice\n\nDetermine whether each pair of lines is parallel, perpendicular, or neither:\n\n\\(y = 4x + 1\\) and \\(y = 4x - 3\\)\n\\(y = 2x + 5\\) and \\(y = -\\frac{1}{2}x + 2\\)\n\\(y = 3x - 1\\) and \\(y = 2x + 4\\)\n\nFind the equation of:\n\nThe line parallel to \\(y = 5x + 2\\) through point (2, 3)\nThe line perpendicular to \\(y = -3x + 1\\) through point (6, 4)\nThe line parallel to \\(2x + y - 4 = 0\\) through point (-1, 5)\n\nChallenge problems:\n\nLine L passes through A(1, 2) and B(7, 8). Find the equation of the line perpendicular to L that passes through the midpoint of AB.\nPoints P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has gradient \\(\\frac{1}{2}\\), find the gradient of QR.",
+    "objectID": "lessons/lesson6.html#real-world-application",
+    "href": "lessons/lesson6.html#real-world-application",
+    "title": "Lesson 6: Gradient Using the Formula",
+    "section": "Real-World Application",
+    "text": "Real-World Application\nGradient represents a rate of change. For example, a road that rises 1 meter for every 5 meters run has gradient \\(\\frac{1}{5}\\).",
     "crumbs": [
       "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
-    ]
-  },
-  {
-    "objectID": "lessons/lesson6.html#problem-solving-strategy",
-    "href": "lessons/lesson6.html#problem-solving-strategy",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
-    "section": "Problem-Solving Strategy",
-    "text": "Problem-Solving Strategy\nWhen working with parallel and perpendicular lines:\n\nIdentify or calculate the gradient of the given line\nDetermine the gradient of the required line (same for parallel, negative reciprocal for perpendicular)\nUse the point-slope form with the given point\nSimplify to the required form",
-    "crumbs": [
-      "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
-    ]
-  },
-  {
-    "objectID": "lessons/lesson6.html#real-world-applications",
-    "href": "lessons/lesson6.html#real-world-applications",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
-    "section": "Real-World Applications",
-    "text": "Real-World Applications\n\nArchitecture: Ensuring walls are perpendicular to the floor\nNavigation: Plotting perpendicular courses\nEngineering: Designing parallel roads or railway tracks",
-    "crumbs": [
-      "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
+      "Lesson 6: Gradient Using the Formula"
     ]
   },
   {
     "objectID": "lessons/lesson6.html#homework",
     "href": "lessons/lesson6.html#homework",
-    "title": "Lesson 6: Parallel and Perpendicular Lines",
+    "title": "Lesson 6: Gradient Using the Formula",
     "section": "Homework",
-    "text": "Homework\nComplete the parallel and perpendicular lines worksheet (see Resources).\n\n\n\n\n\n\nNoteWorksheet 3 Answers\n\n\n\n\n\n\nParallel, perpendicular, neither\n\\(y = 5x - 7\\), \\(y = \\frac{1}{3}x + 2\\), \\(y = -2x + 3\\)\n\\(y = -x + 9\\), \\(m = -2\\)\n\n\n\n\n\nPrevious Lesson: Lesson 5: Gradients and Linear Equations\nNext Lesson: Lesson 7: Practice and Revision",
+    "text": "Homework\nComplete the gradient formula practice set.\n\n\n\n\n\n\nNotePractice Answers\n\n\n\n\n\n\n\\(2\\), \\(-1\\), \\(0\\)\nUndefined, zero\nExample: (0, 4) or (4, -2)\n\n\n\n\n\nPrevious Lesson: Lesson 5: Gradient Basics (Rise/Run)\nNext Lesson: Lesson 7: Linear Equations and Intersections",
     "crumbs": [
       "Lessons",
-      "Lesson 6: Parallel and Perpendicular Lines"
+      "Lesson 6: Gradient Using the Formula"
     ]
   },
   {
@@ -540,7 +595,7 @@
     "href": "lessons/lesson4.html#homework",
     "title": "Lesson 4: The Midpoint Formula",
     "section": "Homework",
-    "text": "Homework\nComplete Practice Exercises Sets 1 and 2, and at least 3 problems from Set 3.\nFor additional worksheets and practice problems, visit the Resources section.\n\n\n\n\n\n\nNoteWorksheet 1C Answers\n\n\n\n\n\n\n(6, 6)\n(1, 3)\n\n\n\n\n\nPrevious Lesson: Lesson 3: The Distance Formula\nNext Lesson: Lesson 5: Gradients and Linear Equations",
+    "text": "Homework\nComplete Practice Exercises Sets 1 and 2, and at least 3 problems from Set 3.\nFor additional worksheets and practice problems, visit the Resources section.\n\n\n\n\n\n\nNoteWorksheet 1C Answers\n\n\n\n\n\n\n(6, 6)\n(1, 3)\n\n\n\n\n\nPrevious Lesson: Lesson 3: The Distance Formula\nNext Lesson: Lesson 5: Gradient Basics (Rise/Run)",
     "crumbs": [
       "Lessons",
       "Lesson 4: The Midpoint Formula"
@@ -712,11 +767,66 @@
     ]
   },
   {
+    "objectID": "lessons/lesson10.html",
+    "href": "lessons/lesson10.html",
+    "title": "Lesson 10: Equation of a Line from Gradient and a Point",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nUse point-slope form to write an equation from a gradient and a point\nConvert equations to slope-intercept form\nCheck whether a point lies on a line",
+    "crumbs": [
+      "Lessons",
+      "Lesson 10: Equation of a Line from Gradient and a Point"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson10.html#learning-objectives",
+    "href": "lessons/lesson10.html#learning-objectives",
+    "title": "Lesson 10: Equation of a Line from Gradient and a Point",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nUse point-slope form to write an equation from a gradient and a point\nConvert equations to slope-intercept form\nCheck whether a point lies on a line",
+    "crumbs": [
+      "Lessons",
+      "Lesson 10: Equation of a Line from Gradient and a Point"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson10.html#point-slope-form",
+    "href": "lessons/lesson10.html#point-slope-form",
+    "title": "Lesson 10: Equation of a Line from Gradient and a Point",
+    "section": "Point-Slope Form",
+    "text": "Point-Slope Form\nIf a line has gradient \\(m\\) and passes through \\((x_1, y_1)\\), then:\n\\[y - y_1 = m(x - x_1)\\]\n\nExample 1: Write an Equation from a Gradient and a Point\nFind the equation of the line with gradient 4 passing through (2, -1).\nSolution: \\[y - (-1) = 4(x - 2)\\] \\[y + 1 = 4x - 8\\] \\[y = 4x - 9\\]\n\n\nExample 2: Keep in Point-Slope Form\nFind the equation of the line with gradient \\(-\\frac{3}{2}\\) passing through (6, 5).\nSolution: \\[y - 5 = -\\frac{3}{2}(x - 6)\\]\n\n\nExample 3: Check a Point\nDoes (3, 7) lie on the line \\(y = 2x + 1\\)?\nSolution: \\[2(3) + 1 = 7\\] Yes, the point lies on the line.",
+    "crumbs": [
+      "Lessons",
+      "Lesson 10: Equation of a Line from Gradient and a Point"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson10.html#practice-exercises",
+    "href": "lessons/lesson10.html#practice-exercises",
+    "title": "Lesson 10: Equation of a Line from Gradient and a Point",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises\n\nWrite the equation of the line with gradient 3 passing through (-1, 4).\nWrite the equation of the line with gradient \\(-2\\) passing through (5, 9).\nConvert your equations from (1) and (2) to slope-intercept form.\nDetermine whether (4, -3) lies on the line \\(y = -x + 1\\).",
+    "crumbs": [
+      "Lessons",
+      "Lesson 10: Equation of a Line from Gradient and a Point"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson10.html#worksheet-2c-gradient-and-a-point",
+    "href": "lessons/lesson10.html#worksheet-2c-gradient-and-a-point",
+    "title": "Lesson 10: Equation of a Line from Gradient and a Point",
+    "section": "Worksheet 2C: Gradient and a Point",
+    "text": "Worksheet 2C: Gradient and a Point\n\nWrite the equation of the line:\n\nWith gradient 2 passing through (1, -3)\nWith gradient \\(-\\frac{1}{2}\\) passing through (6, 4)\n\nConvert to slope-intercept form:\n\n\\(y - 7 = 5(x + 1)\\)\n\\(y + 2 = -3(x - 4)\\)\n\nCheck whether each point lies on the line \\(y = 3x - 2\\):\n\n(1, 1)\n(2, 4)\n\n\n\n\n\n\n\n\nNoteWorksheet 2C Answers\n\n\n\n\n\n\n\\(y = 2x - 5\\), \\(y = -\\frac{1}{2}x + 7\\)\n\\(y = 5x + 12\\), \\(y = -3x + 10\\)\nYes, yes\n\n\n\n\n\nPrevious Lesson: Lesson 9: Perpendicular Lines\nNext Lesson: Lesson 11: Practice and Revision",
+    "crumbs": [
+      "Lessons",
+      "Lesson 10: Equation of a Line from Gradient and a Point"
+    ]
+  },
+  {
     "objectID": "lessons/index.html",
     "href": "lessons/index.html",
     "title": "Lessons",
     "section": "",
-    "text": "This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to seven comprehensive lessons covering all essential topics.\n\n\n\n\n\n\n\n\nNoteLesson Structure\n\n\n\n\nLearning objectives\nTeaching notes\nWorked examples\nPractice exercises\nAssessment opportunities\n\n\n\n\n\n\n\nLesson 1: Introduction to Cartesian Coordinates\n\nUnderstanding the coordinate plane\nPlotting points\nQuadrants and coordinate basics\n\nLesson 2: Map It - Scale, Coordinates, and Bearings\n\nMap scales and conversions\nCartesian coordinates on maps\nPolar coordinates and bearings\nLatitude and longitude\nTraditional Polynesian navigation\n\nLesson 3: The Distance Formula\n\nDeriving the distance formula from Pythagorean theorem\nCalculating distance between any two points\nSimplifying radical expressions\nReal-world applications\nFinding unknown coordinates\n\nLesson 4: The Midpoint Formula\n\nFinding the midpoint of a line segment\nUnderstanding midpoint as average\nFinding unknown endpoints\nGeometric applications\nReal-world facility placement\n\nLesson 5: Gradients and Linear Equations\n\nCalculating gradient (slope)\nEquations of lines\nPoint-slope and slope-intercept forms\n\nLesson 6: Parallel and Perpendicular Lines\n\nProperties of parallel lines\nProperties of perpendicular lines\nProblem-solving applications\n\nLesson 7: Practice and Revision\n\nMixed coordinate and quadrant practice\nDistance, midpoint, and gradient review\nParallel and perpendicular line skills",
+    "text": "This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to eleven comprehensive lessons covering all essential topics.\n\n\n\n\n\n\n\n\nNoteLesson Structure\n\n\n\n\nLearning objectives\nTeaching notes\nWorked examples\nPractice exercises\nAssessment opportunities\n\n\n\n\n\n\n\nLesson 1: Introduction to Cartesian Coordinates\n\nUnderstanding the coordinate plane\nPlotting points\nQuadrants and coordinate basics\n\nLesson 2: Map It - Scale, Coordinates, and Bearings\n\nMap scales and conversions\nCartesian coordinates on maps\nPolar coordinates and bearings\nLatitude and longitude\nTraditional Polynesian navigation\n\nLesson 3: The Distance Formula\n\nDeriving the distance formula from Pythagorean theorem\nCalculating distance between any two points\nSimplifying radical expressions\nReal-world applications\nFinding unknown coordinates\n\nLesson 4: The Midpoint Formula\n\nFinding the midpoint of a line segment\nUnderstanding midpoint as average\nFinding unknown endpoints\nGeometric applications\nReal-world facility placement\n\nLesson 5: Gradient Basics (Rise/Run)\n\nRise/run interpretation\nPositive, negative, zero, and undefined gradients\n\nLesson 6: Gradient Using the Formula\n\nGradient between two points\nSpecial cases and checks\n\nLesson 7: Linear Equations and Intersections\n\nSlope-intercept and point-slope forms\nConverting equation forms\nSolving for intersection\n\nLesson 8: Parallel Lines\n\nProperties of parallel lines\nEquations of parallel lines\n\nLesson 9: Perpendicular Lines\n\nProperties of perpendicular lines\nEquations of perpendicular lines\n\nLesson 10: Equation of a Line from Gradient and a Point\n\n\nPoint-slope form\nConverting to slope-intercept form\nPoint checks on a line\n\n\nLesson 11: Practice and Revision\n\n\nMixed coordinate and quadrant practice\nDistance, midpoint, and gradient review\nParallel and perpendicular line skills",
     "crumbs": [
       "Lessons"
     ]
@@ -726,7 +836,7 @@
     "href": "lessons/index.html#course-lessons",
     "title": "Lessons",
     "section": "",
-    "text": "This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to seven comprehensive lessons covering all essential topics.\n\n\n\n\n\n\n\n\nNoteLesson Structure\n\n\n\n\nLearning objectives\nTeaching notes\nWorked examples\nPractice exercises\nAssessment opportunities\n\n\n\n\n\n\n\nLesson 1: Introduction to Cartesian Coordinates\n\nUnderstanding the coordinate plane\nPlotting points\nQuadrants and coordinate basics\n\nLesson 2: Map It - Scale, Coordinates, and Bearings\n\nMap scales and conversions\nCartesian coordinates on maps\nPolar coordinates and bearings\nLatitude and longitude\nTraditional Polynesian navigation\n\nLesson 3: The Distance Formula\n\nDeriving the distance formula from Pythagorean theorem\nCalculating distance between any two points\nSimplifying radical expressions\nReal-world applications\nFinding unknown coordinates\n\nLesson 4: The Midpoint Formula\n\nFinding the midpoint of a line segment\nUnderstanding midpoint as average\nFinding unknown endpoints\nGeometric applications\nReal-world facility placement\n\nLesson 5: Gradients and Linear Equations\n\nCalculating gradient (slope)\nEquations of lines\nPoint-slope and slope-intercept forms\n\nLesson 6: Parallel and Perpendicular Lines\n\nProperties of parallel lines\nProperties of perpendicular lines\nProblem-solving applications\n\nLesson 7: Practice and Revision\n\nMixed coordinate and quadrant practice\nDistance, midpoint, and gradient review\nParallel and perpendicular line skills",
+    "text": "This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to eleven comprehensive lessons covering all essential topics.\n\n\n\n\n\n\n\n\nNoteLesson Structure\n\n\n\n\nLearning objectives\nTeaching notes\nWorked examples\nPractice exercises\nAssessment opportunities\n\n\n\n\n\n\n\nLesson 1: Introduction to Cartesian Coordinates\n\nUnderstanding the coordinate plane\nPlotting points\nQuadrants and coordinate basics\n\nLesson 2: Map It - Scale, Coordinates, and Bearings\n\nMap scales and conversions\nCartesian coordinates on maps\nPolar coordinates and bearings\nLatitude and longitude\nTraditional Polynesian navigation\n\nLesson 3: The Distance Formula\n\nDeriving the distance formula from Pythagorean theorem\nCalculating distance between any two points\nSimplifying radical expressions\nReal-world applications\nFinding unknown coordinates\n\nLesson 4: The Midpoint Formula\n\nFinding the midpoint of a line segment\nUnderstanding midpoint as average\nFinding unknown endpoints\nGeometric applications\nReal-world facility placement\n\nLesson 5: Gradient Basics (Rise/Run)\n\nRise/run interpretation\nPositive, negative, zero, and undefined gradients\n\nLesson 6: Gradient Using the Formula\n\nGradient between two points\nSpecial cases and checks\n\nLesson 7: Linear Equations and Intersections\n\nSlope-intercept and point-slope forms\nConverting equation forms\nSolving for intersection\n\nLesson 8: Parallel Lines\n\nProperties of parallel lines\nEquations of parallel lines\n\nLesson 9: Perpendicular Lines\n\nProperties of perpendicular lines\nEquations of perpendicular lines\n\nLesson 10: Equation of a Line from Gradient and a Point\n\n\nPoint-slope form\nConverting to slope-intercept form\nPoint checks on a line\n\n\nLesson 11: Practice and Revision\n\n\nMixed coordinate and quadrant practice\nDistance, midpoint, and gradient review\nParallel and perpendicular line skills",
     "crumbs": [
       "Lessons"
     ]
@@ -1415,33 +1525,77 @@
     ]
   },
   {
-    "objectID": "lessons/answer-key.html#lesson-5-gradients-and-linear-equations",
-    "href": "lessons/answer-key.html#lesson-5-gradients-and-linear-equations",
+    "objectID": "lessons/answer-key.html#lesson-5-gradient-basics-riserun",
+    "href": "lessons/answer-key.html#lesson-5-gradient-basics-riserun",
     "title": "Answer Key Appendix",
-    "section": "Lesson 5: Gradients and Linear Equations",
-    "text": "Lesson 5: Gradients and Linear Equations\n\nWorksheet 2\n\n\\(m = 2\\), \\(m = -1\\), \\(m = 2\\)\n\\(y = 3x + 5\\), \\(y = -2x + 9\\), \\(y = 2x - 1\\)\n\\(y = -3x + 6\\), \\(y = \\frac{1}{2}x + 2\\), \\(y = -\\frac{1}{2}x + 5\\)",
+    "section": "Lesson 5: Gradient Basics (Rise/Run)",
+    "text": "Lesson 5: Gradient Basics (Rise/Run)\n\nPractice Answers\n\n\\(\\frac{2}{5}\\), \\(-2\\), \\(0\\)\nNegative, zero, undefined\n4",
     "crumbs": [
       "Lessons",
       "Answer Key Appendix"
     ]
   },
   {
-    "objectID": "lessons/answer-key.html#lesson-6-parallel-and-perpendicular-lines",
-    "href": "lessons/answer-key.html#lesson-6-parallel-and-perpendicular-lines",
+    "objectID": "lessons/answer-key.html#lesson-6-gradient-using-the-formula",
+    "href": "lessons/answer-key.html#lesson-6-gradient-using-the-formula",
     "title": "Answer Key Appendix",
-    "section": "Lesson 6: Parallel and Perpendicular Lines",
-    "text": "Lesson 6: Parallel and Perpendicular Lines\n\nWorksheet 3\n\nParallel, perpendicular, neither\n\\(y = 5x - 7\\), \\(y = \\frac{1}{3}x + 2\\), \\(y = -2x + 3\\)\n\\(y = -x + 9\\), \\(m = -2\\)",
+    "section": "Lesson 6: Gradient Using the Formula",
+    "text": "Lesson 6: Gradient Using the Formula\n\nPractice Answers\n\n\\(2\\), \\(-1\\), \\(0\\)\nUndefined, zero\nExample: (0, 4) or (4, -2)",
     "crumbs": [
       "Lessons",
       "Answer Key Appendix"
     ]
   },
   {
-    "objectID": "lessons/answer-key.html#lesson-7-practice-and-revision",
-    "href": "lessons/answer-key.html#lesson-7-practice-and-revision",
+    "objectID": "lessons/answer-key.html#lesson-7-linear-equations-and-intersections",
+    "href": "lessons/answer-key.html#lesson-7-linear-equations-and-intersections",
     "title": "Answer Key Appendix",
-    "section": "Lesson 7: Practice and Revision",
-    "text": "Lesson 7: Practice and Revision\n\nAnswer Key\nSet A: A QIV, B QII, C y-axis, D x-axis, E QIII\nSet B: \\(3\\sqrt{5}\\), (-1, -1), 25\nSet C: \\(m = 1\\), \\(y = -3x + 5\\), \\(y = 2x - 2\\), \\(y = 2x + 3\\)\nSet D: Parallel, perpendicular, \\(y = -2x + 2\\), \\(y = -3x + 2\\)\n\nPrevious Lesson: Lesson 7: Practice and Revision",
+    "section": "Lesson 7: Linear Equations and Intersections",
+    "text": "Lesson 7: Linear Equations and Intersections\n\nWorksheet 2B\n\n\\(y = 3x + 5\\), \\(y = -2x + 9\\), \\(y = 2x - 1\\)\n\\(y = -\\frac{1}{2}x + 5\\), \\(y = 2x + 3\\)\n(3, 5), (4, 0)",
+    "crumbs": [
+      "Lessons",
+      "Answer Key Appendix"
+    ]
+  },
+  {
+    "objectID": "lessons/answer-key.html#lesson-8-parallel-lines",
+    "href": "lessons/answer-key.html#lesson-8-parallel-lines",
+    "title": "Answer Key Appendix",
+    "section": "Lesson 8: Parallel Lines",
+    "text": "Lesson 8: Parallel Lines\n\nWorksheet 3A\n\nParallel, not parallel\n\\(y = 5x - 7\\), \\(y = -2x + 3\\)",
+    "crumbs": [
+      "Lessons",
+      "Answer Key Appendix"
+    ]
+  },
+  {
+    "objectID": "lessons/answer-key.html#lesson-9-perpendicular-lines",
+    "href": "lessons/answer-key.html#lesson-9-perpendicular-lines",
+    "title": "Answer Key Appendix",
+    "section": "Lesson 9: Perpendicular Lines",
+    "text": "Lesson 9: Perpendicular Lines\n\nWorksheet 3B\n\nPerpendicular, not perpendicular\n\\(y = \\frac{1}{3}x + 2\\), \\(y = -\\frac{1}{5}x + \\frac{13}{5}\\)\n\\(y = -x + 9\\), \\(m = -2\\)",
+    "crumbs": [
+      "Lessons",
+      "Answer Key Appendix"
+    ]
+  },
+  {
+    "objectID": "lessons/answer-key.html#lesson-10-equation-of-a-line-from-gradient-and-a-point",
+    "href": "lessons/answer-key.html#lesson-10-equation-of-a-line-from-gradient-and-a-point",
+    "title": "Answer Key Appendix",
+    "section": "Lesson 10: Equation of a Line from Gradient and a Point",
+    "text": "Lesson 10: Equation of a Line from Gradient and a Point\n\nWorksheet 2C\n\n\\(y = 2x - 5\\), \\(y = -\\frac{1}{2}x + 7\\)\n\\(y = 5x + 12\\), \\(y = -3x + 10\\)\nYes, yes",
+    "crumbs": [
+      "Lessons",
+      "Answer Key Appendix"
+    ]
+  },
+  {
+    "objectID": "lessons/answer-key.html#lesson-11-practice-and-revision",
+    "href": "lessons/answer-key.html#lesson-11-practice-and-revision",
+    "title": "Answer Key Appendix",
+    "section": "Lesson 11: Practice and Revision",
+    "text": "Lesson 11: Practice and Revision\n\nAnswer Key\nSet A: A QIV, B QII, C y-axis, D x-axis, E QIII\nSet B: \\(3\\sqrt{5}\\), (-1, -1), 25\nSet C: \\(m = 1\\), \\(y = -3x + 5\\), \\(y = 2x - 2\\), \\(y = 2x + 3\\)\nSet D: Parallel, perpendicular, \\(y = -2x + 2\\), \\(y = -3x + 2\\)\n\nPrevious Lesson: Lesson 11: Practice and Revision",
     "crumbs": [
       "Lessons",
       "Answer Key Appendix"
@@ -1544,6 +1698,72 @@
     "crumbs": [
       "Lessons",
       "Lesson 1: Introduction to Cartesian Coordinates"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson11.html",
+    "href": "lessons/lesson11.html",
+    "title": "Lesson 11: Practice and Revision",
+    "section": "",
+    "text": "Use these mixed practice sets to consolidate learning across all coordinate geometry topics. These can be used for in-class revision or homework.",
+    "crumbs": [
+      "Lessons",
+      "Lesson 11: Practice and Revision"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson11.html#overview",
+    "href": "lessons/lesson11.html#overview",
+    "title": "Lesson 11: Practice and Revision",
+    "section": "",
+    "text": "Use these mixed practice sets to consolidate learning across all coordinate geometry topics. These can be used for in-class revision or homework.",
+    "crumbs": [
+      "Lessons",
+      "Lesson 11: Practice and Revision"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson11.html#practice-set-a-coordinates-and-quadrants",
+    "href": "lessons/lesson11.html#practice-set-a-coordinates-and-quadrants",
+    "title": "Lesson 11: Practice and Revision",
+    "section": "Practice Set A: Coordinates and Quadrants",
+    "text": "Practice Set A: Coordinates and Quadrants\n\nState the quadrant or axis for each point:\n\nA(3, -5)\nB(-4, 2)\nC(0, -7)\nD(6, 0)\nE(-2, -3)",
+    "crumbs": [
+      "Lessons",
+      "Lesson 11: Practice and Revision"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson11.html#practice-set-b-distance-and-midpoint",
+    "href": "lessons/lesson11.html#practice-set-b-distance-and-midpoint",
+    "title": "Lesson 11: Practice and Revision",
+    "section": "Practice Set B: Distance and Midpoint",
+    "text": "Practice Set B: Distance and Midpoint\n\nFind the distance between (-1, 4) and (5, 1).\nFind the midpoint of (-6, 2) and (4, -4).\nFind the distance from the origin to (7, -24).",
+    "crumbs": [
+      "Lessons",
+      "Lesson 11: Practice and Revision"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson11.html#practice-set-c-gradients-and-line-equations",
+    "href": "lessons/lesson11.html#practice-set-c-gradients-and-line-equations",
+    "title": "Lesson 11: Practice and Revision",
+    "section": "Practice Set C: Gradients and Line Equations",
+    "text": "Practice Set C: Gradients and Line Equations\n\nFind the gradient of the line through (-2, 1) and (4, 7).\nWrite the equation of the line with gradient -3 passing through (2, -1).\nFind the equation of the line through (0, -2) and (3, 4).\nConvert \\(4x - 2y + 6 = 0\\) to slope-intercept form.",
+    "crumbs": [
+      "Lessons",
+      "Lesson 11: Practice and Revision"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson11.html#practice-set-d-parallel-and-perpendicular-lines",
+    "href": "lessons/lesson11.html#practice-set-d-parallel-and-perpendicular-lines",
+    "title": "Lesson 11: Practice and Revision",
+    "section": "Practice Set D: Parallel and Perpendicular Lines",
+    "text": "Practice Set D: Parallel and Perpendicular Lines\n\nDetermine whether each pair of lines is parallel, perpendicular, or neither:\n\n\\(y = -2x + 1\\) and \\(y = -2x - 4\\)\n\\(y = \\frac{1}{4}x + 3\\) and \\(y = -4x + 2\\)\n\nFind the equation of:\n\nThe line perpendicular to \\(y = \\frac{1}{2}x - 5\\) through (0, 2)\nThe line parallel to \\(3x + y - 9 = 0\\) through (1, -1)\n\n\n\n\n\n\n\n\nNoteAnswer Key\n\n\n\n\n\nSet A: A QIV, B QII, C y-axis, D x-axis, E QIII\nSet B: \\(3\\sqrt{5}\\), (-1, -1), 25\nSet C: \\(m = 1\\), \\(y = -3x + 5\\), \\(y = 2x - 2\\), \\(y = 2x + 3\\)\nSet D: Parallel, perpendicular, \\(y = -2x + 2\\), \\(y = -3x + 2\\)\n\n\n\n\nPrevious Lesson: Lesson 10: Equation of a Line from Gradient and a Point\nNext Lesson: Answer Key Appendix",
+    "crumbs": [
+      "Lessons",
+      "Lesson 11: Practice and Revision"
     ]
   },
   {
@@ -1703,155 +1923,221 @@
   {
     "objectID": "lessons/lesson5.html",
     "href": "lessons/lesson5.html",
-    "title": "Lesson 5: Gradients and Linear Equations",
+    "title": "Lesson 5: Gradient Basics (Rise/Run)",
     "section": "",
-    "text": "By the end of this lesson, students will be able to:\n\nCalculate the gradient (slope) of a line between two points\nUnderstand the meaning of positive, negative, zero, and undefined gradients\nWrite equations of lines in various forms\nConvert between different forms of linear equations",
+    "text": "By the end of this lesson, students will be able to:\n\nDescribe gradient as a rate of change using rise and run\nIdentify positive, negative, zero, and undefined gradients\nEstimate gradient from a graph using grid squares",
     "crumbs": [
       "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
+      "Lesson 5: Gradient Basics (Rise/Run)"
     ]
   },
   {
     "objectID": "lessons/lesson5.html#learning-objectives",
     "href": "lessons/lesson5.html#learning-objectives",
-    "title": "Lesson 5: Gradients and Linear Equations",
+    "title": "Lesson 5: Gradient Basics (Rise/Run)",
     "section": "",
-    "text": "By the end of this lesson, students will be able to:\n\nCalculate the gradient (slope) of a line between two points\nUnderstand the meaning of positive, negative, zero, and undefined gradients\nWrite equations of lines in various forms\nConvert between different forms of linear equations",
+    "text": "By the end of this lesson, students will be able to:\n\nDescribe gradient as a rate of change using rise and run\nIdentify positive, negative, zero, and undefined gradients\nEstimate gradient from a graph using grid squares",
     "crumbs": [
       "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
+      "Lesson 5: Gradient Basics (Rise/Run)"
     ]
   },
   {
-    "objectID": "lessons/lesson5.html#gradient-slope-of-a-line",
-    "href": "lessons/lesson5.html#gradient-slope-of-a-line",
-    "title": "Lesson 5: Gradients and Linear Equations",
-    "section": "Gradient (Slope) of a Line",
-    "text": "Gradient (Slope) of a Line\nThe gradient m of a line passing through points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is:\n\\[m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\text{rise}}{\\text{run}}\\]\n\nInterpreting Gradient\n\nPositive gradient: Line slopes upward from left to right\nNegative gradient: Line slopes downward from left to right\nZero gradient: Horizontal line\nUndefined gradient: Vertical line\n\n\n\nExample 1: Calculating Gradient\nFind the gradient of the line passing through A(1, 2) and B(5, 10).\nSolution: \\[m = \\frac{10 - 2}{5 - 1} = \\frac{8}{4} = 2\\]",
+    "objectID": "lessons/lesson5.html#what-is-gradient",
+    "href": "lessons/lesson5.html#what-is-gradient",
+    "title": "Lesson 5: Gradient Basics (Rise/Run)",
+    "section": "What Is Gradient?",
+    "text": "What Is Gradient?\nGradient describes how steep a line is. It compares the vertical change (rise) to the horizontal change (run).\n\\[\\text{gradient} = \\frac{\\text{rise}}{\\text{run}}\\]\n\nInterpreting Gradient\n\nPositive gradient: Line slopes upward from left to right\nNegative gradient: Line slopes downward from left to right\nZero gradient: Horizontal line\nUndefined gradient: Vertical line\n\n\n\nExample 1: Rise/Run on a Grid\nA line goes up 3 squares and right 6 squares.\nSolution: \\[m = \\frac{3}{6} = \\frac{1}{2}\\]\n\n\nExample 2: Negative Gradient\nA line goes down 4 squares and right 2 squares.\nSolution: \\[m = \\frac{-4}{2} = -2\\]\n\n\nExample 3: Zero and Undefined Gradient\n\nA horizontal line has \\(m = 0\\).\nA vertical line has an undefined gradient.",
     "crumbs": [
       "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
-    ]
-  },
-  {
-    "objectID": "lessons/lesson5.html#equations-of-lines",
-    "href": "lessons/lesson5.html#equations-of-lines",
-    "title": "Lesson 5: Gradients and Linear Equations",
-    "section": "Equations of Lines",
-    "text": "Equations of Lines\n\nSlope-Intercept Form\n\\[y = mx + c\\] where m is the gradient and c is the y-intercept.\n\n\nPoint-Slope Form\n\\[y - y_1 = m(x - x_1)\\] where m is the gradient and \\((x_1, y_1)\\) is a point on the line.\n\n\nGeneral Form\n\\[ax + by + c = 0\\]\n\n\nExample 2: Writing Line Equations\nWrite the equation of the line with gradient 3 passing through the point (2, 5).\nSolution using point-slope form: \\[y - 5 = 3(x - 2)\\] \\[y - 5 = 3x - 6\\] \\[y = 3x - 1\\]\n\n\nExample 3: Finding Equation from Two Points\nFind the equation of the line passing through P(1, 3) and Q(4, 9).\nSolution:\nStep 1: Find the gradient \\[m = \\frac{9 - 3}{4 - 1} = \\frac{6}{3} = 2\\]\nStep 2: Use point-slope form with point P(1, 3) \\[y - 3 = 2(x - 1)\\] \\[y - 3 = 2x - 2\\] \\[y = 2x + 1\\]",
-    "crumbs": [
-      "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
+      "Lesson 5: Gradient Basics (Rise/Run)"
     ]
   },
   {
     "objectID": "lessons/lesson5.html#practice-exercises",
     "href": "lessons/lesson5.html#practice-exercises",
-    "title": "Lesson 5: Gradients and Linear Equations",
+    "title": "Lesson 5: Gradient Basics (Rise/Run)",
     "section": "Practice Exercises",
-    "text": "Practice Exercises\n\nFind the gradient of the line through:\n\nA(2, 3) and B(6, 11)\nC(-1, 5) and D(3, -3)\n\nWrite the equation of the line:\n\nWith gradient 4 and y-intercept -2\nThrough point (3, 7) with gradient -1\nThrough points (0, 2) and (5, 12)\n\nConvert the equation \\(2x + 3y - 6 = 0\\) to slope-intercept form.",
+    "text": "Practice Exercises\n\nUse rise/run to find the gradient:\n\nUp 2, right 5\nDown 6, right 3\nUp 0, right 4\n\nState whether the gradient is positive, negative, zero, or undefined:\n\nA line sloping down left to right\nA horizontal line\nA vertical line\n\nA line rises 8 and runs 2. What is the gradient?",
     "crumbs": [
       "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
-    ]
-  },
-  {
-    "objectID": "lessons/lesson5.html#worksheet-2-gradient-and-equations-practice",
-    "href": "lessons/lesson5.html#worksheet-2-gradient-and-equations-practice",
-    "title": "Lesson 5: Gradients and Linear Equations",
-    "section": "Worksheet 2: Gradient and Equations Practice",
-    "text": "Worksheet 2: Gradient and Equations Practice\n\nFind the gradient of the line through:\n\nP(1, 3) and Q(5, 11)\nR(-2, 4) and S(6, -4)\nT(0, -3) and U(4, 5)\n\nWrite the equation of the line:\n\nWith gradient 3 and y-intercept 5\nWith gradient -2 passing through (4, 1)\nThrough points (2, 3) and (6, 11)\n\nConvert to slope-intercept form (\\(y = mx + c\\)):\n\n\\(3x + y - 6 = 0\\)\n\\(2x - 4y + 8 = 0\\)\n\\(x + 2y - 10 = 0\\)",
-    "crumbs": [
-      "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
+      "Lesson 5: Gradient Basics (Rise/Run)"
     ]
   },
   {
     "objectID": "lessons/lesson5.html#real-world-application",
     "href": "lessons/lesson5.html#real-world-application",
-    "title": "Lesson 5: Gradients and Linear Equations",
+    "title": "Lesson 5: Gradient Basics (Rise/Run)",
     "section": "Real-World Application",
-    "text": "Real-World Application\nThe gradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed - In a cost-quantity graph, gradient represents unit price",
+    "text": "Real-World Application\nGradient represents a rate of change. For example: - In a distance-time graph, gradient represents speed. - In a cost-quantity graph, gradient represents unit price.",
     "crumbs": [
       "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
+      "Lesson 5: Gradient Basics (Rise/Run)"
     ]
   },
   {
     "objectID": "lessons/lesson5.html#homework",
     "href": "lessons/lesson5.html#homework",
-    "title": "Lesson 5: Gradients and Linear Equations",
+    "title": "Lesson 5: Gradient Basics (Rise/Run)",
     "section": "Homework",
-    "text": "Homework\nComplete exercises 2.1 to 2.5 in the workbook.\n\n\n\n\n\n\nNoteWorksheet 2 Answers\n\n\n\n\n\n\n\\(m = 2\\), \\(m = -1\\), \\(m = 2\\)\n\\(y = 3x + 5\\), \\(y = -2x + 9\\), \\(y = 2x - 1\\)\n\\(y = -3x + 6\\), \\(y = \\frac{1}{2}x + 2\\), \\(y = -\\frac{1}{2}x + 5\\)\n\n\n\n\n\nPrevious Lesson: Lesson 4: The Midpoint Formula\nNext Lesson: Lesson 6: Parallel and Perpendicular Lines",
+    "text": "Homework\nComplete the gradient practice set.\n\n\n\n\n\n\nNotePractice Answers\n\n\n\n\n\n\n\\(\\frac{2}{5}\\), \\(-2\\), \\(0\\)\nNegative, zero, undefined\n4\n\n\n\n\n\nPrevious Lesson: Lesson 4: The Midpoint Formula\nNext Lesson: Lesson 6: Gradient Using the Formula",
     "crumbs": [
       "Lessons",
-      "Lesson 5: Gradients and Linear Equations"
+      "Lesson 5: Gradient Basics (Rise/Run)"
     ]
   },
   {
     "objectID": "lessons/lesson7.html",
     "href": "lessons/lesson7.html",
-    "title": "Lesson 7: Practice and Revision",
+    "title": "Lesson 7: Linear Equations and Intersections",
     "section": "",
-    "text": "Use these mixed practice sets to consolidate learning across all coordinate geometry topics. These can be used for in-class revision or homework.",
+    "text": "By the end of this lesson, students will be able to:\n\nWrite equations of lines in slope-intercept and point-slope forms\nConvert between equation forms\nFind the intersection point of two lines",
     "crumbs": [
       "Lessons",
-      "Lesson 7: Practice and Revision"
+      "Lesson 7: Linear Equations and Intersections"
     ]
   },
   {
-    "objectID": "lessons/lesson7.html#overview",
-    "href": "lessons/lesson7.html#overview",
-    "title": "Lesson 7: Practice and Revision",
+    "objectID": "lessons/lesson7.html#learning-objectives",
+    "href": "lessons/lesson7.html#learning-objectives",
+    "title": "Lesson 7: Linear Equations and Intersections",
     "section": "",
-    "text": "Use these mixed practice sets to consolidate learning across all coordinate geometry topics. These can be used for in-class revision or homework.",
+    "text": "By the end of this lesson, students will be able to:\n\nWrite equations of lines in slope-intercept and point-slope forms\nConvert between equation forms\nFind the intersection point of two lines",
     "crumbs": [
       "Lessons",
-      "Lesson 7: Practice and Revision"
+      "Lesson 7: Linear Equations and Intersections"
     ]
   },
   {
-    "objectID": "lessons/lesson7.html#practice-set-a-coordinates-and-quadrants",
-    "href": "lessons/lesson7.html#practice-set-a-coordinates-and-quadrants",
-    "title": "Lesson 7: Practice and Revision",
-    "section": "Practice Set A: Coordinates and Quadrants",
-    "text": "Practice Set A: Coordinates and Quadrants\n\nState the quadrant or axis for each point:\n\nA(3, -5)\nB(-4, 2)\nC(0, -7)\nD(6, 0)\nE(-2, -3)",
+    "objectID": "lessons/lesson7.html#equations-of-lines",
+    "href": "lessons/lesson7.html#equations-of-lines",
+    "title": "Lesson 7: Linear Equations and Intersections",
+    "section": "Equations of Lines",
+    "text": "Equations of Lines\n\nSlope-Intercept Form\n\\[y = mx + c\\]\n\n\nPoint-Slope Form\n\\[y - y_1 = m(x - x_1)\\]\n\n\nGeneral Form\n\\[ax + by + c = 0\\]\n\n\nExample 1: Equation from Gradient and Point\nWrite the equation of the line with gradient 3 passing through (2, 5).\nSolution: \\[y - 5 = 3(x - 2)\\] \\[y - 5 = 3x - 6\\] \\[y = 3x - 1\\]\n\n\nExample 2: Equation from Two Points\nFind the equation of the line through P(1, 3) and Q(4, 9).\nSolution: \\[m = \\frac{9 - 3}{4 - 1} = 2\\] \\[y - 3 = 2(x - 1)\\] \\[y = 2x + 1\\]",
     "crumbs": [
       "Lessons",
-      "Lesson 7: Practice and Revision"
+      "Lesson 7: Linear Equations and Intersections"
     ]
   },
   {
-    "objectID": "lessons/lesson7.html#practice-set-b-distance-and-midpoint",
-    "href": "lessons/lesson7.html#practice-set-b-distance-and-midpoint",
-    "title": "Lesson 7: Practice and Revision",
-    "section": "Practice Set B: Distance and Midpoint",
-    "text": "Practice Set B: Distance and Midpoint\n\nFind the distance between (-1, 4) and (5, 1).\nFind the midpoint of (-6, 2) and (4, -4).\nFind the distance from the origin to (7, -24).",
+    "objectID": "lessons/lesson7.html#intersection-of-two-lines",
+    "href": "lessons/lesson7.html#intersection-of-two-lines",
+    "title": "Lesson 7: Linear Equations and Intersections",
+    "section": "Intersection of Two Lines",
+    "text": "Intersection of Two Lines\nThe intersection point solves both equations at the same time.\n\nExample 3: Intersection by Substitution\nFind the intersection of:\n\\[y = 2x + 1\\] \\[y = -x + 7\\]\nSolution: Set them equal: \\[2x + 1 = -x + 7\\] \\[3x = 6\\] \\[x = 2\\] Substitute back: \\[y = 2(2) + 1 = 5\\]\nIntersection is \\((2, 5)\\).\n\n\nExample 4: Intersection with General Form\nFind the intersection of:\n\\[2x + y - 8 = 0\\] \\[x - y + 1 = 0\\]\nSolution: From the second equation: \\(y = x + 1\\). Substitute into the first: \\[2x + (x + 1) - 8 = 0\\] \\[3x - 7 = 0\\] \\[x = \\frac{7}{3}\\] Then \\(y = \\frac{7}{3} + 1 = \\frac{10}{3}\\).\nIntersection is \\(\\left(\\frac{7}{3}, \\frac{10}{3}\\right)\\).",
     "crumbs": [
       "Lessons",
-      "Lesson 7: Practice and Revision"
+      "Lesson 7: Linear Equations and Intersections"
     ]
   },
   {
-    "objectID": "lessons/lesson7.html#practice-set-c-gradients-and-line-equations",
-    "href": "lessons/lesson7.html#practice-set-c-gradients-and-line-equations",
-    "title": "Lesson 7: Practice and Revision",
-    "section": "Practice Set C: Gradients and Line Equations",
-    "text": "Practice Set C: Gradients and Line Equations\n\nFind the gradient of the line through (-2, 1) and (4, 7).\nWrite the equation of the line with gradient -3 passing through (2, -1).\nFind the equation of the line through (0, -2) and (3, 4).\nConvert \\(4x - 2y + 6 = 0\\) to slope-intercept form.",
+    "objectID": "lessons/lesson7.html#practice-exercises",
+    "href": "lessons/lesson7.html#practice-exercises",
+    "title": "Lesson 7: Linear Equations and Intersections",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises\n\nWrite the equation of the line:\n\nWith gradient -2 and y-intercept 5\nThrough point (3, 7) with gradient -1\nThrough points (0, 2) and (5, 12)\n\nConvert to slope-intercept form:\n\n\\(3x + y - 6 = 0\\)\n\\(2x - 4y + 8 = 0\\)\n\nFind the intersection point of each pair:\n\n\\(y = x + 3\\) and \\(y = -2x + 9\\)\n\\(y = 4x - 5\\) and \\(2x + y = 7\\)",
     "crumbs": [
       "Lessons",
-      "Lesson 7: Practice and Revision"
+      "Lesson 7: Linear Equations and Intersections"
     ]
   },
   {
-    "objectID": "lessons/lesson7.html#practice-set-d-parallel-and-perpendicular-lines",
-    "href": "lessons/lesson7.html#practice-set-d-parallel-and-perpendicular-lines",
-    "title": "Lesson 7: Practice and Revision",
-    "section": "Practice Set D: Parallel and Perpendicular Lines",
-    "text": "Practice Set D: Parallel and Perpendicular Lines\n\nDetermine whether each pair of lines is parallel, perpendicular, or neither:\n\n\\(y = -2x + 1\\) and \\(y = -2x - 4\\)\n\\(y = \\frac{1}{4}x + 3\\) and \\(y = -4x + 2\\)\n\nFind the equation of:\n\nThe line perpendicular to \\(y = \\frac{1}{2}x - 5\\) through (0, 2)\nThe line parallel to \\(3x + y - 9 = 0\\) through (1, -1)\n\n\n\n\n\n\n\n\nNoteAnswer Key\n\n\n\n\n\nSet A: A QIV, B QII, C y-axis, D x-axis, E QIII\nSet B: \\(3\\sqrt{5}\\), (-1, -1), 25\nSet C: \\(m = 1\\), \\(y = -3x + 5\\), \\(y = 2x - 2\\), \\(y = 2x + 3\\)\nSet D: Parallel, perpendicular, \\(y = -2x + 2\\), \\(y = -3x + 2\\)\n\n\n\n\nPrevious Lesson: Lesson 6: Parallel and Perpendicular Lines\nNext Lesson: Answer Key Appendix",
+    "objectID": "lessons/lesson7.html#worksheet-2b-linear-equations-and-intersections",
+    "href": "lessons/lesson7.html#worksheet-2b-linear-equations-and-intersections",
+    "title": "Lesson 7: Linear Equations and Intersections",
+    "section": "Worksheet 2B: Linear Equations and Intersections",
+    "text": "Worksheet 2B: Linear Equations and Intersections\n\nWrite the equation of the line:\n\nWith gradient 3 and y-intercept 5\nWith gradient -2 passing through (4, 1)\nThrough points (2, 3) and (6, 11)\n\nConvert to slope-intercept form (\\(y = mx + c\\)):\n\n\\(x + 2y - 10 = 0\\)\n\\(4x - 2y + 6 = 0\\)\n\nFind the intersection point:\n\n\\(y = 2x - 1\\) and \\(y = -x + 8\\)\n\\(3x + y = 12\\) and \\(x - y = 4\\)\n\n\n\n\n\n\n\n\nNoteWorksheet 2B Answers\n\n\n\n\n\n\n\\(y = 3x + 5\\), \\(y = -2x + 9\\), \\(y = 2x - 1\\)\n\\(y = -\\frac{1}{2}x + 5\\), \\(y = 2x + 3\\)\n(3, 5), (4, 0)\n\n\n\n\n\nPrevious Lesson: Lesson 6: Gradient Using the Formula\nNext Lesson: Lesson 8: Parallel Lines",
     "crumbs": [
       "Lessons",
-      "Lesson 7: Practice and Revision"
+      "Lesson 7: Linear Equations and Intersections"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html",
+    "href": "lessons/lesson9.html",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nIdentify perpendicular lines from their equations\nDetermine if lines are perpendicular using gradients\nFind equations of perpendicular lines",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html#learning-objectives",
+    "href": "lessons/lesson9.html#learning-objectives",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "",
+    "text": "By the end of this lesson, students will be able to:\n\nIdentify perpendicular lines from their equations\nDetermine if lines are perpendicular using gradients\nFind equations of perpendicular lines",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html#perpendicular-lines",
+    "href": "lessons/lesson9.html#perpendicular-lines",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "Perpendicular Lines",
+    "text": "Perpendicular Lines\nTwo lines are perpendicular if they meet at a right angle (90°).\n\n\n\n\n\n\nImportantKey Property of Perpendicular Lines\n\n\n\nIf two lines are perpendicular, then \\(m_1 \\times m_2 = -1\\)\nOr equivalently: \\(m_2 = -\\frac{1}{m_1}\\)\n\n\n\nExample 1: Identifying Perpendicular Lines\nAre the lines \\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 3\\) perpendicular?\nSolution: \\[m_1 \\times m_2 = 2 \\times \\left(-\\frac{1}{2}\\right) = -1\\]\nYes, the lines are perpendicular.\n\n\nExample 2: Finding a Perpendicular Line Equation\nFind the equation of the line perpendicular to \\(y = 4x - 2\\) that passes through the point (8, 3).\nSolution: - Original gradient: \\(m_1 = 4\\) - Perpendicular gradient: \\(m_2 = -\\frac{1}{4}\\) - Using point-slope form with (8, 3): \\[y - 3 = -\\frac{1}{4}(x - 8)\\] \\[y - 3 = -\\frac{1}{4}x + 2\\] \\[y = -\\frac{1}{4}x + 5\\]",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html#practice-exercises",
+    "href": "lessons/lesson9.html#practice-exercises",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "Practice Exercises",
+    "text": "Practice Exercises\n\nDetermine if these pairs of lines are perpendicular or not:\n\n\\(y = 3x + 2\\) and \\(y = -\\frac{1}{3}x + 7\\)\n\\(y = 2x + 1\\) and \\(y = -\\frac{1}{2}x + 4\\)\n\\(y = 5x\\) and \\(y = -5x + 3\\)\n\nFind the equation of the line perpendicular to \\(y = \\frac{1}{3}x - 1\\) through point (6, 2).\nThe line \\(L_1\\) passes through points A(1, 2) and B(5, 10). Find the equation of the line perpendicular to \\(L_1\\) through D(3, 4).",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html#worksheet-3b-perpendicular-lines-practice",
+    "href": "lessons/lesson9.html#worksheet-3b-perpendicular-lines-practice",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "Worksheet 3B: Perpendicular Lines Practice",
+    "text": "Worksheet 3B: Perpendicular Lines Practice\n\nDetermine whether each pair of lines is perpendicular or not:\n\n\\(y = 2x + 5\\) and \\(y = -\\frac{1}{2}x + 2\\)\n\\(y = 3x - 1\\) and \\(y = 2x + 4\\)\n\nFind the equation of:\n\nThe line perpendicular to \\(y = -3x + 1\\) through point (6, 4)\nThe line perpendicular to \\(y = 5x + 2\\) through point (2, 3)\n\nChallenge problems:\n\nLine L passes through A(1, 2) and B(7, 8). Find the equation of the line perpendicular to L that passes through the midpoint of AB.\nPoints P(2, 3), Q(6, 5), and R(x, y) form a right angle at Q. If the line PQ has gradient \\(\\frac{1}{2}\\), find the gradient of QR.",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html#problem-solving-strategy",
+    "href": "lessons/lesson9.html#problem-solving-strategy",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "Problem-Solving Strategy",
+    "text": "Problem-Solving Strategy\nWhen working with perpendicular lines:\n\nIdentify or calculate the gradient of the given line\nFind the negative reciprocal gradient\nUse the point-slope form with the given point\nSimplify to the required form",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html#real-world-applications",
+    "href": "lessons/lesson9.html#real-world-applications",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "Real-World Applications",
+    "text": "Real-World Applications\n\nArchitecture: Ensuring walls meet at right angles\nNavigation: Plotting perpendicular courses\nEngineering: Designing right-angle joins",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
+    ]
+  },
+  {
+    "objectID": "lessons/lesson9.html#homework",
+    "href": "lessons/lesson9.html#homework",
+    "title": "Lesson 9: Perpendicular Lines",
+    "section": "Homework",
+    "text": "Homework\nComplete the perpendicular lines practice set.\n\n\n\n\n\n\nNoteWorksheet 3B Answers\n\n\n\n\n\n\nPerpendicular, not perpendicular\n\\(y = \\frac{1}{3}x + 2\\), \\(y = -\\frac{1}{5}x + \\frac{13}{5}\\)\n\\(y = -x + 9\\), \\(m = -2\\)\n\n\n\n\n\nPrevious Lesson: Lesson 8: Parallel Lines\nNext Lesson: Lesson 10: Equation of a Line from Gradient and a Point",
+    "crumbs": [
+      "Lessons",
+      "Lesson 9: Perpendicular Lines"
     ]
   },
   {

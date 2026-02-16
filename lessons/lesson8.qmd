@@ -1,0 +1,91 @@
+---
+title: "Lesson 8: Parallel Lines"
+---
+
+## Learning Objectives
+
+By the end of this lesson, students will be able to:
+
+- Identify parallel lines from their equations
+- Determine if lines are parallel using gradients
+- Find equations of parallel lines
+
+## Parallel Lines
+
+Two lines are **parallel** if they have the same gradient and never intersect.
+
+::: {.callout-important}
+## Key Property of Parallel Lines
+If two lines are parallel, then $m_1 = m_2$
+:::
+
+### Example 1: Identifying Parallel Lines
+
+Are the lines $y = 2x + 3$ and $y = 2x - 5$ parallel?
+
+**Solution:**
+Both lines have gradient $m = 2$, so they are parallel.
+
+### Example 2: Finding Parallel Line Equation
+
+Find the equation of the line parallel to $y = 3x + 1$ that passes through the point (2, 7).
+
+**Solution:**
+- Parallel lines have the same gradient: $m = 3$
+- Using point-slope form with (2, 7):
+$$y - 7 = 3(x - 2)$$
+$$y - 7 = 3x - 6$$
+$$y = 3x + 1$$
+
+**Verification:** When $x = 2$, $y = 3(2) + 1 = 7$ ✓
+
+## Practice Exercises
+
+1. Determine if these pairs of lines are parallel or not:
+   - $y = 3x + 2$ and $y = 3x - 7$
+   - $y = 2x + 1$ and $y = -\frac{1}{2}x + 4$
+   - $y = 5x$ and $y = -5x + 3$
+
+2. Find the equation of the line parallel to $y = -2x + 3$ through point (1, 5).
+
+3. The line $L_1$ passes through points A(1, 2) and B(5, 10). Find the equation of the line parallel to $L_1$ through C(0, 0).
+
+## Worksheet 3A: Parallel Lines Practice
+
+1. Determine whether each pair of lines is parallel or not:
+   - $y = 4x + 1$ and $y = 4x - 3$
+   - $y = 2x + 5$ and $y = -\frac{1}{2}x + 2$
+
+2. Find the equation of:
+   - The line parallel to $y = 5x + 2$ through point (2, 3)
+   - The line parallel to $2x + y - 4 = 0$ through point (-1, 5)
+
+## Problem-Solving Strategy
+
+When working with parallel lines:
+
+1. Identify or calculate the gradient of the given line
+2. Use the same gradient for the parallel line
+3. Use the point-slope form with the given point
+4. Simplify to the required form
+
+## Real-World Applications
+
+- Engineering: Designing parallel roads or railway tracks
+- Architecture: Laying out evenly spaced features
+
+## Homework
+
+Complete the parallel lines practice set.
+
+::: {.callout-note collapse="true"}
+## Worksheet 3A Answers
+
+1. Parallel, not parallel
+2. $y = 5x - 7$, $y = -2x + 3$
+:::
+
+---
+
+**Previous Lesson:** [Lesson 7: Linear Equations and Intersections](lesson7.qmd)  
+**Next Lesson:** [Lesson 9: Perpendicular Lines](lesson9.qmd)

@@ -4,7 +4,7 @@ title: "Lessons"
 
 ## Course Lessons
 
-This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to seven comprehensive lessons covering all essential topics.
+This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry course. The course has been expanded to eleven comprehensive lessons covering all essential topics.
 
 ### Lesson Structure
 
@@ -46,17 +46,33 @@ This section contains detailed lesson plans for the AS91256 Co-ordinate Geometry
    - Geometric applications
    - Real-world facility placement
 
-5. [Lesson 5: Gradients and Linear Equations](lesson5.qmd)
-   - Calculating gradient (slope)
-   - Equations of lines
-   - Point-slope and slope-intercept forms
+5. [Lesson 5: Gradient Basics (Rise/Run)](lesson5.qmd)
+   - Rise/run interpretation
+   - Positive, negative, zero, and undefined gradients
 
-6. [Lesson 6: Parallel and Perpendicular Lines](lesson6.qmd)
+6. [Lesson 6: Gradient Using the Formula](lesson6.qmd)
+   - Gradient between two points
+   - Special cases and checks
+
+7. [Lesson 7: Linear Equations and Intersections](lesson7.qmd)
+   - Slope-intercept and point-slope forms
+   - Converting equation forms
+   - Solving for intersection
+
+8. [Lesson 8: Parallel Lines](lesson8.qmd)
    - Properties of parallel lines
-   - Properties of perpendicular lines
-   - Problem-solving applications
+   - Equations of parallel lines
 
-7. [Lesson 7: Practice and Revision](lesson7.qmd)
+9. [Lesson 9: Perpendicular Lines](lesson9.qmd)
+   - Properties of perpendicular lines
+   - Equations of perpendicular lines
+
+10. [Lesson 10: Equation of a Line from Gradient and a Point](lesson10.qmd)
+   - Point-slope form
+   - Converting to slope-intercept form
+   - Point checks on a line
+
+11. [Lesson 11: Practice and Revision](lesson11.qmd)
    - Mixed coordinate and quadrant practice
    - Distance, midpoint, and gradient review
    - Parallel and perpendicular line skills

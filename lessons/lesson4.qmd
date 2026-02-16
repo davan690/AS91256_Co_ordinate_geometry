@@ -393,4 +393,4 @@ For additional worksheets and practice problems, visit the [Resources](../resour
 ---
 
 **Previous Lesson:** [Lesson 3: The Distance Formula](lesson3.qmd)  
-**Next Lesson:** [Lesson 5: Gradients and Linear Equations](lesson5.qmd)
+**Next Lesson:** [Lesson 5: Gradient Basics (Rise/Run)](lesson5.qmd)
