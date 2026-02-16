@@ -31,6 +31,11 @@ website:
         - lessons/lesson1.qmd
         - lessons/lesson2.qmd
         - lessons/lesson3.qmd
+        - lessons/lesson4.qmd
+        - lessons/lesson5.qmd
+        - lessons/lesson6.qmd
+        - lessons/lesson7.qmd
+        - lessons/answer-key.qmd
     - id: resources
       title: "Resources"
       contents:
